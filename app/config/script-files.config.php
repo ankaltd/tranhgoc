@@ -17,7 +17,7 @@
  * [wep_
 
  *     'handle'         => JS file Identifier
-wep_
+
  *     'path'           => JS file path
 
  *     'dependencies'   => JS Files dependencies
@@ -30,7 +30,7 @@ wep_
 
  *
 
- * You can use "ant_js_files" filter to change Javascript files loaded
+ * You can use "wep_js_files" filter to change Javascript files loaded
 
  *
 

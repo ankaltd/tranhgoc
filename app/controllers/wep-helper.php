@@ -5,7 +5,7 @@
 /**
 
  * ANT Helper Class for call direct static function
-WEP_
+
  * Include methods return values
 
  */
@@ -50,7 +50,7 @@ class WEP_Helper {
 
      *
 
-     * @since ANT 1.0
+     * @since WEP 1.0
 
      *
 
@@ -208,7 +208,7 @@ class WEP_Helper {
 
      *
 
-     * @since ANT 1.0
+     * @since WEP 1.0
 
      */
 
@@ -238,7 +238,7 @@ class WEP_Helper {
 
      *
 
-     * @since ANT 1.0
+     * @since WEP 1.0
 
      *
 
@@ -270,7 +270,7 @@ class WEP_Helper {
 
      *
 
-     * @since ANT 1.0
+     * @since WEP 1.0
 
      *
 
@@ -296,7 +296,7 @@ class WEP_Helper {
 
          *
 
-         * @since ANT 1.0
+         * @since WEP 1.0
 
          *
 
@@ -448,7 +448,7 @@ class WEP_Helper {
 
          *
 
-         * @since ANT 1.0
+         * @since WEP 1.0
 
          *
 
@@ -524,7 +524,7 @@ class WEP_Helper {
 
      *
 
-     * @since ANT 1.0
+     * @since WEP 1.0
 
      *
 
@@ -654,7 +654,7 @@ class WEP_Helper {
 
      * @subpackage Twenty_Twenty_One
 
-     * @since ANT 1.0
+     * @since WEP 1.0
 
      */
 
@@ -666,7 +666,7 @@ class WEP_Helper {
 
      *
 
-     * @since ANT 1.0
+     * @since WEP 1.0
 
      *
 

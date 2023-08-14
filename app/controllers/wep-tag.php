@@ -6,7 +6,7 @@
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
- * @since ANT 1.0
+ * @since WEP 1.0
  */
 
 class WEP_Tag {
@@ -41,7 +41,7 @@ class WEP_Tag {
     /**
      * Prints HTML with meta information for the current post-date/time.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @return void
      */
@@ -65,7 +65,7 @@ class WEP_Tag {
     /**
      * Prints HTML with meta information about theme author.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class WEP_Tag {
      * Prints HTML with meta information for the categories, tags and comments.
      * Footer entry meta is displayed differently in archives and single posts.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @return void
      */
@@ -196,7 +196,7 @@ class WEP_Tag {
      * Wraps the post thumbnail in an anchor element on index views, or a div
      * element when on single views.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class WEP_Tag {
     /**
      * Print the next and previous posts navigation.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @return void
      */

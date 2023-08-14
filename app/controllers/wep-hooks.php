@@ -51,13 +51,13 @@ class WEP_Hooks {
      *
      * @package WordPress
      * @subpackage Twenty_Twenty_One
-     * @since ANT 1.0
+     * @since WEP 1.0
      */
 
     /**
      * Adds custom classes to the array of body classes.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @param array $classes Classes for the body element.
      * @return array
@@ -91,7 +91,7 @@ class WEP_Hooks {
     /**
      * Adds custom class to the array of posts classes.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @param array $classes An array of CSS classes.
      * @return array
@@ -105,7 +105,7 @@ class WEP_Hooks {
     /**
      * Add a pingback url auto-discovery header for single posts, pages, or attachments.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @return void
      */
@@ -118,7 +118,7 @@ class WEP_Hooks {
     /**
      * Remove the `no-js` class from body if JS is supported.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class WEP_Hooks {
     /**
      * Changes comment form default fields.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @param array $defaults The form defaults.
      * @return array
@@ -145,7 +145,7 @@ class WEP_Hooks {
     /**
      * Determines if post thumbnail can be displayed.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @return bool
      */
@@ -153,7 +153,7 @@ class WEP_Hooks {
         /**
          * Filters whether post thumbnail can be displayed.
          *
-         * @since ANT 1.0
+         * @since WEP 1.0
          *
          * @param bool $show_post_thumbnail Whether to show post thumbnail.
          */
@@ -166,7 +166,7 @@ class WEP_Hooks {
     /**
      * Creates the continue reading link for excerpt.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      */
     function wep_continue_reading_link_excerpt() {
         if (!is_admin()) {
@@ -177,7 +177,7 @@ class WEP_Hooks {
     /**
      * Creates the continue reading link.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      */
     function wep_continue_reading_link() {
         if (!is_admin()) {
@@ -188,7 +188,7 @@ class WEP_Hooks {
     /**
      * Adds a title to posts and pages that are missing titles.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @param string $title The title.
      * @return string
@@ -200,7 +200,7 @@ class WEP_Hooks {
     /**
      * Changes the default navigation arrows to svg icons
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @param string $calendar_output The generated HTML of the calendar.
      * @return string
@@ -214,8 +214,8 @@ class WEP_Hooks {
     /**
      * Retrieve protected post password form content.
      *
-     * @since ANT 1.0
-     * @since ANT 1.4 Corrected parameter name for `$output`,
+     * @since WEP 1.0
+     * @since WEP 1.4 Corrected parameter name for `$output`,
      *                              added the `$post` parameter.
      *
      * @param string      $output The password form HTML output.
@@ -235,7 +235,7 @@ class WEP_Hooks {
     /**
      * Filters the list of attachment image attributes.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @param string[]     $attr       Array of attribute values for the image markup, keyed by attribute name.
      *                                 See wp_get_attachment_image().

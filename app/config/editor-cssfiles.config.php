@@ -17,7 +17,7 @@
  * [wep_
 
  *     'handle'         => CSS file Identifier
-wep_
+
  *     'path'           => CSS file path
 
  *     'dependencies'   => CSS Files dependencies
@@ -30,7 +30,7 @@ wep_
 
  *
 
- * You can use "ant_css_files" filter to add CSS Files on enqueue process
+ * You can use "wep_css_files" filter to add CSS Files on enqueue process
 
  *
 

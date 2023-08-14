@@ -10,14 +10,14 @@
  *
  * @package WordPress
  * @subpackage ANT
- * @since ANT 1.0
+ * @since WEP 1.0
  */
 
 /**
  * Add a button to top-level menu items that has sub-menus.
  * An icon is added using CSS depending on the value of aria-expanded.
  *
- * @since ANT 1.0
+ * @since WEP 1.0
  *
  * @param string $output Nav menu item start element.
  * @param object $item   Nav menu item.
@@ -106,7 +106,7 @@ class WEP_Menu {
     /**
      * Detects the social network from a URL and returns the SVG code for its icon.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @param string $uri  Social link.
      * @param int    $size The icon size in pixels.
@@ -119,7 +119,7 @@ class WEP_Menu {
     /**
      * Displays SVG icons in the footer navigation.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @param string   $item_output The menu item's starting HTML output.
      * @param WP_Post  $item        Menu item data object.
@@ -143,7 +143,7 @@ class WEP_Menu {
     /**
      * Filters the arguments for a single nav menu item.
      *
-     * @since ANT 1.0
+     * @since WEP 1.0
      *
      * @param stdClass $args  An object of wp_nav_menu() arguments.
      * @param WP_Post  $item  Menu item data object.
