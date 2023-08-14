@@ -4,7 +4,7 @@
     "description": "",
     "style": "file:./style.css",
     "script": "block-featured-news",
-    "category": "ssg-home",
+    "category": "wep-home",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

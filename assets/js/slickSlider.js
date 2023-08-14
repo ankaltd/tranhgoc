@@ -64,7 +64,7 @@ jQuery(document).ready(function ($) {
     customPaging: function (slider, i) {
       var slide = slider.$slides[i];
 
-      var customClass = "ssg-slick-arrow-class";
+      var customClass = "wep-slick-arrow-class";
 
       $(slide).addClass(customClass);
 

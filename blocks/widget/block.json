@@ -4,7 +4,7 @@
     "description": "",
     "style": "file:./style.css",
     "script": "block-widget",
-    "category": "ssg-tin-tuc",
+    "category": "wep-tin-tuc",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

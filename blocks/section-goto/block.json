@@ -4,7 +4,7 @@
     "description": "",
     "style": ["block-section-goto","file:./style.css"],
     "script": ["block-section-goto"],
-    "category": "ssg-dich-vu",
+    "category": "wep-dich-vu",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],
