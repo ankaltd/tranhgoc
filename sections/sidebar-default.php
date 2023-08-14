@@ -28,7 +28,7 @@ WEP_
 
 
 
-        $sidebar_options = ANT_Option_Model::get_field_values($sidebar_fields, true);
+        $sidebar_options = WEP_Option_Model::get_field_values($sidebar_fields, true);
 
         extract($sidebar_options);
 
@@ -42,7 +42,7 @@ WEP_
 
         // Lấy n bài viết có cùng chuyên mục
 
-        $related_posts = ANT_Section_Model::get_related_posts_by_category($current_post_id, $ssg_sidebar_related_number_item);
+        $related_posts = WEP_Section_Model::get_related_posts_by_category($current_post_id, $ssg_sidebar_related_number_item);
 
 
 

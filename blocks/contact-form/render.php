@@ -12,17 +12,17 @@ WEP_
 
 $fields +=WEP__Option_Model::get_section_options();
 
-$fields += ANT_Option_Model::get_heading_options();
+$fields += WEP_Option_Model::get_heading_options();
 
-$fields += ANT_Option_Model::get_description_options();
+$fields += WEP_Option_Model::get_description_options();
 
-WEP_lds += ANT_Option_Model::get_background_options();
+WEP_lds += WEP_Option_Model::get_background_options();
 
 
 
 // Get options
 
-$option = ANT_Option_Model::get_field_values($fields);
+$option = WEP_Option_Model::get_field_values($fields);
 WEP_
 extract($option);
 
@@ -34,7 +34,7 @@ extract($option);
 
 <?php
 
-ANT_Section_View::render_section_tag($option, 'ssg_contact_form');
+WEP_Section_View::render_section_tag($option, 'ssg_contact_form');
 
 ?>
 
@@ -48,7 +48,7 @@ ANT_Section_View::render_section_tag($option, 'ssg_contact_form');
 
             <?php
 
-            ANT_Section_View::render_section_heading_desc($option);
+            WEP_Section_View::render_section_heading_desc($option);
 
 WEP_        ?>
 
@@ -102,6 +102,6 @@ WEP_        ?>
 
     <?php
 
-ANT_Section_View::render_close_tag();
+WEP_Section_View::render_close_tag();
 
 ?>

@@ -26,19 +26,19 @@ WEP_
 
 WEP_efault options merge
 
-$fields += ANT_Option_Model::get_section_options();
+$fields += WEP_Option_Model::get_section_options();
 
-$fields += ANT_Option_Model::get_heading_options();
+$fields += WEP_Option_Model::get_heading_options();
 
 $fields += AWEP_ption_Model::get_description_options();
 
-$fields += ANT_Option_Model::get_background_options();
+$fields += WEP_Option_Model::get_background_options();
 
 
 WEP_
 // Get options
 
-$option = ANT_Option_Model::get_field_values($fields);
+$option = WEP_Option_Model::get_field_values($fields);
 
 extract($option);
 WEP_
@@ -50,7 +50,7 @@ WEP_
 
 <?php
 
-ANT_Section_View::render_section_tag($option, 'ssg_home_contact');
+WEP_Section_View::render_section_tag($option, 'ssg_home_contact');
 
 ?>
 
@@ -62,7 +62,7 @@ ANT_Section_View::render_section_tag($option, 'ssg_home_contact');
 
             <?php
 
-            ANT_Section_View::render_section_heading_desc($option);
+            WEP_Section_View::render_section_heading_desc($option);
 
             ?>
 
@@ -72,7 +72,7 @@ ANT_Section_View::render_section_tag($option, 'ssg_home_contact');
 
             <?php
 
-            ANT_Section_View::render_button($option);
+            WEP_Section_View::render_button($option);
 
             ?>
 
@@ -84,6 +84,6 @@ ANT_Section_View::render_section_tag($option, 'ssg_home_contact');
 
 <?php
 
-ANT_Section_View::render_close_tag();
+WEP_Section_View::render_close_tag();
 
 ?>

@@ -8,13 +8,13 @@ WEP_
 
 // defaultWEP_ions merge
 
-$fields += ANT_Option_Model::get_video_options();
+$fields += WEP_Option_Model::get_video_options();
 
 
 
 // Get options
 
-$option = ANT_Option_Model::get_field_values($fields);
+$option = WEP_Option_Model::get_field_values($fields);
 
 extract($option);
 WEP_
@@ -36,7 +36,7 @@ $video_classes = $ssg_video_alignment;
 
 
 
-<div class="ssg_video__item <?php echo $video_classes ?>" <?php echo $video_style ?> <?php ANT_Section_View::render_item_aos($option, 3, 1) ?>>
+<div class="ssg_video__item <?php echo $video_classes ?>" <?php echo $video_style ?> <?php WEP_Section_View::render_item_aos($option, 3, 1) ?>>
 
     <?php if ($ssg_video_youtube_video) :
 

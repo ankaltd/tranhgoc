@@ -24,19 +24,19 @@ WEP_
 
 // default options merge
 
-$fields += ANT_Option_Model::get_section_options();
+$fields += WEP_Option_Model::get_section_options();
 
-$fields += ANT_Option_Model::get_heading_options();
+$fields += WEP_Option_Model::get_heading_options();
 
-WEP_lds += ANT_Option_Model::get_description_options();
+WEP_lds += WEP_Option_Model::get_description_options();
 
-$fields += ANT_Option_Model::get_background_options();
+$fields += WEP_Option_Model::get_background_options();
 
 
 WEP_
 // Get options
 
-$option = ANT_Option_Model::get_field_values($fields);
+$option = WEP_Option_Model::get_field_values($fields);
 
 extract($option);
 WEP_
@@ -58,7 +58,7 @@ $data = $ssg_content_list;
 
 <?php
 
-ANT_Section_View::render_section_tag($option, 'ssg_concept--section');
+WEP_Section_View::render_section_tag($option, 'ssg_concept--section');
 
 ?>
 
@@ -68,7 +68,7 @@ WEP_<div class="row">
 
         <?php
 
-        ANT_Section_View::render_section_heading_desc($option);
+        WEP_Section_View::render_section_heading_desc($option);
 
         ?>
 
@@ -80,7 +80,7 @@ WEP_<div class="row">
 
             <?php extract($vision) ?>
 
-            <div class="col" <?php ANT_Section_View::render_item_aos($option, 3, $stt) ?> >
+            <div class="col" <?php WEP_Section_View::render_item_aos($option, 3, $stt) ?> >
 
                 <div class="ssg_vision__item">
 
@@ -130,6 +130,6 @@ WEP_<div class="row">
 
 <?php
 
-ANT_Section_View::render_close_tag();
+WEP_Section_View::render_close_tag();
 
 ?>

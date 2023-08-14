@@ -24,21 +24,21 @@ WEP_
 
 // defauWEP_ptions merge
 
-$fields += ANT_Option_Model::get_content_options();
+$fields += WEP_Option_Model::get_content_options();
 WEP_
-$fields += ANT_OpWEP__Model::get_section_options();
+$fields += WEP_OpWEP__Model::get_section_options();
 
-$fields += ANT_Option_Model::get_heading_options();
+$fields += WEP_Option_Model::get_heading_options();
 
-$fields += ANT_Option_Model::get_description_options();
+$fields += WEP_Option_Model::get_description_options();
 WEP_
-$fields += ANT_Option_Model::get_background_options();
+$fields += WEP_Option_Model::get_background_options();
 
 
 
 // Get oWEP_ns
 
-$option = ANT_Option_Model::get_field_values($fields);
+$option = WEP_Option_Model::get_field_values($fields);
 
 extract($option);
 
@@ -46,15 +46,15 @@ extract($option);
 
 // Get data content
 
-$data = ANT_Section_Model::get_list_hiring($ssg_content_number, $ssg_content_order, 'thumbnail');
+$data = WEP_Section_Model::get_list_hiring($ssg_content_number, $ssg_content_order, 'thumbnail');
 
 
 
 // Get data taxonomies
 
-$data_position = ANT_Section_Model::get_list_terms('hiring_position');
+$data_position = WEP_Section_Model::get_list_terms('hiring_position');
 
-$data_location = ANT_Section_Model::get_list_terms('location');
+$data_location = WEP_Section_Model::get_list_terms('location');
 
 
 
@@ -64,7 +64,7 @@ $data_location = ANT_Section_Model::get_list_terms('location');
 
 <?php
 
-ANT_Section_View::render_section_tag($option, 'ssg_hiring_list ssg_concept--section');
+WEP_Section_View::render_section_tag($option, 'ssg_hiring_list ssg_concept--section');
 
 ?>
 
@@ -74,7 +74,7 @@ ANT_Section_View::render_section_tag($option, 'ssg_hiring_list ssg_concept--sect
 
         <?php
 
-        ANT_Section_View::render_section_heading_desc($option);
+        WEP_Section_View::render_section_heading_desc($option);
 
         ?>
 
@@ -220,6 +220,6 @@ WEP_
 
 <?php
 
-ANT_Section_View::render_close_tag();
+WEP_Section_View::render_close_tag();
 
 ?>
