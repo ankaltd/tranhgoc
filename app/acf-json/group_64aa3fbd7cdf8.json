@@ -23,7 +23,7 @@
         {
             "key": "field_64aa3fbd7f4e4",
             "label": "Danh sách nội dung tab",
-            "name": "ssg_tab_ver_content",
+            "name": "wep_tab_ver_content",
             "aria-label": "",
             "type": "repeater",
             "instructions": "",
@@ -45,7 +45,7 @@
                 {
                     "key": "field_64aa3fbd803b1",
                     "label": "Tiêu đề",
-                    "name": "ssg_tab_ver_title",
+                    "name": "wep_tab_ver_title",
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",
@@ -66,7 +66,7 @@
                 {
                     "key": "field_64aa3fbd803ec",
                     "label": "Nội dung",
-                    "name": "ssg_tab_ver_content",
+                    "name": "wep_tab_ver_content",
                     "aria-label": "",
                     "type": "wysiwyg",
                     "instructions": "",

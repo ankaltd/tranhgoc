@@ -23,7 +23,7 @@
         {
             "key": "field_64a9196d223f1",
             "label": "Ảnh nền",
-            "name": "ssg_background_src",
+            "name": "wep_background_src",
             "aria-label": "",
             "type": "image",
             "instructions": "Chọn hình ảnh và điều chỉnh dành cho ảnh nền",
@@ -48,7 +48,7 @@
         {
             "key": "field_64bf476aabfae",
             "label": "Nền cố định (hiệu ứng cuộn)",
-            "name": "ssg_background_attachment",
+            "name": "wep_background_attachment",
             "aria-label": "",
             "type": "true_false",
             "instructions": "",
@@ -68,7 +68,7 @@
         {
             "key": "field_64a9199ba7eeb",
             "label": "Màu nền",
-            "name": "ssg_background_color",
+            "name": "wep_background_color",
             "aria-label": "",
             "type": "color_picker",
             "instructions": "",
@@ -86,7 +86,7 @@
         {
             "key": "field_64a919eba7eec",
             "label": "Căn nền chiều ngang",
-            "name": "ssg_background_align_x",
+            "name": "wep_background_align_x",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -115,7 +115,7 @@
         {
             "key": "field_64a91a3ba7eed",
             "label": "Căn nền chiều dọc",
-            "name": "ssg_background_align_y",
+            "name": "wep_background_align_y",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -144,7 +144,7 @@
         {
             "key": "field_64a91aaea7eee",
             "label": "Lặp hình ảnh",
-            "name": "ssg_background_repeat",
+            "name": "wep_background_repeat",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -172,7 +172,7 @@
         {
             "key": "field_64b7641444567",
             "label": "Kích thước nền",
-            "name": "ssg_background_size",
+            "name": "wep_background_size",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -201,7 +201,7 @@
         {
             "key": "field_64b75f0698f9e",
             "label": "Xác định nền màu tối",
-            "name": "ssg_background_dark",
+            "name": "wep_background_dark",
             "aria-label": "",
             "type": "true_false",
             "instructions": "Chọn nền màu tối để nội dung văn bản tự chỉnh màu sáng",

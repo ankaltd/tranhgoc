@@ -23,7 +23,7 @@
         {
             "key": "field_64a45f0794dd6",
             "label": "Văn bản mô tả",
-            "name": "ssg_description_text",
+            "name": "wep_description_text",
             "aria-label": "",
             "type": "textarea",
             "instructions": "",
@@ -43,7 +43,7 @@
         {
             "key": "field_64a45f0794d9d",
             "label": "Thẻ mô tả",
-            "name": "ssg_description_tag",
+            "name": "wep_description_tag",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -69,7 +69,7 @@
         {
             "key": "field_64a45f0794e0f",
             "label": "Căn chỉnh văn bản",
-            "name": "ssg_description_align",
+            "name": "wep_description_align",
             "aria-label": "",
             "type": "button_group",
             "instructions": "",
@@ -93,7 +93,7 @@
         {
             "key": "field_64a45f0794e47",
             "label": "Khoảng cách dưới",
-            "name": "ssg_description_margin_bottom",
+            "name": "wep_description_margin_bottom",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -124,7 +124,7 @@
         {
             "key": "field_64a467f2d0ee1",
             "label": "Màu chữ",
-            "name": "ssg_description_color",
+            "name": "wep_description_color",
             "aria-label": "",
             "type": "color_picker",
             "instructions": "",
@@ -142,7 +142,7 @@
         {
             "key": "field_64a4684bd0ee2",
             "label": "Cỡ chữ",
-            "name": "ssg_description_font_size",
+            "name": "wep_description_font_size",
             "aria-label": "",
             "type": "range",
             "instructions": "",
@@ -163,7 +163,7 @@
         {
             "key": "field_64a4689ad0ee3",
             "label": "Giãn dòng",
-            "name": "ssg_description_line_height",
+            "name": "wep_description_line_height",
             "aria-label": "",
             "type": "number",
             "instructions": "",

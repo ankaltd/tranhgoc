@@ -23,7 +23,7 @@
         {
             "key": "field_64aa514d7a790",
             "label": "Bản đồ google",
-            "name": "ssg_contact_location",
+            "name": "wep_contact_location",
             "aria-label": "",
             "type": "google_map",
             "instructions": "",

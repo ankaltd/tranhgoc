@@ -5,7 +5,7 @@
         {
             "key": "field_64a7c34054913",
             "label": "Màu tiêu đề",
-            "name": "ssg_heading_color",
+            "name": "wep_heading_color",
             "aria-label": "",
             "type": "color_picker",
             "instructions": "",
@@ -23,7 +23,7 @@
         {
             "key": "field_64a7c3405494f",
             "label": "Thẻ tiêu đề",
-            "name": "ssg_heading_tag",
+            "name": "wep_heading_tag",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -53,7 +53,7 @@
         {
             "key": "field_64a7c34054988",
             "label": "Văn bản tiêu đề",
-            "name": "ssg_heading_text",
+            "name": "wep_heading_text",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -73,7 +73,7 @@
         {
             "key": "field_64a7c340549c0",
             "label": "Căn chỉnh",
-            "name": "ssg_heading_align",
+            "name": "wep_heading_align",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -100,7 +100,7 @@
         {
             "key": "field_64a7c340549fa",
             "label": "Khoảng cách dưới",
-            "name": "ssg_margin_bottom",
+            "name": "wep_margin_bottom",
             "aria-label": "",
             "type": "select",
             "instructions": "",
