@@ -4,7 +4,7 @@
     "description": "",
     "style": "file:./style.css",
     "script": "style",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],
