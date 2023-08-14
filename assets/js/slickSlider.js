@@ -83,7 +83,7 @@ jQuery(document).ready(function ($) {
   // Create the custom content element
 
   var customContent = $(
-    '<div class="ssg_home_service__center_content"><div class="inner"></div></div>'
+    '<div class="wep_home_service__center_content"><div class="inner"></div></div>'
   );
 
   // Insert the custom content before the Slick slider

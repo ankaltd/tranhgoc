@@ -55,9 +55,9 @@
                 "id": ""
             },
             "choices": {
-                "ssg_button--white": "Trắng",
-                "ssg_button--blue": "Xanh",
-                "ssg_button--primary": "Xẫm"
+                "wep_button--white": "Trắng",
+                "wep_button--blue": "Xanh",
+                "wep_button--primary": "Xẫm"
             },
             "default_value": "wep_button--white",
             "return_format": "value",

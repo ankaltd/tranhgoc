@@ -106,12 +106,12 @@
             },
             "choices": {
                 "default": "Mặc định",
-                "ssg_margin": "20px",
-                "ssg_margin--b3": "30px",
-                "ssg_margin--b4": "40px",
-                "ssg_margin--b5": "50px",
-                "ssg_margin--b6": "60px",
-                "ssg_margin--b7": "70px"
+                "wep_margin": "20px",
+                "wep_margin--b3": "30px",
+                "wep_margin--b4": "40px",
+                "wep_margin--b5": "50px",
+                "wep_margin--b6": "60px",
+                "wep_margin--b7": "70px"
             },
             "default_value": "default",
             "return_format": "value",
