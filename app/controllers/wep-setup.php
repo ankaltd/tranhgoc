@@ -184,7 +184,7 @@ class WEP_Setup {
 
     // Ajax Scripts
     public function client_enqueue_scripts() {
-        wp_enqueue_script('ssg-ajax', get_template_directory_uri() . '/assets/js/ssgAjax.js', array('jquery'), null, true);
+        wp_enqueue_script('ssg-ajax', get_template_directory_uri() . '/assets/js/wepAjax.js', array('jquery'), null, true);
 
         // Tạo nonce và truyền vào script
         $ajax_nonce = wp_create_nonce('ssg-ajax-nonce');

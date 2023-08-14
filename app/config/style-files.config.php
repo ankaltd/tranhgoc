@@ -42,7 +42,7 @@ return apply_filters('wep_css_files', [
 
     [
 
-        'handle'        => 'ssg-font',
+        'handle'        => 'wep-font',
 
         'path'          => 'https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap',
 
@@ -56,7 +56,7 @@ return apply_filters('wep_css_files', [
 
     [
 
-        'handle'        => 'ssg-select2',
+        'handle'        => 'wep-select2',
 
         'path'          => THEME_URL . '/node_modules/select2/dist/css/select2.min.css',
 
@@ -70,7 +70,7 @@ return apply_filters('wep_css_files', [
 
     [
 
-        'handle'        => 'ssg-slick',
+        'handle'        => 'wep-slick',
 
         'path'          => THEME_URL . '/node_modules/slick-carousel/slick/slick.css',
 
@@ -84,7 +84,7 @@ return apply_filters('wep_css_files', [
 
     [
 
-        'handle'        => 'ssg-aos',
+        'handle'        => 'wep-aos',
 
         'path'          => THEME_URL . '/assets/aos/dist/aos.css',
 
@@ -97,11 +97,11 @@ return apply_filters('wep_css_files', [
     ],
     [
 
-        'handle'        => 'ssg-stylesheet',
+        'handle'        => 'wep-stylesheet',
 
-        'path'          => THEME_URL . '/assets/ssg.min.css',
+        'path'          => THEME_URL . '/assets/wep.min.css',
 
-        'dependencies'  => ['ssg-font','ssg-aos'],
+        'dependencies'  => ['wep-font','wep-aos'],
 
         'version'       => '1.0.0',
 

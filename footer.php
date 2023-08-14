@@ -55,7 +55,7 @@ wp_footer();
 
 <!-- Link js -->
 
-<script script type="module" src="<?php echo THEME_URL; ?>/assets/ssg.js"></script>
+<script script type="module" src="<?php echo THEME_URL; ?>/assets/wep.js"></script>
 
 </body>
 
