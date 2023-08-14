@@ -16,10 +16,10 @@
  *      'after_title'   => '</h2>',
  * ];
  *
- * You can use "ant_sidebar_list" filter to change load custom menus endpoint
+ * You can use "wep_sidebar_list" filter to change load custom menus endpoint
  *
  */
-return apply_filters('ant_sidebar_list', [
+return apply_filters('wep_sidebar_list', [
     array(
         'name'          => esc_html__('Right', LANG_DOMAIN),
         'id'            => 'sidebar-1',
