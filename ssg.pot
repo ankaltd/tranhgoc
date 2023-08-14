@@ -28,7 +28,7 @@ msgstr ""
 msgid "ANDT Team"
 msgstr ""
 
-#: app/controllers/ant-acf-controller.php:38
+#: app/controllers/wep-acf-controller.php:38
 msgid "Blocks SSG"
 msgstr ""
 
@@ -57,7 +57,7 @@ msgid "Danh sách tin Block"
 msgstr ""
 
 #. Name of the template
-#: app/controllers/ant-acf-controller.php:58
+#: app/controllers/wep-acf-controller.php:58
 msgid "Dịch vụ"
 msgstr ""
 
@@ -74,7 +74,7 @@ msgid "Giải pháp Block"
 msgstr ""
 
 #. Name of the template
-#: app/controllers/ant-acf-controller.php:46
+#: app/controllers/wep-acf-controller.php:46
 msgid "Giới thiệu"
 msgstr ""
 
@@ -119,7 +119,7 @@ msgid "Kết quả tìm kiếm Block"
 msgstr ""
 
 #. Name of the template
-#: app/controllers/ant-acf-controller.php:54
+#: app/controllers/wep-acf-controller.php:54
 msgid "Liên hệ"
 msgstr ""
 
@@ -152,7 +152,7 @@ msgid "This is code theme for website ssg.vn"
 msgstr ""
 
 #. Name of the template
-#: app/controllers/ant-acf-controller.php:62
+#: app/controllers/wep-acf-controller.php:62
 msgid "Tin tức"
 msgstr ""
 
@@ -161,7 +161,7 @@ msgid "Tin tức Block"
 msgstr ""
 
 #. Name of the template
-#: app/controllers/ant-acf-controller.php:42
+#: app/controllers/wep-acf-controller.php:42
 msgid "Trang chủ"
 msgstr ""
 
@@ -174,7 +174,7 @@ msgid "Trang trống"
 msgstr ""
 
 #. Name of the template
-#: app/controllers/ant-acf-controller.php:50
+#: app/controllers/wep-acf-controller.php:50
 msgid "Tuyển dụng"
 msgstr ""
 

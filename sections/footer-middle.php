@@ -12,7 +12,7 @@ if (function_exists('pll_current_language')) {
     <div class="col col-12 col-md-4">
         <?php
 
-        $service_menu = ANT_Menu::get_menu_simple_items('menu-service' . $lang_slug);
+        $service_menu = WEP_Menu::get_menu_simple_items('menu-service' . $lang_slug);
         $service_menu_links = array();
 
         foreach ($service_menu as $item) {
@@ -34,7 +34,7 @@ if (function_exists('pll_current_language')) {
     <div class="col col-12 col-md-4">
         <?php
 
-        $solution_menu = ANT_Menu::get_menu_simple_items('menu-solution' . $lang_slug);
+        $solution_menu = WEP_Menu::get_menu_simple_items('menu-solution' . $lang_slug);
         $solution_menu_links = array();
 
         foreach ($solution_menu as $item) {
@@ -57,7 +57,7 @@ if (function_exists('pll_current_language')) {
     <div class="col col-12 col-md-4">
         <?php
 
-        $company_address = ANT_Option_Model::get_field_lang('ssg_company_address');
+        $company_address = WEP_Option_Model::get_field_lang('ssg_company_address');
         $company_address = $company_address ?: '<p>Tầng 2, tòa nhà Lutaco, 173A Nguyễn Văn Trỗi, Phường 11, Quận Phú Nhuận, TP. HCM</p>
         <p>Điện thoại: <strong>(84 - 28) 3547 2425</strong></p>
         <p>Fax: <strong>(84 - 28) 3547 2426</strong></p>

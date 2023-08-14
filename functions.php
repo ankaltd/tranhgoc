@@ -13,13 +13,13 @@
 require_once(__DIR__ . '/app/constants.php');
 
 // Include Router
-require_once(__DIR__ . '/app/ant-router.php');
+require_once(__DIR__ . '/app/wep-router.php');
 
 // Include Autoload for core classes
 require_once(__DIR__ . '/app/autoloader.php');
 
 // Setup Theme
-new ANT_Setup;
+new WEP_Setup;
 
 // Routing
-new ANT_Router;
+new WEP_Router;

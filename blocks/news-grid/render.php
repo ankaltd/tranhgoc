@@ -4,25 +4,25 @@
 $fields = [];
 
 // default options merge
-$fields += ANT_Option_Model::get_content_options();
-$fields += ANT_Option_Model::get_news_options();
-$fields += ANT_Option_Model::get_section_options();
-$fields += ANT_Option_Model::get_heading_options();
-$fields += ANT_Option_Model::get_description_options();
-$fields += ANT_Option_Model::get_background_options();
+$fields += WEP_Option_Model::get_content_options();
+$fields += WEP_Option_Model::get_news_options();
+$fields += WEP_Option_Model::get_section_options();
+$fields += WEP_Option_Model::get_heading_options();
+$fields += WEP_Option_Model::get_description_options();
+$fields += WEP_Option_Model::get_background_options();
 
 // Get options
 
-$option = ANT_Option_Model::get_field_values($fields);
+$option = WEP_Option_Model::get_field_values($fields);
 
 extract($option);
 
 // Get data (if lastest news get from ssg_news_categories || get from ssg_news_featured_select)
 if ($ssg_news_lastest) {
-    $data = ANT_Section_Model::get_latest_posts($ssg_news_total, $ssg_news_categories, 'ssg_thumb_news');
+    $data = WEP_Section_Model::get_latest_posts($ssg_news_total, $ssg_news_categories, 'ssg_thumb_news');
 } else {
     if ($ssg_news_featured_select) {
-        $data = ANT_Section_Model::get_list_posts($ssg_news_featured_select, 'ssg_thumb_news');
+        $data = WEP_Section_Model::get_list_posts($ssg_news_featured_select, 'ssg_thumb_news');
     }
 }
 
@@ -34,7 +34,7 @@ $columns_class = sprintf('col-md-%s', (floor(12 / $ssg_news_columns)));
 
 <!-- ssg_client_news -->
 <?php
-ANT_Section_View::render_section_tag($option, 'ssg_news_grid');
+WEP_Section_View::render_section_tag($option, 'ssg_news_grid');
 ?>
 
 <div class="container">
@@ -180,6 +180,6 @@ ANT_Section_View::render_section_tag($option, 'ssg_news_grid');
 
 <?php
 
-ANT_Section_View::render_close_tag();
+WEP_Section_View::render_close_tag();
 
 ?>

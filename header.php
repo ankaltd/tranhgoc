@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html <?php language_attributes(); ?> <?php ANT_Tag::ant_the_html_classes(); ?>>
+<html <?php language_attributes(); ?> <?php WEP_Tag::ant_the_html_classes(); ?>>
 
 <head>
 

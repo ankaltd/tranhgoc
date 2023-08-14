@@ -5,7 +5,7 @@
  * 
  */
 
-class ANT_Hooks {
+class WEP_Hooks {
     public function __construct() {
         add_filter('wp_get_attachment_image_attributes', [$this, 'ant_get_attachment_image_attributes'], 10, 3);
         add_filter('body_class', [$this, 'ant_body_classes']);
@@ -81,7 +81,7 @@ class ANT_Hooks {
         }
 
         // Add .init-nav-white vào body nếu đang không phải trang chủ
-        if (!is_front_page() && (ANT_Router::ant_page_template() != 'templates/home.php')) {
+        if (!is_front_page() && (WEP_Router::ant_page_template() != 'templates/home.php')) {
             $classes[] = 'init-nav-white';
         }
 
@@ -170,7 +170,7 @@ class ANT_Hooks {
      */
     function ant_continue_reading_link_excerpt() {
         if (!is_admin()) {
-            return '&hellip; <a class="more-link" href="' . esc_url(get_permalink()) . '">' . ANT_Helper::ant_continue_reading_text() . '</a>';
+            return '&hellip; <a class="more-link" href="' . esc_url(get_permalink()) . '">' . WEP_Helper::ant_continue_reading_text() . '</a>';
         }
     }
 
@@ -181,7 +181,7 @@ class ANT_Hooks {
      */
     function ant_continue_reading_link() {
         if (!is_admin()) {
-            return '<div class="more-link-container"><a class="more-link" href="' . esc_url(get_permalink()) . '#more-' . esc_attr(get_the_ID()) . '">' . ANT_Helper::ant_continue_reading_text() . '</a></div>';
+            return '<div class="more-link-container"><a class="more-link" href="' . esc_url(get_permalink()) . '#more-' . esc_attr(get_the_ID()) . '">' . WEP_Helper::ant_continue_reading_text() . '</a></div>';
         }
     }
 

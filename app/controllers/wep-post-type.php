@@ -5,7 +5,7 @@
  * Post Type Helper Class
  *
  **/
-class ANT_Post_Type {
+class WEP_Post_Type {
     public function __construct() {
     }
 
@@ -18,10 +18,10 @@ class ANT_Post_Type {
             foreach ($postTypes as $postTypeId => $postType) {
                 // if not args in definition, get default CPT args
                 if (empty($postType['args'])) {
-                    $postType['args'] = ANT_Post_Type::getDefaultPostTypeConfiguration($postType['singular_name'], $postType['plural_name'], $postType['menu_icon']);
+                    $postType['args'] = WEP_Post_Type::getDefaultPostTypeConfiguration($postType['singular_name'], $postType['plural_name'], $postType['menu_icon']);
                 } else {
                     $postType['args'] = array_merge(
-                        ANT_Post_Type::getDefaultPostTypeConfiguration($postType['singular_name'], $postType['plural_name']),
+                        WEP_Post_Type::getDefaultPostTypeConfiguration($postType['singular_name'], $postType['plural_name']),
                         $postType['args']
                     );
                 }
@@ -31,10 +31,10 @@ class ANT_Post_Type {
                     foreach ($postType['taxonomies'] as $taxonomyId => $taxonomy) {
                         // if not args in definition, get default Taxonomy args
                         if (empty($taxonomy['args'])) {
-                            $taxonomy['args'] = ANT_Post_Type::getDefaultTaxonomyConfiguration($taxonomy['singular_name'], $taxonomy['plural_name']);
+                            $taxonomy['args'] = WEP_Post_Type::getDefaultTaxonomyConfiguration($taxonomy['singular_name'], $taxonomy['plural_name']);
                         } else {
                             $taxonomy['args'] = array_merge(
-                                ANT_Post_Type::getDefaultTaxonomyConfiguration($taxonomy['singular_name'], $taxonomy['plural_name']),
+                                WEP_Post_Type::getDefaultTaxonomyConfiguration($taxonomy['singular_name'], $taxonomy['plural_name']),
                                 $taxonomy['args']
                             );
                         }

@@ -10,7 +10,7 @@
 
 
 
-class ANT_Setup {
+class WEP_Setup {
 
     public function __construct() {
 
@@ -133,37 +133,37 @@ class ANT_Setup {
 
         // ACF Hooks if ACF Pro is installed for Page Option and CPT
 
-        new ANT_ACF_Controller;
+        new WEP_ACF_Controller;
 
 
 
         // Loading Site Option for General
 
-        new ANT_Option;
+        new WEP_Option;
 
 
 
         // Template Function Hooks auto
 
-        new ANT_Hooks;
+        new WEP_Hooks;
 
 
 
         // Template function for loading view
 
-        ANT_Part_View::init();
+        WEP_Part_View::init();
 
 
 
-        // Init Helper for tools (ex: echo ANT_Helper::path(), ...)
+        // Init Helper for tools (ex: echo WEP_Helper::path(), ...)
 
-        ANT_Helper::init();
+        WEP_Helper::init();
 
 
 
         // Init Template Tag for web (ex: the_title, the_image,...)
 
-        ANT_Tag::init();
+        WEP_Tag::init();
 
 
         // Gọi các hàm xử lý AJAX ở đây
@@ -282,7 +282,7 @@ class ANT_Setup {
         if (isset($_POST['contentId']) && isset($_POST['nonce']) && wp_verify_nonce($_POST['nonce'], 'ssg-ajax-nonce')) {
             $content_id = $_POST['contentId'];
 
-            // Sử dụng phương thức của ANT_Setup để lấy nội dung tiêu đề bài viết
+            // Sử dụng phương thức của WEP_Setup để lấy nội dung tiêu đề bài viết
             $post_title = $this->get_post_title_by_id($content_id);
 
             echo $post_title;
@@ -644,7 +644,7 @@ class ANT_Setup {
 
         // Load Custom Post Types
 
-        ANT_Post_Type::registerPostTypes();
+        WEP_Post_Type::registerPostTypes();
 
         // Disable comments
 

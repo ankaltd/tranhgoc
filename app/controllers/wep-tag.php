@@ -9,7 +9,7 @@
  * @since ANT 1.0
  */
 
-class ANT_Tag {
+class WEP_Tag {
     public  function __construct() {
     }
 

@@ -4,11 +4,11 @@
 
 $ssg_footer_sections = get_field('ssg_footer_sections_show');
 
-$ssg_footer_contact_heading = ANT_Option_Model::get_field_lang('ssg_footer_contact_heading');
+$ssg_footer_contact_heading = WEP_Option_Model::get_field_lang('ssg_footer_contact_heading');
 
 $ssg_footer_contact_button = get_field('ssg_footer_contact_button_link', 'option');
 
-$ssg_company_slogan = ANT_Option_Model::get_field_lang('ssg_company_slogan');
+$ssg_company_slogan = WEP_Option_Model::get_field_lang('ssg_company_slogan');
 
 /* Section Contact --------------- */
 
