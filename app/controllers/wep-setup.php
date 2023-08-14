@@ -184,11 +184,11 @@ class WEP_Setup {
 
     // Ajax Scripts
     public function client_enqueue_scripts() {
-        wp_enqueue_script('ssg-ajax', get_template_directory_uri() . '/assets/js/wepAjax.js', array('jquery'), null, true);
+        wp_enqueue_script('wep-ajax', get_template_directory_uri() . '/assets/js/wepAjax.js', array('jquery'), null, true);
 
         // Tạo nonce và truyền vào script
-        $ajax_nonce = wp_create_nonce('ssg-ajax-nonce');
-        wp_localize_script('ssg-ajax', 'ssgAjax', array(
+        $ajax_nonce = wp_create_nonce('wep-ajax-nonce');
+        wp_localize_script('wep-ajax', 'ssgAjax', array(
             'ajaxUrl' => admin_url('admin-ajax.php'),
             'ajaxNonce' => $ajax_nonce // Truyền nonce vào JavaScript
         ));
@@ -279,7 +279,7 @@ class WEP_Setup {
     // Get Title Client
     public function get_client_post_title() {
         // Kiểm tra nonce trước khi xử lý yêu cầu AJAX
-        if (isset($_POST['contentId']) && isset($_POST['nonce']) && wp_verify_nonce($_POST['nonce'], 'ssg-ajax-nonce')) {
+        if (isset($_POST['contentId']) && isset($_POST['nonce']) && wp_verify_nonce($_POST['nonce'], 'wep-ajax-nonce')) {
             $content_id = $_POST['contentId'];
 
             // Sử dụng phương thức của WEP_Setup để lấy nội dung tiêu đề bài viết
@@ -612,7 +612,7 @@ class WEP_Setup {
 
     function ssg_resource_hints($urls, $relation_type) {
 
-        if (wp_style_is('ssg-google-font', 'queue') && 'preconnect' === $relation_type) {
+        if (wp_style_is('wep-google-font', 'queue') && 'preconnect' === $relation_type) {
 
             $urls[] = array(
 

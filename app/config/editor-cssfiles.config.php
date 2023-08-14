@@ -40,11 +40,11 @@ return apply_filters('ant_css_files_editor', [
 
     [
 
-        'handle'        => 'ssg-stylesheet',
+        'handle'        => 'wep-stylesheet',
 
         'path'          => THEME_URL . '/assets/ssg.min.css',
 
-        'dependencies'  => ['ssg-font'],
+        'dependencies'  => ['wep-font'],
 
         'version'       => '1.0.0',
 
@@ -54,7 +54,7 @@ return apply_filters('ant_css_files_editor', [
 
     [
 
-        'handle'        => 'ssg-font',
+        'handle'        => 'wep-font',
 
         'path'          => 'https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap',
 
