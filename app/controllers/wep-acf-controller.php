@@ -4,7 +4,7 @@
 
 /** 
 
- * ClaWEP_ntegration ACF into System for Metabox Page Options, Custom Post Types, Custom Taxonomies
+ * Class integration ACF into System for Metabox Page Options, Custom Post Types, Custom Taxonomies
 
  */
 
