@@ -21,5 +21,5 @@ define('THEME_TEMPLATE',            THEME_DIR . '/pages');
 define('THEME_BLOCK',               THEME_DIR . '/blocks');
 define('THEME_PART',                THEME_DIR . '/parts');
 define('THEME_PARTTERN',            THEME_DIR . '/partterns');
-define('LANG_DOMAIN',               'ssg');
+define('LANG_DOMAIN',               'wep');
 define('SHOW_HINT',                 false);

@@ -120,7 +120,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_service');
                             <?php endif ?>
 
                             <?php if (in_array('readmore', $ssg_content_show_elements)) : ?>
-                                <a href="<?php echo $permalink ?>" class="ssg_more_link"><?php _e('Xem thêm', 'ssg') ?></a>
+                                <a href="<?php echo $permalink ?>" class="ssg_more_link"><?php _e('Xem thêm', 'wep') ?></a>
                             <?php endif; ?>
 
                         </div>

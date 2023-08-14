@@ -72,7 +72,7 @@ class WEP_ACF_Controller {
 
                         'slug'  => 'ssg',
 
-                        'title' => __('Blocks SSG', 'ssg'),
+                        'title' => __('Blocks SSG', 'wep'),
 
                     ],
 
@@ -80,7 +80,7 @@ class WEP_ACF_Controller {
 
                         'slug'  => 'ssg-home',
 
-                        'title' => __('Trang chủ', 'ssg'),
+                        'title' => __('Trang chủ', 'wep'),
 
                     ],
 
@@ -88,7 +88,7 @@ class WEP_ACF_Controller {
 
                         'slug'  => 'ssg-about',
 
-                        'title' => __('Giới thiệu', 'ssg'),
+                        'title' => __('Giới thiệu', 'wep'),
 
                     ],
 
@@ -96,7 +96,7 @@ class WEP_ACF_Controller {
 
                         'slug'  => 'ssg-hiring',
 
-                        'title' => __('Tuyển dụng', 'ssg'),
+                        'title' => __('Tuyển dụng', 'wep'),
 
                     ],
 
@@ -104,7 +104,7 @@ class WEP_ACF_Controller {
 
                         'slug'  => 'ssg-contact',
 
-                        'title' => __('Liên hệ', 'ssg'),
+                        'title' => __('Liên hệ', 'wep'),
 
                     ],
 
@@ -112,7 +112,7 @@ class WEP_ACF_Controller {
 
                         'slug'  => 'ssg-dich-vu',
 
-                        'title' => __('Dịch vụ', 'ssg'),
+                        'title' => __('Dịch vụ', 'wep'),
 
                     ],
 
@@ -120,7 +120,7 @@ class WEP_ACF_Controller {
 
                         'slug'  => 'ssg-tin-tuc',
 
-                        'title' => __('Tin tức', 'ssg'),
+                        'title' => __('Tin tức', 'wep'),
 
                     ],
 
