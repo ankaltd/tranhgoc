@@ -1,0 +1,59 @@
+.ssg_culture {
+    background-image: url('./images/bg-pattern-light-4.png');
+
+    &__item {
+        border: none;
+        border-radius: 0; 
+        padding: 1px;
+        padding-bottom: 0;
+        display: flex;
+        height: 100%;
+        clip-path: polygon(30px 0,
+                100% 0,
+                100% 30px,
+                100% 100%,
+                100% 100%,
+                0 100%,
+                0 calc(100% - 30px),
+                0 30px);
+        background-color: #D9D9D9; // poligon border 
+        transition: color 0.4s, background-color 0.4s, transform 0.4s; 
+        box-shadow: inset 0px 2px 15px 0px rgba(0, 0, 0, 0.07);  
+        
+        p {
+            color: inherit;
+        }
+
+        // bottom border
+        &::after {
+            content: "";
+            width: 2px;
+            height: 100%;
+            display: inline-block;
+            background-color: $ssg_color_primary;                                        
+        }
+
+        // Hover
+        &:hover {
+            cursor: pointer;
+            transform: translateY(-10px);
+        }
+       
+        h4 {
+            font-size: 18px;
+            font-weight: 600;
+            color: black;
+        }
+
+        .content {
+            padding: 30px;   
+            width: calc(100% - 2px);  
+            height: calc(100% - 1px);  
+            height: 99%;
+            clip-path: inherit;
+            z-index: 0;
+            background-color: white;
+            position: relative;                
+        }
+    }
+}

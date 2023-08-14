@@ -1,0 +1,37 @@
+{
+    "name": "ssg/heading",
+    "title": "SSG Heading",
+    "description": "",
+    "style": "file:./style.css",
+    "script": "block-heading",
+    "category": "ssg",
+    "icon": "carrot",
+    "apiVersion": 2,
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": true,
+        "anchor": true,
+        "alignContent": true,
+        "color": {
+            "text": true,
+            "background": true,
+            "link": true
+        },
+        "alignText": true,
+        "fullHeight": true
+    },
+    "attributes": {},
+    "example": {
+        "attributes": {
+            "data": {
+                "text": "This is an example text field",
+                "text_area": "This is an example text area field"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.ssg_client_other {
+    &__thumbnail {
+        overflow: hidden;
+        display: block;
+        margin-bottom: $ssg_space;
+
+        img {
+            transition: transform 0.4s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    &__title {
+        a {
+            transition: text-decoration 0.4s;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

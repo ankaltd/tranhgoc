@@ -1,0 +1,29 @@
+{
+    "name": "ssg/button",
+    "title": "SSG Button",
+    "description": "",
+    "style": "file:./style.css",
+    "script": "block-button",
+    "category": "ssg",
+    "icon": "carrot",
+    "apiVersion": 2,
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": true,
+            "link": false
+        },
+        "alignText": false,
+        "fullHeight": false
+    },
+    "attributes": {}
+}

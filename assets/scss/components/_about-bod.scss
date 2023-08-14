@@ -1,0 +1,55 @@
+.ssg_bod {
+    background-image: url('./images/bg-pattern-light-4.png');
+
+    &__item {
+        cursor: pointer;
+
+        transition: all 0.5s ease;
+        padding-bottom: 30px;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+
+    }
+
+    &__content {
+        h5 {
+            color: $ssg_color_primary;
+            font-weight: 600;
+        }
+    }
+
+
+    &__thumbnail {
+        border-radius: 1px;
+        // overflow: hidden;
+        img {
+            transition: transform 0.5s ease;
+
+            &:hover {
+                transform: scale(1);
+            }
+        }
+    }
+}
+
+.ssg_bg_dark {
+    .ssg_bod {
+        &__content {
+            h5, h4, h3 {
+                color: white;
+            }
+        }
+
+        .ssg_bg_dark {
+            &__item {
+                p {
+                    // color: inherit;
+                }
+
+            }
+        }
+    }
+}

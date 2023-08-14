@@ -1,0 +1,131 @@
+// Styles for the pc component
+@media screen and (min-width: 1200px) {
+    
+    // Typography
+    body {
+        font-size: 15px;
+    }
+
+    // Concept
+    .ssg_concept {
+        &--section {
+            &::after {
+                right: 80px;
+                bottom: 80px;
+            }
+        }
+    }
+
+    // Home Sections
+    .ssg_home_service {
+
+        &__slick {         
+            .slick-arrow {                
+                top: 400px;
+                // left: calc(50% - 260px);
+
+                &.slick-next {                    
+                    // right: calc(50% - 260px);          
+                }
+            }
+        }
+
+        &__slider {
+            padding: $ssg_space;
+        }
+
+        &__content {
+            h4 {
+                font-size: 20px;            
+            }
+        }
+
+        &__center_content {            
+           top: 160px;
+        }
+    }
+
+    // Home Solution
+    .ssg_home_solution {
+        h5 {
+            font-size: 16px;
+        }
+    }
+
+    // Single Hiring
+    .ssg_hiring_single {
+        width: 880px;
+    }
+
+    // Modaling
+    #staticBackdrop {
+        .modal-dialog {
+            max-width: 60%;
+        }
+    }
+}
+
+
+// Styles for the extra pc component
+@media screen and (min-width: 1360px) {
+
+    // Home Sections
+    .ssg_home_service {
+
+        &__slick {         
+            .slick-arrow {                
+                // top: 380px;
+                // left: calc(50% - 250px);
+
+                &.slick-next {                    
+                    // right: calc(50% - 250px);          
+                }
+            }
+        }
+
+        &__center_content {            
+        //    padding-top: 230px;
+        }
+    }
+}
+
+@media screen and (min-width: 1480px) {
+
+    // Home Sections
+    .ssg_home_service {
+        &__center_content {            
+        //    padding-top: 250px;
+        }
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    // Home Sections
+    .ssg_home_service {
+        &__center_content {            
+        //    padding-top: 280px;
+        }
+    }
+}
+
+@media screen and (min-width: 1670px) {
+
+    // Home Sections
+    .ssg_home_service {
+        &__center_content {            
+        //    padding-top: 290px;
+        }
+    }
+}
+
+@media screen and (min-width: 1700px) {
+
+    // Home Sections
+    .ssg_home_service {
+        &__center_content {            
+        //    padding-top: 340px;
+        //    transform: translate(-50%, 8%);
+        }
+    }
+}

@@ -1,0 +1,534 @@
+{
+    "key": "group_6469c91b5792a",
+    "title": "Cấu hình Sections (Trang About)",
+    "fields": [
+        {
+            "key": "field_6469c91b607f3",
+            "label": "About Sections",
+            "name": "about_sections",
+            "aria-label": "",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_6469ba0242341": {
+                    "key": "layout_6469ba0242341",
+                    "name": "about_ssg",
+                    "label": "Giới thiệu về DBIZ",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6470f8c78ae6e",
+                            "label": "Tiêu đề",
+                            "name": "section_heading",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Giới thiệu về DBIZ",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_6470f8ef8ae6f",
+                            "label": "Mô tả",
+                            "name": "section_description",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "DBIZ được xây dựng trên cơ sở “Khát vọng và mong muốn của tập thể & Ban lãnh đạo Công ty, nhằm xây dựng DBIZ trở thành một công ty cung cấp dịch vụ Công nghệ thông tin cho các doanh nghiệp Nhỏ và vừa hàng đầu Việt Nam, an toàn và minh bạch” Ông Dương Nam Hải - CEO DBIZ.",
+                            "maxlength": "",
+                            "rows": "",
+                            "placeholder": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_6470f90b8ae70",
+                            "label": "Profile tải xuống",
+                            "name": "section_file_download",
+                            "aria-label": "",
+                            "type": "file",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "library": "all",
+                            "min_size": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_6470f9418ae71",
+                            "label": "Hình ảnh",
+                            "name": "section_photo",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "preview_size": "medium"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6469bc95ffb60": {
+                    "key": "layout_6469bc95ffb60",
+                    "name": "about_statistic",
+                    "label": "Số liệu DBIZ",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6470f97bb2b64",
+                            "label": "Số liệu #1",
+                            "name": "section_number_1",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": 16,
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_6470f9e5b2b66",
+                            "label": "Số liệu #2",
+                            "name": "section_number_2",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": 100,
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_6470f9feb2b68",
+                            "label": "Số liệu #3",
+                            "name": "section_number_3",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": 100000,
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_6470f9b6b2b65",
+                            "label": "Đối tượng #1",
+                            "name": "section_object_1",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Năm kinh nghiệm về lĩnh vực kinh tế số",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_6470f9f4b2b67",
+                            "label": "Đối tượng #2",
+                            "name": "section_object_2",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Nhân viên",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_6470fa0eb2b69",
+                            "label": "Đối tượng #3",
+                            "name": "section_object_3",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Khách hàng",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6469c89364ee4": {
+                    "key": "layout_6469c89364ee4",
+                    "name": "about_vision_mission",
+                    "label": "Tầm nhìn & Sứ mệnh",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6470fa298cd9a",
+                            "label": "Tiêu đề tầm nhìn",
+                            "name": "section_heading_vision",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Tầm nhìn",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_6470fa498cd9b",
+                            "label": "Mô tả tầm nhìn",
+                            "name": "section_description_vision",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "DBIZ định hướng phát triển thành Tổ chức dịch vụ Công nghệ thông tin, cung cấp sản phẩm và nền tảng cho Nền kinh tế số tại Việt Nam, không ngừng đổi mới, sáng tạo để kiến tạo hệ sinh thái các sản phẩm dịch vụ đẳng cấp, góp phần nâng cao chất lượng cuộc sống của người Việt, từng bước nâng tầm vị thế của thương hiệu Việt, tiến ra thế giới.",
+                            "maxlength": "",
+                            "rows": "",
+                            "placeholder": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_6470fa968cd9e",
+                            "label": "Hình ảnh tầm nhìn",
+                            "name": "section_photo_vision",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "preview_size": "medium"
+                        },
+                        {
+                            "key": "field_6470fa6b8cd9c",
+                            "label": "Tiêu đề sứ mệnh",
+                            "name": "section_heading_mission",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Sứ mệnh",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_6470fa7e8cd9d",
+                            "label": "Mô tả sứ mệnh",
+                            "name": "section_description_misson",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Xây dựng một nền tảng mở và thông minh, nơi có những ứng dụng tuyệt vời và toàn diện nhất dành cho doanh nghiệp, giúp nâng cao hiệu quả (High performance, Delivery).",
+                            "maxlength": "",
+                            "rows": "",
+                            "placeholder": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_6470faaf8cd9f",
+                            "label": "Hình ảnh sứ mệnh",
+                            "name": "section_photo_mission",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "preview_size": "medium"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6469c8b964ee6": {
+                    "key": "layout_6469c8b964ee6",
+                    "name": "about_core_value",
+                    "label": "Giá trị cốt lõi",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6470faee3135a",
+                            "label": "Giá trị cốt lõi",
+                            "name": "about_core_value_list",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "table",
+                            "min": 0,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Thêm giá trị",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_6470fbef3135e",
+                                    "label": "Hình ảnh",
+                                    "name": "about_core_value_photo",
+                                    "aria-label": "",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "url",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": "",
+                                    "preview_size": "medium",
+                                    "parent_repeater": "field_6470faee3135a"
+                                },
+                                {
+                                    "key": "field_6470fb153135b",
+                                    "label": "Tiêu đề",
+                                    "name": "core_value_heading",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "Giá trị cốt lõi",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_6470faee3135a"
+                                },
+                                {
+                                    "key": "field_6470fb573135c",
+                                    "label": "Tính chất",
+                                    "name": "core_value_attribute",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "UY TÍN",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_6470faee3135a"
+                                },
+                                {
+                                    "key": "field_6470fbb93135d",
+                                    "label": "Chi tiết",
+                                    "name": "core_value_detail",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "| DBIZ đặt chữ tín lên hàng đầu, luôn lấy chữ TÍN làm vũ khí cạnh tranh, bảo vệ chữ TÍN như bảo vệ cơ thể mình. Chúng tôi luôn chuẩn bị đầy đủ năng lực trước khi cung cấp dịch vụ, chúng tôi sẽ luôn làm nhiều hơn những cam kết hiện tại với khách hàng",
+                                    "maxlength": "",
+                                    "rows": "",
+                                    "placeholder": "",
+                                    "new_lines": "",
+                                    "parent_repeater": "field_6470faee3135a"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "min": "",
+            "max": "",
+            "button_label": "Thêm Section"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/about.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": 2,
+    "show_in_rest": 0,
+    "modified": 1685714903
+}

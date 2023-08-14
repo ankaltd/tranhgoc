@@ -1,0 +1,206 @@
+{
+    "key": "group_64a07b6f9d5ad",
+    "title": "Block: Heading",
+    "fields": [
+        {
+            "key": "field_64c63b386f72e",
+            "label": "CÀI ĐẶT TIÊU ĐỀ SECTION",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64a07bdc93dff",
+            "label": "Văn bản tiêu đề",
+            "name": "ssg_heading_text",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Tiêu đề - vd giới thiệu",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64a07b6f9f954",
+            "label": "Màu tiêu đề",
+            "name": "ssg_heading_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_64a07b8893dfe",
+            "label": "Thẻ tiêu đề",
+            "name": "ssg_heading_tag",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "h1": "h1",
+                "h2": "h2",
+                "h3": "h3",
+                "h4": "h4",
+                "h5": "h5",
+                "h6": "h6"
+            },
+            "default_value": "h2",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64a45aa4d8eee",
+            "label": "Căn chỉnh",
+            "name": "ssg_heading_align",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "justify-content-start": "Trái",
+                "justify-content-center": "Giữa",
+                "justify-content-end": "Phải"
+            },
+            "default_value": "justify-content-center",
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_64a45c0f969cd",
+            "label": "Khoảng cách dưới",
+            "name": "ssg_heading_margin_bottom",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Mặc định",
+                "ssg_margin": "20px",
+                "ssg_margin--b3": "30px",
+                "ssg_margin--b4": "40px",
+                "ssg_margin--b5": "50px",
+                "ssg_margin--b6": "60px",
+                "ssg_margin--b7": "70px"
+            },
+            "default_value": "default",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "all"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "ssg\/slider"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "ssg\/logo"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "ssg\/gototop"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "ssg\/testimonial"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "ssg\/section-goto"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "ssg\/news-branch"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "ssg\/ssg-video"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "ssg\/andt"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Tùy chọn tiêu đề section",
+    "show_in_rest": 0,
+    "modified": 1690712941
+}

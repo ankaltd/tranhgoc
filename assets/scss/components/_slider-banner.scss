@@ -1,0 +1,17 @@
+
+.ssg_slider {
+    &__slider {
+        max-height: 550px;
+
+        img {
+            min-height: 550px !important;            
+            object-fit: cover;
+        }  
+        
+        .video-slide {
+            // height: 550px;
+            // max-height: 550px;
+            object-fit: cover;
+        }
+    }
+}

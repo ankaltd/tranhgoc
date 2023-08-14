@@ -1,0 +1,134 @@
+{
+    "key": "group_64a8e9d5cd259",
+    "title": "Block: Button",
+    "fields": [
+        {
+            "key": "field_64c63d3cfe266",
+            "label": "CÀI ĐẶT NÚT",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64a8e9d50cf96",
+            "label": "Tên nút",
+            "name": "ssg_button_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Nút nhấn",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64a8ed210cf97",
+            "label": "Kiểu nút",
+            "name": "ssg_button_style",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "ssg_button--white": "Trắng",
+                "ssg_button--blue": "Xanh",
+                "ssg_button--primary": "Xẫm"
+            },
+            "default_value": "ssg_button--white",
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_64a8f15cbede9",
+            "label": "Liên kết nút",
+            "name": "ssg_button_link",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64a8f178bedea",
+            "label": "Mở trên tab khác",
+            "name": "ssg_button_target",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "Mở",
+            "ui_off_text": "Không",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/section-contact"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/button"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Tùy chọn cho nút nhấn",
+    "show_in_rest": 0,
+    "modified": 1690713435
+}

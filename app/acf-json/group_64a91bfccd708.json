@@ -1,0 +1,503 @@
+{
+    "key": "group_64a91bfccd708",
+    "title": "Block: Section Code",
+    "fields": [
+        {
+            "key": "field_64c63905bd152",
+            "label": "CÀI ĐẶT SECTION",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64a91bfda7399",
+            "label": "ID Section",
+            "name": "ssg_section_id",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Nhập tên id của section vào đây",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "id",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64a91c6aa739a",
+            "label": "Lớp Class (Danh sách)",
+            "name": "ssg_section_classes",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Nhập danh sách class bổ sung thêm mỗi tên cách bằng dấu \"cách\"",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "class_name",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64c2be63ba2d4",
+            "label": "Tùy chỉnh CSS",
+            "name": "ssg_section_custom_style",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Thay đổi khoảng cách, bổ sung style CSS tùy biến cho section",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "Có chỉnh",
+            "ui_off_text": "Không chỉnh",
+            "ui": 1
+        },
+        {
+            "key": "field_64c2bc16c84dc",
+            "label": "Khoảng cách trên",
+            "name": "ssg_section_top_space",
+            "aria-label": "",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64c2be63ba2d4",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": 0,
+            "max": 150,
+            "step": "",
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_64c2bc51c84dd",
+            "label": "Khoảng cách dưới",
+            "name": "ssg_section_bottom_space",
+            "aria-label": "",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64c2be63ba2d4",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": 0,
+            "max": 150,
+            "step": "",
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_64a91d12a739b",
+            "label": "CSS Tùy biến",
+            "name": "ssg_section_custom_css",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Nhập code tùy biến áp dụng cho thành phần vào đây.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64c2be63ba2d4",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_64b7a282d9d46",
+            "label": "Bổ sung điểm neo",
+            "name": "ssg_section_is_anchor",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Khi chọn là điểm neo, section sẽ được bổ sung lên thanh trượt nhanh tới section ở trên đầu trang.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "Điểm neo",
+            "ui_off_text": "Không neo",
+            "ui": 1
+        },
+        {
+            "key": "field_64be2e02d3469",
+            "label": "Hiệu ứng thành phần (item)",
+            "name": "ssg_section_item_effect",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Áp các hiệu ứng xuất hiện cho các thành phần như Section, Component, Element,...",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "Có",
+            "ui_off_text": "Không",
+            "ui": 1
+        },
+        {
+            "key": "field_64cc743a5ca7c",
+            "label": "Hiện lên rồi đứng yên",
+            "name": "ssg_section_effect_stay",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Chọn mục này thì khi hiện thành phần, sẽ giữ nguyên không biến mất khi cuộn ra khỏi khung hình",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64be2e02d3469",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui_on_text": "Giữ nguyên",
+            "ui_off_text": "Ẩn mất",
+            "ui": 1
+        },
+        {
+            "key": "field_64b8d0b5313fd",
+            "label": "Hiệu ứng xuất hiện (section)",
+            "name": "ssg_section_effect",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64be2e02d3469",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "fade": "Hiển thị dần lên.",
+                "fade-up": "Hiển thị phía dưới lên.",
+                "fade-down": "Hiển thị phía trên xuống.",
+                "fade-left": "Hiển thị sang phía trái.",
+                "fade-right": "Hiển thị sang phía phải.",
+                "fade-up-right": "Hiển thị từ trung tâm ra phía trên bên phải.",
+                "fade-up-left": "Hiển thị từ trung tâm ra phía trên bên trái.",
+                "fade-down-right": "Hiển thị từ trung tâm ra phía dưới bên phải.",
+                "fade-down-left": "Hiển thị từ trung tâm ra phía dưới bên trái.",
+                "flip-up": "Hiển thị lên phía trên xuống và xoay.",
+                "flip-down": "Hiển thị lên phía dưới lên và xoay.",
+                "flip-left": "Hiển thị sang phía trái vào và xoay.",
+                "flip-right": "Hiển thị sang phía phải vào xoay.",
+                "slide-up": "Trượt từ phía dưới lên.",
+                "slide-down": "Trượt từ phía trên xuống.",
+                "slide-left": "Trượt từ phía phải vào.",
+                "slide-right": "Trượt từ phía trái vào.",
+                "zoom-in": "Phóng to từ phía trung tâm.",
+                "zoom-out": "Thu nhỏ vào trung tâm.",
+                "none": "Không có hiệu ứng."
+            },
+            "default_value": "none",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64be293ef5a09",
+            "label": "Hiệu ứng xuất hiện (heading - desc)",
+            "name": "ssg_section_effect_heading_desc",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64be2e02d3469",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "fade": "Hiển thị dần lên.",
+                "fade-up": "Hiển thị phía dưới lên.",
+                "fade-down": "Hiển thị phía trên xuống.",
+                "fade-left": "Hiển thị sang phía trái.",
+                "fade-right": "Hiển thị sang phía phải.",
+                "fade-up-right": "Hiển thị từ trung tâm ra phía trên bên phải.",
+                "fade-up-left": "Hiển thị từ trung tâm ra phía trên bên trái.",
+                "fade-down-right": "Hiển thị từ trung tâm ra phía dưới bên phải.",
+                "fade-down-left": "Hiển thị từ trung tâm ra phía dưới bên trái.",
+                "flip-up": "Hiển thị lên phía trên xuống và xoay.",
+                "flip-down": "Hiển thị lên phía dưới lên và xoay.",
+                "flip-left": "Hiển thị sang phía trái vào và xoay.",
+                "flip-right": "Hiển thị sang phía phải vào xoay.",
+                "slide-up": "Trượt từ phía dưới lên.",
+                "slide-down": "Trượt từ phía trên xuống.",
+                "slide-left": "Trượt từ phía phải vào.",
+                "slide-right": "Trượt từ phía trái vào.",
+                "zoom-in": "Phóng to từ phía trung tâm.",
+                "zoom-out": "Thu nhỏ vào trung tâm.",
+                "none": "Không có hiệu ứng."
+            },
+            "default_value": "none",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64be2ad0f5a0c",
+            "label": "Hiệu ứng xuất hiện (các mục)",
+            "name": "ssg_section_effect_item",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64be2e02d3469",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "fade": "Hiển thị dần lên.",
+                "fade-up": "Hiển thị phía dưới lên.",
+                "fade-down": "Hiển thị phía trên xuống.",
+                "fade-left": "Hiển thị sang phía trái.",
+                "fade-right": "Hiển thị sang phía phải.",
+                "fade-up-right": "Hiển thị từ trung tâm ra phía trên bên phải.",
+                "fade-up-left": "Hiển thị từ trung tâm ra phía trên bên trái.",
+                "fade-down-right": "Hiển thị từ trung tâm ra phía dưới bên phải.",
+                "fade-down-left": "Hiển thị từ trung tâm ra phía dưới bên trái.",
+                "flip-up": "Hiển thị lên phía trên xuống và xoay.",
+                "flip-down": "Hiển thị lên phía dưới lên và xoay.",
+                "flip-left": "Hiển thị sang phía trái vào và xoay.",
+                "flip-right": "Hiển thị sang phía phải vào xoay.",
+                "slide-up": "Trượt từ phía dưới lên.",
+                "slide-down": "Trượt từ phía trên xuống.",
+                "slide-left": "Trượt từ phía phải vào.",
+                "slide-right": "Trượt từ phía trái vào.",
+                "zoom-in": "Phóng to từ phía trung tâm.",
+                "zoom-out": "Thu nhỏ vào trung tâm.",
+                "none": "Không có hiệu ứng."
+            },
+            "default_value": "none",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64be2d3e31ef3",
+            "label": "Thời gian hiệu ứng (ms)",
+            "name": "ssg_section_effect_duration",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64be2e02d3469",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1200,
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64be29fef5a0a",
+            "label": "Thời gian trễ thành phần đầu tiên (ms)",
+            "name": "ssg_section_effect_delay",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64be2e02d3469",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 100,
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64be2a3af5a0b",
+            "label": "Thời gian trễ thành phần cách nhau (ms)",
+            "name": "ssg_section_effect_delay_interval",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64be2e02d3469",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 100,
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 100,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Phần tùy biến phía code",
+    "show_in_rest": 0,
+    "modified": 1691121564
+}

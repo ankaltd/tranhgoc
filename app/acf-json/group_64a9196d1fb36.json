@@ -1,0 +1,346 @@
+{
+    "key": "group_64a9196d1fb36",
+    "title": "Block: Hình nền",
+    "fields": [
+        {
+            "key": "field_64c63c3a625d4",
+            "label": "CÀI ĐẶT NỀN SECTION",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64a9196d223f1",
+            "label": "Ảnh nền",
+            "name": "ssg_background_src",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Chọn hình ảnh và điều chỉnh dành cho ảnh nền",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_64bf476aabfae",
+            "label": "Nền cố định (hiệu ứng cuộn)",
+            "name": "ssg_background_attachment",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "Cố định",
+            "ui_off_text": "Cuộn theo",
+            "ui": 1
+        },
+        {
+            "key": "field_64a9199ba7eeb",
+            "label": "Màu nền",
+            "name": "ssg_background_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "inherit",
+            "enable_opacity": 1,
+            "return_format": "string"
+        },
+        {
+            "key": "field_64a919eba7eec",
+            "label": "Căn nền chiều ngang",
+            "name": "ssg_background_align_x",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Mặc định",
+                "left": "Trái",
+                "center": "Giữa",
+                "right": "Phải",
+                "unset": "Không đặt"
+            },
+            "default_value": "inherit",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64a91a3ba7eed",
+            "label": "Căn nền chiều dọc",
+            "name": "ssg_background_align_y",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Mặc định",
+                "top": "Trên",
+                "center": "Giữa",
+                "bottom": "Dưới",
+                "unset": "Không đặt"
+            },
+            "default_value": "inherit",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64a91aaea7eee",
+            "label": "Lặp hình ảnh",
+            "name": "ssg_background_repeat",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "no-repeat": "Không lặp",
+                "repeat": "Lặp 2 chiều",
+                "repeat-x": "Lặp ngang",
+                "repeat-y": "Lặp dọc"
+            },
+            "default_value": "no-repeat",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64b7641444567",
+            "label": "Kích thước nền",
+            "name": "ssg_background_size",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "auto": "Tự động",
+                "inherit": "Mặc định",
+                "contain": "Bao hết",
+                "cover": "Che phủ",
+                "unset": "Không đặt"
+            },
+            "default_value": "auto",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64b75f0698f9e",
+            "label": "Xác định nền màu tối",
+            "name": "ssg_background_dark",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Chọn nền màu tối để nội dung văn bản tự chỉnh màu sáng",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "Nền tối",
+            "ui_off_text": "Nền sáng",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/section-contact"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/solution"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/testimonial"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/service"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/bod"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/culture"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/vision"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/section-benefit"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/history"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/ssg-two-cols"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/prize"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/about"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/event"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/featured-news"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/pr"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/news-grid"
+            }
+        ]
+    ],
+    "menu_order": 3,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Tùy chọn hình nền",
+    "show_in_rest": 0,
+    "modified": 1690713179
+}

@@ -1,0 +1,19 @@
+.ssg_hirring_apply {
+    .form-control,
+    .form-select {
+        padding: 15px;
+        background-color: #f8f8f8;
+        border-color: #f8f8f8;
+        border-radius: 0;
+
+        &::placeholder {
+            color: #6f6f6f
+        }
+    }
+
+    .input-group {
+        .btn-secondary {
+            border-radius: 0;
+        }
+    }
+}

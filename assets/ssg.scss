@@ -1,0 +1,74 @@
+/* custom.scss */
+@import "../assets/scss/common/vars-before";
+
+/* import the necessary Bootstrap files */
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+/* -------begin customization-------- */
+@import "../assets/scss/common/vars-after";
+
+/* finally, import Bootstrap to set the changes! */
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Common
+@import "../assets/scss/common/global";
+@import "../assets/scss/common/typography";
+@import "../assets/scss/common/button";
+@import "../assets/scss/common/wp_blocks";
+
+// Components
+@import "../assets/scss/components/header";
+
+@import "../assets/scss/components/about-bod";
+@import "../assets/scss/components/about-culture";
+@import "../assets/scss/components/about-history";
+@import "../assets/scss/components/about-prize";
+@import "../assets/scss/components/about-ssg";
+@import "../assets/scss/components/about-vision";
+@import "../assets/scss/components/banner-photo";
+@import "../assets/scss/components/contact-form";
+@import "../assets/scss/components/contact-infor";
+@import "../assets/scss/components/contact-map";
+@import "../assets/scss/components/footer-bottom";
+@import "../assets/scss/components/footer-default";
+@import "../assets/scss/components/footer-middle";
+@import "../assets/scss/components/footer-top";
+@import "../assets/scss/components/footer";
+@import "../assets/scss/components/header-default";
+@import "../assets/scss/components/header";
+@import "../assets/scss/components/hiring-apply";
+@import "../assets/scss/components/hiring-benefit";
+@import "../assets/scss/components/hiring-ev";
+@import "../assets/scss/components/hiring-list";
+@import "../assets/scss/components/home-client-tab";
+@import "../assets/scss/components/home-client";
+@import "../assets/scss/components/home-event";
+@import "../assets/scss/components/home-news-pr";
+@import "../assets/scss/components/home-news";
+@import "../assets/scss/components/home-news-image";
+@import "../assets/scss/components/home-service";
+@import "../assets/scss/components/home-solution";
+@import "../assets/scss/components/home-testimonial";
+@import "../assets/scss/components/section-benefit";
+@import "../assets/scss/components/section-case-study";
+@import "../assets/scss/components/section-contact";
+@import "../assets/scss/components/section-featured-news";
+@import "../assets/scss/components/section-goto";
+@import "../assets/scss/components/section-news-branch";
+@import "../assets/scss/components/section-news-grid";
+@import "../assets/scss/components/section-news-other";
+@import "../assets/scss/components/section-two-cols";
+@import "../assets/scss/components/section-vertical-tab";
+@import "../assets/scss/components/sidebar-default";
+@import "../assets/scss/components/single-entry-client";
+@import "../assets/scss/components/single-entry-hiring";
+@import "../assets/scss/components/single-entry";
+@import "../assets/scss/components/slider-banner";
+@import "../assets/scss/components/ssg-progress-bar";
+@import "../assets/scss/components/footer";
+
+// Responsive mobile first
+@import "../assets/scss/common/ssg-tablet";
+@import "../assets/scss/common/ssg-laptop";
+@import "../assets/scss/common/ssg-pc";

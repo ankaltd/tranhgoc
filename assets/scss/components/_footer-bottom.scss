@@ -1,0 +1,19 @@
+.ssg_footer_bottom {
+    padding: $ssg_space*1.4 0;
+}
+
+.ssg_social_icons {    
+    a {
+        display: inline-block;
+        padding: 0 10px;
+
+        &:last-child {
+            padding-right: 0;
+        }
+
+        transition: transform 0.4s;
+        &:hover {
+            transform: scale(1.5);
+        }
+    }    
+}

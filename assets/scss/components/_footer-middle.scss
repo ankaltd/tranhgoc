@@ -1,0 +1,25 @@
+.ssg_footer_middle {
+    padding: $ssg_space*1.4 0;
+    border-bottom: solid 1px #444;
+    p {
+        line-height: 1.8;
+    }
+
+    .col {        
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: center;
+        padding: 20px 0;
+        padding-left: 0;
+        border-bottom: solid 1px #666;
+
+        &:last-child {
+            background-image: none;    
+            border-bottom: none;  
+        }
+
+        &:first-child {
+            padding-left: 0;            
+        }
+    }
+}

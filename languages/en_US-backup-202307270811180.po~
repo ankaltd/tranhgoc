@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SSG Website\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-27 07:56+0000\n"
+"PO-Revision-Date: 2023-07-27 08:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: ssg"
+
+#. Name of the template
+msgid "404"
+msgstr ""
+
+#. Name of the template
+msgid "404 Block"
+msgstr ""
+
+#. Author of the theme
+msgid "ANDT Team"
+msgstr ""
+
+#: app/controllers/ant-acf-controller.php:38
+msgid "Blocks SSG"
+msgstr ""
+
+#. Name of the template
+msgid "Chi tiết tin tức"
+msgstr ""
+
+#. Name of the template
+msgid "Chi tiết tin tức Block"
+msgstr ""
+
+#. Name of the template
+msgid "Chi tiết tuyển dụng"
+msgstr ""
+
+#. Name of the template
+msgid "Chi tiết tuyển dụng Block"
+msgstr ""
+
+#. Name of the template
+msgid "Danh sách tin"
+msgstr ""
+
+#. Name of the template
+msgid "Danh sách tin Block"
+msgstr ""
+
+#. Name of the template
+#: app/controllers/ant-acf-controller.php:58
+msgid "Dịch vụ"
+msgstr ""
+
+#. Name of the template
+msgid "Dịch vụ Block"
+msgstr ""
+
+#. Name of the template
+msgid "Giải pháp"
+msgstr ""
+
+#. Name of the template
+msgid "Giải pháp Block"
+msgstr ""
+
+#. Name of the template
+#: app/controllers/ant-acf-controller.php:46
+msgid "Giới thiệu"
+msgstr ""
+
+#. Name of the template
+msgid "Giới thiệu Block"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://andt.biz.vn"
+msgstr ""
+
+#. URI of the theme
+msgid "https://ssg.vn"
+msgstr ""
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#. Name of the template
+msgid "Khách hàng"
+msgstr ""
+
+#. Name of the template
+msgid "Khách hàng Block"
+msgstr ""
+
+#. Name of the template
+msgid "Khách hàng chi tiết"
+msgstr ""
+
+#. Name of the template
+msgid "Khách hàng chi tiết Block"
+msgstr ""
+
+#. Name of the template
+msgid "Kết quả tìm kiếm"
+msgstr ""
+
+#. Name of the template
+msgid "Kết quả tìm kiếm Block"
+msgstr ""
+
+#. Name of the template
+#: app/controllers/ant-acf-controller.php:54
+msgid "Liên hệ"
+msgstr ""
+
+#. Name of the template
+msgid "Liên hệ Block"
+msgstr ""
+
+#. Name of the template
+msgid "Nghiên cứu và chia sẻ"
+msgstr ""
+
+#. Name of the template
+msgid "Nghiên cứu và chia sẻ Block"
+msgstr ""
+
+#: 404.php:17
+msgid "Nothing here"
+msgstr ""
+
+#. Name of the template
+msgid "SSG Builder"
+msgstr ""
+
+#. Name of the theme
+msgid "SSG Website"
+msgstr ""
+
+#. Description of the theme
+msgid "This is code theme for website ssg.vn"
+msgstr ""
+
+#. Name of the template
+#: app/controllers/ant-acf-controller.php:62
+msgid "Tin tức"
+msgstr ""
+
+#. Name of the template
+msgid "Tin tức Block"
+msgstr ""
+
+#. Name of the template
+#: app/controllers/ant-acf-controller.php:42
+msgid "Trang chủ"
+msgstr ""
+
+#. Name of the template
+msgid "Trang chủ Block"
+msgstr ""
+
+#. Name of the template
+msgid "Trang trống"
+msgstr ""
+
+#. Name of the template
+#: app/controllers/ant-acf-controller.php:50
+msgid "Tuyển dụng"
+msgstr ""
+
+#. Name of the template
+msgid "Tuyển dụng Block"
+msgstr ""
+
+#: index.php:21 index.php:31 index.php:41 index.php:59 index.php:104
+#: index.php:236 templates/solution.php:19 templates/solution-block.php:19
+#: templates/search.php:19 templates/search.php:32 templates/search.php:44
+#: templates/search.php:65 templates/search.php:76 templates/service.php:20
+#: templates/search-block.php:19 templates/search-block.php:32
+#: templates/search-block.php:44 templates/search-block.php:65
+#: templates/search-block.php:76 blocks/service/render.php:48
+msgid "Xem thêm"
+msgstr "Read more"

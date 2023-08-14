@@ -1,0 +1,1 @@
+<div id="progress-bar" class="ssg_progress_bar"></div>

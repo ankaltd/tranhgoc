@@ -1,0 +1,29 @@
+{
+    "name": "ssg/ssg-video",
+    "title": "SSG Video",
+    "description": "",
+    "style": "file:./style.css",
+    "script": "style",
+    "category": "ssg",
+    "icon": "carrot",
+    "apiVersion": 2,
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": true,
+            "link": false
+        },
+        "alignText": false,
+        "fullHeight": false
+    },
+    "attributes": {}
+}

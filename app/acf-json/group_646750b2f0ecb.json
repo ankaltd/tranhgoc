@@ -1,0 +1,224 @@
+{
+    "key": "group_646750b2f0ecb",
+    "title": "Mega Menu Options",
+    "fields": [
+        {
+            "key": "field_646752890b9ea",
+            "label": "Mega Menu: hiện (sử dụng submenu làm tab)",
+            "name": "mega_menu_show",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "Mega Menu",
+            "ui_off_text": "Dropdown",
+            "ui": 1
+        },
+        {
+            "key": "field_64ccdb3243b0d",
+            "label": "Menu Cột hay Tab",
+            "name": "mega_menu_column",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Chọn mega menu là dạng chia Cột hay dạng Tab",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_646752890b9ea",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui_on_text": "Menu Cột",
+            "ui_off_text": "Menu Tab",
+            "ui": 1
+        },
+        {
+            "key": "field_64ccdbf10b05b",
+            "label": "Số lượng cột",
+            "name": "mega_menu_column_number",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64ccdb3243b0d",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "6": "2",
+                "4": "3",
+                "3": "4"
+            },
+            "default_value": 4,
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_64c63ca8683e7",
+            "label": "CÀI ĐẶT TAB MEGA",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64ccdb3243b0d",
+                        "operator": "!=",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_646752890b9ea",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64b8f6d7c867d",
+            "label": "Nội dung Tab Menu",
+            "name": "mega_menu_tab",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64ccdb3243b0d",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Thêm Tab",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_64b8f743c867e",
+                    "label": "Tên Tab",
+                    "name": "mega_menu_tab_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_64b8f6d7c867d"
+                },
+                {
+                    "key": "field_6475a215b43ef",
+                    "label": "Nội dung Tab",
+                    "name": "mega_menu_tab_items",
+                    "aria-label": "",
+                    "type": "relationship",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "page",
+                        "solution",
+                        "service"
+                    ],
+                    "post_status": [
+                        "publish"
+                    ],
+                    "taxonomy": "",
+                    "filters": [
+                        "search",
+                        "post_type"
+                    ],
+                    "return_format": "object",
+                    "min": "",
+                    "max": "",
+                    "elements": [
+                        "featured_image"
+                    ],
+                    "parent_repeater": "field_64b8f6d7c867d"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "nav_menu_item",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 99,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Tùy chọn trong Menu",
+    "show_in_rest": 0,
+    "modified": 1691148283
+}

@@ -1,0 +1,340 @@
+{
+    "key": "group_646a20d9bd0a5",
+    "title": "Cấu hình Sections (Trang Hiring)",
+    "fields": [
+        {
+            "key": "field_646a20d9c36de",
+            "label": "Hiring Sections",
+            "name": "hiring_sections",
+            "aria-label": "",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_6469ba0242341": {
+                    "key": "layout_6469ba0242341",
+                    "name": "hiring_ev",
+                    "label": "Môi trường",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6472299e537d0",
+                            "label": "Tiêu đề",
+                            "name": "section_heading",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Môi trường làm việc công bằng. <br\/>Cơ hội phát triển cho tất cả thành viên.",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_647229c3537d1",
+                            "label": "Nội dung môi trường",
+                            "name": "section_hr_ev",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "table",
+                            "min": 0,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Thêm lợi ích",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_647229ee537d2",
+                                    "label": "Hình ảnh",
+                                    "name": "hr_ev_photo",
+                                    "aria-label": "",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "url",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": "",
+                                    "preview_size": "medium",
+                                    "parent_repeater": "field_647229c3537d1"
+                                },
+                                {
+                                    "key": "field_64722a1c537d3",
+                                    "label": "Tiêu đề",
+                                    "name": "hr_ev_title",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "Đồng hành",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_647229c3537d1"
+                                },
+                                {
+                                    "key": "field_64722a46537d4",
+                                    "label": "Mô tả",
+                                    "name": "hr_ev_description",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "Luôn đoàn kết, cùng nhau làm việc và phấn đấu với chung một định hướng phát triển SSG lớn mạnh",
+                                    "maxlength": "",
+                                    "rows": "",
+                                    "placeholder": "",
+                                    "new_lines": "",
+                                    "parent_repeater": "field_647229c3537d1"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6469bc95ffb60": {
+                    "key": "layout_6469bc95ffb60",
+                    "name": "hiring_list",
+                    "label": "Cơ hội nghề nghiệp",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64722a8f537d5",
+                            "label": "Tiêu đề",
+                            "name": "section_heading",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Cơ hội nghề nghiệp",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_64722ab6537d6",
+                            "label": "Số lượng tin tuyển dụng một trang",
+                            "name": "section_number_hr_news",
+                            "aria-label": "",
+                            "type": "range",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": 6,
+                            "min": 6,
+                            "max": 18,
+                            "step": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_6469c89364ee4": {
+                    "key": "layout_6469c89364ee4",
+                    "name": "hiring_benefit",
+                    "label": "Chế độ phúc lợi",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64722b3b537d7",
+                            "label": "Tiêu đề",
+                            "name": "section_heading",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Chế độ - Phúc lợi",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_64722b6b537d8",
+                            "label": "Danh sách chế độ",
+                            "name": "section_benefit_list",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "table",
+                            "min": 0,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Thêm phúc lợi",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_64722b81537d9",
+                                    "label": "Biểu tượng",
+                                    "name": "benefit_icon",
+                                    "aria-label": "",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "url",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": "",
+                                    "preview_size": "medium",
+                                    "parent_repeater": "field_64722b6b537d8"
+                                },
+                                {
+                                    "key": "field_64722b9d537da",
+                                    "label": "Tiêu đề",
+                                    "name": "benefit_title",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "Mức độ cạnh tranh",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_64722b6b537d8"
+                                },
+                                {
+                                    "key": "field_64722bb6537db",
+                                    "label": "Mô tả",
+                                    "name": "benefit_description",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "Đảm bảo mức thu nhập cạnh tranh cho các cán bộ công nhân viên của công ty. Xét tăng lương 1 năm 2 lần tạo chất lượng sống ngày một tốt hơn.",
+                                    "maxlength": "",
+                                    "rows": "",
+                                    "placeholder": "",
+                                    "new_lines": "",
+                                    "parent_repeater": "field_64722b6b537d8"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "min": "",
+            "max": "",
+            "button_label": "Thêm Section"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/hiring.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": 2,
+    "show_in_rest": 0,
+    "modified": 1685464802
+}

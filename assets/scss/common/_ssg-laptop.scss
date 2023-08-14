@@ -1,0 +1,286 @@
+// Styles for the laptop component
+@media screen and (min-width: 992px) {
+
+    // Typography
+    body {
+        font-size: 14px;
+    }
+
+    // Concept
+    .ssg_concept {
+        &--section {
+            &::after {
+                right: 30px;
+                bottom: 30px;
+            }
+        }
+    }
+
+    // Global
+    section {
+        padding: 80px 0;
+    }
+
+
+    /* Home Page */
+
+    // Header
+    .ssg_header {
+
+        // Left
+        .header_left {
+            width: auto;
+        }
+
+        // Right
+        .header_right {
+            display: flex !important;
+            width: auto;
+        }
+
+        &__right {
+            display: flex;
+
+            .nav-link {
+                padding: 0 15px;
+            }
+        }
+    }
+
+    .has-megamenu {
+        .dropdown-menu {
+            &.show {
+                max-height: 300px;
+            }
+        }
+
+        &:hover {
+            .dropdown-menu {
+                max-height: 300px;
+            }
+        }
+    }
+
+    .ssg_mega_menu {
+
+        // Dropdown ====================
+        .dropdown-menu {
+            // padding: 15px;
+
+            // Link in tab menu
+            .list_links {
+                &__item {
+                    flex-basis: calc(33.33% - 20px);
+                    /* Chia đều thành 3 cột, trừ 20px để tạo khoảng cách giữa các cột */
+                }
+            }
+
+            &.show {
+                max-height: inherit;
+                background: #14233A;
+                padding: 10px 0;
+                top: 50px;
+            }
+
+            &.megamenu.show {
+                top: 56px;
+            }
+        }
+
+        .dropdown {
+            &:hover {
+                .dropdown-menu {
+                    max-height: inherit;
+                    background: #14233A;
+                    padding: 10px 0;
+                    top: 50px;
+                    opacity: 1;
+                }
+            }
+        }
+
+        .has-megamenu {
+            &:hover {
+                .dropdown-menu {
+                    opacity: 1;
+                    max-height: inherit;
+                    background: #14233A;
+                    padding: 10px 0;
+                    top: 50px;
+
+                    &.megamenu {
+                        top: 56px;
+                        opacity: 1;
+                    }
+
+                }
+            }
+        }
+
+        .nav-item {
+
+            &.active,
+            &:hover,
+            &.current_page {
+                &::before {
+                    content: '';
+                    width: 50px;
+                    height: 3px;
+                    background-color: $ssg_color_primary;
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0;
+                    transform: translateX(-50%);
+                    border-radius: 1px;
+                }
+            }
+        }
+
+        .has-megamenu {
+            .column-menu {
+                padding-left: 15px;
+
+                .dropdown-item {
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
+    // Slider
+    .ssg_slider {
+        .carousel-caption {
+            padding-top: inherit;
+        }
+
+        .video-slide {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    // Home Sections
+    .ssg_home_service {
+        &__slider {
+            padding: $ssg_space*0.7;
+        }
+
+        &__content {
+            h4 {
+                font-size: 15px;
+            }
+        }
+    }
+
+    // Home Sections
+    .ssg_home_service {
+
+        &__center_content {
+            width: 20%;
+            top: 150px;
+
+        }
+    }
+
+    // Home Solution
+    .ssg_home_solution {
+        &__header {
+            padding: $ssg_space*3;
+        }
+
+        h5 {
+            font-size: 12px;
+        }
+    }
+
+    // Testimonail
+    .ssg_home_testimonial {
+        padding: $ssg_space*5;
+
+        &__avatar {
+            padding: 20px;
+        }
+
+        &__name {
+            text-align: left;
+        }
+
+        &__title {
+            text-align: left;
+        }
+    }
+
+    // Solution
+    .ssg_home_solution {
+
+        &__header {
+            padding: $ssg_space*3;
+        }
+
+        .col {
+            flex-basis: 12.5%;
+            height: auto;
+
+            &.active {
+                flex-basis: 50%;
+            }
+        }
+    }
+
+    // Client 
+    .ssg_home_client {
+        .nav-tabs {
+            .nav-item {
+                margin-bottom: 0;
+            }
+        }
+
+        .tab-pane {
+            margin-top: $ssg_space*2;
+        }
+    }
+
+    // Featured News
+    .ssg_home_news {
+        &__item {
+            margin-bottom: 0;
+        }
+    }
+
+    // Section Contact
+    .ssg_home_contact {
+        h3 {
+            font-size: 36px;
+        }
+    }
+
+    /* About Page */
+
+    .ssg_about {
+        &__content {
+            column-count: 2;
+        }
+    }
+
+    /* Service Page */
+    .ssg_goto_section {
+        &__item {
+            padding: 0 $ssg_space;
+        }
+    }
+
+    /* Tuyen dung */
+    #ssg_hiring_list_form {
+        .form-control {
+            margin-bottom: 0;
+        }
+    }
+
+    // Modaling
+    #staticBackdrop {
+        .modal-dialog {
+            max-width: 70%;
+        }
+    }
+
+}

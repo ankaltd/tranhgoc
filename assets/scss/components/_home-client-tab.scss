@@ -1,0 +1,88 @@
+.ssg_home_client {
+    .nav-tabs {
+        border-bottom: none;
+
+        .nav-item {
+            padding: 0 10px;
+            margin-bottom: 15px;
+        }
+
+        .nav-link {
+            border: none;
+            border-radius: 0;
+            color: $ssg_color_primary;
+            font-size: 14px;
+            text-transform: uppercase;
+            display: inline-block;
+            padding: 0 40px;
+            position: relative;
+            text-align: center;
+            height: 45px;
+            line-height: 45px;
+            clip-path: polygon(17px 0,
+                    100% 0,
+                    100% 17px,
+                    100% calc(100% - 17px),
+                    calc(100% - 17px) 100%,
+                    0 100%,
+                    0 calc(100% - 17px),
+                    0 17px);
+            background-color: #333; // border 
+            transition: color 0.4s, background-color 0.4s;
+
+            &.active,
+            &:hover {
+                background-color: $ssg_color_primary;
+                color: $ssg_color_active;
+
+                &::before {
+                    background-color: $ssg_color_primary;
+                }
+            }
+
+            &::before {
+                content: attr(data-content);
+                position: absolute;
+                display: block;
+                height: 43px;
+                line-height: 43px;
+                top: 1px;
+                left: 1px;
+                bottom: 1px;
+                right: 1px;
+                clip-path: inherit;
+                text-wrap: nowrap;
+                z-index: 0;
+                background-color: white;
+            }
+
+            &--white {
+                &::before {
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+
+    .tab-pane {        
+        margin-top: calc($ssg_space / 2);        
+        overflow: hidden;
+        .row {
+            margin-bottom: -1px;
+        }
+        .col {
+            margin-top: 0;
+            padding: $ssg_space*2 0;
+            border-bottom: 1px solid #ddd;     
+            border-left: 1px solid #ddd;     
+            margin-left: -1px;
+        }        
+    }
+
+    &__logo {
+        transition: transform 0.5s ease;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}

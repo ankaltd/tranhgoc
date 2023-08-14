@@ -1,0 +1,29 @@
+{
+    "name": "ssg/featured-news",
+    "title": "SSG Featured News",
+    "description": "",
+    "style": "file:./style.css",
+    "script": "block-featured-news",
+    "category": "ssg-home",
+    "icon": "carrot",
+    "apiVersion": 2,
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": true,
+            "link": false
+        },
+        "alignText": false,
+        "fullHeight": false
+    },
+    "attributes": {}
+}

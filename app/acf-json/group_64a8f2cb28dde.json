@@ -1,0 +1,481 @@
+{
+    "key": "group_64a8f2cb28dde",
+    "title": "Block: Hình slider",
+    "fields": [
+        {
+            "key": "field_64c63baa469fa",
+            "label": "CÀI ĐẶT SLIDER BANNER",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64b506a572344",
+            "label": "Vị trí slider hiện đầu tiên",
+            "name": "ssg_image_init_item",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1,
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64a8f2caed859",
+            "label": "Danh sách slider",
+            "name": "ssg_image_list",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Thêm hình",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_64b3a3f413e35",
+                    "label": "Slider là Video?",
+                    "name": "ssg_is_video",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui_on_text": "Video",
+                    "ui_off_text": "Hình",
+                    "ui": 1,
+                    "parent_repeater": "field_64a8f2caed859"
+                },
+                {
+                    "key": "field_64b3a3ad13e34",
+                    "label": "Video",
+                    "name": "ssg_image_video",
+                    "aria-label": "",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_64b3a3f413e35",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "parent_repeater": "field_64a8f2caed859"
+                },
+                {
+                    "key": "field_64a8f311ed85a",
+                    "label": "Hình (PC)",
+                    "name": "ssg_image_src",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_64b3a3f413e35",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_64a8f2caed859"
+                },
+                {
+                    "key": "field_64a8f340ed85b",
+                    "label": "Hình (Mobile)",
+                    "name": "ssg_image_mobile_src",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_64b3a3f413e35",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_64a8f2caed859"
+                },
+                {
+                    "key": "field_64c352762805c",
+                    "label": "Logo",
+                    "name": "ssg_image_logo_src",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_64b3a3f413e35",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_64a8f2caed859"
+                },
+                {
+                    "key": "field_64a8ff12a6fde",
+                    "label": "Tiêu đề",
+                    "name": "ssg_image_heading",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Tiêu đề slider",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_64a8f2caed859"
+                },
+                {
+                    "key": "field_64a8fffea6fe3",
+                    "label": "Màu tiêu đề",
+                    "name": "ssg_image_heading_color",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": 0,
+                    "return_format": "string",
+                    "parent_repeater": "field_64a8f2caed859"
+                },
+                {
+                    "key": "field_64a8ff59a6fdf",
+                    "label": "Mô tả",
+                    "name": "ssg_image_description",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": "",
+                    "parent_repeater": "field_64a8f2caed859"
+                },
+                {
+                    "key": "field_64a90016a6fe4",
+                    "label": "Màu mô tả",
+                    "name": "ssg_image_description_color",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": 0,
+                    "return_format": "string",
+                    "parent_repeater": "field_64a8f2caed859"
+                },
+                {
+                    "key": "field_64a8ff99a6fe0",
+                    "label": "Căn chỉnh các phần",
+                    "name": "ssg_image_text_align",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "Căn chỉnh các phần (logo - tiêu đề - mô tả)",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "text-start": "Trái",
+                        "text-center": "Giữa",
+                        "text-end": "Phải"
+                    },
+                    "default_value": "text-center",
+                    "return_format": "value",
+                    "allow_null": 0,
+                    "layout": "horizontal",
+                    "parent_repeater": "field_64a8f2caed859"
+                },
+                {
+                    "key": "field_64c356be059cc",
+                    "label": "Khoảng cách giữa các phần",
+                    "name": "ssg_image_item_space",
+                    "aria-label": "",
+                    "type": "range",
+                    "instructions": "Thay đổi khoảng cách giữa các thành phần Logo, Tiêu đề, Mô tả",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 10,
+                    "min": "",
+                    "max": "",
+                    "step": "",
+                    "prepend": "px",
+                    "append": "",
+                    "parent_repeater": "field_64a8f2caed859"
+                },
+                {
+                    "key": "field_64b97c2970a83",
+                    "label": "Danh sách nút",
+                    "name": "ssg_image_list_button",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Thêm nút",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_64a900675b146",
+                            "label": "Tên nút",
+                            "name": "ssg_image_button_text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Nút lệnh",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_64b97c2970a83"
+                        },
+                        {
+                            "key": "field_64a900bd5b148",
+                            "label": "Liên kết nút",
+                            "name": "ssg_image_button_link",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "#",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_64b97c2970a83"
+                        },
+                        {
+                            "key": "field_64a9008b5b147",
+                            "label": "Kiểu nút",
+                            "name": "ssg_image_button_style",
+                            "aria-label": "",
+                            "type": "button_group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "ssg_button--white": "Trắng",
+                                "ssg_button--blue": "Xanh",
+                                "ssg_button--primary": "Xẫm"
+                            },
+                            "default_value": "white",
+                            "return_format": "value",
+                            "allow_null": 0,
+                            "layout": "horizontal",
+                            "parent_repeater": "field_64b97c2970a83"
+                        },
+                        {
+                            "key": "field_64a900d55b149",
+                            "label": "Mở lên tab khác",
+                            "name": "ssg_image_button_target",
+                            "aria-label": "",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui_on_text": "Mở",
+                            "ui_off_text": "Không",
+                            "ui": 1,
+                            "parent_repeater": "field_64b97c2970a83"
+                        }
+                    ],
+                    "parent_repeater": "field_64a8f2caed859"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/slider"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Tùy chọn danh sách hình ảnh Slider",
+    "show_in_rest": 0,
+    "modified": 1690713032
+}

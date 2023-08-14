@@ -1,0 +1,23 @@
+.ssg_contact_form {
+
+    background-image: url('./images/contact/contact-form-bg.png');
+
+    .form-control {
+
+        border-radius: 0;
+        padding: 13px 15px;
+        
+        ::placeholder {
+            color: #6f6f6f;
+        }
+
+        ::-webkit-input-placeholder {
+            color: 6f6f6f;
+        }          
+        
+    }
+
+    .ssg_button {
+        width: 200px;
+    }
+}

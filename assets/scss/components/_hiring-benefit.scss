@@ -1,0 +1,22 @@
+.ssg_hiring_benefit {
+    &__icon {
+        background-color: $ssg_color_primary;
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: $ssg_space;
+
+        img {
+            width: 28px;
+            height: 28px;
+        }
+
+        &__title {
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+}

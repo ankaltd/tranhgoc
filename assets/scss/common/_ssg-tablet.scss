@@ -1,0 +1,146 @@
+// Styles for the table component
+@media screen and (min-width: 768px) {
+
+    .text-start {
+        .ssg_button {
+            margin-right: 20px;
+        }
+    }
+
+    .text-center {
+        .ssg_button {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    .text-end {
+        .ssg_button {
+            margin-left: 20px;
+        }
+    }
+
+    .ssg_footer_middle {
+        .col {
+            background-image: url('./images/home/vertical-gradient-line.png');
+            padding-left: $ssg_space*1.5;
+            border-bottom: none;
+        }
+    }
+
+    .ssg_home_news_image {
+        &__item {
+            margin-bottom: 0;
+        }
+    }
+
+    .ssg_home_service {
+        &__center_content {
+            // top: 200px;
+        }
+    }
+
+    .ssg_home_solution {
+
+        &__main {
+            overflow-x: scroll;
+            flex-wrap: nowrap;
+        }
+    }
+
+    .ssg_home_solution__slick,
+    .ssg_bod_slick,
+    .ssg_history_slick {
+
+        .slick-track {
+            display: flex !important;
+        }
+
+        .slick-slide {
+            height: inherit !important;
+        }
+
+        .ssg_home_solution__slider,
+        .ssg_bod__item {
+            padding: 10px;
+            height: 100%;
+
+            transition: transform 0.5s ease;
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+
+            .ssg_home_solution__thumbnail {
+                margin-bottom: 15px;
+            }
+        }
+
+        .ssg_history__item {
+            height: 100% !important;
+        }
+
+        .slick-list {
+            padding-top: 20px !important;
+        }
+
+        .slick-prev,
+        .slick-next {
+            display: inline-block !important;
+            font-size: 0;
+            line-height: 0;
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            -webkit-transform: translate(0, -50%);
+            -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+            cursor: pointer;
+            border: none;
+            outline: none;
+            border-radius: 50%;
+            font-family: 'slick';
+            line-height: 1;
+            opacity: .75;
+            color: white;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            border: solid 1px #ddd;
+            right: -35px;
+
+            &::before {
+                content: url('./images/arrow-right.png');
+            }
+
+            transition: border 0.5s ease;
+
+            &:hover {
+                border: solid 1px #666;
+            }
+        }
+
+        .slick-prev {
+            left: -35px;
+
+            &::before {
+                content: url('./images/arrow-left.png');
+            }
+        }
+
+    }
+
+    #ssg_goto_section {
+        .ssg_goto_section__item {
+            span {
+                bottom: -30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "ssg/section-goto",
+    "title": "SSG Section Goto",
+    "description": "",
+    "style": ["block-section-goto","file:./style.css"],
+    "script": ["block-section-goto"],
+    "category": "ssg-dich-vu",
+    "icon": "carrot",
+    "apiVersion": 2,
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": false,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": true,
+            "link": false
+        },
+        "alignText": false,
+        "fullHeight": false
+    },
+    "attributes": {}
+}

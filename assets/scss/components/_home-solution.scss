@@ -1,0 +1,91 @@
+.ssg_home_solution {
+
+    &__header {
+        background-color: $ssg_color_primary;
+        background-image: url(./images/bg-pattern.png);   
+        padding: $ssg_space*2 15px;    
+    }    
+
+    .ssg_description {
+        margin-bottom: 0;
+    }
+    
+    .col {
+        flex-basis: 100%;
+        height: 85px;
+        overflow: hidden;
+        position: relative; 
+        
+
+        h5 {
+            color: $ssg_color_primary;
+            transition: color 0.5s;
+        }
+
+        img {
+            opacity: 0.15;
+            object-fit: cover;            
+            transform: scale(1);            
+            transform-origin: left;                        
+            transition: opacity 0.5s;
+        }        
+
+        &:hover {
+            cursor: pointer;
+            img {
+                opacity: 1;
+            }
+         
+            h5 {
+                color: white;
+            }
+
+        }
+
+        // animation
+        transition: all 0.4s;
+
+        &.active {
+            flex-basis: 100%;
+            height: auto;
+            img {
+                width: 100%;
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            .ssg_home_solution__content {
+                background-color: $ssg_color_primary;
+
+                h5 {
+                    color: white;
+                }
+
+                .ssg_button {
+                    display: inherit;
+                }
+            }
+        }
+    }
+
+    &__slider {
+        max-height: 400px;
+    }
+
+    &__content {
+        position: absolute;
+        height: 85px;        
+        left:0;
+        right:0; 
+        bottom:0; 
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;  
+        padding: $ssg_space; 
+        transition: all 0.5s;
+
+        .ssg_button {
+            display: none;
+        }
+    }
+}

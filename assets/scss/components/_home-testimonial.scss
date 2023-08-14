@@ -1,0 +1,36 @@
+.ssg_home_testimonial {
+    background-image: url('./images/home/home-testimonial-bg.png');
+    background-position-x: center;
+    padding: $ssg_space*3 15px;
+
+    &__text {
+        text-align: left;
+        font-style: italic;
+
+        &::before {
+            content: url('./images/home/home-testimonial-quote-icon.png');
+            display: block;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__avatar {
+        padding: 40px 100px;
+    }
+
+    &__name {
+        text-align: center;
+    }
+
+    &__title {
+        text-align: center;
+        font-style: italic;
+    }
+
+    &.ssg_bg_dark {
+        .ssg_home_testimonial__title {
+            color: $ssg_color_active;
+        }
+    }
+}

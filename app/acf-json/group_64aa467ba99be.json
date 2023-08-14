@@ -1,0 +1,190 @@
+{
+    "key": "group_64aa467ba99be",
+    "title": "Block: Danh sách nội dung",
+    "fields": [
+        {
+            "key": "field_64c6703b6300f",
+            "label": "CẤU HÌNH DANH SÁCH NỘI DUNG",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64aa467b7ea55",
+            "label": "Số mục hiển thị",
+            "name": "ssg_content_number",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Số nội dung cần hiển thị",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64c71cc8653b7",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 5,
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64b6588fdbb27",
+            "label": "Sắp xếp thứ tự",
+            "name": "ssg_content_order",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64c71cc8653b7",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "asc": "Tăng dần",
+                "desc": "Giảm dần"
+            },
+            "default_value": "asc",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64c71cc8653b7",
+            "label": "Tùy chọn nội dung",
+            "name": "ssg_content_with_select",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "Tự chọn",
+            "ui_off_text": "Tự động",
+            "ui": 1
+        },
+        {
+            "key": "field_64c71c18d1143",
+            "label": "Chọn lựa nội dung",
+            "name": "ssg_content_selected",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64c71cc8653b7",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "service",
+                "solution",
+                "client"
+            ],
+            "post_status": [
+                "publish"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type"
+            ],
+            "return_format": "object",
+            "min": "",
+            "max": "",
+            "elements": [
+                "featured_image"
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/service"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/solution"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/hiring-list"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "ssg\/news-grid"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Tùy chọn hiển thị nội dung",
+    "show_in_rest": 0,
+    "modified": 1690777736
+}

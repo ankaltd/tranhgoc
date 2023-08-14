@@ -1,0 +1,80 @@
+.ssg_news_grid {
+
+    padding: 40px 0;
+
+    &__thumbnail {
+        overflow: hidden;
+        margin-bottom: 15px;
+
+        img {
+            transition: transform 0.4s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+    }
+
+    &__meta {
+        &.date {
+            font-size: 12px;
+            color: $ssg_color_primary;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__title {
+        font-size: 16px;
+        line-height: 1.4;
+
+        transition: text-decoration 0.4s;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__text {
+        font-size: 14px;
+    }
+
+    &__item {
+        margin-bottom: $ssg_space*1.5;
+    }
+
+    .category_filter {
+
+        /* Định dạng mục danh sách */
+        .nav-item {
+            border-radius: 0.25rem;
+            margin-right: 10px;
+
+            &:first-child {
+                .nav-link {
+                    background-color: #333;
+                    color: white;
+                }
+            }
+        }
+
+        /* Định dạng nền xám và chữ trắng */
+        .nav-link {
+            background-color: #555;
+            /* Màu nền xám */
+            color: #fff;
+            /* Màu chữ trắng */
+            padding: 10px 15px;
+            /* Khoảng cách bên trong mục danh sách */
+            transition: background-color 0.3s ease;
+            /* Hiệu ứng hover */
+        }
+
+        /* Hiệu ứng hover khi di chuột vào */
+        .nav-link:hover {
+            background-color: #888;
+            /* Màu nền sáng hơn khi hover */
+        }
+
+    }
+}

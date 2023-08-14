@@ -1,0 +1,23 @@
+.ssg_home_pr {
+
+    &__thumbnail {
+        overflow: hidden;        
+
+        img {
+            transition: transform 0.4s;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+    &__title {
+        line-height: 1.5;
+
+        a {
+            transition: text-decoration 0.4s;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

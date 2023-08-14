@@ -1,0 +1,55 @@
+#ssg_hiring_list_form {
+
+    .form-control {
+
+        border-radius: 0;
+        padding: 13px 15px;
+        margin-bottom: 15px;
+        
+        ::placeholder {
+            color: #6f6f6f;
+        }
+
+        ::-webkit-input-placeholder {
+            color: 6f6f6f;
+        }          
+        
+    }
+
+    .ssg_select {
+        position: relative;
+        &::after {
+            position: absolute;
+            content: url('./images/arrow-down-solid.png');
+            top: 15px;
+            right: 10px;
+        }
+
+        &:checked {
+            &::after {             
+                content: url('./images/arrow-up-solid.png');             
+            }
+        }
+    }
+
+    .ssg_search {
+        width: 100%;
+    }
+}
+
+.ssg_hiring_list {
+    table {
+        a {
+            transition: text-decoration 0.4s;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        td {
+            padding: 15px 10px;
+            vertical-align: middle;
+        }
+    }
+}
+
