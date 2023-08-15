@@ -1,6 +1,6 @@
 <?php
 
-class ANT_Router {
+class WEP_Router {
 
     // Init
     public function __construct() {

@@ -27,7 +27,7 @@
             $lang_slug = pll_current_language() == 'vi' ? '' : '-en';
         }
 
-        $footer_menu = ANT_Menu::get_menu_simple_items('footer-menu' . $lang_slug);
+        $footer_menu = WEP_Menu::get_menu_simple_items('footer-menu' . $lang_slug);
         $footer_menu_links = array();
 
         foreach ($footer_menu as $item) {

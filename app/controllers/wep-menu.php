@@ -27,7 +27,7 @@
  */
 
 
-class ANT_Menu {
+class WEP_Menu {
     public function __construct() {
         add_filter('walker_nav_menu_start_el', [$this, 'ant_add_sub_menu_toggle'], 10, 4);
         add_filter('walker_nav_menu_start_el', [$this, 'ant_nav_menu_social_icons'], 10, 4);
@@ -113,7 +113,7 @@ class ANT_Menu {
      * @return string
      */
     function ant_get_social_link_svg($uri, $size = 24) {
-        return ANT_SVG_Icons::get_social_link_svg($uri, $size);
+        return WEP_SVG_Icons::get_social_link_svg($uri, $size);
     }
 
     /**

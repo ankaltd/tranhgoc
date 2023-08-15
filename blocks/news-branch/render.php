@@ -20,19 +20,19 @@ $fields = [];
 
 // default options merge
 
-$fields += ANT_Option_Model::get_content_options();
+$fields += WEP_Option_Model::get_content_options();
 
-$fields += ANT_Option_Model::get_news_options();
+$fields += WEP_Option_Model::get_news_options();
 
-$fields += ANT_Option_Model::get_section_options();
+$fields += WEP_Option_Model::get_section_options();
 
-$fields += ANT_Option_Model::get_background_options();
+$fields += WEP_Option_Model::get_background_options();
 
 
 
 // Get options
 
-$option = ANT_Option_Model::get_field_values($fields);
+$option = WEP_Option_Model::get_field_values($fields);
 
 extract($option);
 
@@ -40,7 +40,7 @@ extract($option);
 
 // Get data
 
-$data = ANT_Section_Model::get_list_terms();
+$data = WEP_Section_Model::get_list_terms();
 
 ?>
 
@@ -48,7 +48,7 @@ $data = ANT_Section_Model::get_list_terms();
 
 <?php
 
-ANT_Section_View::render_section_tag($option, 'ssg_news_branch no_padding');
+WEP_Section_View::render_section_tag($option, 'ssg_news_branch no_padding');
 
 ?>
 
@@ -62,7 +62,7 @@ ANT_Section_View::render_section_tag($option, 'ssg_news_branch no_padding');
 
             foreach ($data as $industry) : ?>
 
-                <a class="nav-link ssg_news_branch__item" <?php ANT_Section_View::render_item_aos($option, 3, $stt); ?> href="/khach-hang?industry=<?php echo $industry['slug'] ?>" data-content="<?php echo $industry['title'] ?>" data-slug="<?php echo $industry['slug'] ?>"><?php echo $industry['title'] ?></a>
+                <a class="nav-link ssg_news_branch__item" <?php WEP_Section_View::render_item_aos($option, 3, $stt); ?> href="/khach-hang?industry=<?php echo $industry['slug'] ?>" data-content="<?php echo $industry['title'] ?>" data-slug="<?php echo $industry['slug'] ?>"><?php echo $industry['title'] ?></a>
 
             <?php $stt++;
 
@@ -80,6 +80,6 @@ ANT_Section_View::render_section_tag($option, 'ssg_news_branch no_padding');
 
 <?php
 
-ANT_Section_View::render_close_tag();
+WEP_Section_View::render_close_tag();
 
 ?>

@@ -5,14 +5,14 @@
  * 
  */
 
-class ANT_Option {
+class WEP_Option {
 
     private $model;
 
     // Init
     public function __construct() {
 
-        $this->model = new ANT_Option_Model;
+        $this->model = new WEP_Option_Model;
 
         if (function_exists('acf_add_options_page')) {
             acf_add_options_page(

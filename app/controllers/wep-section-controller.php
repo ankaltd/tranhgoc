@@ -3,7 +3,7 @@
 /** 
  * Class for one Section Controller
  */
-class ANT_Section_Controller {
+class WEP_Section_Controller {
     private $model;
     private $view;
     private $section_data;
@@ -11,11 +11,11 @@ class ANT_Section_Controller {
     private $section_option;
 
     /** Init section controller 
-     *  When new Object if default $instance = new ANT_Section_Controller() => that using default model and view
+     *  When new Object if default $instance = new WEP_Section_Controller() => that using default model and view
      *  If yout want using other model and view: 
      *          $model = new Custom_Section_Model;
      *          $view = new Custom_Section_View; 
-     *          => $instance = new ANT_Section_Controller($model, $view);
+     *          => $instance = new WEP_Section_Controller($model, $view);
      * */
     public function __construct($input_model = false, $input_view = false) {
 
@@ -27,13 +27,13 @@ class ANT_Section_Controller {
          */
 
         if (!$input_model) {
-            $this->model = new ANT_Section_Model;
+            $this->model = new WEP_Section_Model;
         } else {
             $this->model = $input_model;
         }
 
         if (!$input_view) {
-            $this->view = new ANT_Section_View;
+            $this->view = new WEP_Section_View;
         } else {
             $this->view = $input_view;
         }

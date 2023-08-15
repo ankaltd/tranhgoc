@@ -38,19 +38,19 @@ $fields = [
 
 // default options merge
 
-$fields += ANT_Option_Model::get_section_options(); 
+$fields += WEP_Option_Model::get_section_options(); 
 
-$fields += ANT_Option_Model::get_heading_options(); 
+$fields += WEP_Option_Model::get_heading_options(); 
 
-$fields += ANT_Option_Model::get_description_options(); 
+$fields += WEP_Option_Model::get_description_options(); 
 
-$fields += ANT_Option_Model::get_background_options(); 
+$fields += WEP_Option_Model::get_background_options(); 
 
 
 
 // Get options
 
-$option = ANT_Option_Model::get_field_values($fields);
+$option = WEP_Option_Model::get_field_values($fields);
 
 extract($option);
 
@@ -70,7 +70,7 @@ $slider_count = count($ssg_testimonial_list);
 
 <?php
 
-ANT_Section_View::render_section_tag($option,'ssg_home_testimonial');
+WEP_Section_View::render_section_tag($option,'ssg_home_testimonial');
 
 ?>
 
@@ -110,15 +110,15 @@ ANT_Section_View::render_section_tag($option,'ssg_home_testimonial');
 
                         <div class="col-12 col-md-7">
 
-                            <p class="ssg_home_testimonial__text" <?php ANT_Section_View::render_item_aos($option, 2, 3) ?> ><?php echo $ssg_testimonial_review; ?></p>
+                            <p class="ssg_home_testimonial__text" <?php WEP_Section_View::render_item_aos($option, 2, 3) ?> ><?php echo $ssg_testimonial_review; ?></p>
 
-                            <h4 class="ssg_home_testimonial__name" <?php ANT_Section_View::render_item_aos($option, 4, 4) ?> ><?php echo $ssg_testimonial_name; ?></h4>
+                            <h4 class="ssg_home_testimonial__name" <?php WEP_Section_View::render_item_aos($option, 4, 4) ?> ><?php echo $ssg_testimonial_name; ?></h4>
 
-                            <p class="ssg_home_testimonial__title" <?php ANT_Section_View::render_item_aos($option, 6, 5) ?> ><?php echo $ssg_testimonial_title; ?></p>
+                            <p class="ssg_home_testimonial__title" <?php WEP_Section_View::render_item_aos($option, 6, 5) ?> ><?php echo $ssg_testimonial_title; ?></p>
 
                         </div>
 
-                        <div class="col-12 col-md-2" <?php ANT_Section_View::render_item_aos($option, 0, 1) ?> >
+                        <div class="col-12 col-md-2" <?php WEP_Section_View::render_item_aos($option, 0, 1) ?> >
 
                             <img src="<?php echo $ssg_testimonial_image; ?>" alt="<?php echo $ssg_testimonial_name; ?>" class="ssg_home_testimonial__avatar img-fluid rounded-circle">
 
@@ -162,6 +162,6 @@ ANT_Section_View::render_section_tag($option,'ssg_home_testimonial');
 
 <?php
 
-ANT_Section_View::render_close_tag();
+WEP_Section_View::render_close_tag();
 
 ?>

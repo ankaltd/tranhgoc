@@ -91,7 +91,7 @@ if ($industry_terms && !is_wp_error($industry_terms)) {
 // Nếu có client khác
 $list_clients = array();
 if ($current_industry) :
-    $other_clients = ANT_Section_Model::get_list_client_by_industry(3, $current_industry);
+    $other_clients = WEP_Section_Model::get_list_client_by_industry(3, $current_industry);
 
     foreach ($other_clients as $client) {
         $list_clients[] = [

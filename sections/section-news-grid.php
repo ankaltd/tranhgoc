@@ -20,9 +20,9 @@ $category_fields = [
 
 
 
-$search_options = ANT_Option_Model::get_field_values($search_fields, true);
+$search_options = WEP_Option_Model::get_field_values($search_fields, true);
 
-$category_options = ANT_Option_Model::get_field_values($category_fields, true);
+$category_options = WEP_Option_Model::get_field_values($category_fields, true);
 
 extract($search_options);
 

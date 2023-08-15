@@ -1,5 +1,5 @@
 <?php
-class ANT_Model {
+class WEP_Model {
     public function get_latest_posts($offset, $posts_per_page) {
         $args = array(
             'post_type' => 'post',

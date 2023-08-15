@@ -4,7 +4,7 @@
  * Class for View template part
  */
 
-class ANT_Part_View extends ANT_View {
+class WEP_Part_View extends WEP_View {
 
     // Render cơ bản view
     public function render($template, $data) {

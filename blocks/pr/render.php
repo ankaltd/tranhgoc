@@ -36,13 +36,13 @@ $fields = [
 
 // default options merge
 
-$fields += ANT_Option_Model::get_section_options();
+$fields += WEP_Option_Model::get_section_options();
 
-$fields += ANT_Option_Model::get_heading_options();
+$fields += WEP_Option_Model::get_heading_options();
 
-$fields += ANT_Option_Model::get_description_options();
+$fields += WEP_Option_Model::get_description_options();
 
-$fields += ANT_Option_Model::get_background_options();
+$fields += WEP_Option_Model::get_background_options();
 
 
 
@@ -50,7 +50,7 @@ $fields += ANT_Option_Model::get_background_options();
 
 // Get options
 
-$option = ANT_Option_Model::get_field_values($fields);
+$option = WEP_Option_Model::get_field_values($fields);
 
 extract($option);
 
@@ -62,11 +62,11 @@ extract($option);
 
 if ($ssg_news_lastest) {
 
-    $data = ANT_Section_Model::get_latest_posts($ssg_news_total, $ssg_news_categories, 'ssg_thumb_news');
+    $data = WEP_Section_Model::get_latest_posts($ssg_news_total, $ssg_news_categories, 'ssg_thumb_news');
 
 } else {
 
-    $data = ANT_Section_Model::get_list_posts($ssg_news_featured_select, 'ssg_thumb_news');
+    $data = WEP_Section_Model::get_list_posts($ssg_news_featured_select, 'ssg_thumb_news');
 
 }
 
@@ -84,7 +84,7 @@ $columns_class = sprintf('col-md-%s', (floor(12 / $ssg_news_columns)));
 
 <?php
 
-ANT_Section_View::render_section_tag($option, 'ssg_home_pr');
+WEP_Section_View::render_section_tag($option, 'ssg_home_pr');
 
 ?>
 
@@ -94,7 +94,7 @@ ANT_Section_View::render_section_tag($option, 'ssg_home_pr');
 
         <?php
 
-        ANT_Section_View::render_section_heading_desc($option);
+        WEP_Section_View::render_section_heading_desc($option);
 
         ?>
 
@@ -152,6 +152,6 @@ ANT_Section_View::render_section_tag($option, 'ssg_home_pr');
 
 <?php
 
-ANT_Section_View::render_close_tag();
+WEP_Section_View::render_close_tag();
 
 ?>

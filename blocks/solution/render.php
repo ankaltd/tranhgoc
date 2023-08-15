@@ -9,21 +9,21 @@ $fields = [];
 
 
 // default options merge
-$fields += ANT_Option_Model::get_content_options();
+$fields += WEP_Option_Model::get_content_options();
 
-$fields += ANT_Option_Model::get_section_options(); 
+$fields += WEP_Option_Model::get_section_options(); 
 
-$fields += ANT_Option_Model::get_heading_options(); 
+$fields += WEP_Option_Model::get_heading_options(); 
 
-$fields += ANT_Option_Model::get_description_options(); 
+$fields += WEP_Option_Model::get_description_options(); 
 
-$fields += ANT_Option_Model::get_background_options(); 
+$fields += WEP_Option_Model::get_background_options(); 
 
 
 
 // Get options
 
-$option = ANT_Option_Model::get_field_values($fields);
+$option = WEP_Option_Model::get_field_values($fields);
 
 extract($option);
 
@@ -31,13 +31,13 @@ extract($option);
 
 // Get data
 
-$data = ANT_Section_Model::get_list_solution($ssg_content_number, $ssg_content_order, 'ssg_thumb_solution');
+$data = WEP_Section_Model::get_list_solution($ssg_content_number, $ssg_content_order, 'ssg_thumb_solution');
 
 
 if ($ssg_content_with_select) {
-    $data = ANT_Section_Model::get_list_posts($ssg_content_selected, 'ssg_thumb_solution');
+    $data = WEP_Section_Model::get_list_posts($ssg_content_selected, 'ssg_thumb_solution');
 } else {
-    $data = ANT_Section_Model::get_list_solution($ssg_content_number, $ssg_content_order, 'ssg_thumb_solution');
+    $data = WEP_Section_Model::get_list_solution($ssg_content_number, $ssg_content_order, 'ssg_thumb_solution');
 }
 
 
@@ -47,7 +47,7 @@ if ($ssg_content_with_select) {
 
 <?php
 
-ANT_Section_View::render_section_tag($option, 'ssg_home_solution no_padding');
+WEP_Section_View::render_section_tag($option, 'ssg_home_solution no_padding');
 
 ?>
 
@@ -57,7 +57,7 @@ ANT_Section_View::render_section_tag($option, 'ssg_home_solution no_padding');
 
         <?php
 
-        ANT_Section_View::render_section_heading_desc($option);
+        WEP_Section_View::render_section_heading_desc($option);
 
         ?>
 
@@ -71,7 +71,7 @@ ANT_Section_View::render_section_tag($option, 'ssg_home_solution no_padding');
 
             <?php extract($item) ?>
 
-            <div class="col ssg_home_solution__wrapper <?php echo $stt == 2 ? 'active' : '' ?>" <?php ANT_Section_View::render_item_aos($option, 3, $stt) ?>  >
+            <div class="col ssg_home_solution__wrapper <?php echo $stt == 2 ? 'active' : '' ?>" <?php WEP_Section_View::render_item_aos($option, 3, $stt) ?>  >
 
                 <div class="ssg_home_solution__slider">
 
@@ -105,6 +105,6 @@ ANT_Section_View::render_section_tag($option, 'ssg_home_solution no_padding');
 
 <?php
 
-ANT_Section_View::render_close_tag();
+WEP_Section_View::render_close_tag();
 
 ?>

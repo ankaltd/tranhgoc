@@ -17,7 +17,7 @@ $category_page_options = [
 ];
 
 // Get options --------------
-$global_options = ANT_Option_Model::get_field_values($category_page_options, true);
+$global_options = WEP_Option_Model::get_field_values($category_page_options, true);
 extract($global_options);
 
 /** Get results ----------------
@@ -25,7 +25,7 @@ extract($global_options);
  * @var $keyword
  * @var $posts
  */
-$news_result = ANT_Section_Model::categoryPosts($ssg_category_page_number_per_page);
+$news_result = WEP_Section_Model::categoryPosts($ssg_category_page_number_per_page);
 extract($news_result);
 
 /* Banner ---------------*/

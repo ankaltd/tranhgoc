@@ -7,7 +7,7 @@
 
 if (!defined('ABSPATH')) return;
 
-class ANT_View {
+class WEP_View {
 
     static $_template_dir;
 
@@ -19,7 +19,7 @@ class ANT_View {
      * 
      */
     static function init() {
-        self::$_template_dir = apply_filters('ANT_Part_View_Part_Dir', '/parts');
+        self::$_template_dir = apply_filters('WEP_Part_View_Part_Dir', '/parts');
     }
 
     static function get_template_dir() {
@@ -64,8 +64,8 @@ class ANT_View {
      */
     static function make_view($view_name, $slug = false, $data = array(), $echo = FALSE, $template_dir = false, $type = '.php') {
 
-        if (!empty($template_dir)) self::$_template_dir = apply_filters('ANT_Part_View_Part_Dir', '/' . $template_dir);
-        else self::$_template_dir = apply_filters('ANT_Part_View_Part_Dir', '/parts');
+        if (!empty($template_dir)) self::$_template_dir = apply_filters('WEP_Part_View_Part_Dir', '/' . $template_dir);
+        else self::$_template_dir = apply_filters('WEP_Part_View_Part_Dir', '/parts');
         $template_path = get_template_directory();
         $stylesheet_path = get_stylesheet_directory();
 
@@ -105,8 +105,8 @@ class ANT_View {
     /** Render View */
     static function show_view($view_name, $slug = false, $data = array(), $echo = TRUE, $template_dir = false, $type = '.php') {
 
-        if (!empty($template_dir)) self::$_template_dir = apply_filters('ANT_Part_View_Part_Dir', '/' . $template_dir);
-        else self::$_template_dir = apply_filters('ANT_Part_View_Part_Dir', '/parts');
+        if (!empty($template_dir)) self::$_template_dir = apply_filters('WEP_Part_View_Part_Dir', '/' . $template_dir);
+        else self::$_template_dir = apply_filters('WEP_Part_View_Part_Dir', '/parts');
         $template_path = get_template_directory();
         $stylesheet_path = get_stylesheet_directory();
 
@@ -147,8 +147,8 @@ class ANT_View {
     static function display_view($view_name, $option = array(), $data = array(), $slug = false, $echo = TRUE, $template_dir = false, $type = '.php') {
 
         // Display content view - CONTINUE CODE HERE
-        if (!empty($template_dir)) self::$_template_dir = apply_filters('ANT_Part_View_Part_Dir', '/' . $template_dir);
-        else self::$_template_dir = apply_filters('ANT_Part_View_Part_Dir', '/parts');
+        if (!empty($template_dir)) self::$_template_dir = apply_filters('WEP_Part_View_Part_Dir', '/' . $template_dir);
+        else self::$_template_dir = apply_filters('WEP_Part_View_Part_Dir', '/parts');
         $template_path = get_template_directory();
         $stylesheet_path = get_stylesheet_directory();
 

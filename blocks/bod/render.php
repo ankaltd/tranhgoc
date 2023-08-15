@@ -17,17 +17,17 @@ $fields = [
 
 // default options merge
 
-$fields += ANT_Option_Model::get_section_options();
+$fields += WEP_Option_Model::get_section_options();
 
-$fields += ANT_Option_Model::get_heading_options();
+$fields += WEP_Option_Model::get_heading_options();
 
-$fields += ANT_Option_Model::get_description_options();
+$fields += WEP_Option_Model::get_description_options();
 
-$fields += ANT_Option_Model::get_background_options();
+$fields += WEP_Option_Model::get_background_options();
 
 
 // Get options
-$option = ANT_Option_Model::get_field_values($fields);
+$option = WEP_Option_Model::get_field_values($fields);
 extract($option);
 
 
@@ -40,7 +40,7 @@ $data = $ssg_people_list;
 
 <?php
 
-ANT_Section_View::render_section_tag($option, 'ssg_concept--section ssg_bod');
+WEP_Section_View::render_section_tag($option, 'ssg_concept--section ssg_bod');
 
 ?>
 
@@ -53,7 +53,7 @@ ANT_Section_View::render_section_tag($option, 'ssg_concept--section ssg_bod');
         <div class="row">
             <?php
 
-            ANT_Section_View::render_section_heading_desc($option);
+            WEP_Section_View::render_section_heading_desc($option);
 
             ?>
 
@@ -66,7 +66,7 @@ ANT_Section_View::render_section_tag($option, 'ssg_concept--section ssg_bod');
 
                 <?php extract($people) ?>
 
-                <div class="ssg_bod__item" <?php ANT_Section_View::render_item_aos($option, 3, $stt) ?>>
+                <div class="ssg_bod__item" <?php WEP_Section_View::render_item_aos($option, 3, $stt) ?>>
 
                     <div class="ssg_bod__thumbnail ssg_margin">
 
@@ -102,7 +102,7 @@ ANT_Section_View::render_section_tag($option, 'ssg_concept--section ssg_bod');
 
             <?php
 
-            ANT_Section_View::render_section_heading_desc($option);
+            WEP_Section_View::render_section_heading_desc($option);
 
             ?>
 
@@ -116,7 +116,7 @@ ANT_Section_View::render_section_tag($option, 'ssg_concept--section ssg_bod');
 
                 <?php extract($people) ?>
 
-                <div class="col" <?php ANT_Section_View::render_item_aos($option, 3, $stt) ?>>
+                <div class="col" <?php WEP_Section_View::render_item_aos($option, 3, $stt) ?>>
 
                     <div class="ssg_bod__item">
 
@@ -150,6 +150,6 @@ ANT_Section_View::render_section_tag($option, 'ssg_concept--section ssg_bod');
 
 <?php
 
-ANT_Section_View::render_close_tag();
+WEP_Section_View::render_close_tag();
 
 ?>

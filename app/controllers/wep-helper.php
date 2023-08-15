@@ -12,7 +12,7 @@
 
 
 
-class ANT_Helper {
+class WEP_Helper {
 
     public function __construct() {
 
