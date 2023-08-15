@@ -85,7 +85,7 @@ class WEP_View {
         }
 
         // Allow View be filter
-        $template = apply_filters('ant_load_view', $template, $view_name, $slug);
+        $template = apply_filters('wep_load_view', $template, $view_name, $slug);
 
         if ($data) extract($data);
 
@@ -126,7 +126,7 @@ class WEP_View {
         }
 
         // Allow View be filter
-        $template = apply_filters('ant_load_view', $template, $view_name, $slug);
+        $template = apply_filters('wep_load_view', $template, $view_name, $slug);
 
         if ($data) extract($data);
 
@@ -168,7 +168,7 @@ class WEP_View {
         }
 
         // Allow View be filter
-        $template = apply_filters('ant_load_view', $template, $view_name, $slug);
+        $template = apply_filters('wep_load_view', $template, $view_name, $slug);
 
         if ($data) extract($data);
         if ($option) extract($option);

@@ -174,7 +174,7 @@ class WEP_Section_View {
         global $current_page;
 
         if (SHOW_HINT) {
-            $text = '<div class="ant_template_hint"><span class="ant_template_hint__content">';
+            $text = '<div class="wep_template_hint"><span class="wep_template_hint__content">';
             $text .= $current_page;
             $text .= '@';
             $text .= WEP_Part_View::get_template_dir();

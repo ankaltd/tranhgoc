@@ -14,9 +14,9 @@ class WEP_ACF_Controller {
 
     public function __construct() {
 
-        add_filter('acf/settings/save_json', [$this, 'ant_acf_json_save_point']);
+        add_filter('acf/settings/save_json', [$this, 'wep_acf_json_save_point']);
 
-        add_filter('acf/settings/load_json', [$this, 'ant_acf_json_load_point']);
+        add_filter('acf/settings/load_json', [$this, 'wep_acf_json_load_point']);
 
 
 
@@ -286,7 +286,7 @@ class WEP_ACF_Controller {
 
     // save local json
 
-    public function ant_acf_json_save_point($path) {
+    public function wep_acf_json_save_point($path) {
 
 
 
@@ -306,7 +306,7 @@ class WEP_ACF_Controller {
 
     // load local json
 
-    public function ant_acf_json_load_point($paths) {
+    public function wep_acf_json_load_point($paths) {
 
 
 

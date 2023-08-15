@@ -10,7 +10,7 @@ class WEP_Router {
     }
 
     // Get current page template file
-    static function ant_page_template() {
+    static function wep_page_template() {
         return get_page_template_slug();
     }
 

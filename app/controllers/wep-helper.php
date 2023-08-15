@@ -58,7 +58,7 @@ class WEP_Helper {
 
      */
 
-    static function ant_get_avatar_size() {
+    static function wep_get_avatar_size() {
 
         return 60;
 
@@ -68,7 +68,7 @@ class WEP_Helper {
 
     /* Convert Typography array to string css*/
 
-    static function ant_get_typography_css($array) {
+    static function wep_get_typography_css($array) {
 
 
 
@@ -106,7 +106,7 @@ class WEP_Helper {
 
 
 
-    static function ant_get_slug_string($normal_str = '') {
+    static function wep_get_slug_string($normal_str = '') {
 
 
 
@@ -212,7 +212,7 @@ class WEP_Helper {
 
      */
 
-    static function ant_continue_reading_text() {
+    static function wep_continue_reading_text() {
 
         $continue_reading = sprintf(
 
@@ -252,7 +252,7 @@ class WEP_Helper {
 
      */
 
-    static function ant_get_icon_svg($group, $icon, $size = 24) {
+    static function wep_get_icon_svg($group, $icon, $size = 24) {
 
         return Twenty_Twenty_One_SVG_Icons::get_svg($group, $icon, $size);
 
@@ -280,7 +280,7 @@ class WEP_Helper {
 
      */
 
-    static function ant_get_non_latin_css($type = 'front-end') {
+    static function wep_get_non_latin_css($type = 'front-end') {
 
 
 
@@ -306,7 +306,7 @@ class WEP_Helper {
 
         $font_family = apply_filters(
 
-            'ant_get_localized_font_family_types',
+            'wep_get_localized_font_family_types',
 
             array(
 
@@ -458,7 +458,7 @@ class WEP_Helper {
 
         $elements = apply_filters(
 
-            'ant_get_localized_font_family_elements',
+            'wep_get_localized_font_family_elements',
 
             array(
 
@@ -486,7 +486,7 @@ class WEP_Helper {
 
         // Include file if function doesn't exist.
 
-        if (!function_exists('ant_generate_css')) {
+        if (!function_exists('wep_generate_css')) {
 
             require_once get_theme_file_path('inc/custom-css.php'); // phpcs:ignore WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 
@@ -496,7 +496,7 @@ class WEP_Helper {
 
         // Return the specified styles.
 
-        return ant_generate_css( // @phpstan-ignore-line.
+        return wep_generate_css( // @phpstan-ignore-line.
 
             implode(',', $elements[$type]),
 
@@ -540,7 +540,7 @@ class WEP_Helper {
 
      */
 
-    static function ant_print_first_instance_of_block($block_name, $content = null, $instances = 1) {
+    static function wep_print_first_instance_of_block($block_name, $content = null, $instances = 1) {
 
         $instances_count = 0;
 
@@ -686,7 +686,7 @@ class WEP_Helper {
 
      */
 
-    static function ant_generate_css($selector, $style, $value, $prefix = '', $suffix = '', $display = true) {
+    static function wep_generate_css($selector, $style, $value, $prefix = '', $suffix = '', $display = true) {
 
 
 
