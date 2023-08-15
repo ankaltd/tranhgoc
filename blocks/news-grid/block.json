@@ -1,10 +1,10 @@
 {
-    "name": "ssg/news-grid",
-    "title": "SSG News Grid",
+    "name": "wep/news-grid",
+    "title": "WEP  News Grid",
     "description": "",
     "style": "file:./style.css",
     "script": "block-news-grid",
-    "category": "ssg-tin-tuc",
+    "category": "wep-tin-tuc",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

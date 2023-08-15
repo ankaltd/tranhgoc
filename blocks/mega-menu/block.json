@@ -1,10 +1,10 @@
 {
-    "name": "ssg/mega-menu",
-    "title": "SSG Mega Menu",
+    "name": "wep/mega-menu",
+    "title": "WEP  Mega Menu",
     "description": "",
     "style": "file:./style.css",
     "script": "block-mega-menu",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

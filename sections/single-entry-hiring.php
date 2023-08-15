@@ -4,9 +4,9 @@
 
 <!-- <?php echo $id; ?> -->
 
-<div class="container justify-content-center ssg_overpage">
+<div class="container justify-content-center wep_overpage">
 
-    <article id="<?php echo $id; ?>" class="<?php echo $class; ?> ssg_concept">
+    <article id="<?php echo $id; ?>" class="<?php echo $class; ?> wep_concept">
 
         <header class="<?php echo $class ?>__header">
 
@@ -20,7 +20,7 @@
 
                 <div class="col-md-4 justify-content-end text-end">
 
-                    <a class="ssg_button ssg_button--primary" href="/hiring-apply?id=<?php echo $post_id ?>">Ứng tuyển</a>
+                    <a class="wep_button wep_button--primary" href="/hiring-apply?id=<?php echo $post_id ?>">Ứng tuyển</a>
 
                 </div>
 

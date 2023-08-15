@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: SSG Builder
+ * Template Name: WEP  Builder
  */
 
 // Header

@@ -1,10 +1,10 @@
 {
-    "name": "ssg/news-branch",
-    "title": "SSG News Branch",
+    "name": "wep/news-branch",
+    "title": "WEP  News Branch",
     "description": "",
     "style": "file:./style.css",
     "script": "block-news-branch",
-    "category": "ssg-tin-tuc",
+    "category": "wep-tin-tuc",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

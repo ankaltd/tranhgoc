@@ -14,9 +14,9 @@ $total_item = count($slider_list);
 
         <div class="row text-center">
 
-            <h2 class="ssg_heading"><?php echo $heading; ?></h2>
+            <h2 class="wep_heading"><?php echo $heading; ?></h2>
 
-            <p class="ssg_description"><?php echo $description; ?></p>
+            <p class="wep_description"><?php echo $description; ?></p>
 
         </div>
 
@@ -46,7 +46,7 @@ $total_item = count($slider_list);
 
                                 <?php if (isset($more_link)) : ?>
 
-                                    <a href="" class="ssg_more_link"><?php echo $more_link['text'] ?></a>
+                                    <a href="" class="wep_more_link"><?php echo $more_link['text'] ?></a>
 
                                 <?php endif; ?>
 

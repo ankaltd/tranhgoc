@@ -1,10 +1,10 @@
 {
-    "name": "ssg/prize",
-    "title": "SSG Prize",
+    "name": "wep/prize",
+    "title": "WEP  Prize",
     "description": "",
     "style": "file:./style.css",
     "script": "block-prize",
-    "category": "ssg-about",
+    "category": "wep-about",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

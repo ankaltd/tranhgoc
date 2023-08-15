@@ -48,7 +48,7 @@ export function initializeSelect2(input_data) {
 
   jQuery(document).ready(function () {
 
-    jQuery("#ssg_language__select2").select2({
+    jQuery("#wep_language__select2").select2({
 
       data: data,
 

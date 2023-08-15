@@ -1,7 +1,7 @@
 // scrollHandling.js
 export function setupScrollHandling() {
   const container = document.querySelector(".container-fluid");
-  const scrollContainer = document.querySelector(".ssg_home_solution__main");
+  const scrollContainer = document.querySelector(".wep_home_solution__main");
 
   function scrollToRight() {
     const scrollAmount = 50; // Khoảng cách cuộn sang trái
@@ -17,8 +17,8 @@ export function setupScrollHandling() {
     container.scrollLeft = scrollContainer.scrollWidth - container.clientWidth;
   }
 
-  const firstItem = document.querySelector(".ssg_home_solution__main .col:first-child");
-  const lastItem = document.querySelector(".ssg_home_solution__main .col:last-child");
+  const firstItem = document.querySelector(".wep_home_solution__main .col:first-child");
+  const lastItem = document.querySelector(".wep_home_solution__main .col:last-child");
 
   if (firstItem && lastItem) {
     firstItem.addEventListener("click", scrollToRight);

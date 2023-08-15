@@ -1,18 +1,18 @@
 <?php
 
-/* About SSG */
+/* About WEP  */
 
 // Load values and assign defaults.
 
 $fields = [
 
-    'ssg_image_src'               => 'https://demo.ssg.vn/wp-content/themes/ssg/assets/images/about/about-ssg-image.png',
+    'wep_image_src'               => 'https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/about/about-wep-image.png',
 
-    'ssg_image_link'              => '#',
+    'wep_image_link'              => '#',
 
-    'ssg_image_target'            => false,
+    'wep_image_target'            => false,
 
-    'ssg_content_html'            => '',
+    'wep_content_html'            => '',
 
 ];
 
@@ -42,11 +42,11 @@ extract($option);
 
 ?>
 
-<!-- ssg_about -->
+<!-- wep_about -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_about');
+WEP_Section_View::render_section_tag($option, 'wep_about');
 
 ?>
 
@@ -54,13 +54,13 @@ WEP_Section_View::render_section_tag($option, 'ssg_about');
 
     <div class="row">
 
-        <h2 class="ssg_heading justify-content-start" <?php WEP_Section_View::render_item_aos($option, 3, 1) ?>  ><?php echo $ssg_heading_text ?></h2>
+        <h2 class="wep_heading justify-content-start" <?php WEP_Section_View::render_item_aos($option, 3, 1) ?>  ><?php echo $wep_heading_text ?></h2>
 
-        <div class="ssg_about__photo" <?php WEP_Section_View::render_item_aos($option, 3, 2) ?> ><img src="<?php echo $ssg_image_src ?>" alt="Về SSG" class="img-fluid ssg_margin--b3"></div>
+        <div class="wep_about__photo" <?php WEP_Section_View::render_item_aos($option, 3, 2) ?> ><img src="<?php echo $wep_image_src ?>" alt="Về WEP " class="img-fluid wep_margin--b3"></div>
 
-        <div class="ssg_about__content" <?php WEP_Section_View::render_item_aos($option, 3, 3) ?> >
+        <div class="wep_about__content" <?php WEP_Section_View::render_item_aos($option, 3, 3) ?> >
 
-            <?php echo $ssg_content_html ?>
+            <?php echo $wep_content_html ?>
 
         </div>
 

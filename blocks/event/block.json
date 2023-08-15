@@ -1,10 +1,10 @@
 {
-    "name": "ssg/event",
-    "title": "SSG Event ",
+    "name": "wep/event",
+    "title": "WEP  Event ",
     "description": "",
     "style": "file:./style.css",
     "script": "block-event",
-    "category": "ssg-home",
+    "category": "wep-home",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

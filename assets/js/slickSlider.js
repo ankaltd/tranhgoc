@@ -4,7 +4,7 @@ jQuery(document).ready(function ($) {
   // Tạo một hàm để gọi các hàm cần thiết => SLIDER SERVER
   var giaTri = $("#totalSlider").val() - 1;
 
-  $(".ssg_home_service__slick").slick({
+  $(".wep_home_service__slick").slick({
     centerMode: true,
 
     centerPadding: "0",
@@ -64,7 +64,7 @@ jQuery(document).ready(function ($) {
     customPaging: function (slider, i) {
       var slide = slider.$slides[i];
 
-      var customClass = "ssg-slick-arrow-class";
+      var customClass = "wep-slick-arrow-class";
 
       $(slide).addClass(customClass);
 
@@ -78,12 +78,12 @@ jQuery(document).ready(function ($) {
 
   // Thêm nội dung sau slider - Select the Slick slider element
 
-  var slickSlider = $(".ssg_home_service__slick");
+  var slickSlider = $(".wep_home_service__slick");
 
   // Create the custom content element
 
   var customContent = $(
-    '<div class="ssg_home_service__center_content"><div class="inner"></div></div>'
+    '<div class="wep_home_service__center_content"><div class="inner"></div></div>'
   );
 
   // Insert the custom content before the Slick slider
@@ -94,7 +94,7 @@ jQuery(document).ready(function ($) {
 
   var centerSlideContent = slickSlider
 
-    .find(".slick-center .ssg_home_service__content")
+    .find(".slick-center .wep_home_service__content")
 
     .html();
 
@@ -104,12 +104,12 @@ jQuery(document).ready(function ($) {
 
   // Attach the afterChange event handler
 
-  $(".ssg_home_service__slick>button").on("click", function (event) {
+  $(".wep_home_service__slick>button").on("click", function (event) {
     // Get the content of the .slick-center element
 
     var centerSlideContent = slickSlider
 
-      .find(".slick-center .ssg_home_service__content")
+      .find(".slick-center .wep_home_service__content")
 
       .html();
 
@@ -118,13 +118,13 @@ jQuery(document).ready(function ($) {
     customContent.find(".inner").html(centerSlideContent);
   });
 
-  // Lấy phần tử .ssg_home_service__center_content và .ssg_home_service__slick
+  // Lấy phần tử .wep_home_service__center_content và .wep_home_service__slick
 
   const centerContentElement = document.querySelector(
-    ".ssg_home_service__center_content"
+    ".wep_home_service__center_content"
   );
 
-  // Hàm để cập nhật độ rộng và padding cho .ssg_home_service__center_content
+  // Hàm để cập nhật độ rộng và padding cho .wep_home_service__center_content
 
   function updateCenterContentWidthAndPadding() {
     // Lấy slide đang hiển thị (slick-current) và slide ở trung tâm (slick-center)
@@ -136,20 +136,20 @@ jQuery(document).ready(function ($) {
 
       const width = currentCenterSlide.outerWidth();
 
-      // Gán độ rộng cho .ssg_home_service__center_content
+      // Gán độ rộng cho .wep_home_service__center_content
 
       centerContentElement.style.width = width + "px";
 
-      // Lấy độ cao của .slick-current.slick-center .ssg_home_service__thumbnail
+      // Lấy độ cao của .slick-current.slick-center .wep_home_service__thumbnail
 
       const thumbnailElement = currentCenterSlide.find(
-        ".ssg_home_service__thumbnail"
+        ".wep_home_service__thumbnail"
       );
 
       if (thumbnailElement.length) {
         const thumbnailHeight = thumbnailElement.outerHeight();
 
-        // Gán độ cao vào padding-top của .ssg_home_service__center_content
+        // Gán độ cao vào padding-top của .wep_home_service__center_content
 
         centerContentElement.style.paddingTop = thumbnailHeight + "px";
       }
@@ -159,10 +159,10 @@ jQuery(document).ready(function ($) {
   // Hàm để cập nhật tọa độ top và left cho các nút .slick-next và .slick-prev
 
   function updateButtonPositions() {
-    // Lấy phần tử .inner bên trong .ssg_home_service__center_content
+    // Lấy phần tử .inner bên trong .wep_home_service__center_content
 
     const centerContentElement = document.querySelector(
-      ".ssg_home_service__center_content"
+      ".wep_home_service__center_content"
     );
 
     const buttonLeft = document.querySelector(".slick-prev");
@@ -227,7 +227,7 @@ jQuery(document).ready(function ($) {
   }
 
   const centerSliderContent = document.querySelector(
-    ".ssg_home_service__center_content"
+    ".wep_home_service__center_content"
   );
 
   if (centerSliderContent) {

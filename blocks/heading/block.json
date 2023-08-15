@@ -1,10 +1,10 @@
 {
-    "name": "ssg/heading",
-    "title": "SSG Heading",
+    "name": "wep/heading",
+    "title": "WEP  Heading",
     "description": "",
     "style": "file:./style.css",
     "script": "block-heading",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

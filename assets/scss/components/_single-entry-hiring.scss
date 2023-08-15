@@ -1,4 +1,4 @@
-.ssg_hiring_single {
+.wep_hiring_single {
     position: relative;
     z-index: 999;
     background-color: #fff;
@@ -31,12 +31,12 @@
 
     &__heading {
         font-size: 32px;
-        color: $ssg_color_primary;
+        color: $wep_color_primary;
     }
 
     &__info {
         background-color: #F3EFEB;
-        color: $ssg_color_primary;
+        color: $wep_color_primary;
         padding: 40px;
         margin-left: -40px;
         margin-right: -40px;        

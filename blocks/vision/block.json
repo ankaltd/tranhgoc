@@ -1,10 +1,10 @@
 {
-    "name": "ssg/vision",
-    "title": "SSG Vision",
+    "name": "wep/vision",
+    "title": "WEP  Vision",
     "description": "",
     "style": "file:./style.css",
     "script": "block-vision",
-    "category": "ssg-about",
+    "category": "wep-about",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

@@ -8,95 +8,95 @@ class WEP_Option_Model {
 
     // Content options
     private static $content_options = [
-        'ssg_content_number'                => 5,
-        'ssg_content_order'                 => 'asc',
-        'ssg_content_with_select'           => false,
-        'ssg_content_show_grid'             => false,
-        'ssg_content_selected'              => array(),
-        'ssg_content_show_elements'         => array(),
+        'wep_content_number'                => 5,
+        'wep_content_order'                 => 'asc',
+        'wep_content_with_select'           => false,
+        'wep_content_show_grid'             => false,
+        'wep_content_selected'              => array(),
+        'wep_content_show_elements'         => array(),
     ];
 
     // Section default
     private static $section_options = [
-        'ssg_section_id'                    => 'ssg_home_service',
-        'ssg_section_classes'               => 'ssg_home_service',
-        'ssg_section_custom_style'          => false,
-        'ssg_section_top_space'             => 100,
-        'ssg_section_bottom_space'          => 100,
-        'ssg_section_custom_css'            => '',
-        'ssg_section_is_anchor'             => false,
-        'ssg_section_effect'                => 'none',
-        'ssg_section_item_effect'           => false,
-        'ssg_section_effect_stay'           => true,
-        'ssg_section_effect_heading_desc'   => 'none',
-        'ssg_section_effect_item'           => 'none',
-        'ssg_section_effect_duration'       => 500,
-        'ssg_section_effect_delay'          => 100,
-        'ssg_section_effect_delay_interval' => 100,
+        'wep_section_id'                    => 'wep_home_service',
+        'wep_section_classes'               => 'wep_home_service',
+        'wep_section_custom_style'          => false,
+        'wep_section_top_space'             => 100,
+        'wep_section_bottom_space'          => 100,
+        'wep_section_custom_css'            => '',
+        'wep_section_is_anchor'             => false,
+        'wep_section_effect'                => 'none',
+        'wep_section_item_effect'           => false,
+        'wep_section_effect_stay'           => true,
+        'wep_section_effect_heading_desc'   => 'none',
+        'wep_section_effect_item'           => 'none',
+        'wep_section_effect_duration'       => 500,
+        'wep_section_effect_delay'          => 100,
+        'wep_section_effect_delay_interval' => 100,
     ];
 
     // Heading default
     private static $heading_options = [
-        'ssg_heading_text'                  => 'Dịch vụ',
-        'ssg_heading_color'                 => '#132239',
-        'ssg_heading_tag'                   => 'h2',
-        'ssg_heading_align'                 => 'justify-content-center',
-        'ssg_heading_margin_bottom'         => 'default',
+        'wep_heading_text'                  => 'Dịch vụ',
+        'wep_heading_color'                 => '#132239',
+        'wep_heading_tag'                   => 'h2',
+        'wep_heading_align'                 => 'justify-content-center',
+        'wep_heading_margin_bottom'         => 'default',
     ];
 
     // Description default
     private static $description_options = [
-        'ssg_description_text'              => '',
-        'ssg_description_color'             => '',
-        'ssg_description_tag'               => 'p',
-        'ssg_description_align'             => 'text-center',
-        'ssg_description_margin_bottom'     => 'default',
-        'ssg_description_font_size'         => 15,
-        'ssg_description_line_height'       => 1.7,
+        'wep_description_text'              => '',
+        'wep_description_color'             => '',
+        'wep_description_tag'               => 'p',
+        'wep_description_align'             => 'text-center',
+        'wep_description_margin_bottom'     => 'default',
+        'wep_description_font_size'         => 15,
+        'wep_description_line_height'       => 1.7,
     ];
 
     // Background default
     private static $background_options = [
-        'ssg_background_src'                => '',
-        'ssg_background_attachment'         => false,
-        'ssg_background_color'              => 'inherit',
-        'ssg_background_align_x'            => 'center',
-        'ssg_background_align_y'            => 'center',
-        'ssg_background_size'               => 'auto',
-        'ssg_background_repeat'             => 'no-repeat',
-        'ssg_background_dark'               => false,
+        'wep_background_src'                => '',
+        'wep_background_attachment'         => false,
+        'wep_background_color'              => 'inherit',
+        'wep_background_align_x'            => 'center',
+        'wep_background_align_y'            => 'center',
+        'wep_background_size'               => 'auto',
+        'wep_background_repeat'             => 'no-repeat',
+        'wep_background_dark'               => false,
     ];
 
     // Image Single default
     private static $image_options = [
-        'ssg_image_src'               => 'https://demo.ssg.vn/wp-content/themes/ssg/assets/images/about/about-value-1.png',
-        'ssg_image_link'              => '#',
-        'ssg_image_target'            => false,
-        'ssg_image_youtube_video'     => false,
-        'ssg_image_youtube_link'      => 'https://www.youtube.com/watch?v=2-VJKjxb4pU',
+        'wep_image_src'               => 'https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/about/about-value-1.png',
+        'wep_image_link'              => '#',
+        'wep_image_target'            => false,
+        'wep_image_youtube_video'     => false,
+        'wep_image_youtube_link'      => 'https://www.youtube.com/watch?v=2-VJKjxb4pU',
     ];
 
     // Video Single default
     private static $video_options = [
-        'ssg_video_src'               => '',
-        'ssg_video_youtube_video'     => false,
-        'ssg_video_youtube_link'      => 'https://www.youtube.com/watch?v=2-VJKjxb4pU',
-        'ssg_video_responsive'        => false,
-        'ssg_video_alignment'         => 'justify-content-center',
-        'ssg_video_width'             => 800,
+        'wep_video_src'               => '',
+        'wep_video_youtube_video'     => false,
+        'wep_video_youtube_link'      => 'https://www.youtube.com/watch?v=2-VJKjxb4pU',
+        'wep_video_responsive'        => false,
+        'wep_video_alignment'         => 'justify-content-center',
+        'wep_video_width'             => 800,
     ];
 
     // News default
     private static $news_options = [
-        'ssg_news_lastest'                  => false,
-        'ssg_news_featured_select'          => array(),
-        'ssg_news_categories'               => 0,
-        'ssg_news_categories_link'          => false,
-        'ssg_news_show_element'             => array(),
-        'ssg_news_total'                    => 6,
-        'ssg_news_columns'                  => 3,
-        'ssg_news_categories_filter'        => false,
-        'ssg_news_page_navigation'          => 'none',
+        'wep_news_lastest'                  => false,
+        'wep_news_featured_select'          => array(),
+        'wep_news_categories'               => 0,
+        'wep_news_categories_link'          => false,
+        'wep_news_show_element'             => array(),
+        'wep_news_total'                    => 6,
+        'wep_news_columns'                  => 3,
+        'wep_news_categories_filter'        => false,
+        'wep_news_page_navigation'          => 'none',
 
     ];
 
@@ -198,7 +198,7 @@ class WEP_Option_Model {
     // Get acf block field values from array with default value
     static function get_field_values($fields, $in_option = false) {
         $result = array();
-        $fiels_false_arr = array('ssg_image_list');
+        $fiels_false_arr = array('wep_image_list');
 
         foreach ($fields as $key => $default) {
 

@@ -1,1 +1,0 @@
-<div id="progress-section" class="ssg_progress_section"></div>

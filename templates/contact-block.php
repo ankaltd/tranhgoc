@@ -22,9 +22,9 @@ get_header();
 
 $section_data = [
 
-    'id' => 'ssg_banner',
+    'id' => 'wep_banner',
 
-    'class' => 'ssg_banner',
+    'class' => 'wep_banner',
 
     'image' => THEME_IMG . '/hiring/hiring-banner.png',
 
@@ -46,9 +46,9 @@ get_template_part('sections/banner', 'photo', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_contact_infor',
+    'id' => 'wep_contact_infor',
 
-    'class' => 'ssg_contact_infor',
+    'class' => 'wep_contact_infor',
 
     'heading' => 'Thông tin liên hệ',
 
@@ -84,7 +84,7 @@ $section_data = [
 
             'title'  => 'Email cho chúng tôi',
 
-            'text'  => '<a href="mail:contact@ssg.vn">contact@ssg.vn</a>',
+            'text'  => '<a href="mail:contact@wep.vn">contact@wep.vn</a>',
 
         ],
 
@@ -100,9 +100,9 @@ get_template_part('sections/contact', 'infor', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_contact_form',
+    'id' => 'wep_contact_form',
 
-    'class' => 'ssg_contact_form',
+    'class' => 'wep_contact_form',
 
     'heading' => 'Gửi thông tin',
 
@@ -118,9 +118,9 @@ get_template_part('sections/contact', 'form', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_contact_map',
+    'id' => 'wep_contact_map',
 
-    'class' => 'ssg_contact_map',
+    'class' => 'wep_contact_map',
 
     'heading' => 'Bản đồ',
 
@@ -140,9 +140,9 @@ get_template_part('sections/contact', 'map', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_contact',
+    'id' => 'wep_home_contact',
 
-    'class' => 'ssg_home_contact',
+    'class' => 'wep_home_contact',
 
     'heading' => 'Hãy để chúng tôi đồng hành cùng bạn trên hành trình chuyển đổi số.',
 

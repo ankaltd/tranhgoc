@@ -23,7 +23,7 @@
         {
             "key": "field_64a91bfda7399",
             "label": "ID Section",
-            "name": "ssg_section_id",
+            "name": "wep_section_id",
             "aria-label": "",
             "type": "text",
             "instructions": "Nhập tên id của section vào đây",
@@ -43,7 +43,7 @@
         {
             "key": "field_64a91c6aa739a",
             "label": "Lớp Class (Danh sách)",
-            "name": "ssg_section_classes",
+            "name": "wep_section_classes",
             "aria-label": "",
             "type": "text",
             "instructions": "Nhập danh sách class bổ sung thêm mỗi tên cách bằng dấu \"cách\"",
@@ -63,7 +63,7 @@
         {
             "key": "field_64c2be63ba2d4",
             "label": "Tùy chỉnh CSS",
-            "name": "ssg_section_custom_style",
+            "name": "wep_section_custom_style",
             "aria-label": "",
             "type": "true_false",
             "instructions": "Thay đổi khoảng cách, bổ sung style CSS tùy biến cho section",
@@ -83,7 +83,7 @@
         {
             "key": "field_64c2bc16c84dc",
             "label": "Khoảng cách trên",
-            "name": "ssg_section_top_space",
+            "name": "wep_section_top_space",
             "aria-label": "",
             "type": "range",
             "instructions": "",
@@ -112,7 +112,7 @@
         {
             "key": "field_64c2bc51c84dd",
             "label": "Khoảng cách dưới",
-            "name": "ssg_section_bottom_space",
+            "name": "wep_section_bottom_space",
             "aria-label": "",
             "type": "range",
             "instructions": "",
@@ -141,7 +141,7 @@
         {
             "key": "field_64a91d12a739b",
             "label": "CSS Tùy biến",
-            "name": "ssg_section_custom_css",
+            "name": "wep_section_custom_css",
             "aria-label": "",
             "type": "textarea",
             "instructions": "Nhập code tùy biến áp dụng cho thành phần vào đây.",
@@ -169,7 +169,7 @@
         {
             "key": "field_64b7a282d9d46",
             "label": "Bổ sung điểm neo",
-            "name": "ssg_section_is_anchor",
+            "name": "wep_section_is_anchor",
             "aria-label": "",
             "type": "true_false",
             "instructions": "Khi chọn là điểm neo, section sẽ được bổ sung lên thanh trượt nhanh tới section ở trên đầu trang.",
@@ -189,7 +189,7 @@
         {
             "key": "field_64be2e02d3469",
             "label": "Hiệu ứng thành phần (item)",
-            "name": "ssg_section_item_effect",
+            "name": "wep_section_item_effect",
             "aria-label": "",
             "type": "true_false",
             "instructions": "Áp các hiệu ứng xuất hiện cho các thành phần như Section, Component, Element,...",
@@ -209,7 +209,7 @@
         {
             "key": "field_64cc743a5ca7c",
             "label": "Hiện lên rồi đứng yên",
-            "name": "ssg_section_effect_stay",
+            "name": "wep_section_effect_stay",
             "aria-label": "",
             "type": "true_false",
             "instructions": "Chọn mục này thì khi hiện thành phần, sẽ giữ nguyên không biến mất khi cuộn ra khỏi khung hình",
@@ -237,7 +237,7 @@
         {
             "key": "field_64b8d0b5313fd",
             "label": "Hiệu ứng xuất hiện (section)",
-            "name": "ssg_section_effect",
+            "name": "wep_section_effect",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -289,7 +289,7 @@
         {
             "key": "field_64be293ef5a09",
             "label": "Hiệu ứng xuất hiện (heading - desc)",
-            "name": "ssg_section_effect_heading_desc",
+            "name": "wep_section_effect_heading_desc",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -341,7 +341,7 @@
         {
             "key": "field_64be2ad0f5a0c",
             "label": "Hiệu ứng xuất hiện (các mục)",
-            "name": "ssg_section_effect_item",
+            "name": "wep_section_effect_item",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -393,7 +393,7 @@
         {
             "key": "field_64be2d3e31ef3",
             "label": "Thời gian hiệu ứng (ms)",
-            "name": "ssg_section_effect_duration",
+            "name": "wep_section_effect_duration",
             "aria-label": "",
             "type": "number",
             "instructions": "",
@@ -423,7 +423,7 @@
         {
             "key": "field_64be29fef5a0a",
             "label": "Thời gian trễ thành phần đầu tiên (ms)",
-            "name": "ssg_section_effect_delay",
+            "name": "wep_section_effect_delay",
             "aria-label": "",
             "type": "number",
             "instructions": "",
@@ -453,7 +453,7 @@
         {
             "key": "field_64be2a3af5a0b",
             "label": "Thời gian trễ thành phần cách nhau (ms)",
-            "name": "ssg_section_effect_delay_interval",
+            "name": "wep_section_effect_delay_interval",
             "aria-label": "",
             "type": "number",
             "instructions": "",

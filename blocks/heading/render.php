@@ -18,7 +18,7 @@ extract($option);
 
 
 
-<div class="ssg_block">
+<div class="wep_block">
 
     <?php
 

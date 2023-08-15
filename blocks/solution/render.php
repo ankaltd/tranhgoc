@@ -31,29 +31,29 @@ extract($option);
 
 // Get data
 
-$data = WEP_Section_Model::get_list_solution($ssg_content_number, $ssg_content_order, 'ssg_thumb_solution');
+$data = WEP_Section_Model::get_list_solution($wep_content_number, $wep_content_order, 'wep_thumb_solution');
 
 
-if ($ssg_content_with_select) {
-    $data = WEP_Section_Model::get_list_posts($ssg_content_selected, 'ssg_thumb_solution');
+if ($wep_content_with_select) {
+    $data = WEP_Section_Model::get_list_posts($wep_content_selected, 'wep_thumb_solution');
 } else {
-    $data = WEP_Section_Model::get_list_solution($ssg_content_number, $ssg_content_order, 'ssg_thumb_solution');
+    $data = WEP_Section_Model::get_list_solution($wep_content_number, $wep_content_order, 'wep_thumb_solution');
 }
 
 
 ?>
 
-<!-- ssg_home_solution -->
+<!-- wep_home_solution -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_home_solution no_padding');
+WEP_Section_View::render_section_tag($option, 'wep_home_solution no_padding');
 
 ?>
 
 <div class="container-fluid mx-0 g-0">
 
-    <div class="ssg_home_solution__header row text-center mx-0">
+    <div class="wep_home_solution__header row text-center mx-0">
 
         <?php
 
@@ -63,7 +63,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_solution no_padding');
 
     </div>
 
-    <div class="ssg_home_solution__main row mx-0 gx-0 justify-content-center">
+    <div class="wep_home_solution__main row mx-0 gx-0 justify-content-center">
 
         <?php $stt = 0;
 
@@ -71,21 +71,21 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_solution no_padding');
 
             <?php extract($item) ?>
 
-            <div class="col ssg_home_solution__wrapper <?php echo $stt == 2 ? 'active' : '' ?>" <?php WEP_Section_View::render_item_aos($option, 3, $stt) ?>  >
+            <div class="col wep_home_solution__wrapper <?php echo $stt == 2 ? 'active' : '' ?>" <?php WEP_Section_View::render_item_aos($option, 3, $stt) ?>  >
 
-                <div class="ssg_home_solution__slider">
+                <div class="wep_home_solution__slider">
 
-                    <div class="ssg_home_solution__thumbnail">
+                    <div class="wep_home_solution__thumbnail">
 
                         <img src="<?php echo $thumbnail ?>" alt="<?php echo $title ?>">
 
                     </div>
 
-                    <div class="ssg_home_solution__content">
+                    <div class="wep_home_solution__content">
 
                         <h5><?php echo $title ?></h5>
 
-                        <a class="ssg_button ssg_button--blue" href="<?php echo $permalink ?>">Xem thêm</a>
+                        <a class="wep_button wep_button--blue" href="<?php echo $permalink ?>">Xem thêm</a>
 
                     </div>
 

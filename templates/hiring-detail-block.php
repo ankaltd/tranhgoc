@@ -22,9 +22,9 @@ get_header();
 
 $section_data = [
 
-    'id' => 'ssg_banner',
+    'id' => 'wep_banner',
 
-    'class' => 'ssg_banner',
+    'class' => 'wep_banner',
 
     'image' => THEME_IMG . '/hiring/hiring-banner.png',
 
@@ -40,9 +40,9 @@ get_template_part('sections/banner', 'photo', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_hiring_single',
+    'id' => 'wep_hiring_single',
 
-    'class' => 'ssg_hiring_single',
+    'class' => 'wep_hiring_single',
 
     'heading' => 'Account Manager (Digital Marketing)',
 
@@ -114,9 +114,9 @@ get_template_part('sections/single', 'entry-hiring', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_hirring_apply',
+    'id' => 'wep_hirring_apply',
 
-    'class' => 'ssg_hirring_apply',
+    'class' => 'wep_hirring_apply',
 
     'heading' => 'Thông tin ứng tuyển',
 
@@ -130,9 +130,9 @@ get_template_part('sections/hiring', 'apply', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_contact',
+    'id' => 'wep_home_contact',
 
-    'class' => 'ssg_home_contact',
+    'class' => 'wep_home_contact',
 
     'heading' => 'Hãy để chúng tôi đồng hành cùng bạn trên hành trình chuyển đổi số.',
 

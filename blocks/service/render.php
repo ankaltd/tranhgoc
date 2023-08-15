@@ -30,25 +30,25 @@ extract($option);
 
 // Get data
 
-if ($ssg_content_with_select) {
-    $data = WEP_Section_Model::get_list_posts($ssg_content_selected, 'ssg_thumb_service');
+if ($wep_content_with_select) {
+    $data = WEP_Section_Model::get_list_posts($wep_content_selected, 'wep_thumb_service');
 } else {
-    $data = WEP_Section_Model::get_list_service($ssg_content_number + 1, $ssg_content_order, 'ssg_thumb_service');
+    $data = WEP_Section_Model::get_list_service($wep_content_number + 1, $wep_content_order, 'wep_thumb_service');
 }
 
 ?>
 
-<!-- ssg_home_service -->
+<!-- wep_home_service -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_home_service');
+WEP_Section_View::render_section_tag($option, 'wep_home_service');
 
 ?>
 
 <div class="container">
 
-    <div class="row text-center ssg_home_service_heading">
+    <div class="row text-center wep_home_service_heading">
 
         <?php
 
@@ -56,15 +56,15 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_service');
 
         ?>
 
-        <input type="hidden" id="totalSlider" value="<?php echo $ssg_content_number + 1 ?>">
+        <input type="hidden" id="totalSlider" value="<?php echo $wep_content_number + 1 ?>">
 
     </div>
 
     <?php
-    $is_slider_class = 'ssg_home_service__slick';
+    $is_slider_class = 'wep_home_service__slick';
     $col_slider_class = 'col';
     $col_content_class = '';
-    if ($ssg_content_show_grid) {
+    if ($wep_content_show_grid) {
         $is_slider_class = '';
         $col_slider_class = 'col-12 col-md-3';
         $col_content_class = 'pt-4 d-block';
@@ -83,49 +83,49 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_service');
 
                 <div class="service_wrapper">
 
-                    <?php if ($ssg_content_show_grid) : ?>
-                        <div class="ssg_home_service__slider <?php echo $stt == 200 ? 'active' : '' ?>">
+                    <?php if ($wep_content_show_grid) : ?>
+                        <div class="wep_home_service__slider <?php echo $stt == 200 ? 'active' : '' ?>">
                         <?php endif; ?>
 
-                        <?php if (in_array('thumbnail', $ssg_content_show_elements)) : ?>
+                        <?php if (in_array('thumbnail', $wep_content_show_elements)) : ?>
 
-                            <div class="ssg_home_service__thumbnail">
-                                <?php if (in_array('link', $ssg_content_show_elements)) : ?>
+                            <div class="wep_home_service__thumbnail">
+                                <?php if (in_array('link', $wep_content_show_elements)) : ?>
 
                                     <a href="<?php echo $permalink ?>">
                                     <?php endif; ?>
                                     <img src="<?php echo $thumbnail ?>" alt="<?php echo $title ?>" class="img-fluid">
-                                    <?php if (in_array('link', $ssg_content_show_elements)) : ?>
+                                    <?php if (in_array('link', $wep_content_show_elements)) : ?>
                                     </a>
 
                                 <?php endif; ?>
                             </div> <?php endif; ?>
 
-                        <div class="ssg_home_service__content <?php echo $col_content_class ?>">
+                        <div class="wep_home_service__content <?php echo $col_content_class ?>">
 
-                            <?php if (in_array('title', $ssg_content_show_elements)) : ?>
+                            <?php if (in_array('title', $wep_content_show_elements)) : ?>
                                 <h4>
-                                    <?php if (in_array('link', $ssg_content_show_elements)) : ?>
+                                    <?php if (in_array('link', $wep_content_show_elements)) : ?>
                                         <a href="<?php echo $permalink ?>">
                                         <?php endif; ?>
                                         <?php echo $title ?>
-                                        <?php if (in_array('link', $ssg_content_show_elements)) : ?>
+                                        <?php if (in_array('link', $wep_content_show_elements)) : ?>
                                         </a>
                                     <?php endif; ?>
                                 </h4>
                             <?php endif; ?>
 
-                            <?php if (in_array('summary', $ssg_content_show_elements)) : ?>
+                            <?php if (in_array('summary', $wep_content_show_elements)) : ?>
                                 <p><?php echo $excerpt ?></p>
                             <?php endif ?>
 
-                            <?php if (in_array('readmore', $ssg_content_show_elements)) : ?>
-                                <a href="<?php echo $permalink ?>" class="ssg_more_link"><?php _e('Xem thêm', 'ssg') ?></a>
+                            <?php if (in_array('readmore', $wep_content_show_elements)) : ?>
+                                <a href="<?php echo $permalink ?>" class="wep_more_link"><?php _e('Xem thêm', 'wep') ?></a>
                             <?php endif; ?>
 
                         </div>
 
-                        <?php if ($ssg_content_show_grid) : ?>
+                        <?php if ($wep_content_show_grid) : ?>
                         </div>
                     <?php endif; ?>
 

@@ -1,10 +1,10 @@
 {
-    "name": "ssg/hiring-benefit",
-    "title": "SSG Hiring Benefit",
+    "name": "wep/hiring-benefit",
+    "title": "WEP  Hiring Benefit",
     "description": "",
     "style": "file:./style.css",
     "script": "block-hiring-benefit",
-    "category": "ssg-hiring",
+    "category": "wep-hiring",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

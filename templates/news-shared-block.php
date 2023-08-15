@@ -18,9 +18,9 @@ get_header();
 
 $section_data = [
 
-    'id' => 'ssg_banner',
+    'id' => 'wep_banner',
 
-    'class' => 'ssg_banner',
+    'class' => 'wep_banner',
 
     'image' => THEME_IMG . '/news/news-banner.png',
 
@@ -40,9 +40,9 @@ get_template_part('sections/banner', 'photo', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_news',
+    'id' => 'wep_news',
 
-    'class' => 'ssg_news_grid',
+    'class' => 'wep_news_grid',
 
     // 'heading' => 'Tin tức',
 
@@ -70,7 +70,7 @@ $section_data = [
 
             'title' => 'Hội thảo giới thiệu giải pháp lập báo cáo quản trị thông minh',
 
-            'text' => 'Ngày 18/11/2010, Công ty Cổ phần Giải pháp Quản lý Quốc tế Hồng Quang (SSG) phối hợp cùng Oracle Việt Nam'
+            'text' => 'Ngày 18/11/2010, Công ty Cổ phần Giải pháp Quản lý Quốc tế Hồng Quang (WEP ) phối hợp cùng Oracle Việt Nam'
 
         ],
 
@@ -94,7 +94,7 @@ $section_data = [
 
             'title' => 'Hội thảo Giải pháp - Dịch vụ - Hạ tầng cho ngành Vận tải',
 
-            'text' => 'Công ty giải pháp quản lý SSG phối hợp cùng với hãng phần mềm Oracle và đối tác HP cùng tổ chức buổi hội thảo'
+            'text' => 'Công ty giải pháp quản lý WEP  phối hợp cùng với hãng phần mềm Oracle và đối tác HP cùng tổ chức buổi hội thảo'
 
         ],
 
@@ -118,7 +118,7 @@ $section_data = [
 
             'title' => 'Hội thảo giới thiệu giải pháp lập báo cáo quản trị thông minh',
 
-            'text' => 'Ngày 18/11/2010, Công ty Cổ phần Giải pháp Quản lý Quốc tế Hồng Quang (SSG) phối hợp cùng Oracle Việt Nam'
+            'text' => 'Ngày 18/11/2010, Công ty Cổ phần Giải pháp Quản lý Quốc tế Hồng Quang (WEP ) phối hợp cùng Oracle Việt Nam'
 
         ],
 
@@ -142,7 +142,7 @@ $section_data = [
 
             'title' => 'Hội thảo Giải pháp - Dịch vụ - Hạ tầng cho ngành Vận tải',
 
-            'text' => 'Công ty giải pháp quản lý SSG phối hợp cùng với hãng phần mềm Oracle và đối tác HP cùng tổ chức buổi hội thảo'
+            'text' => 'Công ty giải pháp quản lý WEP  phối hợp cùng với hãng phần mềm Oracle và đối tác HP cùng tổ chức buổi hội thảo'
 
         ],
 
@@ -166,7 +166,7 @@ $section_data = [
 
             'title' => 'Hội thảo giới thiệu giải pháp lập báo cáo quản trị thông minh',
 
-            'text' => 'Ngày 18/11/2010, Công ty Cổ phần Giải pháp Quản lý Quốc tế Hồng Quang (SSG) phối hợp cùng Oracle Việt Nam'
+            'text' => 'Ngày 18/11/2010, Công ty Cổ phần Giải pháp Quản lý Quốc tế Hồng Quang (WEP ) phối hợp cùng Oracle Việt Nam'
 
         ],
 
@@ -190,7 +190,7 @@ $section_data = [
 
             'title' => 'Hội thảo Giải pháp - Dịch vụ - Hạ tầng cho ngành Vận tải',
 
-            'text' => 'Công ty giải pháp quản lý SSG phối hợp cùng với hãng phần mềm Oracle và đối tác HP cùng tổ chức buổi hội thảo'
+            'text' => 'Công ty giải pháp quản lý WEP  phối hợp cùng với hãng phần mềm Oracle và đối tác HP cùng tổ chức buổi hội thảo'
 
         ],
 
@@ -206,9 +206,9 @@ get_template_part('sections/section', 'news-grid', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_contact',
+    'id' => 'wep_home_contact',
 
-    'class' => 'ssg_home_contact',
+    'class' => 'wep_home_contact',
 
     'heading' => 'Hãy để chúng tôi đồng hành cùng bạn trên hành trình chuyển đổi số.',
 

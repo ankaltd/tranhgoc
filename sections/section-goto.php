@@ -20,17 +20,17 @@
 
                 $section_data = [
 
-                    'id' => 'ssg_progress_section',
+                    'id' => 'wep_progress_section',
 
-                    'class' => 'ssg_progress_section',
+                    'class' => 'wep_progress_section',
 
-                    'heading' => 'Giới thiệu về SSG',
+                    'heading' => 'Giới thiệu về WEP ',
 
                     'description' => 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical',
 
                 ];
 
-                get_template_part('blocks/ssg', 'progress-section', $section_data);
+                get_template_part('blocks/wep', 'progress-section', $section_data);
 
                 ?>
 

@@ -1,10 +1,10 @@
 {
-    "name": "ssg/ssg-two-cols",
-    "title": "SSG Two Cols",
+    "name": "wep/wep-two-cols",
+    "title": "WEP  Two Cols",
     "description": "",
     "style": "file:./style.css",
     "script": "block-two-cols",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

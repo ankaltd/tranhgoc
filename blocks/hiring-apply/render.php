@@ -2,29 +2,29 @@
 
 /* Hiring Benefit */
 
-$tag = get_field('ssg_heading_tag');
+$tag = get_field('wep_heading_tag');
 
-$color = get_field('ssg_heading_color');
+$color = get_field('wep_heading_color');
 
-$text = get_field('ssg_heading_text');
+$text = get_field('wep_heading_text');
 
-$align = get_field('ssg_heading_align');
+$align = get_field('wep_heading_align');
 
-$margin = get_field('ssg_margin_bottom');
+$margin = get_field('wep_margin_bottom');
 
 ?>
 
 
 
-<!-- ssg_hirring_apply -->
+<!-- wep_hirring_apply -->
 
-<section id="ssg_hirring_apply">
+<section id="wep_hirring_apply">
 
-    <div class="container ssg_hirring_apply justify-content-center">
+    <div class="container wep_hirring_apply justify-content-center">
 
         <div class="row">
 
-            <h2 class="text-center ssg_heading">Thông tin ứng tuyển</h2>
+            <h2 class="text-center wep_heading">Thông tin ứng tuyển</h2>
 
         </div>
 
@@ -108,7 +108,7 @@ $margin = get_field('ssg_margin_bottom');
 
             <div class="col-md-8 text-center">
 
-                <button class="ssg_button ssg_button--primary">Ứng tuyển</button>
+                <button class="wep_button wep_button--primary">Ứng tuyển</button>
 
             </div>
 

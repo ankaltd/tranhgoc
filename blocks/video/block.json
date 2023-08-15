@@ -1,10 +1,10 @@
 {
-    "name": "ssg/ssg-video",
-    "title": "SSG Video",
+    "name": "wep/wep-video",
+    "title": "WEP  Video",
     "description": "",
     "style": "file:./style.css",
     "script": "style",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

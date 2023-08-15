@@ -11,10 +11,10 @@
             </div>
             <div class="modal-body">
                 <!-- Form input search -->
-                <input class="<?php echo $class; ?>__input ssg_margin search-field" type="search" placeholder="Nhập nội dung cần tìm">
+                <input class="<?php echo $class; ?>__input wep_margin search-field" type="search" placeholder="Nhập nội dung cần tìm">
 
                 <!-- Sử dụng thẻ button để tạo nút submit -->
-                <input type="submit" class="ssg_button ssg_button--primary float-end" id="ssg_search" value="Tìm kiếm" />
+                <input type="submit" class="wep_button wep_button--primary float-end" id="wep_search" value="Tìm kiếm" />
 
             </div>
         </div>

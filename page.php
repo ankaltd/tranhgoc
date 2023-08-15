@@ -14,9 +14,9 @@
 
  * @package WordPress
 
- * @subpackage SSG
+ * @subpackage WEP 
 
- * @since SSG 1.0
+ * @since WEP  1.0
 
  */
 
@@ -46,7 +46,7 @@ get_header();
 
             <div class="col-10">
 
-                <h1 class="ssg_heading ssg_margin--b3 text-start justify-content-start"><?php the_title(); ?></h1>
+                <h1 class="wep_heading wep_margin--b3 text-start justify-content-start"><?php the_title(); ?></h1>
 
             </div>
 

@@ -2,21 +2,21 @@
 
 /* Contact Form */
 
-$tag = get_field('ssg_heading_tag');
+$tag = get_field('wep_heading_tag');
 
-$color = get_field('ssg_heading_color');
+$color = get_field('wep_heading_color');
 
-$text = get_field('ssg_heading_text');
+$text = get_field('wep_heading_text');
 
-$align = get_field('ssg_heading_align');
+$align = get_field('wep_heading_align');
 
-$margin = get_field('ssg_margin_bottom');
+$margin = get_field('wep_margin_bottom');
 
 ?>
 
-<!-- ssg_contact_map -->
+<!-- wep_contact_map -->
 
-<section id="ssg_contact_map" class="ssg_contact_map">
+<section id="wep_contact_map" class="wep_contact_map">
 
     <div class="container-fluid mx-0 g-0 embed-responsive">
 

@@ -1,6 +1,6 @@
 /* Kiểu dáng cho block mặc định */
 html :where(.editor-styles-wrapper) {
-    color: $ssg_color_text;
+    color: $wep_color_text;
     font-family: "Lexend Deca", sans-serif;
 
     h1,
@@ -55,10 +55,10 @@ html :where(.editor-styles-wrapper) {
     }
 }
 
-.ssg_block {
+.wep_block {
     margin-top: 28px;
     margin-bottom: 28px;
-    color: $ssg_color_text;
+    color: $wep_color_text;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
@@ -68,7 +68,7 @@ html :where(.editor-styles-wrapper) {
 /* Block Paragraph */
 .wp-block-paragraph {
     /* CSS của block Paragraph */
-    color: $ssg_color_text;
+    color: $wep_color_text;
     font-size: 15px;
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
@@ -78,7 +78,7 @@ html :where(.editor-styles-wrapper) {
 /* Block Heading */
 .wp-block-heading {
     /* CSS của block Heading */
-    color: $ssg_color_primary;
+    color: $wep_color_primary;
     font-size: 2.4rem;
     font-family: "Lexend Deca", sans-serif;
     font-weight: 600;
@@ -128,7 +128,7 @@ h6.wp-block-heading {
 
 /* Và các block khác... */
 .wp-block-quote {
-    color: $ssg_color_primary;
+    color: $wep_color_primary;
     font-size: 16px;
     font-family: "Lexend Deca", sans-serif;
     font-weight: 500;

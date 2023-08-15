@@ -30,9 +30,9 @@ get_header();
 
             $section_data = [
 
-                'id' => 'ssg_entry_single',
+                'id' => 'wep_entry_single',
 
-                'class' => 'ssg_entry_single',
+                'class' => 'wep_entry_single',
 
                 'heading' => 'Công bố nghiệm thu thành công hệ thống ERP cho Công ty Tài chính Ngân hàng TMCP Sài Gòn - Hà Nội (SHB Finance) - Ngày 20/08/2021',
 
@@ -50,7 +50,7 @@ get_header();
 
                     </p><p>
 
-                    Dự án triển khai Oracle Financials với giải pháp Best Practice của SSG cho mảng Tài chính Ngân hàng. Triển khai trong vòng 05 tháng, đã đưa vào vận hành thành công với các phân hệ: Kế toán Tổng hợp; Kế toán Tài sản; Kế toán Phải thu; Kế toán Phải trả; Quản lý Tiền.
+                    Dự án triển khai Oracle Financials với giải pháp Best Practice của WEP  cho mảng Tài chính Ngân hàng. Triển khai trong vòng 05 tháng, đã đưa vào vận hành thành công với các phân hệ: Kế toán Tổng hợp; Kế toán Tài sản; Kế toán Phải thu; Kế toán Phải trả; Quản lý Tiền.
 
                     </p><p>
 
@@ -80,9 +80,9 @@ get_header();
 
             $section_data = [
 
-                'id' => 'ssg_sidebar',
+                'id' => 'wep_sidebar',
 
-                'class' => 'ssg_sidebar',
+                'class' => 'wep_sidebar',
 
             ];
 
@@ -106,9 +106,9 @@ get_header();
 
 $section_data = [
 
-    'id' => 'ssg_home_contact',
+    'id' => 'wep_home_contact',
 
-    'class' => 'ssg_home_contact',
+    'class' => 'wep_home_contact',
 
     'heading' => 'Hãy để chúng tôi đồng hành cùng bạn trên hành trình chuyển đổi số.',
 

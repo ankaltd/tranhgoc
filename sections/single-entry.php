@@ -12,7 +12,7 @@ extract($args);
 
     <header class="<?php echo $class ?>__header">
 
-        <h1 class="ssg_heading text-start"><?php echo $heading; ?></h1>
+        <h1 class="wep_heading text-start"><?php echo $heading; ?></h1>
 
         <div class="row">
 

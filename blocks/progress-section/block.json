@@ -1,10 +1,10 @@
 {
-    "name": "ssg/progress-section",
-    "title": "SSG Progress Section",
+    "name": "wep/progress-section",
+    "title": "WEP  Progress Section",
     "description": "",
     "style": "file:./style.css",
     "script": "block-progress-section",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

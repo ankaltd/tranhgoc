@@ -8,15 +8,15 @@ $fields = [
 
     // Content
 
-    'ssg_content_image_responsive'      => true,
+    'wep_content_image_responsive'      => true,
 
-    'ssg_content_list'                  => array(),
+    'wep_content_list'                  => array(),
 
-    'ssg_content_image_align'           => 0,
+    'wep_content_image_align'           => 0,
 
-    'ssg_content_text_align'            => 0,
+    'wep_content_text_align'            => 0,
 
-    'ssg_content_show_element'          => array(),
+    'wep_content_show_element'          => array(),
 
 ];
 
@@ -46,7 +46,7 @@ extract($option);
 
 // Get data content
 
-$data = $ssg_content_list;
+$data = $wep_content_list;
 
 
 
@@ -54,11 +54,11 @@ $data = $ssg_content_list;
 
 ?>
 
-<!-- ssg_culture -->
+<!-- wep_culture -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_concept--section');
+WEP_Section_View::render_section_tag($option, 'wep_concept--section');
 
 ?>
 
@@ -74,7 +74,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_concept--section');
 
     </div>
 
-    <div class="row row-cols-1 row-cols-md-3 justify-content-center ssg_margin--b4">
+    <div class="row row-cols-1 row-cols-md-3 justify-content-center wep_margin--b4">
 
         <?php $stt=0; foreach ($data as $history) : ?>
 
@@ -82,11 +82,11 @@ WEP_Section_View::render_section_tag($option, 'ssg_concept--section');
 
             <div class="col g-4" <?php WEP_Section_View::render_item_aos($option, 3, $stt) ?> >
 
-                <div class="ssg_culture__item">
+                <div class="wep_culture__item">
 
                     <div class="content">
 
-                        <h4><?php echo $ssg_content_title ?></h4>
+                        <h4><?php echo $wep_content_title ?></h4>
 
                     </div>
 

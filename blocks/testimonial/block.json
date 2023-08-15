@@ -1,10 +1,10 @@
 {
-    "name": "ssg/testimonial",
-    "title": "SSG Testimonial",
+    "name": "wep/testimonial",
+    "title": "WEP  Testimonial",
     "description": "",
     "style": "file:./style.css",
     "script": "block-testimonial",
-    "category": "ssg-home",
+    "category": "wep-home",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

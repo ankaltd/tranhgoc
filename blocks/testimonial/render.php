@@ -8,25 +8,25 @@ $fields = [
 
    
 
-    'ssg_content_number'                => 5,
+    'wep_content_number'                => 5,
 
-    'ssg_content_order'                 => 'asc',
+    'wep_content_order'                 => 'asc',
 
     
 
     // Data Repeat
 
-    'ssg_testimonial_list'              => array(
+    'wep_testimonial_list'              => array(
 
         array(
 
-            'ssg_testimonial_review'            => 'Sản phẩm rất chi là tuyệt vời',
+            'wep_testimonial_review'            => 'Sản phẩm rất chi là tuyệt vời',
 
-            'ssg_testimonial_image'             => 'https://demo.ssg.vn/wp-content/themes/ssg/assets/images/home/home-testimonial-avatar.png',
+            'wep_testimonial_image'             => 'https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/home/home-testimonial-avatar.png',
 
-            'ssg_testimonial_name'              => 'Trần Thanh Tâm',
+            'wep_testimonial_name'              => 'Trần Thanh Tâm',
 
-            'ssg_testimonial_title'             => 'Marketing Director',
+            'wep_testimonial_title'             => 'Marketing Director',
 
         ),
 
@@ -58,19 +58,19 @@ extract($option);
 
 // Get data testimonial from Option
 
-$data = $ssg_testimonial_list;
+$data = $wep_testimonial_list;
 
-$slider_count = count($ssg_testimonial_list);
+$slider_count = count($wep_testimonial_list);
 
 
 
 ?>
 
-<!-- ssg_home_testimonial -->
+<!-- wep_home_testimonial -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option,'ssg_home_testimonial');
+WEP_Section_View::render_section_tag($option,'wep_home_testimonial');
 
 ?>
 
@@ -100,27 +100,27 @@ WEP_Section_View::render_section_tag($option,'ssg_home_testimonial');
 
             <?php $stt = 0; ?>
 
-            <?php foreach ($ssg_testimonial_list as $item) : ?>
+            <?php foreach ($wep_testimonial_list as $item) : ?>
 
                 <?php extract($item); ?>
 
-                <div class="ssg_home_testimonial__slider text-center carousel-item <?php echo $stt == 0 ? 'active' : '' ?>">
+                <div class="wep_home_testimonial__slider text-center carousel-item <?php echo $stt == 0 ? 'active' : '' ?>">
 
                     <div class="row row-cols-1 row-cols-md-2 justify-content-center">
 
                         <div class="col-12 col-md-7">
 
-                            <p class="ssg_home_testimonial__text" <?php WEP_Section_View::render_item_aos($option, 2, 3) ?> ><?php echo $ssg_testimonial_review; ?></p>
+                            <p class="wep_home_testimonial__text" <?php WEP_Section_View::render_item_aos($option, 2, 3) ?> ><?php echo $wep_testimonial_review; ?></p>
 
-                            <h4 class="ssg_home_testimonial__name" <?php WEP_Section_View::render_item_aos($option, 4, 4) ?> ><?php echo $ssg_testimonial_name; ?></h4>
+                            <h4 class="wep_home_testimonial__name" <?php WEP_Section_View::render_item_aos($option, 4, 4) ?> ><?php echo $wep_testimonial_name; ?></h4>
 
-                            <p class="ssg_home_testimonial__title" <?php WEP_Section_View::render_item_aos($option, 6, 5) ?> ><?php echo $ssg_testimonial_title; ?></p>
+                            <p class="wep_home_testimonial__title" <?php WEP_Section_View::render_item_aos($option, 6, 5) ?> ><?php echo $wep_testimonial_title; ?></p>
 
                         </div>
 
                         <div class="col-12 col-md-2" <?php WEP_Section_View::render_item_aos($option, 0, 1) ?> >
 
-                            <img src="<?php echo $ssg_testimonial_image; ?>" alt="<?php echo $ssg_testimonial_name; ?>" class="ssg_home_testimonial__avatar img-fluid rounded-circle">
+                            <img src="<?php echo $wep_testimonial_image; ?>" alt="<?php echo $wep_testimonial_name; ?>" class="wep_home_testimonial__avatar img-fluid rounded-circle">
 
                         </div>
 

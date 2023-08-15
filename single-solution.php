@@ -14,9 +14,9 @@
 
  * @package WordPress
 
- * @subpackage SSG
+ * @subpackage WEP 
 
- * @since SSG 1.0
+ * @since WEP  1.0
 
  */
 

@@ -1,10 +1,10 @@
 {
-    "name": "ssg/text",
-    "title": "SSG HTML Text",
+    "name": "wep/text",
+    "title": "WEP  HTML Text",
     "description": "",
     "style": "file:./style.css",
     "script": "block-text",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

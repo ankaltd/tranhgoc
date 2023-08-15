@@ -5,7 +5,7 @@ $total_slider = count($quote_list);
 ?>
 
 <!-- <?php echo $id; ?> -->
-<section id="<?php echo $id; ?>" class="<?php echo $class; ?> ssg_bg_dark">
+<section id="<?php echo $id; ?>" class="<?php echo $class; ?> wep_bg_dark">
     <div class="container">
         <div id="TestimonialSlider" class="carousel slide" data-bs-ride="carousel">
             <?php if ($total_slider > 1) : ?>

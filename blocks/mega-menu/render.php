@@ -28,9 +28,9 @@ $top_menu = WEP_Menu::get_menu_items_recursive($menu_items);
 
 
 
-    <!-- ssg_mega_menu -->
+    <!-- wep_mega_menu -->
 
-    <ul class="navbar-nav ssg_mega_menu" id="ssg_mega_menu" style="display:flex;flex-direction: row;">
+    <ul class="navbar-nav wep_mega_menu" id="wep_mega_menu" style="display:flex;flex-direction: row;">
 
         <?php
 

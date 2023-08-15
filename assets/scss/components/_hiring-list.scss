@@ -1,4 +1,4 @@
-#ssg_hiring_list_form {
+#wep_hiring_list_form {
 
     .form-control {
 
@@ -16,7 +16,7 @@
         
     }
 
-    .ssg_select {
+    .wep_select {
         position: relative;
         &::after {
             position: absolute;
@@ -32,12 +32,12 @@
         }
     }
 
-    .ssg_search {
+    .wep_search {
         width: 100%;
     }
 }
 
-.ssg_hiring_list {
+.wep_hiring_list {
     table {
         a {
             transition: text-decoration 0.4s;

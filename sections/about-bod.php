@@ -4,13 +4,13 @@
 
 <!-- <?php echo $id; ?> -->
 
-<section id="<?php echo $id; ?>" class="<?php echo $class; ?> <?php echo $class2; ?> ssg_concept--section" data-scroll-section>
+<section id="<?php echo $id; ?>" class="<?php echo $class; ?> <?php echo $class2; ?> wep_concept--section" data-scroll-section>
 
     <div class="container">
 
         <div class="row">
 
-            <h2 class="ssg_heading ssg_margin--b4 justify-content-start"><?php echo $heading; ?></h2>
+            <h2 class="wep_heading wep_margin--b4 justify-content-start"><?php echo $heading; ?></h2>
 
         </div>
 
@@ -22,9 +22,9 @@
 
                     <div class="<?php echo $class; ?>__item">
 
-                        <div class="<?php echo $class; ?>__thumbnail ssg_margin">
+                        <div class="<?php echo $class; ?>__thumbnail wep_margin">
 
-                            <img src="<?php echo $leader['image'] ?>" alt="<?php echo $leader['title'] ?>" class="img-fluid ssg_concept">
+                            <img src="<?php echo $leader['image'] ?>" alt="<?php echo $leader['title'] ?>" class="img-fluid wep_concept">
 
                         </div>
 

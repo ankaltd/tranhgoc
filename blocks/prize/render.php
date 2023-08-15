@@ -6,15 +6,15 @@ $fields = [
 
     // Content
 
-    'ssg_content_image_responsive'      => true,
+    'wep_content_image_responsive'      => true,
 
-    'ssg_content_list'                  => array(),
+    'wep_content_list'                  => array(),
 
-    'ssg_content_image_align'           => 0,
+    'wep_content_image_align'           => 0,
 
-    'ssg_content_text_align'            => 0,
+    'wep_content_text_align'            => 0,
 
-    'ssg_content_show_element'          => array(),
+    'wep_content_show_element'          => array(),
 
 ];
 
@@ -40,11 +40,11 @@ extract($option);
 
 // Get data content
 
-$data = $ssg_content_list;
+$data = $wep_content_list;
 
 ?>
 
-<!-- ssg_prize -->
+<!-- wep_prize -->
 
 <?php
 
@@ -73,21 +73,21 @@ WEP_Section_View::render_section_tag($option, '');
 
                 <div class="col" <?php WEP_Section_View::render_item_aos($option, 3, $stt) ?>>
 
-                    <div class="ssg_prize__item">
+                    <div class="wep_prize__item">
 
-                        <?php if (in_array('thumbnail', $ssg_content_show_element)) : ?>
+                        <?php if (in_array('thumbnail', $wep_content_show_element)) : ?>
 
-                            <div class="ssg_prize__thumbnail ssg_margin--b3 <?php echo $ssg_content_image_align ?>">
+                            <div class="wep_prize__thumbnail wep_margin--b3 <?php echo $wep_content_image_align ?>">
 
-                                <img src="<?php echo $ssg_content_image ?>" alt="<?php echo $ssg_content_title ?>" class="<?php echo $ssg_content_image_responsive ? 'img-fluid' : '' ?>">
+                                <img src="<?php echo $wep_content_image ?>" alt="<?php echo $wep_content_title ?>" class="<?php echo $wep_content_image_responsive ? 'img-fluid' : '' ?>">
 
                             </div>
 
                         <?php endif ?>
 
-                        <?php if (in_array('title', $ssg_content_show_element)) : ?>
+                        <?php if (in_array('title', $wep_content_show_element)) : ?>
 
-                            <h5 class="ssg_prize__caption <?php echo $ssg_content_text_align ?>"><?php echo $ssg_content_title ?></h5>
+                            <h5 class="wep_prize__caption <?php echo $wep_content_text_align ?>"><?php echo $wep_content_title ?></h5>
 
                         <?php endif ?>
 

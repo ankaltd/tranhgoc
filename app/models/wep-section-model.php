@@ -38,7 +38,7 @@ class WEP_Section_Model {
         foreach ($related_posts as $post) {
             setup_postdata($post);
 
-            $thumbnail_url = get_the_post_thumbnail_url($post, 'ssg_thumb_news');
+            $thumbnail_url = get_the_post_thumbnail_url($post, 'wep_thumb_news');
 
             $post_data = array(
                 'title' => get_the_title($post),
@@ -58,7 +58,7 @@ class WEP_Section_Model {
     }
 
     // Get lastest News
-    static function get_latest_posts($post_count = -1, $category_ids, $thumbnail_size = 'ssg_thumb_news') {
+    static function get_latest_posts($post_count = -1, $category_ids, $thumbnail_size = 'wep_thumb_news') {
         $result = array();
 
         $args = array(
@@ -120,7 +120,7 @@ class WEP_Section_Model {
     }
 
     // Get list news from selected options
-    static function get_list_posts($posts, $thumbnail_size = 'ssg_thumb_news') {
+    static function get_list_posts($posts, $thumbnail_size = 'wep_thumb_news') {
         $result = array();
 
         foreach ($posts as $post) {
@@ -191,7 +191,7 @@ class WEP_Section_Model {
     }
 
     // Get list client
-    static function get_list_client_by_industry($number_item = -1, $industry_id = 0, $sort_order = 'asc', $thumbnail = 'ssg_thumb_solution') {
+    static function get_list_client_by_industry($number_item = -1, $industry_id = 0, $sort_order = 'asc', $thumbnail = 'wep_thumb_solution') {
 
         $args = array(
             'post_type'      => 'client', // Thay 'client' bằng tên post type của bạn
@@ -312,7 +312,7 @@ class WEP_Section_Model {
 
 
     // Get list service
-    static function get_list_service($number_item = -1, $sort_order = 'asc', $thumbnail = 'ssg_thumb_service') {
+    static function get_list_service($number_item = -1, $sort_order = 'asc', $thumbnail = 'wep_thumb_service') {
 
         $args = array(
             'post_type'         => 'service',
@@ -354,7 +354,7 @@ class WEP_Section_Model {
     }
 
     // Get list solution
-    static function get_list_solution($number_item = -1, $sort_order = 'asc', $thumbnail = 'ssg_thumb_solution') {
+    static function get_list_solution($number_item = -1, $sort_order = 'asc', $thumbnail = 'wep_thumb_solution') {
 
         $args = array(
             'post_type'         => 'solution',
@@ -504,8 +504,8 @@ class WEP_Section_Model {
         if ($query->have_posts()) {
             while ($query->have_posts()) {
                 $query->the_post();
-                $thumbnail = wp_get_attachment_image_src(get_post_thumbnail_id(), 'ssg_thumb_news');
-                $thumbnailUrl = $thumbnail ? $thumbnail[0] : ''; // Lấy URL của thumbnail với kích thước ssg_thumb_news                
+                $thumbnail = wp_get_attachment_image_src(get_post_thumbnail_id(), 'wep_thumb_news');
+                $thumbnailUrl = $thumbnail ? $thumbnail[0] : ''; // Lấy URL của thumbnail với kích thước wep_thumb_news                
                 $date = get_the_date('d/m/Y');
 
                 // Loại bỏ phần "Continue Reading" trong phần tóm tắt
@@ -540,7 +540,7 @@ class WEP_Section_Model {
         $results['pagination'] = '';
 
         if (!is_null($pagination)) {
-            $results['pagination'] = '<nav aria-label="Page navigation"><ul class="pagination ssg_page_nav">';
+            $results['pagination'] = '<nav aria-label="Page navigation"><ul class="pagination wep_page_nav">';
             $stt_page = 0;
             foreach ($pagination as $link) {
                 $stt_page++;
@@ -583,8 +583,8 @@ class WEP_Section_Model {
         if ($query->have_posts()) {
             while ($query->have_posts()) {
                 $query->the_post();
-                $thumbnail = wp_get_attachment_image_src(get_post_thumbnail_id(), 'ssg_thumb_news');
-                $thumbnailUrl = $thumbnail ? $thumbnail[0] : ''; // Lấy URL của thumbnail với kích thước ssg_thumb_news
+                $thumbnail = wp_get_attachment_image_src(get_post_thumbnail_id(), 'wep_thumb_news');
+                $thumbnailUrl = $thumbnail ? $thumbnail[0] : ''; // Lấy URL của thumbnail với kích thước wep_thumb_news
                 $date = get_the_date('d/m/Y'); // Định dạng ngày: day/month/year
 
                 // Loại bỏ phần "Continue Reading" trong phần tóm tắt
@@ -622,7 +622,7 @@ class WEP_Section_Model {
         $results['pagination'] = '';
 
         if (!is_null($pagination)) {
-            $results['pagination'] = '<nav aria-label="Page navigation"><ul class="pagination ssg_page_nav">';
+            $results['pagination'] = '<nav aria-label="Page navigation"><ul class="pagination wep_page_nav">';
             $stt_page = 0;
             foreach ($pagination as $link) {
                 $stt_page++;

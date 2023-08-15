@@ -7,7 +7,7 @@
     }
 
     // Concept
-    .ssg_concept {
+    .wep_concept {
         &--section {
             &::after {
                 right: 30px;
@@ -25,7 +25,7 @@
     /* Home Page */
 
     // Header
-    .ssg_header {
+    .wep_header {
 
         // Left
         .header_left {
@@ -61,7 +61,7 @@
         }
     }
 
-    .ssg_mega_menu {
+    .wep_mega_menu {
 
         // Dropdown ====================
         .dropdown-menu {
@@ -126,7 +126,7 @@
                     content: '';
                     width: 50px;
                     height: 3px;
-                    background-color: $ssg_color_primary;
+                    background-color: $wep_color_primary;
                     position: absolute;
                     left: 50%;
                     bottom: 0;
@@ -148,7 +148,7 @@
     }
 
     // Slider
-    .ssg_slider {
+    .wep_slider {
         .carousel-caption {
             padding-top: inherit;
         }
@@ -160,9 +160,9 @@
     }
 
     // Home Sections
-    .ssg_home_service {
+    .wep_home_service {
         &__slider {
-            padding: $ssg_space*0.7;
+            padding: $wep_space*0.7;
         }
 
         &__content {
@@ -173,7 +173,7 @@
     }
 
     // Home Sections
-    .ssg_home_service {
+    .wep_home_service {
 
         &__center_content {
             width: 20%;
@@ -183,9 +183,9 @@
     }
 
     // Home Solution
-    .ssg_home_solution {
+    .wep_home_solution {
         &__header {
-            padding: $ssg_space*3;
+            padding: $wep_space*3;
         }
 
         h5 {
@@ -194,8 +194,8 @@
     }
 
     // Testimonail
-    .ssg_home_testimonial {
-        padding: $ssg_space*5;
+    .wep_home_testimonial {
+        padding: $wep_space*5;
 
         &__avatar {
             padding: 20px;
@@ -211,10 +211,10 @@
     }
 
     // Solution
-    .ssg_home_solution {
+    .wep_home_solution {
 
         &__header {
-            padding: $ssg_space*3;
+            padding: $wep_space*3;
         }
 
         .col {
@@ -228,7 +228,7 @@
     }
 
     // Client 
-    .ssg_home_client {
+    .wep_home_client {
         .nav-tabs {
             .nav-item {
                 margin-bottom: 0;
@@ -236,19 +236,19 @@
         }
 
         .tab-pane {
-            margin-top: $ssg_space*2;
+            margin-top: $wep_space*2;
         }
     }
 
     // Featured News
-    .ssg_home_news {
+    .wep_home_news {
         &__item {
             margin-bottom: 0;
         }
     }
 
     // Section Contact
-    .ssg_home_contact {
+    .wep_home_contact {
         h3 {
             font-size: 36px;
         }
@@ -256,21 +256,21 @@
 
     /* About Page */
 
-    .ssg_about {
+    .wep_about {
         &__content {
             column-count: 2;
         }
     }
 
     /* Service Page */
-    .ssg_goto_section {
+    .wep_goto_section {
         &__item {
-            padding: 0 $ssg_space;
+            padding: 0 $wep_space;
         }
     }
 
     /* Tuyen dung */
-    #ssg_hiring_list_form {
+    #wep_hiring_list_form {
         .form-control {
             margin-bottom: 0;
         }

@@ -1,4 +1,4 @@
-.ssg_history {
+.wep_history {
     background-image: url('./images/bg-pattern-light-3.png');
 
     &__item {
@@ -36,14 +36,14 @@
             cursor: pointer;
             &::after {
                 height: 2px;
-                background-color: $ssg_color_primary;                                        
+                background-color: $wep_color_primary;                                        
             }
             transform: translateY(-10px);
         }
 
         h4 {
             font-size: 20px;
-            color: $ssg_color_primary;
+            color: $wep_color_primary;
         }
 
         .content {

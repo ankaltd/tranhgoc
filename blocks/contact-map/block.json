@@ -1,10 +1,10 @@
 {
-    "name": "ssg/contact-map",
-    "title": "SSG Contact Map",
+    "name": "wep/contact-map",
+    "title": "WEP  Contact Map",
     "description": "",
     "style": "file:./style.css",
     "script": "block-map",
-    "category": "ssg-contact",
+    "category": "wep-contact",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

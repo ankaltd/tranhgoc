@@ -10,7 +10,7 @@
 
         <div class="row">
 
-            <h2 class="text-center ssg_heading"><?php echo $heading; ?></h2>
+            <h2 class="text-center wep_heading"><?php echo $heading; ?></h2>
 
         </div>
 
@@ -94,7 +94,7 @@
 
             <div class="col-md-8 text-center">
 
-                <button class="ssg_button ssg_button--primary">Ứng tuyển</button>
+                <button class="wep_button wep_button--primary">Ứng tuyển</button>
 
             </div>
 

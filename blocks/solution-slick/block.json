@@ -1,10 +1,10 @@
 {
-    "name": "ssg/solution-slick",
-    "title": "SSG Solution Slick",
+    "name": "wep/solution-slick",
+    "title": "WEP  Solution Slick",
     "description": "",
     "style": "file:./style.css",
     "script": "block-solution-slick",
-    "category": "ssg-home",
+    "category": "wep-home",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

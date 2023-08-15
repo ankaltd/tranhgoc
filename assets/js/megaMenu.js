@@ -38,11 +38,11 @@ export function setCurrentPageClass() {
 
 
 
-    // Lấy tất cả các thẻ a bên trong các cấp độ #ssg_mega_menu > .nav-item và .dropdown-item
+    // Lấy tất cả các thẻ a bên trong các cấp độ #wep_mega_menu > .nav-item và .dropdown-item
 
     var menuLinks = document.querySelectorAll(
 
-      "#ssg_mega_menu .nav-item a, #ssg_mega_menu .dropdown-item a"
+      "#wep_mega_menu .nav-item a, #wep_mega_menu .dropdown-item a"
 
     );
 

@@ -2,20 +2,20 @@
 
 /* HTML Text */
 
-$tag = get_field('ssg_heading_tag');
+$tag = get_field('wep_heading_tag');
 
-$color = get_field('ssg_heading_color');
+$color = get_field('wep_heading_color');
 
-$text = get_field('ssg_heading_text');
+$text = get_field('wep_heading_text');
 
-$align = get_field('ssg_heading_align');
+$align = get_field('wep_heading_align');
 
-$margin = get_field('ssg_margin_bottom');
+$margin = get_field('wep_margin_bottom');
 
 ?>
 
-<div class="ssg_block">
+<div class="wep_block">
 
-    <p class="ssg_html_text">HTML Text</p>
+    <p class="wep_html_text">HTML Text</p>
 
 </div>

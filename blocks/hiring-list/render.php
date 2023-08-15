@@ -8,15 +8,15 @@ $fields = [
 
     // Content
 
-    'ssg_content_image_responsive'      => true,
+    'wep_content_image_responsive'      => true,
 
-    'ssg_content_list'                  => array(),
+    'wep_content_list'                  => array(),
 
-    'ssg_content_image_align'           => 0,
+    'wep_content_image_align'           => 0,
 
-    'ssg_content_text_align'            => 0,
+    'wep_content_text_align'            => 0,
 
-    'ssg_content_show_element'          => array(),
+    'wep_content_show_element'          => array(),
 
 ];
 
@@ -46,7 +46,7 @@ extract($option);
 
 // Get data content
 
-$data = WEP_Section_Model::get_list_hiring($ssg_content_number, $ssg_content_order, 'thumbnail');
+$data = WEP_Section_Model::get_list_hiring($wep_content_number, $wep_content_order, 'thumbnail');
 
 
 
@@ -60,11 +60,11 @@ $data_location = WEP_Section_Model::get_list_terms('location');
 
 ?>
 
-<!-- ssg_hiring_list -->
+<!-- wep_hiring_list -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_hiring_list ssg_concept--section');
+WEP_Section_View::render_section_tag($option, 'wep_hiring_list wep_concept--section');
 
 ?>
 
@@ -82,7 +82,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_hiring_list ssg_concept--sect
 
     <!-- Form Filter -->
 
-    <form id="ssg_hiring_list_form">
+    <form id="wep_hiring_list_form">
 
         <div class="row my-4 align-items-center">
 
@@ -94,7 +94,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_hiring_list ssg_concept--sect
 
             <div class="col-md-3">
 
-                <div class="ssg_select">
+                <div class="wep_select">
 
                     <select class="form-control">
 
@@ -114,7 +114,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_hiring_list ssg_concept--sect
 
             <div class="col-md-3">
 
-                <div class="ssg_select">
+                <div class="wep_select">
 
                     <select class="form-control">
 
@@ -138,7 +138,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_hiring_list ssg_concept--sect
 
             <div class="col-md-3">
 
-                <button type="submit" class="ssg_button ssg_button--primary ssg_search">Tìm kiếm</button>
+                <button type="submit" class="wep_button wep_button--primary wep_search">Tìm kiếm</button>
 
             </div>
 
@@ -182,19 +182,19 @@ WEP_Section_View::render_section_tag($option, 'ssg_hiring_list ssg_concept--sect
 
                     <td><i class="bi bi-geo-alt-fill">
 
-                            <img src="https://demo.ssg.vn/wp-content/themes/ssg/assets/images/icon_hr_location.png" alt="">
+                            <img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon_hr_location.png" alt="">
 
                         </i> <?php echo $hirring_location ?></td>
 
                     <td><i class="bi bi-calendar-event-fill">
 
-                            <img src="https://demo.ssg.vn/wp-content/themes/ssg/assets/images/icon_hr_date.png" alt=""></i>
+                            <img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon_hr_date.png" alt=""></i>
 
                         <span class="date"><?php echo $hiring_deadline ?></span>
 
                     </td>
 
-                    <td><a class="ssg_more_link" href="<?php echo $permalink . '#ssg_hirring_apply'; ?>" >Ứng tuyển</a></td>
+                    <td><a class="wep_more_link" href="<?php echo $permalink . '#wep_hirring_apply'; ?>" >Ứng tuyển</a></td>
 
                 </tr>
 
@@ -210,7 +210,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_hiring_list ssg_concept--sect
 
         <div class="col">
 
-            <a class="ssg_more_link" href="">Tải thêm nội dung</a>
+            <a class="wep_more_link" href="">Tải thêm nội dung</a>
 
         </div>
 

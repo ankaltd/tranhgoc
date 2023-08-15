@@ -7,7 +7,7 @@
     }
 
     // Concept
-    .ssg_concept {
+    .wep_concept {
         &--section {
             &::after {
                 right: 80px;
@@ -17,7 +17,7 @@
     }
 
     // Home Sections
-    .ssg_home_service {
+    .wep_home_service {
 
         &__slick {         
             .slick-arrow {                
@@ -31,7 +31,7 @@
         }
 
         &__slider {
-            padding: $ssg_space;
+            padding: $wep_space;
         }
 
         &__content {
@@ -46,14 +46,14 @@
     }
 
     // Home Solution
-    .ssg_home_solution {
+    .wep_home_solution {
         h5 {
             font-size: 16px;
         }
     }
 
     // Single Hiring
-    .ssg_hiring_single {
+    .wep_hiring_single {
         width: 880px;
     }
 
@@ -70,7 +70,7 @@
 @media screen and (min-width: 1360px) {
 
     // Home Sections
-    .ssg_home_service {
+    .wep_home_service {
 
         &__slick {         
             .slick-arrow {                
@@ -92,7 +92,7 @@
 @media screen and (min-width: 1480px) {
 
     // Home Sections
-    .ssg_home_service {
+    .wep_home_service {
         &__center_content {            
         //    padding-top: 250px;
         }
@@ -102,7 +102,7 @@
 @media screen and (min-width: 1600px) {
 
     // Home Sections
-    .ssg_home_service {
+    .wep_home_service {
         &__center_content {            
         //    padding-top: 280px;
         }
@@ -112,7 +112,7 @@
 @media screen and (min-width: 1670px) {
 
     // Home Sections
-    .ssg_home_service {
+    .wep_home_service {
         &__center_content {            
         //    padding-top: 290px;
         }
@@ -122,7 +122,7 @@
 @media screen and (min-width: 1700px) {
 
     // Home Sections
-    .ssg_home_service {
+    .wep_home_service {
         &__center_content {            
         //    padding-top: 340px;
         //    transform: translate(-50%, 8%);

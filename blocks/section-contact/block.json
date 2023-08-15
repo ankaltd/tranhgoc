@@ -1,10 +1,10 @@
 {
-    "name": "ssg/section-contact",
-    "title": "SSG Section Contact",
+    "name": "wep/section-contact",
+    "title": "WEP  Section Contact",
     "description": "",
     "style": "file:./style.css",
     "script": "block-section-contact",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

@@ -15,7 +15,7 @@
 
         <?php
 
-        $thumbnail_url = THEME_IMG . '/ssg-preview.jpg';
+        $thumbnail_url = THEME_IMG . '/wep-preview.jpg';
 
         $title = get_bloginfo('name');
 
@@ -182,7 +182,7 @@
 
                 .fixed-top {top: 32px !important}
 
-                .ssg_goto_section.sticky {transform: translateY(90px) !important;}
+                .wep_goto_section.sticky {transform: translateY(90px) !important;}
 
             ';
         }
@@ -200,9 +200,9 @@
 
     $section_data = [
 
-        'id' => 'ssg_header',
+        'id' => 'wep_header',
 
-        'class' => 'ssg_header',
+        'class' => 'wep_header',
 
         'heading' => 'Page Header'
 

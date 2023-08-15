@@ -4,9 +4,9 @@
 
 $fields = [
 
-    'ssg_content_number'                => 5,
+    'wep_content_number'                => 5,
 
-    'ssg_content_order'                 => 'asc',
+    'wep_content_order'                 => 'asc',
 
 ];
 
@@ -44,11 +44,11 @@ $data = WEP_Section_Model::get_list_terms();
 
 ?>
 
-<!-- ssg_client_news_branch -->
+<!-- wep_client_news_branch -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_news_branch no_padding');
+WEP_Section_View::render_section_tag($option, 'wep_news_branch no_padding');
 
 ?>
 
@@ -56,13 +56,13 @@ WEP_Section_View::render_section_tag($option, 'ssg_news_branch no_padding');
 
     <div class="row">
 
-        <div class="col ssg_news_branch__wrapper">
+        <div class="col wep_news_branch__wrapper">
 
             <?php $stt = 0;
 
             foreach ($data as $industry) : ?>
 
-                <a class="nav-link ssg_news_branch__item" <?php WEP_Section_View::render_item_aos($option, 3, $stt); ?> href="/khach-hang?industry=<?php echo $industry['slug'] ?>" data-content="<?php echo $industry['title'] ?>" data-slug="<?php echo $industry['slug'] ?>"><?php echo $industry['title'] ?></a>
+                <a class="nav-link wep_news_branch__item" <?php WEP_Section_View::render_item_aos($option, 3, $stt); ?> href="/khach-hang?industry=<?php echo $industry['slug'] ?>" data-content="<?php echo $industry['title'] ?>" data-slug="<?php echo $industry['slug'] ?>"><?php echo $industry['title'] ?></a>
 
             <?php $stt++;
 

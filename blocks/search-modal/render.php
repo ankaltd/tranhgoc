@@ -2,27 +2,27 @@
 
 /* Search Modal */
 
-$tag = get_field('ssg_heading_tag');
+$tag = get_field('wep_heading_tag');
 
-$color = get_field('ssg_heading_color');
+$color = get_field('wep_heading_color');
 
-$text = get_field('ssg_heading_text');
+$text = get_field('wep_heading_text');
 
-$align = get_field('ssg_heading_align');
+$align = get_field('wep_heading_align');
 
-$margin = get_field('ssg_margin_bottom');
+$margin = get_field('wep_margin_bottom');
 
 ?>
 
 <!-- Search Overly -->
 
-<!-- ssg_search_modal -->
+<!-- wep_search_modal -->
 
 
 
 <!-- Modal Search -->
 
-<div class="ssg_search_modal modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+<div class="wep_search_modal modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
 
     <div class="modal-dialog modal-dialog-centered modal-lg">
 
@@ -40,7 +40,7 @@ $margin = get_field('ssg_margin_bottom');
 
                 <!-- Form input search -->
 
-                <input class="ssg_search_modal__input" type="text" placeholder="Nhập nội dung cần tìm">
+                <input class="wep_search_modal__input" type="text" placeholder="Nhập nội dung cần tìm">
 
             </div>
 

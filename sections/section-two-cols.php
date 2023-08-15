@@ -12,9 +12,9 @@
 
             <div class="col <?php echo $class; ?>__item">
 
-                <h2 class="ssg_heading justify-content-start"><?php echo $heading; ?></h2>
+                <h2 class="wep_heading justify-content-start"><?php echo $heading; ?></h2>
 
-                <p class="ssg_description"><?php echo $text;  ?></p>
+                <p class="wep_description"><?php echo $text;  ?></p>
 
             </div>
 
@@ -22,7 +22,7 @@
 
                 <div class="<?php echo $class; ?>__image">
 
-                    <img src="<?php echo $image ?>" alt="<?php echo $text ?>" class="img-fluid ssg_concept">
+                    <img src="<?php echo $image ?>" alt="<?php echo $text ?>" class="img-fluid wep_concept">
 
                 </div>
 

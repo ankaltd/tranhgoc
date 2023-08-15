@@ -29,19 +29,19 @@ class WEP_View {
     // return class for button
     static function get_button_classes($button_type) {
         if ($button_type == 'gradient') {
-            return 'ssg_button ssg_button--readmore';
+            return 'wep_button wep_button--readmore';
         }
 
         if ($button_type == 'outline') {
-            return 'ssg_button ssg_button--readmore ssg_button--outline';
+            return 'wep_button wep_button--readmore wep_button--outline';
         }
 
         if ($button_type == 'white') {
-            return 'ssg_button ssg_button--readmore ssg_button--white';
+            return 'wep_button wep_button--readmore wep_button--white';
         }
 
         if ($button_type == 'link') {
-            return 'ssg_link ssg_link--readmore';
+            return 'wep_link wep_link--readmore';
         }
     }
 

@@ -38,7 +38,7 @@ const observer = new IntersectionObserver(observerCallback, observerOptions);
 
 
 
-const fadeElms = document.querySelectorAll('.ssg_heading, ssg_description');
+const fadeElms = document.querySelectorAll('.wep_heading, wep_description');
 
 fadeElms.forEach(el => observer.observe(el));
 

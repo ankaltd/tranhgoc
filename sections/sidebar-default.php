@@ -4,7 +4,7 @@
 
 <!-- <?php echo $id; ?> -->
 
-<section id="<?php echo $id; ?>" class="ssg_sidebar">
+<section id="<?php echo $id; ?>" class="wep_sidebar">
 
     <div class="inner">
 
@@ -16,13 +16,13 @@
 
         $sidebar_fields = [
 
-            'ssg_sidebar_related_heading'           => 'Bài viết liên quan',
+            'wep_sidebar_related_heading'           => 'Bài viết liên quan',
 
-            'ssg_sidebar_related_by'                => 'category',
+            'wep_sidebar_related_by'                => 'category',
 
-            'ssg_sidebar_related_number_item'       => 5,
+            'wep_sidebar_related_number_item'       => 5,
 
-            'ssg_sidebar_related_show'              => 'all',
+            'wep_sidebar_related_show'              => 'all',
 
         ];
 
@@ -42,7 +42,7 @@
 
         // Lấy n bài viết có cùng chuyên mục
 
-        $related_posts = WEP_Section_Model::get_related_posts_by_category($current_post_id, $ssg_sidebar_related_number_item);
+        $related_posts = WEP_Section_Model::get_related_posts_by_category($current_post_id, $wep_sidebar_related_number_item);
 
 
 
@@ -50,13 +50,13 @@
 
         $block_data = [
 
-            'id' => 'ssg_related',
+            'id' => 'wep_related',
 
-            'class' => 'ssg_related',
+            'class' => 'wep_related',
 
-            'show_item' => $ssg_sidebar_related_show,
+            'show_item' => $wep_sidebar_related_show,
 
-            'title' => $ssg_sidebar_related_heading,
+            'title' => $wep_sidebar_related_heading,
 
             'news_list' => $related_posts
 

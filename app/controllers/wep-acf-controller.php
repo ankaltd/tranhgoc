@@ -50,7 +50,7 @@ class WEP_ACF_Controller {
 
         foreach ($categories as $category) {
 
-            if ('ssg' === $category['slug']) {
+            if ('wep' === $category['slug']) {
 
                 $include = false;
 
@@ -70,57 +70,57 @@ class WEP_ACF_Controller {
 
                     [
 
-                        'slug'  => 'ssg',
+                        'slug'  => 'wep',
 
-                        'title' => __('Blocks SSG', 'ssg'),
-
-                    ],
-
-                    [
-
-                        'slug'  => 'ssg-home',
-
-                        'title' => __('Trang chủ', 'ssg'),
+                        'title' => __('Blocks WEP ', 'wep'),
 
                     ],
 
                     [
 
-                        'slug'  => 'ssg-about',
+                        'slug'  => 'wep-home',
 
-                        'title' => __('Giới thiệu', 'ssg'),
-
-                    ],
-
-                    [
-
-                        'slug'  => 'ssg-hiring',
-
-                        'title' => __('Tuyển dụng', 'ssg'),
+                        'title' => __('Trang chủ', 'wep'),
 
                     ],
 
                     [
 
-                        'slug'  => 'ssg-contact',
+                        'slug'  => 'wep-about',
 
-                        'title' => __('Liên hệ', 'ssg'),
-
-                    ],
-
-                    [
-
-                        'slug'  => 'ssg-dich-vu',
-
-                        'title' => __('Dịch vụ', 'ssg'),
+                        'title' => __('Giới thiệu', 'wep'),
 
                     ],
 
                     [
 
-                        'slug'  => 'ssg-tin-tuc',
+                        'slug'  => 'wep-hiring',
 
-                        'title' => __('Tin tức', 'ssg'),
+                        'title' => __('Tuyển dụng', 'wep'),
+
+                    ],
+
+                    [
+
+                        'slug'  => 'wep-contact',
+
+                        'title' => __('Liên hệ', 'wep'),
+
+                    ],
+
+                    [
+
+                        'slug'  => 'wep-dich-vu',
+
+                        'title' => __('Dịch vụ', 'wep'),
+
+                    ],
+
+                    [
+
+                        'slug'  => 'wep-tin-tuc',
+
+                        'title' => __('Tin tức', 'wep'),
 
                     ],
 
@@ -148,9 +148,9 @@ class WEP_ACF_Controller {
 
         $theme   = wp_get_theme();
 
-        $blocks  = get_option('ssg_blocks');
+        $blocks  = get_option('wep_blocks');
 
-        $version = get_option('ssg_blocks_version');
+        $version = get_option('wep_blocks_version');
 
         if (empty($blocks) || version_compare($theme->get('Version'), $version) || (function_exists('wp_get_environment_type') && 'production' !== wp_get_environment_type())) {
 
@@ -160,9 +160,9 @@ class WEP_ACF_Controller {
 
 
 
-            update_option('ssg_blocks', $blocks);
+            update_option('wep_blocks', $blocks);
 
-            update_option('ssg_blocks_version', $theme->get('Version'));
+            update_option('wep_blocks_version', $theme->get('Version'));
 
         }
 

@@ -4,15 +4,15 @@
 
 <!-- <?php echo $id; ?> -->
 
-<section id="<?php echo $id; ?>" class="<?php echo $class; ?> no_padding ssg_bg_dark data-scroll-section">
+<section id="<?php echo $id; ?>" class="<?php echo $class; ?> no_padding wep_bg_dark data-scroll-section">
 
     <div class="container-fluid mx-0 g-0">
 
         <div class="<?php echo $class; ?>__header row text-center mx-0">
 
-            <h2 class="ssg_heading" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true"><?php echo $heading; ?></h2>
+            <h2 class="wep_heading" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true"><?php echo $heading; ?></h2>
 
-            <p class="ssg_description" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true"><?php echo $description; ?></p>
+            <p class="wep_description" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true"><?php echo $description; ?></p>
 
         </div>
 
@@ -38,7 +38,7 @@
 
                             <?php if (isset($button)) : ?>
 
-                                <a class="ssg_button <?php echo isset($button['style']) ? 'ssg_button--' . $button['style'] : '' ?>" href=""><?php echo $button['text'] ?></a>
+                                <a class="wep_button <?php echo isset($button['style']) ? 'wep_button--' . $button['style'] : '' ?>" href=""><?php echo $button['text'] ?></a>
 
                             <?php endif; ?>
 

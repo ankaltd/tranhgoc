@@ -1,5 +1,5 @@
 // Common Footer
-.ssg_footer {
+.wep_footer {
     background-image: url('./images/home/footer-bg.png');
 
     .nav-link {
@@ -14,7 +14,7 @@
 }
 
 // Footer Menu
-.ssg_footer_menu {
+.wep_footer_menu {
 
     .navbar-nav {
         flex-direction: row;
@@ -33,7 +33,7 @@
 }
 
 // Service
-.ssg_footer_service {
+.wep_footer_service {
     .nav-link {
         color: #D9D9D9;
     }
@@ -44,7 +44,7 @@
 }
 
 // Solution
-.ssg_footer_solution {
+.wep_footer_solution {
     display: flex;
 
     .nav-item {
@@ -61,14 +61,14 @@
 }
 
 // Information
-.ssg_info {
+.wep_info {
     p {
         color: #D9D9D9;
     }
 }
 
 // Goto Top
-.ssg_gotop {
+.wep_gotop {
     display: flex;
     position: fixed;
     right: 30px;

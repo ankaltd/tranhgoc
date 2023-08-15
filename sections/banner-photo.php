@@ -34,13 +34,13 @@ $css = isset($css)?:'';
 
                         <?php if (isset($description)) : ?>
 
-                            <p class="ssg_margin--b4"><?php echo $description; ?></p>
+                            <p class="wep_margin--b4"><?php echo $description; ?></p>
 
                         <?php endif; ?>
 
                         <?php if (isset($button)) : ?>
 
-                            <a class="ssg_button <?php echo isset($button['style']) ? 'ssg_button--' . $button['style'] : 'ssg_button--white' ?>" href=""><?php echo $button['text'] ?></a>
+                            <a class="wep_button <?php echo isset($button['style']) ? 'wep_button--' . $button['style'] : 'wep_button--white' ?>" href=""><?php echo $button['text'] ?></a>
 
                         <?php endif; ?>
 

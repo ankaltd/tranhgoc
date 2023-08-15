@@ -5,9 +5,9 @@
 // Load values and assign defaults.
 
 $fields = [
-    'ssg_content_number'                => 5,
-    'ssg_content_order'                 => 'asc',
-    'ssg_tab_hoz_content_popup'         => false,
+    'wep_content_number'                => 5,
+    'wep_content_order'                 => 'asc',
+    'wep_tab_hoz_content_popup'         => false,
 ];
 
 // default options merge
@@ -32,11 +32,11 @@ $data = WEP_Section_Model::get_list_terms();
 
 ?>
 
-<!-- ssg_home_client -->
+<!-- wep_home_client -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_home_client');
+WEP_Section_View::render_section_tag($option, 'wep_home_client');
 
 ?>
 
@@ -94,7 +94,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_client');
 
                     $industry_slug = $industry['slug'];
 
-                    $data_client = WEP_Section_Model::get_list_client_by_industry(-1, $industry_id, 'asc', 'ssg_thumb_client');
+                    $data_client = WEP_Section_Model::get_list_client_by_industry(-1, $industry_id, 'asc', 'wep_thumb_client');
 
 
 
@@ -121,13 +121,13 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_client');
                             ?>
 
                                 <div class="col-6 col-md-3 g-3 g-md-5" <?php WEP_Section_View::render_item_aos($option, 4, $stt); ?>>
-                                    <?php if ($ssg_tab_hoz_content_popup) : ?>
+                                    <?php if ($wep_tab_hoz_content_popup) : ?>
                                         <a href="<?php print_r($logoLink); ?>" data-content-id="<?php echo $logo['id']; ?>" class="logo-content-link" data-bs-toggle="modal" title="<?php echo $logo['title'] ?>">
-                                            <img class="ssg_home_client__logo" src="<?php echo $logo['thumbnail'] ?>" alt="<?php echo $logo['title'] ?>">
+                                            <img class="wep_home_client__logo" src="<?php echo $logo['thumbnail'] ?>" alt="<?php echo $logo['title'] ?>">
                                         </a>
                                     <?php else : ?>
                                         <a href="<?php print_r($logoLink); ?>" class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $logo['title'] ?>">
-                                            <img class="ssg_home_client__logo" src="<?php echo $logo['thumbnail'] ?>" alt="<?php echo $logo['title'] ?>">
+                                            <img class="wep_home_client__logo" src="<?php echo $logo['thumbnail'] ?>" alt="<?php echo $logo['title'] ?>">
                                         </a>
                                     <?php endif; ?>
                                 </div>

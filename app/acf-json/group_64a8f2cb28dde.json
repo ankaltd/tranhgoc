@@ -23,7 +23,7 @@
         {
             "key": "field_64b506a572344",
             "label": "Vị trí slider hiện đầu tiên",
-            "name": "ssg_image_init_item",
+            "name": "wep_image_init_item",
             "aria-label": "",
             "type": "number",
             "instructions": "",
@@ -45,7 +45,7 @@
         {
             "key": "field_64a8f2caed859",
             "label": "Danh sách slider",
-            "name": "ssg_image_list",
+            "name": "wep_image_list",
             "aria-label": "",
             "type": "repeater",
             "instructions": "",
@@ -67,7 +67,7 @@
                 {
                     "key": "field_64b3a3f413e35",
                     "label": "Slider là Video?",
-                    "name": "ssg_is_video",
+                    "name": "wep_is_video",
                     "aria-label": "",
                     "type": "true_false",
                     "instructions": "",
@@ -88,7 +88,7 @@
                 {
                     "key": "field_64b3a3ad13e34",
                     "label": "Video",
-                    "name": "ssg_image_video",
+                    "name": "wep_image_video",
                     "aria-label": "",
                     "type": "file",
                     "instructions": "",
@@ -117,7 +117,7 @@
                 {
                     "key": "field_64a8f311ed85a",
                     "label": "Hình (PC)",
-                    "name": "ssg_image_src",
+                    "name": "wep_image_src",
                     "aria-label": "",
                     "type": "image",
                     "instructions": "",
@@ -151,7 +151,7 @@
                 {
                     "key": "field_64a8f340ed85b",
                     "label": "Hình (Mobile)",
-                    "name": "ssg_image_mobile_src",
+                    "name": "wep_image_mobile_src",
                     "aria-label": "",
                     "type": "image",
                     "instructions": "",
@@ -185,7 +185,7 @@
                 {
                     "key": "field_64c352762805c",
                     "label": "Logo",
-                    "name": "ssg_image_logo_src",
+                    "name": "wep_image_logo_src",
                     "aria-label": "",
                     "type": "image",
                     "instructions": "",
@@ -219,7 +219,7 @@
                 {
                     "key": "field_64a8ff12a6fde",
                     "label": "Tiêu đề",
-                    "name": "ssg_image_heading",
+                    "name": "wep_image_heading",
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",
@@ -240,7 +240,7 @@
                 {
                     "key": "field_64a8fffea6fe3",
                     "label": "Màu tiêu đề",
-                    "name": "ssg_image_heading_color",
+                    "name": "wep_image_heading_color",
                     "aria-label": "",
                     "type": "color_picker",
                     "instructions": "",
@@ -259,7 +259,7 @@
                 {
                     "key": "field_64a8ff59a6fdf",
                     "label": "Mô tả",
-                    "name": "ssg_image_description",
+                    "name": "wep_image_description",
                     "aria-label": "",
                     "type": "textarea",
                     "instructions": "",
@@ -280,7 +280,7 @@
                 {
                     "key": "field_64a90016a6fe4",
                     "label": "Màu mô tả",
-                    "name": "ssg_image_description_color",
+                    "name": "wep_image_description_color",
                     "aria-label": "",
                     "type": "color_picker",
                     "instructions": "",
@@ -299,7 +299,7 @@
                 {
                     "key": "field_64a8ff99a6fe0",
                     "label": "Căn chỉnh các phần",
-                    "name": "ssg_image_text_align",
+                    "name": "wep_image_text_align",
                     "aria-label": "",
                     "type": "button_group",
                     "instructions": "Căn chỉnh các phần (logo - tiêu đề - mô tả)",
@@ -324,7 +324,7 @@
                 {
                     "key": "field_64c356be059cc",
                     "label": "Khoảng cách giữa các phần",
-                    "name": "ssg_image_item_space",
+                    "name": "wep_image_item_space",
                     "aria-label": "",
                     "type": "range",
                     "instructions": "Thay đổi khoảng cách giữa các thành phần Logo, Tiêu đề, Mô tả",
@@ -346,7 +346,7 @@
                 {
                     "key": "field_64b97c2970a83",
                     "label": "Danh sách nút",
-                    "name": "ssg_image_list_button",
+                    "name": "wep_image_list_button",
                     "aria-label": "",
                     "type": "repeater",
                     "instructions": "",
@@ -368,7 +368,7 @@
                         {
                             "key": "field_64a900675b146",
                             "label": "Tên nút",
-                            "name": "ssg_image_button_text",
+                            "name": "wep_image_button_text",
                             "aria-label": "",
                             "type": "text",
                             "instructions": "",
@@ -389,7 +389,7 @@
                         {
                             "key": "field_64a900bd5b148",
                             "label": "Liên kết nút",
-                            "name": "ssg_image_button_link",
+                            "name": "wep_image_button_link",
                             "aria-label": "",
                             "type": "text",
                             "instructions": "",
@@ -410,7 +410,7 @@
                         {
                             "key": "field_64a9008b5b147",
                             "label": "Kiểu nút",
-                            "name": "ssg_image_button_style",
+                            "name": "wep_image_button_style",
                             "aria-label": "",
                             "type": "button_group",
                             "instructions": "",
@@ -422,9 +422,9 @@
                                 "id": ""
                             },
                             "choices": {
-                                "ssg_button--white": "Trắng",
-                                "ssg_button--blue": "Xanh",
-                                "ssg_button--primary": "Xẫm"
+                                "wep_button--white": "Trắng",
+                                "wep_button--blue": "Xanh",
+                                "wep_button--primary": "Xẫm"
                             },
                             "default_value": "white",
                             "return_format": "value",
@@ -435,7 +435,7 @@
                         {
                             "key": "field_64a900d55b149",
                             "label": "Mở lên tab khác",
-                            "name": "ssg_image_button_target",
+                            "name": "wep_image_button_target",
                             "aria-label": "",
                             "type": "true_false",
                             "instructions": "",
@@ -464,7 +464,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "ssg\/slider"
+                "value": "wep\/slider"
             }
         ]
     ],

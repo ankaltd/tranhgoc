@@ -1,7 +1,7 @@
-.ssg_home_testimonial {
+.wep_home_testimonial {
     background-image: url('./images/home/home-testimonial-bg.png');
     background-position-x: center;
-    padding: $ssg_space*3 15px;
+    padding: $wep_space*3 15px;
 
     &__text {
         text-align: left;
@@ -28,9 +28,9 @@
         font-style: italic;
     }
 
-    &.ssg_bg_dark {
-        .ssg_home_testimonial__title {
-            color: $ssg_color_active;
+    &.wep_bg_dark {
+        .wep_home_testimonial__title {
+            color: $wep_color_active;
         }
     }
 }

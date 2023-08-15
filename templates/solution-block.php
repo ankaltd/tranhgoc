@@ -20,9 +20,9 @@ get_header();
 
 $section_data = [
 
-    'id' => 'ssg_banner',
+    'id' => 'wep_banner',
 
-    'class' => 'ssg_banner',
+    'class' => 'wep_banner',
 
     'image' => THEME_IMG . '/solution/solution-banner.png',
 
@@ -34,7 +34,7 @@ $section_data = [
 
     'button' => [
 
-        'text' => __('Xem thêm', 'ssg'),
+        'text' => __('Xem thêm', 'wep'),
 
     ]
 
@@ -50,23 +50,23 @@ get_template_part('sections/banner', 'photo', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_goto_section',
+    'id' => 'wep_goto_section',
 
-    'class' => 'ssg_goto_section',
+    'class' => 'wep_goto_section',
 
     'heading' => 'Quick Goto Section',
 
     'section_list' => [
 
-        'ssg_service_overview' => 'Tổng quan',
+        'wep_service_overview' => 'Tổng quan',
 
-        'ssg_solution_tab' => 'Giải pháp',
+        'wep_solution_tab' => 'Giải pháp',
 
-        'ssg_service_benefit' => 'Lợi ích',
+        'wep_service_benefit' => 'Lợi ích',
 
-        'ssg_case_study' => 'Case Study',
+        'wep_case_study' => 'Case Study',
 
-        'ssg_home_news' => 'Tin tức',
+        'wep_home_news' => 'Tin tức',
 
     ]
 
@@ -80,9 +80,9 @@ get_template_part('sections/section', 'goto', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_service_overview',
+    'id' => 'wep_service_overview',
 
-    'class' => 'ssg_service_overview trackThis',
+    'class' => 'wep_service_overview trackThis',
 
     'heading' => 'Giới thiệu chung',
 
@@ -100,13 +100,13 @@ get_template_part('sections/section', 'two-cols', $section_data);
 
 
 
-/* Service SSG --------------- */
+/* Service WEP  --------------- */
 
 $section_data = [
 
-    'id' => 'ssg_solution_tab',
+    'id' => 'wep_solution_tab',
 
-    'class' => 'ssg_vertical_tab',
+    'class' => 'wep_vertical_tab',
 
     'class2' => 'trackThis',
 
@@ -190,9 +190,9 @@ get_template_part('sections/section', 'vertical-tab', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_service_benefit',
+    'id' => 'wep_service_benefit',
 
-    'class' => 'ssg_service_benefit',
+    'class' => 'wep_service_benefit',
 
     'class2' => 'trackThis',
 
@@ -220,9 +220,9 @@ get_template_part('sections/section', 'benefit', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_case_study',
+    'id' => 'wep_case_study',
 
-    'class' => 'ssg_case_study',
+    'class' => 'wep_case_study',
 
     'class2' => 'trackThis',
 
@@ -274,9 +274,9 @@ get_template_part('sections/section', 'case-study', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_news',
+    'id' => 'wep_home_news',
 
-    'class' => 'ssg_home_news_image',
+    'class' => 'wep_home_news_image',
 
     'class2' => 'trackThis',
 
@@ -334,9 +334,9 @@ get_template_part('sections/section', 'featured-news-image', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_contact',
+    'id' => 'wep_home_contact',
 
-    'class' => 'ssg_home_contact',
+    'class' => 'wep_home_contact',
 
     'heading' => 'Hãy để chúng tôi đồng hành cùng bạn trên hành trình chuyển đổi số.',
 

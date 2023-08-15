@@ -4,9 +4,9 @@
 
 /**
 
- * Title: SSG Footer Middle
+ * Title: WEP  Footer Middle
 
- * Slug: ssg/ssg-footer-middle
+ * Slug: wep/wep-footer-middle
 
  * Categories: featured
 
@@ -24,6 +24,6 @@
 
 <!-- wp:heading -->
 
-<h2 class="wp-block-heading ssg_heading">Footer Middle</h2>
+<h2 class="wp-block-heading wep_heading">Footer Middle</h2>
 
 <!-- /wp:heading -->

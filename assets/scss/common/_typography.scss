@@ -1,7 +1,7 @@
-.ssg_heading {
+.wep_heading {
     display: flex;
     justify-content: center;
-    color: $ssg_color_primary;
+    color: $wep_color_primary;
     font-weight: 600;
 
     &::before {
@@ -10,17 +10,17 @@
         width: 20px;
         height: 20px;
         border-right: solid 20px transparent;
-        border-top: solid 20px $ssg_color_active;
+        border-top: solid 20px $wep_color_active;
         margin-right: 15px;
     }
 }
 
-.ssg_description {
-    margin-bottom: $ssg_space;
+.wep_description {
+    margin-bottom: $wep_space;
 }
 
 // Dark Background
-.ssg_bg_dark {
+.wep_bg_dark {
 
     h1,
     h2,
@@ -36,7 +36,7 @@
 // Single Post
 
 .single-post,
-.ssg_entry_single {
+.wep_entry_single {
     p {
         line-height: 1.5rem;
     }

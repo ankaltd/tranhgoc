@@ -5,8 +5,8 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-10 col-md-6 text-center">
-                <h2 class="ssg_heading"><?php echo $heading ?></h2>
-                <p class="ssg_description"><?php echo $description ?></p>
+                <h2 class="wep_heading"><?php echo $heading ?></h2>
+                <p class="wep_description"><?php echo $description ?></p>
             </div>
         </div>
         <form action="" id="<?php echo $id; ?>__form">
@@ -32,7 +32,7 @@
                         <textarea class="form-control" rows="4" placeholder="Nội dung"></textarea>
                     </div>
 
-                    <button class="ssg_button ssg_button--primary">Gửi</button>
+                    <button class="wep_button wep_button--primary">Gửi</button>
                 </div>
             </div>
         </form>

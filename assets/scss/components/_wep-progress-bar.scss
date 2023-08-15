@@ -20,8 +20,8 @@
     transition: width 1s;
 }
 
-#ssg_goto_section {
-    .ssg_goto_section__item {
+#wep_goto_section {
+    .wep_goto_section__item {
         span {
             position: absolute;
             display: block;
@@ -30,7 +30,7 @@
             left: 0;
             top: -30px;
             bottom: 50px;
-            background-color: $ssg_color_primary;
+            background-color: $wep_color_primary;
             filter: opacity(0.1);
 
             &.active {

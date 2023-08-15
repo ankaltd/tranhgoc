@@ -1,4 +1,4 @@
-.ssg_home_news_image {
+.wep_home_news_image {
 
     &__item {
         transition: transform 0.4s;
@@ -16,7 +16,7 @@
     }
 
     &__content {
-        padding: $ssg_space;
+        padding: $wep_space;
         background-color: #f8f8f8;
     }
 

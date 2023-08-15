@@ -10,9 +10,9 @@
 
         <div class="row text-center">
 
-            <h2 class="ssg_heading" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true"><?php echo $heading; ?></h2>
+            <h2 class="wep_heading" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true"><?php echo $heading; ?></h2>
 
-            <p class="ssg_description" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true"><?php echo $description; ?></p>
+            <p class="wep_description" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true"><?php echo $description; ?></p>
 
         </div>
 
@@ -42,7 +42,7 @@
 
                                 <?php if (isset($more_link)) : ?>
 
-                                    <a href="" class="ssg_more_link"><?php echo $more_link['text'] ?></a>
+                                    <a href="" class="wep_more_link"><?php echo $more_link['text'] ?></a>
 
                                 <?php endif; ?>
 

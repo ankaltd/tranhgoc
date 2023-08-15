@@ -10,7 +10,7 @@
 
         <div class="row">
 
-            <h2 class="ssg_heading justify-content-start ssg_margin--b5"><?php echo $heading; ?></h2>
+            <h2 class="wep_heading justify-content-start wep_margin--b5"><?php echo $heading; ?></h2>
 
         </div>
 
@@ -22,7 +22,7 @@
 
                     <div class="<?php echo $class; ?>__item">
 
-                        <div class="<?php echo $class; ?>__thumbnail ssg_margin--b3">
+                        <div class="<?php echo $class; ?>__thumbnail wep_margin--b3">
 
                             <img src="<?php echo $item['image'] ?>" alt="<?php echo $item['text'] ?>" class="img-fluid">
 

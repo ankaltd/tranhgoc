@@ -1,22 +1,22 @@
 <?php
 
-$tag = get_field('ssg_heading_tag');
+$tag = get_field('wep_heading_tag');
 
-$color = get_field('ssg_heading_color');
+$color = get_field('wep_heading_color');
 
-$text = get_field('ssg_heading_text');
+$text = get_field('wep_heading_text');
 
-$align = get_field('ssg_heading_align');
+$align = get_field('wep_heading_align');
 
-$margin = get_field('ssg_margin_bottom');
+$margin = get_field('wep_margin_bottom');
 
 ?>
 
-<!-- ssg_language -->
+<!-- wep_language -->
 
-<div class="language-select" id="ssg_language">
+<div class="language-select" id="wep_language">
 
-    <select class="form-select" id="ssg_language__select2">
+    <select class="form-select" id="wep_language__select2">
 
         <option value="vn">Tiếng Việt</option>
 
@@ -32,13 +32,13 @@ $margin = get_field('ssg_margin_bottom');
 
 <script>
 
-    var ssg_data = [{
+    var wep_data = [{
 
             id: "vn",
 
             text: "Tiếng Việt",
 
-            image: "https://demo.ssg.vn/wp-content/themes/ssg/assets/images/icon-flat-vn.png"
+            image: "https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon-flat-vn.png"
 
         },
 
@@ -48,7 +48,7 @@ $margin = get_field('ssg_margin_bottom');
 
             text: "English",
 
-            image: "https://demo.ssg.vn/wp-content/themes/ssg/assets/images/icon-flat-en.png"
+            image: "https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon-flat-en.png"
 
         },
 

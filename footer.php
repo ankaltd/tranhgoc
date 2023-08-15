@@ -2,31 +2,31 @@
 
 /* Get Options */
 
-$ssg_footer_sections = get_field('ssg_footer_sections_show');
+$wep_footer_sections = get_field('wep_footer_sections_show');
 
-$ssg_footer_contact_heading = WEP_Option_Model::get_field_lang('ssg_footer_contact_heading');
+$wep_footer_contact_heading = WEP_Option_Model::get_field_lang('wep_footer_contact_heading');
 
-$ssg_footer_contact_button = get_field('ssg_footer_contact_button_link', 'option');
+$wep_footer_contact_button = get_field('wep_footer_contact_button_link', 'option');
 
-$ssg_company_slogan = WEP_Option_Model::get_field_lang('ssg_company_slogan');
+$wep_company_slogan = WEP_Option_Model::get_field_lang('wep_company_slogan');
 
 /* Section Contact --------------- */
 
-if (!empty($ssg_footer_sections) && in_array('footer-section-contact', $ssg_footer_sections)) {
+if (!empty($wep_footer_sections) && in_array('footer-section-contact', $wep_footer_sections)) {
 
     $section_data = [
 
-        'id' => 'ssg_home_contact',
+        'id' => 'wep_home_contact',
 
-        'class' => 'ssg_home_contact',
+        'class' => 'wep_home_contact',
 
-        'heading' => $ssg_footer_contact_heading,
+        'heading' => $wep_footer_contact_heading,
 
         'button' => [
 
             'text' => 'Liên hệ',
 
-            'link' => $ssg_footer_contact_button
+            'link' => $wep_footer_contact_button
 
         ]
 
@@ -39,9 +39,9 @@ if (!empty($ssg_footer_sections) && in_array('footer-section-contact', $ssg_foot
 
 $section_data = [
 
-    'id' => 'ssg_footer',
+    'id' => 'wep_footer',
 
-    'class' => 'ssg_footer',
+    'class' => 'wep_footer',
 
     'heading' => 'Page Footer'
 
@@ -55,7 +55,7 @@ wp_footer();
 
 <!-- Link js -->
 
-<script script type="module" src="<?php echo THEME_URL; ?>/assets/ssg.js"></script>
+<script script type="module" src="<?php echo THEME_URL; ?>/assets/wep.js"></script>
 
 </body>
 

@@ -4,17 +4,17 @@
 
 <!-- <?php echo $id; ?> -->
 
-<section id="<?php echo $id; ?>" class="<?php echo $class; ?> <?php echo $class2; ?> ssg_concept--section" data-scroll-section>
+<section id="<?php echo $id; ?>" class="<?php echo $class; ?> <?php echo $class2; ?> wep_concept--section" data-scroll-section>
 
     <div class="container">
 
         <div class="row">
 
-            <h2 class="ssg_heading justify-content-start ssg_margin--b4"><?php echo $heading; ?></h2>
+            <h2 class="wep_heading justify-content-start wep_margin--b4"><?php echo $heading; ?></h2>
 
         </div>
 
-        <div class="row row-cols-1 row-cols-md-3 justify-content-center ssg_margin--b4">
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center wep_margin--b4">
 
             <?php foreach ($culture_list as $item) : ?>
 

@@ -1,6 +1,6 @@
 // Button & Links
-.ssg_button {
-    color: $ssg_color_primary;
+.wep_button {
+    color: $wep_color_primary;
     font-size: 14px;
     text-transform: uppercase;
     display: inline-block;
@@ -22,12 +22,12 @@
         transition: all 0.4s ease-out;
 
         &:hover {
-            background-color: $ssg_color_active;
+            background-color: $wep_color_active;
         }
     }
 
     &--blue {
-        background-color: $ssg_color_active;
+        background-color: $wep_color_active;
         transition: all 0.4s;
 
         &:hover {
@@ -37,20 +37,20 @@
 
     &--primary {
         border: none;
-        background-color: $ssg_color_primary;
+        background-color: $wep_color_primary;
         color: white;
         font-size: 12px;  
         transition: all 0.4s;
         
         &:hover {
-            color: $ssg_color_primary;
+            color: $wep_color_primary;
             background-color: #eee;
         }
     }
 }
 
-.ssg_button_border {
-    color: $ssg_color_primary;
+.wep_button_border {
+    color: $wep_color_primary;
     font-size: 14px;
     text-transform: uppercase;
     display: inline-block;
@@ -93,8 +93,8 @@
 
 
 // Links
-.ssg_more_link {
-    color: $ssg_color_primary;
+.wep_more_link {
+    color: $wep_color_primary;
     display: flex;
     align-items: center;
     font-size: 13px;

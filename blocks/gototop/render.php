@@ -2,21 +2,21 @@
 
 /* Goto Top */
 
-$tag = get_field('ssg_heading_tag');
+$tag = get_field('wep_heading_tag');
 
-$color = get_field('ssg_heading_color');
+$color = get_field('wep_heading_color');
 
-$text = get_field('ssg_heading_text');
+$text = get_field('wep_heading_text');
 
-$align = get_field('ssg_heading_align');
+$align = get_field('wep_heading_align');
 
-$margin = get_field('ssg_margin_bottom');
+$margin = get_field('wep_margin_bottom');
 
 ?>
 
-<div class="ssg_gotop">
+<div class="wep_gotop">
 
-    <a href="" class="ssg_gotop__icon" id="btnScrollTop">
+    <a href="" class="wep_gotop__icon" id="btnScrollTop">
 
         <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-up" role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-chevron-up fa-w-14 fa-2x" data-v-fded4fc2="">
 
@@ -26,6 +26,6 @@ $margin = get_field('ssg_margin_bottom');
 
     </a>
 
-    <div id="ssg_section_list"></div>
+    <div id="wep_section_list"></div>
 
 </div>

@@ -1,2 +1,2 @@
-# ssg-html
-HTML template for ssg.vn site
+# wep-html
+HTML template for wep.vn site

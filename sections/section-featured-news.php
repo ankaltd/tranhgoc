@@ -10,7 +10,7 @@
 
         <div class="row">
 
-            <h2 class="ssg_heading text-center"><?php echo $heading; ?></h2>
+            <h2 class="wep_heading text-center"><?php echo $heading; ?></h2>
 
         </div>
 
@@ -32,7 +32,7 @@
 
                             <?php if (isset($more_link)) : ?>
 
-                                <a href="" class="ssg_more_link"><?php echo $more_link['text'] ?></a>
+                                <a href="" class="wep_more_link"><?php echo $more_link['text'] ?></a>
 
                             <?php endif; ?>
 

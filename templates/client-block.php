@@ -20,9 +20,9 @@ get_header();
 
 $section_data = [
 
-    'id' => 'ssg_banner',
+    'id' => 'wep_banner',
 
-    'class' => 'ssg_banner',
+    'class' => 'wep_banner',
 
     'align' => 'start',
 
@@ -40,9 +40,9 @@ get_template_part('sections/banner', 'photo', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_client_news_branch',
+    'id' => 'wep_client_news_branch',
 
-    'class' => 'ssg_news_branch',
+    'class' => 'wep_news_branch',
 
     'branch_list' => [
 
@@ -98,9 +98,9 @@ get_template_part('sections/section', 'news-branch', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_client_news',
+    'id' => 'wep_client_news',
 
-    'class' => 'ssg_news_grid',
+    'class' => 'wep_news_grid',
 
     'columns' => 3,
 
@@ -166,13 +166,13 @@ get_template_part('sections/section', 'news-grid', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_client',
+    'id' => 'wep_home_client',
 
-    'class' => 'ssg_home_client',
+    'class' => 'wep_home_client',
 
     'heading' => 'Khách hàng',
 
-    'description' => 'Các chuyên gia tư vấn của SSG cùng với khách hàng phát triển các kỹ năng về quản lý, kỹ thuật công nghệ, tạo ra các chức năng mới hoặc các luồng nghiệp vụ mới để giúp khách hàng quản lý tốt hơn.',
+    'description' => 'Các chuyên gia tư vấn của WEP  cùng với khách hàng phát triển các kỹ năng về quản lý, kỹ thuật công nghệ, tạo ra các chức năng mới hoặc các luồng nghiệp vụ mới để giúp khách hàng quản lý tốt hơn.',
 
     'tab_list' => [
 
@@ -266,9 +266,9 @@ get_template_part('sections/home', 'client-tab', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_testimonial',
+    'id' => 'wep_home_testimonial',
 
-    'class' => 'ssg_home_testimonial',
+    'class' => 'wep_home_testimonial',
 
     'heading' => 'Khách hàng nói',
 
@@ -312,9 +312,9 @@ get_template_part('sections/home', 'testimonial', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_contact',
+    'id' => 'wep_home_contact',
 
-    'class' => 'ssg_home_contact',
+    'class' => 'wep_home_contact',
 
     'heading' => 'Hãy để chúng tôi đồng hành cùng bạn trên hành trình chuyển đổi số.',
 

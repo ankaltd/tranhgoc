@@ -30,15 +30,15 @@ extract($option);
 
 ?>
 
-<!-- ssg_home_contact -->
+<!-- wep_home_contact -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_contact_form');
+WEP_Section_View::render_section_tag($option, 'wep_contact_form');
 
 ?>
 
-<!-- ssg_contact_form -->
+<!-- wep_contact_form -->
 
     <div class="container">
 
@@ -56,7 +56,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_contact_form');
 
         </div>
 
-        <div id="ssg_contact_form__form">
+        <div id="wep_contact_form__form">
 
             <div class="row justify-content-center">
 

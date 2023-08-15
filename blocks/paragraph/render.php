@@ -1,21 +1,21 @@
 <?php
 
-/* About SSG */
+/* About WEP  */
 
-$tag                = get_field('ssg_heading_tag');
+$tag                = get_field('wep_heading_tag');
 
-$color              = get_field('ssg_heading_color');
+$color              = get_field('wep_heading_color');
 
-$text               = get_field('ssg_heading_text');
+$text               = get_field('wep_heading_text');
 
-$align              = get_field('ssg_heading_align');
+$align              = get_field('wep_heading_align');
 
-$margin             = get_field('ssg_margin_bottom');
+$margin             = get_field('wep_margin_bottom');
 
 ?>
 
-<div class="ssg_block">
+<div class="wep_block">
 
-    <p class="ssg_paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, ipsum recusandae voluptatum repellendus assumenda quisquam ad impedit odio sit temporibus dignissimos? Expedita quam voluptatibus odit consequuntur officia, praesentium quis cumque!</p>
+    <p class="wep_paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, ipsum recusandae voluptatum repellendus assumenda quisquam ad impedit odio sit temporibus dignissimos? Expedita quam voluptatibus odit consequuntur officia, praesentium quis cumque!</p>
 
 </div>

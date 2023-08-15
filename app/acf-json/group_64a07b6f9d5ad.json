@@ -23,7 +23,7 @@
         {
             "key": "field_64a07bdc93dff",
             "label": "Văn bản tiêu đề",
-            "name": "ssg_heading_text",
+            "name": "wep_heading_text",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -43,7 +43,7 @@
         {
             "key": "field_64a07b6f9f954",
             "label": "Màu tiêu đề",
-            "name": "ssg_heading_color",
+            "name": "wep_heading_color",
             "aria-label": "",
             "type": "color_picker",
             "instructions": "",
@@ -61,7 +61,7 @@
         {
             "key": "field_64a07b8893dfe",
             "label": "Thẻ tiêu đề",
-            "name": "ssg_heading_tag",
+            "name": "wep_heading_tag",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -91,7 +91,7 @@
         {
             "key": "field_64a45aa4d8eee",
             "label": "Căn chỉnh",
-            "name": "ssg_heading_align",
+            "name": "wep_heading_align",
             "aria-label": "",
             "type": "button_group",
             "instructions": "",
@@ -115,7 +115,7 @@
         {
             "key": "field_64a45c0f969cd",
             "label": "Khoảng cách dưới",
-            "name": "ssg_heading_margin_bottom",
+            "name": "wep_heading_margin_bottom",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -128,12 +128,12 @@
             },
             "choices": {
                 "default": "Mặc định",
-                "ssg_margin": "20px",
-                "ssg_margin--b3": "30px",
-                "ssg_margin--b4": "40px",
-                "ssg_margin--b5": "50px",
-                "ssg_margin--b6": "60px",
-                "ssg_margin--b7": "70px"
+                "wep_margin": "20px",
+                "wep_margin--b3": "30px",
+                "wep_margin--b4": "40px",
+                "wep_margin--b5": "50px",
+                "wep_margin--b6": "60px",
+                "wep_margin--b7": "70px"
             },
             "default_value": "default",
             "return_format": "value",
@@ -154,42 +154,42 @@
             {
                 "param": "block",
                 "operator": "!=",
-                "value": "ssg\/slider"
+                "value": "wep\/slider"
             },
             {
                 "param": "block",
                 "operator": "!=",
-                "value": "ssg\/logo"
+                "value": "wep\/logo"
             },
             {
                 "param": "block",
                 "operator": "!=",
-                "value": "ssg\/gototop"
+                "value": "wep\/gototop"
             },
             {
                 "param": "block",
                 "operator": "!=",
-                "value": "ssg\/testimonial"
+                "value": "wep\/testimonial"
             },
             {
                 "param": "block",
                 "operator": "!=",
-                "value": "ssg\/section-goto"
+                "value": "wep\/section-goto"
             },
             {
                 "param": "block",
                 "operator": "!=",
-                "value": "ssg\/news-branch"
+                "value": "wep\/news-branch"
             },
             {
                 "param": "block",
                 "operator": "!=",
-                "value": "ssg\/ssg-video"
+                "value": "wep\/wep-video"
             },
             {
                 "param": "block",
                 "operator": "!=",
-                "value": "ssg\/andt"
+                "value": "wep\/andt"
             }
         ]
     ],

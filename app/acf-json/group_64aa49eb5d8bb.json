@@ -23,7 +23,7 @@
         {
             "key": "field_64aa49eb4fabf",
             "label": "Nội dung HTML",
-            "name": "ssg_content_html",
+            "name": "wep_content_html",
             "aria-label": "",
             "type": "wysiwyg",
             "instructions": "",
@@ -46,14 +46,14 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "ssg\/about"
+                "value": "wep\/about"
             }
         ],
         [
             {
                 "param": "block",
                 "operator": "==",
-                "value": "ssg\/text"
+                "value": "wep\/text"
             }
         ]
     ],

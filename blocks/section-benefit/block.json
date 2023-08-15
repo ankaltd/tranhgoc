@@ -1,10 +1,10 @@
 {
-    "name": "ssg/section-benefit",
-    "title": "SSG Section Benefit",
+    "name": "wep/section-benefit",
+    "title": "WEP  Section Benefit",
     "description": "",
     "style": "file:./style.css",
     "script": "block-section-benefit",
-    "category": "ssg-dich-vu",
+    "category": "wep-dich-vu",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

@@ -4,7 +4,7 @@
 
 $fields = [
 
-    'ssg_content_html'            => '',
+    'wep_content_html'            => '',
 
 ];
 
@@ -38,7 +38,7 @@ extract($option);
 
 ?>
 
-<!-- ssg_core_value -->
+<!-- wep_core_value -->
 
 <?php
 
@@ -50,7 +50,7 @@ WEP_Section_View::render_section_tag($option);
 
     <div class="row row-cols-1 row-cols-md-2 justify-content-center">
 
-        <div class="col ssg_core_value__item">
+        <div class="col wep_core_value__item">
 
             <?php
 
@@ -60,15 +60,15 @@ WEP_Section_View::render_section_tag($option);
 
         </div>
 
-        <div class="col ssg_core_value__item" <?php WEP_Section_View::render_item_aos($option, 3, 1) ?>>
+        <div class="col wep_core_value__item" <?php WEP_Section_View::render_item_aos($option, 3, 1) ?>>
 
-            <div class="ssg_core_value__image">
+            <div class="wep_core_value__image">
 
-                <?php if ($ssg_image_youtube_video) :
+                <?php if ($wep_image_youtube_video) :
 
                     // Link YouTube dạng https://www.youtube.com/watch?v=VIDEO_ID
 
-                    $youtubeLink = $ssg_image_youtube_link;
+                    $youtubeLink = $wep_image_youtube_link;
 
 
 
@@ -104,7 +104,7 @@ WEP_Section_View::render_section_tag($option);
 
                 <?php else : ?>
 
-                    <img src="<?php echo $ssg_image_src ?>" alt="<?php echo $ssg_heading_text ?>" class="img-fluid ssg_concept">
+                    <img src="<?php echo $wep_image_src ?>" alt="<?php echo $wep_heading_text ?>" class="img-fluid wep_concept">
 
                 <?php endif; ?>
 

@@ -1,10 +1,10 @@
 {
-    "name": "ssg/history",
-    "title": "SSG History",
+    "name": "wep/history",
+    "title": "WEP  History",
     "description": "",
     "style": "file:./style.css",
     "script": "block-history",
-    "category": "ssg-about",
+    "category": "wep-about",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

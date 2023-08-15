@@ -1,10 +1,10 @@
 {
-    "name": "ssg/logo",
-    "title": "SSG Logo",
+    "name": "wep/logo",
+    "title": "WEP  Logo",
     "description": "",
     "style": "file:./style.css",
     "script": "block-logo",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

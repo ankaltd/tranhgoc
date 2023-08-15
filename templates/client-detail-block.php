@@ -22,11 +22,11 @@ get_header();
 
 $section_data = [
 
-    'id' => 'ssg_entry_single',
+    'id' => 'wep_entry_single',
 
-    'class' => 'ssg_entry_single',
+    'class' => 'wep_entry_single',
 
-    'heading' => 'SSG tài trợ chính hội thảo “E-logistics Việt Nam sẵn sàn cất cánh” - Hiệp Hội Doanh nghiệp Dịch vụ Logistics Việt Nam (VLA) tổ chức',
+    'heading' => 'WEP  tài trợ chính hội thảo “E-logistics Việt Nam sẵn sàn cất cánh” - Hiệp Hội Doanh nghiệp Dịch vụ Logistics Việt Nam (VLA) tổ chức',
 
     'image' => THEME_IMG . '/client/client-detail.png',
 
@@ -38,7 +38,7 @@ $section_data = [
 
                     </p><p>
 
-                    Dự án triển khai Oracle Financials với giải pháp Best Practice của SSG cho mảng Tài chính Ngân hàng. Triển khai trong vòng 05 tháng, đã đưa vào vận hành thành công với các phân hệ: Kế toán Tổng hợp; Kế toán Tài sản; Kế toán Phải thu; Kế toán Phải trả; Quản lý Tiền.
+                    Dự án triển khai Oracle Financials với giải pháp Best Practice của WEP  cho mảng Tài chính Ngân hàng. Triển khai trong vòng 05 tháng, đã đưa vào vận hành thành công với các phân hệ: Kế toán Tổng hợp; Kế toán Tài sản; Kế toán Phải thu; Kế toán Phải trả; Quản lý Tiền.
 
                     </p><p>
 
@@ -62,9 +62,9 @@ get_template_part('sections/single', 'entry-client', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_client_other',
+    'id' => 'wep_client_other',
 
-    'class' => 'ssg_client_other',
+    'class' => 'wep_client_other',
 
     'heading' => 'Có thể bạn quan tâm',
 
@@ -112,9 +112,9 @@ get_template_part('sections/section', 'news-other', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_contact',
+    'id' => 'wep_home_contact',
 
-    'class' => 'ssg_home_contact',
+    'class' => 'wep_home_contact',
 
     'heading' => 'Hãy để chúng tôi đồng hành cùng bạn trên hành trình chuyển đổi số.',
 

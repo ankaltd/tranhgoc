@@ -24,25 +24,25 @@ extract($option);
 
 
 
-$video_style = $ssg_video_responsive ? 'style="width:100%;"' : sprintf('style="width:%s%;', $ssg_video_width);
+$video_style = $wep_video_responsive ? 'style="width:100%;"' : sprintf('style="width:%s%;', $wep_video_width);
 
-$video_classes = $ssg_video_alignment;
+$video_classes = $wep_video_alignment;
 
 
 
 ?>
 
-<!-- ssg_video -->
+<!-- wep_video -->
 
 
 
-<div class="ssg_video__item <?php echo $video_classes ?>" <?php echo $video_style ?> <?php WEP_Section_View::render_item_aos($option, 3, 1) ?>>
+<div class="wep_video__item <?php echo $video_classes ?>" <?php echo $video_style ?> <?php WEP_Section_View::render_item_aos($option, 3, 1) ?>>
 
-    <?php if ($ssg_video_youtube_video) :
+    <?php if ($wep_video_youtube_video) :
 
         // Link YouTube dạng https://www.youtube.com/watch?v=VIDEO_ID
 
-        $youtubeLink = $ssg_video_youtube_link;
+        $youtubeLink = $wep_video_youtube_link;
 
 
 
@@ -78,13 +78,13 @@ $video_classes = $ssg_video_alignment;
 
     <?php else : ?>
 
-        <?php if ($ssg_video_src) : ?>
+        <?php if ($wep_video_src) : ?>
 
             <!-- Video -->
 
             <video class="video-slide" width="auto" height="100%" muted="" playsinline="" autoplay="" loop="" data-duration="10000">
 
-                <source src="<?php echo $ssg_video_src ?>" type="video/mp4">
+                <source src="<?php echo $wep_video_src ?>" type="video/mp4">
 
             </video>
 

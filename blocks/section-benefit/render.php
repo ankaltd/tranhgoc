@@ -8,15 +8,15 @@ $fields = [
 
     // Content
 
-    'ssg_content_image_responsive'      => true,
+    'wep_content_image_responsive'      => true,
 
-    'ssg_content_list'                  => array(),
+    'wep_content_list'                  => array(),
 
-    'ssg_content_image_align'           => 0,
+    'wep_content_image_align'           => 0,
 
-    'ssg_content_text_align'            => 0,
+    'wep_content_text_align'            => 0,
 
-    'ssg_content_show_element'          => array(),
+    'wep_content_show_element'          => array(),
 
 ];
 
@@ -46,7 +46,7 @@ extract($option);
 
 // Get data content
 
-$data = $ssg_content_list;
+$data = $wep_content_list;
 
 
 
@@ -54,11 +54,11 @@ $data = $ssg_content_list;
 
 ?>
 
-<!-- ssg_service_benefit -->
+<!-- wep_service_benefit -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_service_benefit ssg_concept--section');
+WEP_Section_View::render_section_tag($option, 'wep_service_benefit wep_concept--section');
 
 ?>
 
@@ -82,15 +82,15 @@ WEP_Section_View::render_section_tag($option, 'ssg_service_benefit ssg_concept--
 
             <div class="col">
 
-                <div class="ssg_service_benefit__item">
+                <div class="wep_service_benefit__item">
 
                     <div class="content">
 
-                        <div class="ssg_service_benefit__description">
+                        <div class="wep_service_benefit__description">
 
-                            <h4 class="ssg_service_benefit__title"><?php echo $ssg_content_title ?></h4>
+                            <h4 class="wep_service_benefit__title"><?php echo $wep_content_title ?></h4>
 
-                            <p class="ssg_service_benefit__text"><?php echo $ssg_content_summary ?></p>
+                            <p class="wep_service_benefit__text"><?php echo $wep_content_summary ?></p>
 
                         </div>
 

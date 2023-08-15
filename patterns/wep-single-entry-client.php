@@ -4,9 +4,9 @@
 
 /**
 
- * Title: SSG Single Entry Client
+ * Title: WEP  Single Entry Client
 
- * Slug: ssg/ssg-single-entry-client
+ * Slug: wep/wep-single-entry-client
 
  * Categories: featured
 
@@ -22,27 +22,27 @@
 
 
 
-<article id="ssg_entry_single" class="ssg_entry_single">
+<article id="wep_entry_single" class="wep_entry_single">
 
-    <header class="ssg_entry_single__header">
+    <header class="wep_entry_single__header">
 
         <div class="row justify-content-center">
 
             <div class="col-8">
 
-                <h1 class="ssg_heading">SSG tài trợ chính hội thảo “E-logistics Việt Nam sẵn sàn cất cánh” - Hiệp Hội Doanh nghiệp Dịch vụ Logistics Việt Nam (VLA) tổ chức</h1>
+                <h1 class="wep_heading">WEP  tài trợ chính hội thảo “E-logistics Việt Nam sẵn sàn cất cánh” - Hiệp Hội Doanh nghiệp Dịch vụ Logistics Việt Nam (VLA) tổ chức</h1>
 
             </div>
 
         </div>
 
-        <div class="ssg_entry_single__thumbnail"><img src="https://demo.ssg.vn/wp-content/themes/ssg/assets/images/client/client-detail.png" alt="SSG tài trợ chính hội thảo “E-logistics Việt Nam sẵn sàn cất cánh” - Hiệp Hội Doanh nghiệp Dịch vụ Logistics Việt Nam (VLA) tổ chức"></div>
+        <div class="wep_entry_single__thumbnail"><img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/client/client-detail.png" alt="WEP  tài trợ chính hội thảo “E-logistics Việt Nam sẵn sàn cất cánh” - Hiệp Hội Doanh nghiệp Dịch vụ Logistics Việt Nam (VLA) tổ chức"></div>
 
     </header>
 
 
 
-    <div class="ssg_entry_single__content">
+    <div class="wep_entry_single__content">
 
         <div class="row justify-content-center">
 
@@ -60,7 +60,7 @@
 
                 <p>
 
-                    Dự án triển khai Oracle Financials với giải pháp Best Practice của SSG cho mảng Tài chính Ngân hàng. Triển khai trong vòng 05 tháng, đã đưa vào vận hành thành công với các phân hệ: Kế toán Tổng hợp; Kế toán Tài sản; Kế toán Phải thu; Kế toán Phải trả; Quản lý Tiền.
+                    Dự án triển khai Oracle Financials với giải pháp Best Practice của WEP  cho mảng Tài chính Ngân hàng. Triển khai trong vòng 05 tháng, đã đưa vào vận hành thành công với các phân hệ: Kế toán Tổng hợp; Kế toán Tài sản; Kế toán Phải thu; Kế toán Phải trả; Quản lý Tiền.
 
                 </p>
 
@@ -82,7 +82,7 @@
 
     </div>
 
-    <footer class="ssg_entry_single__footer">
+    <footer class="wep_entry_single__footer">
 
         <div class="row justify-content-center">
 

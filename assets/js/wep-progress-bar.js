@@ -22,17 +22,17 @@ let progressSection = document.getElementById("progress-section");
 
 let currentSectionId = sectionIds[stt];
 
-let ssgSection = document.getElementById(currentSectionId);
+let wepSection = document.getElementById(currentSectionId);
 
 let targetSection = document.querySelectorAll(".target_" + currentSectionId);
 
-let allTarget = document.querySelectorAll(".ssg_goto_section__item span");
+let allTarget = document.querySelectorAll(".wep_goto_section__item span");
 
 
 
 const setProgressSection = () => {
 
-  let sectionTop = ssgSection.offsetTop - 200; // Tọa độ top của phần tử ssg_about, ssg_history,...
+  let sectionTop = wepSection.offsetTop - 200; // Tọa độ top của phần tử wep_about, wep_history,...
 
   let progressWidth = (window.pageYOffset - sectionTop) / 10; // Độ rộng thanh tiến trình
 
@@ -112,7 +112,7 @@ function updateSection() {
 
   currentSectionId = sectionIds[stt];
 
-  ssgSection = document.getElementById(currentSectionId);
+  wepSection = document.getElementById(currentSectionId);
 
   targetSection = document.querySelectorAll(".target_" + currentSectionId);
 
@@ -132,7 +132,7 @@ function updateSection() {
 
 // Event Scroll
 
-if (progressSection && sectionIds.length > 0 && ssgSection) {
+if (progressSection && sectionIds.length > 0 && wepSection) {
 
   window.addEventListener("scroll", setProgressSection);
 
@@ -146,7 +146,7 @@ function removeAllActive() {
 
   // Xóa lớp .active khỏi tất cả các thẻ span
 
-  var allSpans = document.querySelectorAll(".ssg_goto_section__item span");
+  var allSpans = document.querySelectorAll(".wep_goto_section__item span");
 
   allSpans.forEach(function (span) {
 
@@ -160,7 +160,7 @@ function removeAllActive() {
 
 // Update when click - Lấy danh sách các thẻ a
 
-var links = document.querySelectorAll('a[href^="#ssg_"]');
+var links = document.querySelectorAll('a[href^="#wep_"]');
 
 
 

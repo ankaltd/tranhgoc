@@ -6,7 +6,7 @@ $fields = [
 
     // Link    
 
-    'ssg_link_list'  => array(),
+    'wep_link_list'  => array(),
 
 ];
 
@@ -34,15 +34,15 @@ extract($option);
 
 // Get data content
 
-$data = $ssg_link_list;
+$data = $wep_link_list;
 
 ?>
 
-<!-- ssg_goto_section -->
+<!-- wep_goto_section -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_goto_section');
+WEP_Section_View::render_section_tag($option, 'wep_goto_section');
 
 ?>
 
@@ -54,7 +54,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_goto_section');
 
 
 
-            <div id="progress-section" class="ssg_progress_section"></div>
+            <div id="progress-section" class="wep_progress_section"></div>
 
             <p class="progress-section-note">Lưu ý: thành phần này tự tạo các liên kết cho tất cả các Section có đánh dấu [Bổ sung điểm neo]. <br>Có thể bổ sung thêm liên kết khác ở [PHẦN LIÊN KẾT]</p>
 
@@ -64,9 +64,9 @@ WEP_Section_View::render_section_tag($option, 'ssg_goto_section');
 
                     <?php extract($link) ?>
 
-                    <a class="ssg_goto_section__item" href="<?php echo $ssg_link_url ?>">
+                    <a class="wep_goto_section__item" href="<?php echo $wep_link_url ?>">
 
-                        <?php echo $ssg_link_title ?> <span class="<?php echo str_replace('#', 'target_', $ssg_link_url) ?>"></span>
+                        <?php echo $wep_link_title ?> <span class="<?php echo str_replace('#', 'target_', $wep_link_url) ?>"></span>
 
                     </a>
 

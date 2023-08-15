@@ -23,7 +23,7 @@
         {
             "key": "field_64aa42ccc9dfe",
             "label": "Lấy tin Nổi bật \/ Mới nhất",
-            "name": "ssg_news_lastest",
+            "name": "wep_news_lastest",
             "aria-label": "",
             "type": "true_false",
             "instructions": "",
@@ -43,7 +43,7 @@
         {
             "key": "field_64aa435dc9dff",
             "label": "Tự chọn tin",
-            "name": "ssg_news_featured_select",
+            "name": "wep_news_featured_select",
             "aria-label": "",
             "type": "relationship",
             "instructions": "",
@@ -80,7 +80,7 @@
         {
             "key": "field_64aa4267c9dfd",
             "label": "Danh mục",
-            "name": "ssg_news_categories",
+            "name": "wep_news_categories",
             "aria-label": "",
             "type": "taxonomy",
             "instructions": "",
@@ -111,7 +111,7 @@
         {
             "key": "field_64aa44b7f6fa3",
             "label": "Hiển thị các thành phần",
-            "name": "ssg_news_show_element",
+            "name": "wep_news_show_element",
             "aria-label": "",
             "type": "checkbox",
             "instructions": "",
@@ -141,7 +141,7 @@
         {
             "key": "field_64c11bf25e291",
             "label": "Chuyên mục có liên kết",
-            "name": "ssg_news_categories_link",
+            "name": "wep_news_categories_link",
             "aria-label": "",
             "type": "true_false",
             "instructions": "",
@@ -161,7 +161,7 @@
         {
             "key": "field_64aa4162c9dfb",
             "label": "Tổng số lượng",
-            "name": "ssg_news_total",
+            "name": "wep_news_total",
             "aria-label": "",
             "type": "number",
             "instructions": "",
@@ -183,7 +183,7 @@
         {
             "key": "field_64aa41f0c9dfc",
             "label": "Số cột",
-            "name": "ssg_news_columns",
+            "name": "wep_news_columns",
             "aria-label": "",
             "type": "number",
             "instructions": "",
@@ -208,35 +208,35 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "ssg\/featured-news"
+                "value": "wep\/featured-news"
             }
         ],
         [
             {
                 "param": "block",
                 "operator": "==",
-                "value": "ssg\/event"
+                "value": "wep\/event"
             }
         ],
         [
             {
                 "param": "block",
                 "operator": "==",
-                "value": "ssg\/pr"
+                "value": "wep\/pr"
             }
         ],
         [
             {
                 "param": "block",
                 "operator": "==",
-                "value": "ssg\/section-case-study"
+                "value": "wep\/section-case-study"
             }
         ],
         [
             {
                 "param": "block",
                 "operator": "==",
-                "value": "ssg\/news-grid"
+                "value": "wep\/news-grid"
             }
         ]
     ],

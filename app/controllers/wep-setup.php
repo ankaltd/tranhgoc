@@ -95,7 +95,7 @@ class WEP_Setup {
         add_filter('theme_templates', [$this, 'load_custom_templates'], 100, 4);
 
         // Add Hints Font
-        add_filter('wp_resource_hints', [$this, 'ssg_resource_hints'], 10, 2);
+        add_filter('wp_resource_hints', [$this, 'wep_resource_hints'], 10, 2);
 
 
 
@@ -174,9 +174,9 @@ class WEP_Setup {
         add_action('wp_ajax_get_client_detail', array($this, 'get_client_detail'));
         add_action('wp_ajax_nopriv_get_client_detail', array($this, 'get_client_detail'));
 
-        // Gọi phương thức ssg_news_load_more qua AJAX
-        add_action('wp_ajax_ssg_news_load_more', array($this, 'ssg_news_load_more'));
-        add_action('wp_ajax_nopriv_ssg_news_load_more', array($this,'ssg_news_load_more'));
+        // Gọi phương thức wep_news_load_more qua AJAX
+        add_action('wp_ajax_wep_news_load_more', array($this, 'wep_news_load_more'));
+        add_action('wp_ajax_nopriv_wep_news_load_more', array($this,'wep_news_load_more'));
 
         // Đăng ký và enqueue script AJAX
         add_action('wp_enqueue_scripts', array($this, 'client_enqueue_scripts'));
@@ -184,18 +184,18 @@ class WEP_Setup {
 
     // Ajax Scripts
     public function client_enqueue_scripts() {
-        wp_enqueue_script('ssg-ajax', get_template_directory_uri() . '/assets/js/ssgAjax.js', array('jquery'), null, true);
+        wp_enqueue_script('wep-ajax', get_template_directory_uri() . '/assets/js/wepAjax.js', array('jquery'), null, true);
 
         // Tạo nonce và truyền vào script
-        $ajax_nonce = wp_create_nonce('ssg-ajax-nonce');
-        wp_localize_script('ssg-ajax', 'ssgAjax', array(
+        $ajax_nonce = wp_create_nonce('wep-ajax-nonce');
+        wp_localize_script('wep-ajax', 'wepAjax', array(
             'ajaxUrl' => admin_url('admin-ajax.php'),
             'ajaxNonce' => $ajax_nonce // Truyền nonce vào JavaScript
         ));
     }
 
     // Get Load More News
-    public function ssg_news_load_more() {
+    public function wep_news_load_more() {
 
         // $recent_publications = new WP_Query([
         //     'post_type' => 'post',
@@ -279,7 +279,7 @@ class WEP_Setup {
     // Get Title Client
     public function get_client_post_title() {
         // Kiểm tra nonce trước khi xử lý yêu cầu AJAX
-        if (isset($_POST['contentId']) && isset($_POST['nonce']) && wp_verify_nonce($_POST['nonce'], 'ssg-ajax-nonce')) {
+        if (isset($_POST['contentId']) && isset($_POST['nonce']) && wp_verify_nonce($_POST['nonce'], 'wep-ajax-nonce')) {
             $content_id = $_POST['contentId'];
 
             // Sử dụng phương thức của WEP_Setup để lấy nội dung tiêu đề bài viết
@@ -304,9 +304,9 @@ class WEP_Setup {
 
     // HTTP ORIGINS    
     function add_allowed_origins($origins) {
-        $origins[] = 'https://ssg.vn';
+        $origins[] = 'https://wep.vn';
         $origins[] = 'https://digitalbiz.com.vn';
-        $origins[] = 'https://ssgmedia.b-cdn.net';
+        $origins[] = 'https://wepmedia.b-cdn.net';
         return $origins;
     }
 
@@ -610,9 +610,9 @@ class WEP_Setup {
 
     // Hints
 
-    function ssg_resource_hints($urls, $relation_type) {
+    function wep_resource_hints($urls, $relation_type) {
 
-        if (wp_style_is('ssg-google-font', 'queue') && 'preconnect' === $relation_type) {
+        if (wp_style_is('wep-google-font', 'queue') && 'preconnect' === $relation_type) {
 
             $urls[] = array(
 
@@ -816,7 +816,7 @@ class WEP_Setup {
 
 
 
-        $editor_stylesheet_path = '/wp-content/themes/ssg/css/style.css';
+        $editor_stylesheet_path = '/wp-content/themes/tranhgoc/css/style.css';
 
 
 

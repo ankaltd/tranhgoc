@@ -4,9 +4,9 @@
 
 /**
 
- * Title: SSG Footer Top
+ * Title: WEP  Footer Top
 
- * Slug: ssg/ssg-footer-top
+ * Slug: wep/wep-footer-top
 
  * Categories: featured
 
@@ -24,6 +24,6 @@
 
 <!-- wp:heading -->
 
-<h2 class="wp-block-heading ssg_heading">Footer Top</h2>
+<h2 class="wp-block-heading wep_heading">Footer Top</h2>
 
 <!-- /wp:heading -->

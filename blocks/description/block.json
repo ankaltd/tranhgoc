@@ -1,10 +1,10 @@
 {
-    "name": "ssg/description",
-    "title": "SSG Description",
+    "name": "wep/description",
+    "title": "WEP  Description",
     "description": "",
     "style": "file:./style.css",
     "script": "block-description",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

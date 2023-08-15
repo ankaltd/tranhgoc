@@ -20,9 +20,9 @@ get_header();
 
 $section_data = [
 
-    'id' => 'ssg_banner',
+    'id' => 'wep_banner',
 
-    'class' => 'ssg_banner',
+    'class' => 'wep_banner',
 
     'align' => 'start',
 
@@ -40,9 +40,9 @@ get_template_part('sections/banner', 'photo', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_hiring_ev',
+    'id' => 'wep_hiring_ev',
 
-    'class' => 'ssg_hiring_ev',
+    'class' => 'wep_hiring_ev',
 
     'heading' => 'Môi trường làm việc công bằng.<br>Cơ hội phát triển cho tất cả thành viên.',
 
@@ -100,9 +100,9 @@ get_template_part('sections/hiring', 'ev', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_hiring_list',
+    'id' => 'wep_hiring_list',
 
-    'class' => 'ssg_hiring_list',
+    'class' => 'wep_hiring_list',
 
     'heading' => 'Cơ hội nghề nghiệp',
 
@@ -204,9 +204,9 @@ get_template_part('sections/hiring', 'list', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_hiring_benefit',
+    'id' => 'wep_hiring_benefit',
 
-    'class' => 'ssg_hiring_benefit',
+    'class' => 'wep_hiring_benefit',
 
     'heading' => 'Chế độ - Phúc lợi',
 
@@ -288,9 +288,9 @@ get_template_part('sections/hiring', 'benefit', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_contact',
+    'id' => 'wep_home_contact',
 
-    'class' => 'ssg_home_contact',
+    'class' => 'wep_home_contact',
 
     'heading' => 'Hãy để chúng tôi đồng hành cùng bạn trên hành trình chuyển đổi số.',
 

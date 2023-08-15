@@ -22,9 +22,9 @@ get_header();
 
 $section_data = [
 
-    'id' => 'ssg_slider',
+    'id' => 'wep_slider',
 
-    'class' => 'ssg_slider',
+    'class' => 'wep_slider',
 
     'heading' => 'Một kỷ nguyên mới của trí tuệ nhân tạo cho tất cả mọi người',
 
@@ -48,9 +48,9 @@ get_template_part('sections/slider', 'banner', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_service',
+    'id' => 'wep_home_service',
 
-    'class' => 'ssg_home_service',
+    'class' => 'wep_home_service',
 
     'heading' => 'Dịch vụ',
 
@@ -72,9 +72,9 @@ get_template_part('sections/home', 'service', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_solution',
+    'id' => 'wep_home_solution',
 
-    'class' => 'ssg_home_solution',
+    'class' => 'wep_home_solution',
 
     'heading' => 'Giải pháp',
 
@@ -98,13 +98,13 @@ get_template_part('sections/home', 'solution', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_client',
+    'id' => 'wep_home_client',
 
-    'class' => 'ssg_home_client',
+    'class' => 'wep_home_client',
 
     'heading' => 'Khách hàng',
 
-    'description' => 'Các chuyên gia tư vấn của SSG cùng với khách hàng phát triển các kỹ năng về quản lý, kỹ thuật công nghệ, tạo ra các chức năng mới hoặc các luồng nghiệp vụ mới để giúp khách hàng quản lý tốt hơn.',
+    'description' => 'Các chuyên gia tư vấn của WEP  cùng với khách hàng phát triển các kỹ năng về quản lý, kỹ thuật công nghệ, tạo ra các chức năng mới hoặc các luồng nghiệp vụ mới để giúp khách hàng quản lý tốt hơn.',
 
 ];
 
@@ -116,9 +116,9 @@ get_template_part('sections/home', 'client', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_testimonial',
+    'id' => 'wep_home_testimonial',
 
-    'class' => 'ssg_home_testimonial',
+    'class' => 'wep_home_testimonial',
 
     'heading' => 'Khách hàng nói',
 
@@ -138,9 +138,9 @@ get_template_part('sections/home', 'testimonial', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_news',
+    'id' => 'wep_home_news',
 
-    'class' => 'ssg_home_news',
+    'class' => 'wep_home_news',
 
     'heading' => 'Tin tức',
 
@@ -160,11 +160,11 @@ get_template_part('sections/home', 'news', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_pr',
+    'id' => 'wep_home_pr',
 
-    'class' => 'ssg_home_pr',
+    'class' => 'wep_home_pr',
 
-    'heading' => 'Báo chí viết gì về SSG?',
+    'heading' => 'Báo chí viết gì về WEP ?',
 
 ];
 
@@ -176,9 +176,9 @@ get_template_part('sections/home', 'news-pr', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_event',
+    'id' => 'wep_home_event',
 
-    'class' => 'ssg_home_event',
+    'class' => 'wep_home_event',
 
     'heading' => 'Sự kiện nổi bật',
 
@@ -192,9 +192,9 @@ get_template_part('sections/home', 'event', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_contact',
+    'id' => 'wep_home_contact',
 
-    'class' => 'ssg_home_contact',
+    'class' => 'wep_home_contact',
 
     'heading' => 'Hãy để chúng tôi đồng hành cùng bạn trên hành trình chuyển đổi số.',
 

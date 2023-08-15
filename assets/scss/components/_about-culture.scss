@@ -1,4 +1,4 @@
-.ssg_culture {
+.wep_culture {
     background-image: url('./images/bg-pattern-light-4.png');
 
     &__item {
@@ -30,7 +30,7 @@
             width: 2px;
             height: 100%;
             display: inline-block;
-            background-color: $ssg_color_primary;                                        
+            background-color: $wep_color_primary;                                        
         }
 
         // Hover

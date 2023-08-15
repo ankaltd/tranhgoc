@@ -4,14 +4,14 @@ jQuery(document).ready(function ($) {
     e.preventDefault();
 
     var contentId = $(this).data("content-id");
-    var ajaxNonce = ssgAjax.ajaxNonce; // Lấy nonce từ biến đã truyền từ PHP
+    var ajaxNonce = wepAjax.ajaxNonce; // Lấy nonce từ biến đã truyền từ PHP
 
     // Hiển thị biểu tượng spinner
     $(".loading-spinner").addClass("ajax-loading");
 
     // Gửi AJAX request
     $.ajax({
-      url: ssgAjax.ajaxUrl,
+      url: wepAjax.ajaxUrl,
       type: "POST",
       data: {
         action: "get_client_detail", // Sử dụng action mới cho get_client_detail
@@ -60,15 +60,15 @@ jQuery(document).ready(function ($) {
     e.stopPropagation();
 
     currentPage++; // Do currentPage + 1, because we want to load the next page
-    var list_categories = $("#ssg_news_categories").val().split(",");
-    var ajaxNonce = ssgAjax.ajaxNonce; // Lấy nonce từ biến đã truyền từ PHP
+    var list_categories = $("#wep_news_categories").val().split(",");
+    var ajaxNonce = wepAjax.ajaxNonce; // Lấy nonce từ biến đã truyền từ PHP
 
     $.ajax({
       type: "POST",
-      url: ssgAjax.ajaxUrl,
+      url: wepAjax.ajaxUrl,
       dataType: "json", // <-- Change dataType from 'html' to 'json'
       data: {
-        action: "ssg_news_load_more",
+        action: "wep_news_load_more",
         paged: currentPage,
         category_ids: list_categories,
         nonce: ajaxNonce, // Truyền nonce vào yêu cầu AJAX

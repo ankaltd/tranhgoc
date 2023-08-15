@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SSG Website\n"
+"Project-Id-Version: WEP  Website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-27 07:56+0000\n"
 "PO-Revision-Date: 2023-07-27 08:09+0000\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.4; wp-6.2.2\n"
-"X-Domain: ssg"
+"X-Domain: wep"
 
 #. Name of the template
 msgid "404"
@@ -28,7 +28,7 @@ msgid "ANDT Team"
 msgstr ""
 
 #: app/controllers/wep-acf-controller.php:38
-msgid "Blocks SSG"
+msgid "Blocks WEP "
 msgstr ""
 
 #. Name of the template
@@ -86,7 +86,7 @@ msgid "https://andt.biz.vn"
 msgstr ""
 
 #. URI of the theme
-msgid "https://ssg.vn"
+msgid "https://wep.vn"
 msgstr ""
 
 #: 404.php:22
@@ -139,15 +139,15 @@ msgid "Nothing here"
 msgstr ""
 
 #. Name of the template
-msgid "SSG Builder"
+msgid "WEP  Builder"
 msgstr ""
 
 #. Name of the theme
-msgid "SSG Website"
+msgid "WEP  Website"
 msgstr ""
 
 #. Description of the theme
-msgid "This is code theme for website ssg.vn"
+msgid "This is code theme for website wep.vn"
 msgstr ""
 
 #. Name of the template

@@ -2,7 +2,7 @@ function showHeadNavBackgroundWhenScroll() {
 
     // Lấy phần tử bạn muốn thêm/bỏ thuộc tính CSS
 
-    var headnav = document.getElementById("ssg-navbar");
+    var headnav = document.getElementById("wep-navbar");
 
   
 
@@ -14,27 +14,27 @@ function showHeadNavBackgroundWhenScroll() {
 
   
 
-    // Tìm thành phần ".admin-bar .ssg_header" điều chỉnh phần đầu
+    // Tìm thành phần ".admin-bar .wep_header" điều chỉnh phần đầu
 
-    var header_admin = document.querySelector(".admin-bar .ssg_header");
+    var header_admin = document.querySelector(".admin-bar .wep_header");
 
     var header_carousel = document.querySelector(
 
-      ".ssg_header #carouselExampleCaptions"
+      ".wep_header #carouselExampleCaptions"
 
     );
 
     var header_banner_admin = document.querySelector(
 
-      ".admin-bar .ssg_header .header_banner"
+      ".admin-bar .wep_header .header_banner"
 
     );
 
-    var header_web_logo = document.querySelector(".ssg_headnav__logo .web_logo");
+    var header_web_logo = document.querySelector(".wep_headnav__logo .web_logo");
 
     var header_menu_logo = document.querySelector(
 
-      ".ssg_headnav__logo .menu_logo"
+      ".wep_headnav__logo .menu_logo"
 
     );
 

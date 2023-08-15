@@ -1,8 +1,8 @@
-.ssg_client_other {
+.wep_client_other {
     &__thumbnail {
         overflow: hidden;
         display: block;
-        margin-bottom: $ssg_space;
+        margin-bottom: $wep_space;
 
         img {
             transition: transform 0.4s;

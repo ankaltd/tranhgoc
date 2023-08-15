@@ -5,8 +5,8 @@
     <div class="container">
         <div class="row text-center justify-content-center">
             <div class="col-10 col-md-9">
-                <h2 class="ssg_heading"><?php echo $heading; ?></h2>
-                <p class="ssg_description ssg_margin--b4"><?php echo $description ?></p>
+                <h2 class="wep_heading"><?php echo $heading; ?></h2>
+                <p class="wep_description wep_margin--b4"><?php echo $description ?></p>
             </div>
         </div>
         <div class="row justify-content-center">

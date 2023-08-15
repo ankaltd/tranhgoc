@@ -2,45 +2,45 @@
 @media screen and (min-width: 768px) {
 
     .text-start {
-        .ssg_button {
+        .wep_button {
             margin-right: 20px;
         }
     }
 
     .text-center {
-        .ssg_button {
+        .wep_button {
             margin-left: 20px;
             margin-right: 20px;
         }
     }
 
     .text-end {
-        .ssg_button {
+        .wep_button {
             margin-left: 20px;
         }
     }
 
-    .ssg_footer_middle {
+    .wep_footer_middle {
         .col {
             background-image: url('./images/home/vertical-gradient-line.png');
-            padding-left: $ssg_space*1.5;
+            padding-left: $wep_space*1.5;
             border-bottom: none;
         }
     }
 
-    .ssg_home_news_image {
+    .wep_home_news_image {
         &__item {
             margin-bottom: 0;
         }
     }
 
-    .ssg_home_service {
+    .wep_home_service {
         &__center_content {
             // top: 200px;
         }
     }
 
-    .ssg_home_solution {
+    .wep_home_solution {
 
         &__main {
             overflow-x: scroll;
@@ -48,9 +48,9 @@
         }
     }
 
-    .ssg_home_solution__slick,
-    .ssg_bod_slick,
-    .ssg_history_slick {
+    .wep_home_solution__slick,
+    .wep_bod_slick,
+    .wep_history_slick {
 
         .slick-track {
             display: flex !important;
@@ -60,8 +60,8 @@
             height: inherit !important;
         }
 
-        .ssg_home_solution__slider,
-        .ssg_bod__item {
+        .wep_home_solution__slider,
+        .wep_bod__item {
             padding: 10px;
             height: 100%;
 
@@ -72,12 +72,12 @@
                 transform: scale(1.1);
             }
 
-            .ssg_home_solution__thumbnail {
+            .wep_home_solution__thumbnail {
                 margin-bottom: 15px;
             }
         }
 
-        .ssg_history__item {
+        .wep_history__item {
             height: 100% !important;
         }
 
@@ -136,8 +136,8 @@
 
     }
 
-    #ssg_goto_section {
-        .ssg_goto_section__item {
+    #wep_goto_section {
+        .wep_goto_section__item {
             span {
                 bottom: -30px;
             }

@@ -1,22 +1,22 @@
-.ssg_vertical_tab {
+.wep_vertical_tab {
     .nav-link {
-        color: $ssg_color_primary;
+        color: $wep_color_primary;
         font-weight: 600;
-        padding: $ssg_space;
+        padding: $wep_space;
         border-radius: 2px;
 
         &.active {
-            color: $ssg_color_active;
-            background-color: $ssg_color_primary;
+            color: $wep_color_active;
+            background-color: $wep_color_primary;
         }
     }
 
     .tab-content {
         border: solid 1px #d9d9d9;
-        padding: $ssg_space;
+        padding: $wep_space;
 
         h4 {
-            color: $ssg_color_primary;
+            color: $wep_color_primary;
         }
 
         ul {

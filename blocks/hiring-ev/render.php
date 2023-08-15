@@ -8,15 +8,15 @@ $fields = [
 
     // Content
 
-    'ssg_content_image_responsive'      => true,
+    'wep_content_image_responsive'      => true,
 
-    'ssg_content_list'                  => array(),
+    'wep_content_list'                  => array(),
 
-    'ssg_content_image_align'           => 0,
+    'wep_content_image_align'           => 0,
 
-    'ssg_content_text_align'            => 0,
+    'wep_content_text_align'            => 0,
 
-    'ssg_content_show_element'          => array(),
+    'wep_content_show_element'          => array(),
 
 ];
 
@@ -44,17 +44,17 @@ extract($option);
 
 // Get data content
 
-$data = $ssg_content_list;
+$data = $wep_content_list;
 
 
 
 ?>
 
-<!-- ssg_hiring_ev -->
+<!-- wep_hiring_ev -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_hiring_ev ssg_concept--section');
+WEP_Section_View::render_section_tag($option, 'wep_hiring_ev wep_concept--section');
 
 ?>
 
@@ -80,13 +80,13 @@ WEP_Section_View::render_section_tag($option, 'ssg_hiring_ev ssg_concept--sectio
 
             <div class="col">
 
-                <div class="ssg_hiring_ev__item">
+                <div class="wep_hiring_ev__item">
 
-                    <?php if (in_array('thumbnail', $ssg_content_show_element)) : ?>
+                    <?php if (in_array('thumbnail', $wep_content_show_element)) : ?>
 
-                        <div class="ssg_hiring_ev__thumbnail ssg_margin">
+                        <div class="wep_hiring_ev__thumbnail wep_margin">
 
-                            <img src="<?php echo $ssg_content_image ?>" alt="<?php echo $ssg_content_title ?>" class="<?php echo $ssg_content_image_responsive ? 'img-fluid' : '' ?>">
+                            <img src="<?php echo $wep_content_image ?>" alt="<?php echo $wep_content_title ?>" class="<?php echo $wep_content_image_responsive ? 'img-fluid' : '' ?>">
 
                         </div>
 
@@ -94,19 +94,19 @@ WEP_Section_View::render_section_tag($option, 'ssg_hiring_ev ssg_concept--sectio
 
 
 
-                    <div class="ssg_hiring_ev__description">
+                    <div class="wep_hiring_ev__description">
 
-                        <?php if (in_array('title', $ssg_content_show_element)) : ?>
+                        <?php if (in_array('title', $wep_content_show_element)) : ?>
 
-                            <h5><a href="#"><?php echo $ssg_content_title ?></a></h5>
+                            <h5><a href="#"><?php echo $wep_content_title ?></a></h5>
 
                         <?php endif; ?>
 
 
 
-                        <?php if (in_array('summary', $ssg_content_show_element)) : ?>
+                        <?php if (in_array('summary', $wep_content_show_element)) : ?>
 
-                            <p><?php echo $ssg_content_summary ?></p>
+                            <p><?php echo $wep_content_summary ?></p>
 
                         <?php endif; ?>
 

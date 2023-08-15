@@ -1,10 +1,10 @@
 {
-    "name": "ssg/ssg-paragraph",
-    "title": "SSG Paragraph",
+    "name": "wep/wep-paragraph",
+    "title": "WEP  Paragraph",
     "description": "",
     "style": "file:./style.css",
     "script": "block-paragraph",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

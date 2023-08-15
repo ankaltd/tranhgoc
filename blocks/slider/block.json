@@ -1,10 +1,10 @@
 {
-    "name": "ssg/slider",
-    "title": "SSG Slider",
+    "name": "wep/slider",
+    "title": "WEP  Slider",
     "description": "",
     "style": "file:./style.css",
     "script": "block-slider",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

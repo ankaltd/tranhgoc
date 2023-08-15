@@ -4,21 +4,21 @@
 
 $fields = [
 
-    'ssg_content_number'                => 5,
+    'wep_content_number'                => 5,
 
-    'ssg_content_order'                 => 'asc',
+    'wep_content_order'                 => 'asc',
 
    
 
     // Button
 
-    'ssg_button_name'                   => 'Liên hệ',
+    'wep_button_name'                   => 'Liên hệ',
 
-    'ssg_button_style'                  => '',
+    'wep_button_style'                  => '',
 
-    'ssg_button_link'                   => '#',
+    'wep_button_link'                   => '#',
 
-    'ssg_button_target'                 => false,
+    'wep_button_target'                 => false,
 
 ];
 
@@ -46,11 +46,11 @@ extract($option);
 
 ?>
 
-<!-- ssg_home_contact -->
+<!-- wep_home_contact -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_home_contact');
+WEP_Section_View::render_section_tag($option, 'wep_home_contact');
 
 ?>
 

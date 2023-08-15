@@ -18,7 +18,7 @@ extract($args);
 
                 <div class="col-8">
 
-                    <h1 class="ssg_heading"><?php echo $heading; ?></h1>
+                    <h1 class="wep_heading"><?php echo $heading; ?></h1>
 
                 </div>
 
@@ -62,7 +62,7 @@ extract($args);
 
                     <div class="col-8">
 
-                        <div class="ssg_entry_single__share">
+                        <div class="wep_entry_single__share">
 
                             <span>Chia sẻ</span>
 

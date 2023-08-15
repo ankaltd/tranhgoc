@@ -4,9 +4,9 @@
 
 /**
 
- * Title: SSG Single Entry Hiring
+ * Title: WEP  Single Entry Hiring
 
- * Slug: ssg/ssg-single-entry-hiring
+ * Slug: wep/wep-single-entry-hiring
 
  * Categories: featured
 
@@ -22,25 +22,25 @@
 
 
 
-<!-- ssg_hiring_single -->
+<!-- wep_hiring_single -->
 
-<div class="container justify-content-center ssg_overpage">
+<div class="container justify-content-center wep_overpage">
 
-    <article id="ssg_hiring_single" class="ssg_hiring_single ssg_concept">
+    <article id="wep_hiring_single" class="wep_hiring_single wep_concept">
 
-        <header class="ssg_hiring_single__header">
+        <header class="wep_hiring_single__header">
 
             <div class="row row-cols-2 align-items-center">
 
                 <div class="col-md-8">
 
-                    <h1 class="ssg_hiring_single__heading">Account Manager (Digital Marketing)</h1>
+                    <h1 class="wep_hiring_single__heading">Account Manager (Digital Marketing)</h1>
 
                 </div>
 
                 <div class="col-md-4 justify-content-end text-end">
 
-                    <button class="ssg_button ssg_button--primary">Ứng tuyển</button>
+                    <button class="wep_button wep_button--primary">Ứng tuyển</button>
 
                 </div>
 
@@ -48,13 +48,13 @@
 
 
 
-            <div class="row row-cols-4 justify-content-center ssg_hiring_single__info">
+            <div class="row row-cols-4 justify-content-center wep_hiring_single__info">
 
                 <div class="col-3">
 
                     <div class="field">
 
-                        <i class="bi bi-geo-alt-fill"><img src="https://demo.ssg.vn/wp-content/themes/ssg/assets/images/icon_hr_location.png" alt=""></i>
+                        <i class="bi bi-geo-alt-fill"><img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon_hr_location.png" alt=""></i>
 
                         <span>Địa điểm làm việc</span>
 
@@ -70,7 +70,7 @@
 
 
 
-                        <i class="bi bi-cash"><img src="https://demo.ssg.vn/wp-content/themes/ssg/assets/images/icon_hr_salary.png" alt=""></i>
+                        <i class="bi bi-cash"><img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon_hr_salary.png" alt=""></i>
 
                         <span>Mức lương</span>
 
@@ -86,7 +86,7 @@
 
 
 
-                        <i class="bi bi-calendar-event-fill"><img src="https://demo.ssg.vn/wp-content/themes/ssg/assets/images/icon_hr_date.png" alt=""></i>
+                        <i class="bi bi-calendar-event-fill"><img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon_hr_date.png" alt=""></i>
 
                         <span>Hạn nộp hồ sơ</span>
 
@@ -102,7 +102,7 @@
 
 
 
-                        <i class="bi bi-briefcase"><img src="https://demo.ssg.vn/wp-content/themes/ssg/assets/images/icon_hr_workform.png" alt=""></i>
+                        <i class="bi bi-briefcase"><img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon_hr_workform.png" alt=""></i>
 
                         <span>Hình thức làm việc</span>
 
@@ -118,7 +118,7 @@
 
 
 
-        <div class="ssg_hiring_single__content">
+        <div class="wep_hiring_single__content">
 
             <div class="row row-cols-1 justify-content-center">
 

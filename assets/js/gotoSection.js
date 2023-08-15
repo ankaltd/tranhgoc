@@ -12,14 +12,14 @@ export function trackSections() {
 
       const id = element.id;
 
-      const headingElement = element.querySelector(".ssg_heading");
+      const headingElement = element.querySelector(".wep_heading");
 
       const text = headingElement ? headingElement.textContent : id;
 
   
       const listItem = document.createElement("a");
 
-      listItem.className = "ssg_goto_section__item";
+      listItem.className = "wep_goto_section__item";
 
       listItem.href = `#${id}`;
 

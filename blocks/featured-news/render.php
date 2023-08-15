@@ -34,35 +34,35 @@ extract($option);
 
 
 
-// Get data (if lastest news get from ssg_news_categories || get from ssg_news_featured_select)
+// Get data (if lastest news get from wep_news_categories || get from wep_news_featured_select)
 
-if ($ssg_news_lastest) {
+if ($wep_news_lastest) {
 
-    $data = WEP_Section_Model::get_latest_posts($ssg_news_total, $ssg_news_categories, 'ssg_thumb_news');
+    $data = WEP_Section_Model::get_latest_posts($wep_news_total, $wep_news_categories, 'wep_thumb_news');
 } else {
 
-    $data = WEP_Section_Model::get_list_posts($ssg_news_featured_select, 'ssg_thumb_news');
+    $data = WEP_Section_Model::get_list_posts($wep_news_featured_select, 'wep_thumb_news');
 }
 
 
 
 // Number colums
 
-$columns_class = sprintf('col-md-%s', (floor(12 / $ssg_news_columns)));
+$columns_class = sprintf('col-md-%s', (floor(12 / $wep_news_columns)));
 
 
 
 ?>
 
-<!-- ssg_home_news -->
+<!-- wep_home_news -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_home_news_image');
+WEP_Section_View::render_section_tag($option, 'wep_home_news_image');
 
 ?>
 
-<div class="container ssg_home_news_image">
+<div class="container wep_home_news_image">
 
     <div class="row">
 
@@ -84,27 +84,27 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_news_image');
 
             <div class="col-12 <?php echo $columns_class ?>" <?php WEP_Section_View::render_item_aos($option, 2, $stt) ?>>
 
-                <div class="ssg_home_news_image__item">
+                <div class="wep_home_news_image__item">
 
 
 
-                    <?php if (in_array('thumbnail', $ssg_news_show_element)) : ?>
+                    <?php if (in_array('thumbnail', $wep_news_show_element)) : ?>
 
-                        <a href="<?php echo $permalink ?>" class="ssg_home_news_image__thumbnail">
+                        <a href="<?php echo $permalink ?>" class="wep_home_news_image__thumbnail">
 
-                            <img src="<?php echo $thumbnail ?>" alt="<?php echo $title ?>" class="img-fluid ssg_concept">
+                            <img src="<?php echo $thumbnail ?>" alt="<?php echo $title ?>" class="img-fluid wep_concept">
 
                         </a>
 
                     <?php endif ?>
 
-                    <div class="ssg_home_news_image__content">
+                    <div class="wep_home_news_image__content">
 
-                        <?php if (in_array('category', $ssg_news_show_element)) : ?>
+                        <?php if (in_array('category', $wep_news_show_element)) : ?>
 
-                            <?php if ($ssg_news_categories_link) : ?>
+                            <?php if ($wep_news_categories_link) : ?>
 
-                                <p class="ssg_home_news_image__category">
+                                <p class="wep_home_news_image__category">
 
                                     <?php
 
@@ -112,7 +112,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_news_image');
 
                                     for ($i = 0; $i < $total_cat; $i++) {
                                         echo ($i > 0) ? ' - ' : '';
-                                        printf('<a href="%s" class="ssg_home_news_image__category_link">%s</a>', $category_links[$i], $categories[$i]);
+                                        printf('<a href="%s" class="wep_home_news_image__category_link">%s</a>', $category_links[$i], $categories[$i]);
                                     }
 
                                     ?>
@@ -121,7 +121,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_news_image');
 
                             <?php else : ?>
 
-                                <p class="ssg_home_news_image__category"><?php echo implode(", ", $categories); ?></p>
+                                <p class="wep_home_news_image__category"><?php echo implode(", ", $categories); ?></p>
 
                             <?php endif; ?>
 
@@ -129,17 +129,17 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_news_image');
 
 
 
-                        <?php if (in_array('title', $ssg_news_show_element)) : ?>
+                        <?php if (in_array('title', $wep_news_show_element)) : ?>
 
-                            <h5 class="ssg_home_news_image__title"><a href="<?php echo $permalink ?>"><?php echo $title ?></a></h5>
+                            <h5 class="wep_home_news_image__title"><a href="<?php echo $permalink ?>"><?php echo $title ?></a></h5>
 
                         <?php endif ?>
 
 
 
-                        <?php if (in_array('readmore', $ssg_news_show_element)) : ?>
+                        <?php if (in_array('readmore', $wep_news_show_element)) : ?>
 
-                            <p><a class="ssg_more_link" href="<?php echo $permalink ?>">Xem thêm</a></p>
+                            <p><a class="wep_more_link" href="<?php echo $permalink ?>">Xem thêm</a></p>
 
                         <?php endif ?>
 

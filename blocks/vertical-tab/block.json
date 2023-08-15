@@ -1,10 +1,10 @@
 {
-    "name": "ssg/vertical-tab",
-    "title": "SSG Vertical Tab",
+    "name": "wep/vertical-tab",
+    "title": "WEP  Vertical Tab",
     "description": "",
     "style": "file:./style.css",
     "script": "block-vertical-tab",
-    "category": "ssg-dich-vu",
+    "category": "wep-dich-vu",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

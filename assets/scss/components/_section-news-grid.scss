@@ -1,4 +1,4 @@
-.ssg_news_grid {
+.wep_news_grid {
 
     padding: 40px 0;
 
@@ -19,7 +19,7 @@
     &__meta {
         &.date {
             font-size: 12px;
-            color: $ssg_color_primary;
+            color: $wep_color_primary;
             margin-bottom: 10px;
         }
     }
@@ -40,7 +40,7 @@
     }
 
     &__item {
-        margin-bottom: $ssg_space*1.5;
+        margin-bottom: $wep_space*1.5;
     }
 
     .category_filter {

@@ -1,10 +1,10 @@
 {
-    "name": "ssg/culture",
-    "title": "SSG Culture",
+    "name": "wep/culture",
+    "title": "WEP  Culture",
     "description": "",
     "style": "file:./style.css",
     "script": "block-culture",
-    "category": "ssg-about",
+    "category": "wep-about",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

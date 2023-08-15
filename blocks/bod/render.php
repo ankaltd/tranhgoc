@@ -6,10 +6,10 @@ $fields = [
 
     // Content
 
-    'ssg_people_list'                  => array(),
-    'ssg_people_text_align'            => 'text-center',
-    'ssg_people_number'                => 4,
-    'ssg_people_style'                 => false, // Slider false Grid true
+    'wep_people_list'                  => array(),
+    'wep_people_text_align'            => 'text-center',
+    'wep_people_number'                => 4,
+    'wep_people_style'                 => false, // Slider false Grid true
 
 ];
 
@@ -32,22 +32,22 @@ extract($option);
 
 
 // Get data content
-$data = $ssg_people_list;
+$data = $wep_people_list;
 
 ?>
 
-<!-- ssg_bod -->
+<!-- wep_bod -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_concept--section ssg_bod');
+WEP_Section_View::render_section_tag($option, 'wep_concept--section wep_bod');
 
 ?>
 
-<input type="hidden" id="totalSliderBOD" value="<?php echo $ssg_people_number ?>">
+<input type="hidden" id="totalSliderBOD" value="<?php echo $wep_people_number ?>">
 
 
-<?php if ($ssg_people_style) : ?>
+<?php if ($wep_people_style) : ?>
     <div class="container">
 
         <div class="row">
@@ -59,26 +59,26 @@ WEP_Section_View::render_section_tag($option, 'ssg_concept--section ssg_bod');
 
         </div>
 
-        <div class="row justify-content-center ssg_bod_slick">
+        <div class="row justify-content-center wep_bod_slick">
 
             <?php $stt = 0;
             foreach ($data as $people) : ?>
 
                 <?php extract($people) ?>
 
-                <div class="ssg_bod__item" <?php WEP_Section_View::render_item_aos($option, 3, $stt) ?>>
+                <div class="wep_bod__item" <?php WEP_Section_View::render_item_aos($option, 3, $stt) ?>>
 
-                    <div class="ssg_bod__thumbnail ssg_margin">
+                    <div class="wep_bod__thumbnail wep_margin">
 
-                        <img src="<?php echo $ssg_people_image ?>" alt="<?php echo $ssg_people_name ?>" class="img-fluid ssg_concept">
+                        <img src="<?php echo $wep_people_image ?>" alt="<?php echo $wep_people_name ?>" class="img-fluid wep_concept">
 
                     </div>
 
-                    <div class="ssg_bod__content">
+                    <div class="wep_bod__content">
 
-                        <h5 class="<?php echo $ssg_people_text_align ?>"><?php echo $ssg_people_name ?></h5>
+                        <h5 class="<?php echo $wep_people_text_align ?>"><?php echo $wep_people_name ?></h5>
 
-                        <p class="<?php echo $ssg_people_text_align ?>"><?php echo $ssg_people_title ?></p>
+                        <p class="<?php echo $wep_people_text_align ?>"><?php echo $wep_people_title ?></p>
 
                     </div>
 
@@ -118,19 +118,19 @@ WEP_Section_View::render_section_tag($option, 'ssg_concept--section ssg_bod');
 
                 <div class="col" <?php WEP_Section_View::render_item_aos($option, 3, $stt) ?>>
 
-                    <div class="ssg_bod__item">
+                    <div class="wep_bod__item">
 
-                        <div class="ssg_bod__thumbnail ssg_margin">
+                        <div class="wep_bod__thumbnail wep_margin">
 
-                            <img src="<?php echo $ssg_people_image ?>" alt="<?php echo $ssg_people_name ?>" class="img-fluid ssg_concept">
+                            <img src="<?php echo $wep_people_image ?>" alt="<?php echo $wep_people_name ?>" class="img-fluid wep_concept">
 
                         </div>
 
-                        <div class="ssg_bod__content">
+                        <div class="wep_bod__content">
 
-                            <h5 class="<?php echo $ssg_people_text_align ?>"><?php echo $ssg_people_name ?></h5>
+                            <h5 class="<?php echo $wep_people_text_align ?>"><?php echo $wep_people_name ?></h5>
 
-                            <p class="<?php echo $ssg_people_text_align ?>"><?php echo $ssg_people_title ?></p>
+                            <p class="<?php echo $wep_people_text_align ?>"><?php echo $wep_people_title ?></p>
 
                         </div>
 

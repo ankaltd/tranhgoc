@@ -6,7 +6,7 @@ extract($args);
 
 $search_fields = [
 
-    'ssg_search_page_show' => 'all'
+    'wep_search_page_show' => 'all'
 
 ];
 
@@ -14,7 +14,7 @@ $search_fields = [
 
 $category_fields = [
 
-    'ssg_category_page_show' => 'all'
+    'wep_category_page_show' => 'all'
 
 ];
 
@@ -64,7 +64,7 @@ extract($category_options);
 
 
 
-                        <?php if ((is_search() && in_array('thumbnail', $ssg_search_page_show)) || (is_category() && in_array('thumbnail', $ssg_category_page_show))) : ?>
+                        <?php if ((is_search() && in_array('thumbnail', $wep_search_page_show)) || (is_category() && in_array('thumbnail', $wep_category_page_show))) : ?>
 
                             <div class="<?php echo $class; ?>__thumbnail">
 
@@ -76,7 +76,7 @@ extract($category_options);
 
 
 
-                        <?php if ((is_search() && in_array('date', $ssg_search_page_show)) || (is_category() && in_array('date', $ssg_category_page_show))) : ?>
+                        <?php if ((is_search() && in_array('date', $wep_search_page_show)) || (is_category() && in_array('date', $wep_category_page_show))) : ?>
 
                             <?php if (isset($news['date'])) : ?>
 
@@ -88,7 +88,7 @@ extract($category_options);
 
                         <div class="<?php echo $class; ?>__content">
 
-                            <?php if ((is_search() && in_array('title', $ssg_search_page_show)) || (is_category() && in_array('title', $ssg_category_page_show))) : ?>
+                            <?php if ((is_search() && in_array('title', $wep_search_page_show)) || (is_category() && in_array('title', $wep_category_page_show))) : ?>
 
                                 <h5 class="<?php echo $class; ?>__title"><a href="<?php echo $news['permalink']; ?>"><?php echo $news['title'] ?></a></h5>
 
@@ -96,7 +96,7 @@ extract($category_options);
 
 
 
-                            <?php if ((is_search() && in_array('summary', $ssg_search_page_show)) || (is_category() && in_array('summary', $ssg_category_page_show))) : ?>
+                            <?php if ((is_search() && in_array('summary', $wep_search_page_show)) || (is_category() && in_array('summary', $wep_category_page_show))) : ?>
 
                                 <?php if (isset($news['text'])) : ?>
 
@@ -108,9 +108,9 @@ extract($category_options);
 
 
 
-                            <?php if (is_category() && in_array('readmore', $ssg_category_page_show)) : ?>
+                            <?php if (is_category() && in_array('readmore', $wep_category_page_show)) : ?>
 
-                                <p><a class="ssg_more_link" href="<?php echo $news['permalink'] ?>">Xem thêm</a></p>
+                                <p><a class="wep_more_link" href="<?php echo $news['permalink'] ?>">Xem thêm</a></p>
 
                             <?php endif ?>
 

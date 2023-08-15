@@ -23,7 +23,7 @@
         {
             "key": "field_64b83c519a083",
             "label": "Danh sách liên kết",
-            "name": "ssg_link_list",
+            "name": "wep_link_list",
             "aria-label": "",
             "type": "repeater",
             "instructions": "",
@@ -45,7 +45,7 @@
                 {
                     "key": "field_64b83c519b395",
                     "label": "Tiêu đề",
-                    "name": "ssg_link_title",
+                    "name": "wep_link_title",
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",
@@ -66,7 +66,7 @@
                 {
                     "key": "field_64b83ca43142b",
                     "label": "Liên kết (cùng trang dùng #section_id)",
-                    "name": "ssg_link_url",
+                    "name": "wep_link_url",
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",
@@ -92,7 +92,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "ssg\/section-goto"
+                "value": "wep\/section-goto"
             }
         ]
     ],

@@ -1,4 +1,4 @@
-.ssg_vision {
+.wep_vision {
     background-image: url('./images/about/about-bg-vision.png');
     background-position-x: right;
     background-position-y: bottom;
@@ -38,16 +38,16 @@
             width: 100%;
             height: 2px;
             display: block;
-            background-color: $ssg_color_active;
+            background-color: $wep_color_active;
         }
 
         h4 {
             font-size: 32px;
-            color: $ssg_color_primary;
+            color: $wep_color_primary;
         }
 
         p {
-            color: $ssg_color_primary;
+            color: $wep_color_primary;
         }
 
         .content {

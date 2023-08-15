@@ -5,14 +5,14 @@
     <div class="col-md-6 text-center text-md-start">
         <?php
 
-        $company_copyright = WEP_Option_Model::get_field_lang('ssg_company_copyright');
+        $company_copyright = WEP_Option_Model::get_field_lang('wep_company_copyright');
 
         $block_data = [
-            'id' => 'ssg_copyright',
-            'class' => 'ssg_copyright',
+            'id' => 'wep_copyright',
+            'class' => 'wep_copyright',
             'text' => $company_copyright,
         ];
-        get_template_part('blocks/ssg', 'paragraph', $block_data);
+        get_template_part('blocks/wep', 'paragraph', $block_data);
         ?>
 
     </div>
@@ -20,7 +20,7 @@
 
         <?php
 
-        $company_socials = get_field('ssg_footer_social_icon_list', 'option');
+        $company_socials = get_field('wep_footer_social_icon_list', 'option');
         $company_socials_list = array();
 
         if ($company_socials) {
@@ -35,19 +35,19 @@
         }
 
         $block_data = [
-            'id' => 'ssg_social_icons',
-            'class' => 'ssg_social_icons',
+            'id' => 'wep_social_icons',
+            'class' => 'wep_social_icons',
             'icons' => $company_socials_list,
         ];
-        get_template_part('blocks/ssg', 'social-icons', $block_data);
+        get_template_part('blocks/wep', 'social-icons', $block_data);
         ?>
     </div>
 </div>
 
 <?php
 $block_data = [
-    'id' => 'ssg_gototop',
-    'class' => 'ssg_gototop',
+    'id' => 'wep_gototop',
+    'class' => 'wep_gototop',
 ];
-get_template_part('blocks/ssg', 'footer-gototop', $block_data);
+get_template_part('blocks/wep', 'footer-gototop', $block_data);
 ?>

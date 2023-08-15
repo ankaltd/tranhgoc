@@ -9,11 +9,11 @@ get_header();
 
 // Get options
 $search_page_options = [
-    'ssg_search_page_banner'                => '',
-    'ssg_search_page_heading'               => 'Tìm kiếm',
-    'ssg_search_page_number_per_page'       => 6,
-    'ssg_search_page_columns'               => 3,
-    'ssg_search_page_show'                  => 'all',
+    'wep_search_page_banner'                => '',
+    'wep_search_page_heading'               => 'Tìm kiếm',
+    'wep_search_page_number_per_page'       => 6,
+    'wep_search_page_columns'               => 3,
+    'wep_search_page_show'                  => 'all',
 ];
 
 // Get options --------------
@@ -25,18 +25,18 @@ extract($global_options);
  * @var $keyword
  * @var $posts
  */
-$news_result = WEP_Section_Model::searchPosts($ssg_search_page_number_per_page);
+$news_result = WEP_Section_Model::searchPosts($wep_search_page_number_per_page);
 extract($news_result);
 
 /* Banner ---------------*/
-if (trim($ssg_search_page_banner) != '') {
+if (trim($wep_search_page_banner) != '') {
     $section_data = [
-        'id' => 'ssg_banner',
-        'class' => 'ssg_banner',
+        'id' => 'wep_banner',
+        'class' => 'wep_banner',
         'css' => 'height:200px',
-        'image' => $ssg_search_page_banner,
+        'image' => $wep_search_page_banner,
         'align' => 'start',
-        'heading' => $ssg_search_page_heading,
+        'heading' => $wep_search_page_heading,
         'heading_css' => '',
         'description' => sprintf('Tìm kiếm có <strong>%s</strong> kết quả cho nội dung: <strong>"%s"</strong>', $totalResults, $keyword),
     ];
@@ -58,9 +58,9 @@ foreach ($posts as $news) {
 }
 
 $section_data = [
-    'id' => 'ssg_news',
-    'class' => 'ssg_news_grid',
-    'columns' => $ssg_search_page_columns,
+    'id' => 'wep_news',
+    'class' => 'wep_news_grid',
+    'columns' => $wep_search_page_columns,
     'pagination' => $pagination,
     'news_list' => $post_list
 ];

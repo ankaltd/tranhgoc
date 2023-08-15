@@ -23,7 +23,7 @@ get_header();
                 $thumbnail_url = get_the_post_thumbnail_url($post_id, 'full');
                 $post_content = get_the_content(null, false, $post_id);
                 $post_date = get_the_date('j F, Y', $post_id);
-                $post_source = get_field('ssg_content_source') ? get_field('ssg_content_source') : '';
+                $post_source = get_field('wep_content_source') ? get_field('wep_content_source') : '';
 
 
                 // Chuyển đổi ngày sang ngôn ngữ địa phương
@@ -46,8 +46,8 @@ get_header();
 
                 /* Section Entry Post --------------- */
                 $section_data = [
-                    'id' => 'ssg_entry_single',
-                    'class' => 'ssg_entry_single',
+                    'id' => 'wep_entry_single',
+                    'class' => 'wep_entry_single',
                     'post_classes' => implode(' ', $post_classes),
                     'heading' => $post_title,
                     'summary' => $post_excerpt,
@@ -69,8 +69,8 @@ get_header();
             <?php
             /* Section Sidebar --------------- */
             $section_data = [
-                'id' => 'ssg_sidebar',
-                'class' => 'ssg_sidebar',
+                'id' => 'wep_sidebar',
+                'class' => 'wep_sidebar',
             ];
             get_template_part('sections/sidebar', 'default', $section_data);
             ?>
@@ -82,8 +82,8 @@ get_header();
 
 /* Section Contact --------------- */
 $section_data = [
-    'id' => 'ssg_home_contact',
-    'class' => 'ssg_home_contact',
+    'id' => 'wep_home_contact',
+    'class' => 'wep_home_contact',
     'heading' => 'Hãy để chúng tôi đồng hành cùng bạn trên hành trình chuyển đổi số.',
     'button' => [
         'text' => 'Liên hệ'

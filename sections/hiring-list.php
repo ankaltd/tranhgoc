@@ -1,10 +1,10 @@
 <?php extract($args); ?>
 
 <!-- <?php echo $id; ?> -->
-<section id="<?php echo $id; ?>" class="<?php echo $class; ?> ssg_concept--section">
+<section id="<?php echo $id; ?>" class="<?php echo $class; ?> wep_concept--section">
     <div class="container ">
         <div class="row">
-            <h2 class="ssg_heading text-center"><?php echo $heading; ?></h2>
+            <h2 class="wep_heading text-center"><?php echo $heading; ?></h2>
         </div>
         <!-- Form Filter -->
         <form id="<?php echo $id; ?>_form">
@@ -13,7 +13,7 @@
                     <input type="text" class="form-control" placeholder="Vị trí công việc">
                 </div>
                 <div class="col-md-3">
-                    <div class="ssg_select">
+                    <div class="wep_select">
                         <select class="form-control">
                             <option selected disabled>Hình thức làm việc</option>
                             <option>Toàn thời gian</option>
@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="ssg_select">
+                    <div class="wep_select">
                         <select class="form-control">
                             <option selected disabled>Địa điểm</option>
                             <option>Hà Nội</option>
@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <button type="submit" class="ssg_button ssg_button--primary ssg_search">Tìm kiếm</button>
+                    <button type="submit" class="wep_button wep_button--primary wep_search">Tìm kiếm</button>
                 </div>
             </div>
         </form>
@@ -54,7 +54,7 @@
                         <td><a href="#"><?php echo $item['position'] ?></a></td>
                         <td><i class="bi bi-geo-alt-fill"><img src="<?php echo THEME_IMG . '/icon_hr_location.png'  ?>" alt=""></i> <?php echo $item['location'] ?></td>
                         <td><i class="bi bi-calendar-event-fill"><img src="<?php echo THEME_IMG . '/icon_hr_date.png'  ?>" alt=""></i> <span class="date"><?php echo $item['date'] ?></span></td>
-                        <td><a class="ssg_more_link" href="#">Ứng tuyển</a></td>
+                        <td><a class="wep_more_link" href="#">Ứng tuyển</a></td>
                     </tr>
                 <?php endforeach ?>
             </tbody>
@@ -62,7 +62,7 @@
 
         <div class="row text-center justify-content-center">
             <div class="col">
-                <a class="ssg_more_link" href="">Tải thêm nội dung</a>
+                <a class="wep_more_link" href="">Tải thêm nội dung</a>
             </div>
         </div>
     </div>

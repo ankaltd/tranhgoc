@@ -8,17 +8,17 @@ $fields = [
 
     // News
 
-    'ssg_news_lastest'                  => false,
+    'wep_news_lastest'                  => false,
 
-    'ssg_news_featured_select'          => array(),
+    'wep_news_featured_select'          => array(),
 
-    'ssg_news_categories'               => 0,
+    'wep_news_categories'               => 0,
 
-    'ssg_news_show_element'             => 'all',
+    'wep_news_show_element'             => 'all',
 
-    'ssg_news_total'                    => 6,
+    'wep_news_total'                    => 6,
 
-    'ssg_news_columns'                  => 3,
+    'wep_news_columns'                  => 3,
 
 
 
@@ -50,15 +50,15 @@ extract($option);
 
 
 
-// Get data (if lastest news get from ssg_news_categories || get from ssg_news_featured_select)
+// Get data (if lastest news get from wep_news_categories || get from wep_news_featured_select)
 
-if ($ssg_news_lastest) {
+if ($wep_news_lastest) {
 
-    $data = WEP_Section_Model::get_latest_posts($ssg_news_total, $ssg_news_categories, 'ssg_thumb_news');
+    $data = WEP_Section_Model::get_latest_posts($wep_news_total, $wep_news_categories, 'wep_thumb_news');
 
 } else {
 
-    $data = WEP_Section_Model::get_list_posts($ssg_news_featured_select, 'ssg_thumb_news');
+    $data = WEP_Section_Model::get_list_posts($wep_news_featured_select, 'wep_thumb_news');
 
 }
 
@@ -66,17 +66,17 @@ if ($ssg_news_lastest) {
 
 // Number colums
 
-$columns_class = sprintf('col-md-%s', (floor(12 / $ssg_news_columns)));
+$columns_class = sprintf('col-md-%s', (floor(12 / $wep_news_columns)));
 
 
 
 ?>
 
-<!-- ssg_case_study -->
+<!-- wep_case_study -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_case_study');
+WEP_Section_View::render_section_tag($option, 'wep_case_study');
 
 ?>
 
@@ -100,11 +100,11 @@ WEP_Section_View::render_section_tag($option, 'ssg_case_study');
 
             <div class="col">
 
-                <div class="ssg_case_study__item">
+                <div class="wep_case_study__item">
 
-                    <?php if (in_array('thumbnail', $ssg_news_show_element)) : ?>
+                    <?php if (in_array('thumbnail', $wep_news_show_element)) : ?>
 
-                        <div class="ssg_case_study__thumbnail">
+                        <div class="wep_case_study__thumbnail">
 
                             <a href="<?php echo $permalink ?>"><img src="<?php echo $thumbnail ?>" alt="<?php echo $title ?>" class="img-fluid"></a>
 
@@ -114,9 +114,9 @@ WEP_Section_View::render_section_tag($option, 'ssg_case_study');
 
 
 
-                    <div class="ssg_case_study__content">                        
+                    <div class="wep_case_study__content">                        
 
-                        <?php if (in_array('title', $ssg_news_show_element)) : ?>
+                        <?php if (in_array('title', $wep_news_show_element)) : ?>
 
                             <h5><a href="<?php echo $permalink ?>"><?php echo $title ?></a></h5>
 
@@ -124,7 +124,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_case_study');
 
 
 
-                        <?php if (in_array('summary', $ssg_news_show_element)) : ?>
+                        <?php if (in_array('summary', $wep_news_show_element)) : ?>
 
                             <p><?php echo $excerpt ?></p>
 
@@ -132,9 +132,9 @@ WEP_Section_View::render_section_tag($option, 'ssg_case_study');
 
 
 
-                        <?php if (in_array('readmore', $ssg_news_show_element)) : ?>
+                        <?php if (in_array('readmore', $wep_news_show_element)) : ?>
 
-                            <p><a class="ssg_more_link" href="<?php echo $permalink ?>">Xem thêm</a></p>
+                            <p><a class="wep_more_link" href="<?php echo $permalink ?>">Xem thêm</a></p>
 
                         <?php endif ?>
 

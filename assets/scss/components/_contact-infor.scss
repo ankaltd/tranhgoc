@@ -1,15 +1,15 @@
-.ssg_contact_infor {
+.wep_contact_infor {
     position: relative;
 
-    .ssg_heading {
+    .wep_heading {
         margin-bottom: 120px !important;
     }
 
     &__title {
-        color: $ssg_color_primary;
+        color: $wep_color_primary;
         font-size: 20px;
         text-transform: uppercase;
-        margin-bottom: $ssg_space;
+        margin-bottom: $wep_space;
     }    
 
     &__icon {
@@ -51,7 +51,7 @@
                 width: 100%;
                 height: 2px;
                 display: block;
-                background-color: $ssg_color_primary;                                        
+                background-color: $wep_color_primary;                                        
             }
 
             .content {
@@ -61,7 +61,7 @@
                 background-color: white;
                 position: relative;
 
-                .ssg_more_link {
+                .wep_more_link {
                     position: absolute;
                     left: 30px;
                     bottom: 30px;

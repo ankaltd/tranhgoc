@@ -2,7 +2,7 @@ body {
     padding-right: 0 !important;
 }
 
-.ssg_header {
+.wep_header {
     // Root for mega menu item
 
 
@@ -24,7 +24,7 @@ body {
         display: none !important;
 
         .search-icon {
-            padding: 0 $ssg_space*2;
+            padding: 0 $wep_space*2;
         }
 
         .select2-container--default .select2-selection--single {
@@ -60,7 +60,7 @@ Code snippet by @maridlcrmn (Follow me on Twitter)
 Images by Nike.com (http://www.nike.com/us/en_us/)
 Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 */
-.ssg_mega_menu {
+.wep_mega_menu {
 
     // Logo
     .navbar-brand {
@@ -71,7 +71,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
     }
 
     .nav-link {
-        color: $ssg_color_text;
+        color: $wep_color_text;
     }
 
     // Dropdown ====================
@@ -103,7 +103,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
                     display: block;
 
                     &:hover {
-                        color: $ssg_color_active;
+                        color: $wep_color_active;
                     }
                 }
             }
@@ -155,10 +155,10 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 
             &:hover,
             &:focus {
-                background-color: $ssg_color_active;
+                background-color: $wep_color_active;
 
                 a {
-                    color: $ssg_color_primary;
+                    color: $wep_color_primary;
                     text-decoration: none;
                 }
             }
@@ -180,10 +180,10 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
         &:hover,
         &:focus {
 
-            background-color: $ssg_color_primary;
+            background-color: $wep_color_primary;
 
             a {
-                color: $ssg_color_active;
+                color: $wep_color_active;
                 text-decoration: none;
             }
         }
@@ -208,7 +208,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
     }
 
     .dropdown-mega {
-        background-color: $ssg_color_primary;
+        background-color: $wep_color_primary;
         background-image: url('./images/mega-menu-bg.png');
         background-position-x: right;
         background-position-y: bottom;
@@ -223,12 +223,12 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 
     // Tabs ======================
     &__col_left {
-        padding: $ssg_space*2 0;
+        padding: $wep_space*2 0;
         background-color: #101E32;
     }
 
     &__col_right {
-        padding: $ssg_space*2;
+        padding: $wep_space*2;
     }
 
     .nav-tabs {
@@ -287,8 +287,8 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 
             &.active,
             &:hover {
-                background-color: $ssg_color_active;
-                color: $ssg_color_primary;
+                background-color: $wep_color_active;
+                color: $wep_color_primary;
                 font-weight: 600;
             }
 
@@ -304,7 +304,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 
     .tab-content {
         color: white;
-        background-color: $ssg_color_primary;
+        background-color: $wep_color_primary;
     }
 
     // Nav Toogler
@@ -321,7 +321,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
     }
 }
 
-.ssg_search_modal {
+.wep_search_modal {
     .modal-content {
         border-radius: 5px;
 

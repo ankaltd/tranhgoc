@@ -2,7 +2,7 @@ export function handleSolutionClick() {
 
   const solutionWrappers = document.querySelectorAll(
 
-    ".ssg_home_solution__wrapper"
+    ".wep_home_solution__wrapper"
 
   );
 
@@ -12,7 +12,7 @@ export function handleSolutionClick() {
 
     wrapper.addEventListener("click", () => {
 
-      // Xóa toàn bộ class "active" của các thành phần .ssg_home_solution__wrapper
+      // Xóa toàn bộ class "active" của các thành phần .wep_home_solution__wrapper
 
       solutionWrappers.forEach((item) => {
 

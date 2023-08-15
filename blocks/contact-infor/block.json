@@ -1,10 +1,10 @@
 {
-    "name": "ssg/contact-infor",
-    "title": "SSG Contact Infor",
+    "name": "wep/contact-infor",
+    "title": "WEP  Contact Infor",
     "description": "",
     "style": "file:./style.css",
     "script": "block-contact-infor",
-    "category": "ssg-contact",
+    "category": "wep-contact",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

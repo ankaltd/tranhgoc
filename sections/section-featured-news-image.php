@@ -10,7 +10,7 @@
 
         <div class="row">
 
-            <h2 class="ssg_heading text-center"><?php echo $heading; ?></h2>
+            <h2 class="wep_heading text-center"><?php echo $heading; ?></h2>
 
         </div>
 
@@ -24,7 +24,7 @@
 
                         <a href="#" class="<?php echo $class; ?>__thumbnail">
 
-                            <img src="<?php echo $news['image'] ?>" alt="<?php echo $news['title'] ?>" class="img-fluid ssg_concept">
+                            <img src="<?php echo $news['image'] ?>" alt="<?php echo $news['title'] ?>" class="img-fluid wep_concept">
 
                         </a>
 

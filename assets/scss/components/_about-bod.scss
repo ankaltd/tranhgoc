@@ -1,4 +1,4 @@
-.ssg_bod {
+.wep_bod {
     background-image: url('./images/bg-pattern-light-4.png');
 
     &__item {
@@ -16,7 +16,7 @@
 
     &__content {
         h5 {
-            color: $ssg_color_primary;
+            color: $wep_color_primary;
             font-weight: 600;
         }
     }
@@ -35,15 +35,15 @@
     }
 }
 
-.ssg_bg_dark {
-    .ssg_bod {
+.wep_bg_dark {
+    .wep_bod {
         &__content {
             h5, h4, h3 {
                 color: white;
             }
         }
 
-        .ssg_bg_dark {
+        .wep_bg_dark {
             &__item {
                 p {
                     // color: inherit;

@@ -8,7 +8,7 @@ export function initStickyNavbar(initHeight = 0) {
 
 
 
-  var navbar = document.getElementById("ssg_goto_section");
+  var navbar = document.getElementById("wep_goto_section");
 
   if (navbar) {
 

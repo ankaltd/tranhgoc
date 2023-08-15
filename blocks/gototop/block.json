@@ -1,10 +1,10 @@
 {
-    "name": "ssg/gototop",
-    "title": "SSG Goto Top",
+    "name": "wep/gototop",
+    "title": "WEP  Goto Top",
     "description": "",
     "style": "file:./style.css",
     "script": "block-gototop",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

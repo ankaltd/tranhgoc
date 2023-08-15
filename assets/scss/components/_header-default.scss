@@ -52,7 +52,7 @@
 
         &.active,
         &.show {
-            color: $ssg_color_primary !important;
+            color: $wep_color_primary !important;
             transition: all 0.4s;
 
             &::after {

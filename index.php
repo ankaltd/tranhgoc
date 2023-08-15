@@ -20,9 +20,9 @@ get_header();
 
 $section_data = [
 
-    'id' => 'ssg_slider',
+    'id' => 'wep_slider',
 
-    'class' => 'ssg_slider',
+    'class' => 'wep_slider',
 
     'slider_list' => [
 
@@ -38,7 +38,7 @@ $section_data = [
 
             'button' => [
 
-                'text' => __('Xem thêm', 'ssg'),
+                'text' => __('Xem thêm', 'wep'),
 
                 'style' => 'white'
 
@@ -58,7 +58,7 @@ $section_data = [
 
             'button' => [
 
-                'text' => __('Xem thêm', 'ssg'),
+                'text' => __('Xem thêm', 'wep'),
 
                 'style' => 'white'
 
@@ -78,7 +78,7 @@ $section_data = [
 
             'button' => [
 
-                'text' => __('Xem thêm', 'ssg'),
+                'text' => __('Xem thêm', 'wep'),
 
                 'style' => 'white'
 
@@ -104,9 +104,9 @@ get_template_part('sections/slider', 'banner', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_service',
+    'id' => 'wep_home_service',
 
-    'class' => 'ssg_home_service',
+    'class' => 'wep_home_service',
 
     'heading' => 'Dịch vụ',
 
@@ -114,7 +114,7 @@ $section_data = [
 
     'more_link' => [
 
-        'text' => __('Xem thêm', 'ssg'),
+        'text' => __('Xem thêm', 'wep'),
 
     ],
 
@@ -194,9 +194,9 @@ get_template_part('sections/home', 'service-slick', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_solution',
+    'id' => 'wep_home_solution',
 
-    'class' => 'ssg_home_solution',
+    'class' => 'wep_home_solution',
 
     'heading' => 'Giải pháp',
 
@@ -204,7 +204,7 @@ $section_data = [
 
     'button' => [
 
-        'text' => __('Xem thêm', 'ssg'),
+        'text' => __('Xem thêm', 'wep'),
 
         'style' => 'blue'
 
@@ -268,13 +268,13 @@ get_template_part('sections/home', 'solution', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_client',
+    'id' => 'wep_home_client',
 
-    'class' => 'ssg_home_client',
+    'class' => 'wep_home_client',
 
     'heading' => 'Khách hàng',
 
-    'description' => 'Các chuyên gia tư vấn của SSG cùng với khách hàng phát triển các kỹ năng về quản lý, kỹ thuật công nghệ, tạo ra các chức năng mới hoặc các luồng nghiệp vụ mới để giúp khách hàng quản lý tốt hơn.',
+    'description' => 'Các chuyên gia tư vấn của WEP  cùng với khách hàng phát triển các kỹ năng về quản lý, kỹ thuật công nghệ, tạo ra các chức năng mới hoặc các luồng nghiệp vụ mới để giúp khách hàng quản lý tốt hơn.',
 
     'tab_list' => [
 
@@ -368,9 +368,9 @@ get_template_part('sections/home', 'client-tab', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_testimonial',
+    'id' => 'wep_home_testimonial',
 
-    'class' => 'ssg_home_testimonial',
+    'class' => 'wep_home_testimonial',
 
     'heading' => 'Khách hàng nói',
 
@@ -414,9 +414,9 @@ get_template_part('sections/home', 'testimonial', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_news',
+    'id' => 'wep_home_news',
 
-    'class' => 'ssg_home_news_image',
+    'class' => 'wep_home_news_image',
 
     'heading' => 'Tin tức',
 
@@ -468,7 +468,7 @@ $section_data = [
 
     'more_link' => [
 
-        'text' => __('Xem thêm', 'ssg'),
+        'text' => __('Xem thêm', 'wep'),
 
     ]
 
@@ -482,11 +482,11 @@ get_template_part('sections/section', 'featured-news-image', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_pr',
+    'id' => 'wep_home_pr',
 
-    'class' => 'ssg_home_pr',
+    'class' => 'wep_home_pr',
 
-    'heading' => 'Báo chí viết gì về SSG?',
+    'heading' => 'Báo chí viết gì về WEP ?',
 
     'news_list' => [
 
@@ -538,9 +538,9 @@ get_template_part('sections/home', 'news-pr', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_event',
+    'id' => 'wep_home_event',
 
-    'class' => 'ssg_home_event',
+    'class' => 'wep_home_event',
 
     'heading' => 'Sự kiện nổi bật',
 
@@ -566,7 +566,7 @@ $section_data = [
 
             'title' => 'Hội thảo giới thiệu giải pháp lập báo cáo quản trị thông minh',
 
-            'text' => 'Ngày 18/11/2010, Công ty Cổ phần Giải pháp Quản lý Quốc tế Hồng Quang (SSG) phối hợp cùng Oracle Việt Nam'
+            'text' => 'Ngày 18/11/2010, Công ty Cổ phần Giải pháp Quản lý Quốc tế Hồng Quang (WEP ) phối hợp cùng Oracle Việt Nam'
 
         ],
 
@@ -590,7 +590,7 @@ $section_data = [
 
             'title' => 'Hội thảo Giải pháp - Dịch vụ - Hạ tầng cho ngành Vận tải',
 
-            'text' => 'Công ty giải pháp quản lý SSG phối hợp cùng với hãng phần mềm Oracle và đối tác HP cùng tổ chức buổi hội thảo'
+            'text' => 'Công ty giải pháp quản lý WEP  phối hợp cùng với hãng phần mềm Oracle và đối tác HP cùng tổ chức buổi hội thảo'
 
         ],
 
@@ -606,9 +606,9 @@ get_template_part('sections/home', 'event', $section_data);
 
 $section_data = [
 
-    'id' => 'ssg_home_contact',
+    'id' => 'wep_home_contact',
 
-    'class' => 'ssg_home_contact',
+    'class' => 'wep_home_contact',
 
     'heading' => 'Hãy để chúng tôi đồng hành cùng bạn trên hành trình chuyển đổi số.',
 

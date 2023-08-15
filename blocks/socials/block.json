@@ -1,10 +1,10 @@
 {
-    "name": "ssg/socials",
-    "title": "SSG Socials Icons",
+    "name": "wep/socials",
+    "title": "WEP  Socials Icons",
     "description": "",
     "style": "file:./style.css",
     "script": "block-button",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

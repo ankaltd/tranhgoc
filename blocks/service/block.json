@@ -1,10 +1,10 @@
 {
-    "name": "ssg/service",
-    "title": "SSG Service",
+    "name": "wep/service",
+    "title": "WEP  Service",
     "description": "",
     "style": "file:./style.css",
     "script": "block-service",
-    "category": "ssg-home",
+    "category": "wep-home",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

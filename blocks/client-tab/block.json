@@ -1,10 +1,10 @@
 {
-    "name": "ssg/client-tab",
-    "title": "SSG Client Tab",
+    "name": "wep/client-tab",
+    "title": "WEP  Client Tab",
     "description": "",
     "style": "file:./style.css",
     "script": "block-client-tab",
-    "category": "ssg-home",
+    "category": "wep-home",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

@@ -1,10 +1,10 @@
 {
-    "name": "ssg/language",
-    "title": "SSG Language",
+    "name": "wep/language",
+    "title": "WEP  Language",
     "description": "",
     "style": "file:./style.css",
     "script": "block-language",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

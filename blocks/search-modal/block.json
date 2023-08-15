@@ -1,10 +1,10 @@
 {
-    "name": "ssg/search-modal",
-    "title": "SSG Search Modal",
+    "name": "wep/search-modal",
+    "title": "WEP  Search Modal",
     "description": "",
     "style": "file:./style.css",
     "script": "block-search-modal",
-    "category": "ssg",
+    "category": "wep",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

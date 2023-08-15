@@ -1,4 +1,4 @@
-.ssg_home_client {
+.wep_home_client {
     .nav-tabs {
         border-bottom: none;
 
@@ -10,7 +10,7 @@
         .nav-link {
             border: none;
             border-radius: 0;
-            color: $ssg_color_primary;
+            color: $wep_color_primary;
             font-size: 14px;
             text-transform: uppercase;
             display: inline-block;
@@ -32,11 +32,11 @@
 
             &.active,
             &:hover {
-                background-color: $ssg_color_primary;
-                color: $ssg_color_active;
+                background-color: $wep_color_primary;
+                color: $wep_color_active;
 
                 &::before {
-                    background-color: $ssg_color_primary;
+                    background-color: $wep_color_primary;
                 }
             }
 
@@ -65,14 +65,14 @@
     }
 
     .tab-pane {        
-        margin-top: calc($ssg_space / 2);        
+        margin-top: calc($wep_space / 2);        
         overflow: hidden;
         .row {
             margin-bottom: -1px;
         }
         .col {
             margin-top: 0;
-            padding: $ssg_space*2 0;
+            padding: $wep_space*2 0;
             border-bottom: 1px solid #ddd;     
             border-left: 1px solid #ddd;     
             margin-left: -1px;

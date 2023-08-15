@@ -1,10 +1,10 @@
 {
-    "name": "ssg/pr",
-    "title": "SSG Public Relation ",
+    "name": "wep/pr",
+    "title": "WEP  Public Relation ",
     "description": "",
     "style": "file:./style.css",
     "script": "block-pr",
-    "category": "ssg-home",
+    "category": "wep-home",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

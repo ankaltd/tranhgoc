@@ -1,10 +1,10 @@
 {
-    "name": "ssg/hiring-apply",
-    "title": "SSG Hiring Apply",
+    "name": "wep/hiring-apply",
+    "title": "WEP  Hiring Apply",
     "description": "",
     "style": "file:./style.css",
     "script": "block-hiring-apply",
-    "category": "ssg-hiring",
+    "category": "wep-hiring",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

@@ -9,11 +9,11 @@ get_header();
 
 // Get options
 $category_page_options = [
-    'ssg_category_page_banner'                => '',
-    'ssg_category_page_heading'               => 'Chuyên mục',
-    'ssg_category_page_number_per_page'       => 6,
-    'ssg_category_page_columns'               => 3,
-    'ssg_category_page_show'                  => 'all',
+    'wep_category_page_banner'                => '',
+    'wep_category_page_heading'               => 'Chuyên mục',
+    'wep_category_page_number_per_page'       => 6,
+    'wep_category_page_columns'               => 3,
+    'wep_category_page_show'                  => 'all',
 ];
 
 // Get options --------------
@@ -25,16 +25,16 @@ extract($global_options);
  * @var $keyword
  * @var $posts
  */
-$news_result = WEP_Section_Model::categoryPosts($ssg_category_page_number_per_page);
+$news_result = WEP_Section_Model::categoryPosts($wep_category_page_number_per_page);
 extract($news_result);
 
 /* Banner ---------------*/
-if (trim($ssg_category_page_banner) != '') {
+if (trim($wep_category_page_banner) != '') {
     $section_data = [
-        'id' => 'ssg_banner',
-        'class' => 'ssg_banner',
+        'id' => 'wep_banner',
+        'class' => 'wep_banner',
         'css' => 'height:200px',
-        'image' => $ssg_category_page_banner,
+        'image' => $wep_category_page_banner,
         'align' => 'start',
         'heading' => $category_name,
         'heading_css' => '',
@@ -57,9 +57,9 @@ foreach ($posts as $news) {
 }
 
 $section_data = [
-    'id' => 'ssg_news',
-    'class' => 'ssg_news_grid',
-    'columns' => $ssg_category_page_columns,
+    'id' => 'wep_news',
+    'class' => 'wep_news_grid',
+    'columns' => $wep_category_page_columns,
     'pagination' => $pagination,
     'news_list' => $post_list
 ];

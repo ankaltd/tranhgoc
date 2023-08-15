@@ -23,7 +23,7 @@
         {
             "key": "field_64a8e9d50cf96",
             "label": "Tên nút",
-            "name": "ssg_button_name",
+            "name": "wep_button_name",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -43,7 +43,7 @@
         {
             "key": "field_64a8ed210cf97",
             "label": "Kiểu nút",
-            "name": "ssg_button_style",
+            "name": "wep_button_style",
             "aria-label": "",
             "type": "button_group",
             "instructions": "",
@@ -55,11 +55,11 @@
                 "id": ""
             },
             "choices": {
-                "ssg_button--white": "Trắng",
-                "ssg_button--blue": "Xanh",
-                "ssg_button--primary": "Xẫm"
+                "wep_button--white": "Trắng",
+                "wep_button--blue": "Xanh",
+                "wep_button--primary": "Xẫm"
             },
-            "default_value": "ssg_button--white",
+            "default_value": "wep_button--white",
             "return_format": "value",
             "allow_null": 0,
             "layout": "horizontal"
@@ -67,7 +67,7 @@
         {
             "key": "field_64a8f15cbede9",
             "label": "Liên kết nút",
-            "name": "ssg_button_link",
+            "name": "wep_button_link",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -87,7 +87,7 @@
         {
             "key": "field_64a8f178bedea",
             "label": "Mở trên tab khác",
-            "name": "ssg_button_target",
+            "name": "wep_button_target",
             "aria-label": "",
             "type": "true_false",
             "instructions": "",
@@ -110,14 +110,14 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "ssg\/section-contact"
+                "value": "wep\/section-contact"
             }
         ],
         [
             {
                 "param": "block",
                 "operator": "==",
-                "value": "ssg\/button"
+                "value": "wep\/button"
             }
         ]
     ],

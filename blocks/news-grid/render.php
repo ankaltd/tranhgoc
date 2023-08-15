@@ -17,30 +17,30 @@ $option = WEP_Option_Model::get_field_values($fields);
 
 extract($option);
 
-// Get data (if lastest news get from ssg_news_categories || get from ssg_news_featured_select)
-if ($ssg_news_lastest) {
-    $data = WEP_Section_Model::get_latest_posts($ssg_news_total, $ssg_news_categories, 'ssg_thumb_news');
+// Get data (if lastest news get from wep_news_categories || get from wep_news_featured_select)
+if ($wep_news_lastest) {
+    $data = WEP_Section_Model::get_latest_posts($wep_news_total, $wep_news_categories, 'wep_thumb_news');
 } else {
-    if ($ssg_news_featured_select) {
-        $data = WEP_Section_Model::get_list_posts($ssg_news_featured_select, 'ssg_thumb_news');
+    if ($wep_news_featured_select) {
+        $data = WEP_Section_Model::get_list_posts($wep_news_featured_select, 'wep_thumb_news');
     }
 }
 
 
 // Number colums
-$columns_class = sprintf('col-md-%s', (floor(12 / $ssg_news_columns)));
+$columns_class = sprintf('col-md-%s', (floor(12 / $wep_news_columns)));
 
 ?>
 
-<!-- ssg_client_news -->
+<!-- wep_client_news -->
 <?php
-WEP_Section_View::render_section_tag($option, 'ssg_news_grid');
+WEP_Section_View::render_section_tag($option, 'wep_news_grid');
 ?>
 
 <div class="container">
-    <input type="hidden" name="ssg_news_categories" id="ssg_news_categories" value="<?php echo implode(", ", $ssg_news_categories); ?>" >
+    <input type="hidden" name="wep_news_categories" id="wep_news_categories" value="<?php echo implode(", ", $wep_news_categories); ?>" >
 
-    <?php if ($ssg_news_categories_filter) : ?>
+    <?php if ($wep_news_categories_filter) : ?>
         <div class="row pb-3">
             <div class="col">
                 <?php
@@ -79,11 +79,11 @@ WEP_Section_View::render_section_tag($option, 'ssg_news_grid');
 
                 <div class="col-12 <?php echo $columns_class ?>">
 
-                    <div class="ssg_news_grid__item">
+                    <div class="wep_news_grid__item">
 
-                        <?php if (in_array('thumbnail', $ssg_news_show_element)) : ?>
+                        <?php if (in_array('thumbnail', $wep_news_show_element)) : ?>
 
-                            <div class="ssg_news_grid__thumbnail">
+                            <div class="wep_news_grid__thumbnail">
 
                                 <a href="<?php echo $permalink ?>">
 
@@ -95,27 +95,27 @@ WEP_Section_View::render_section_tag($option, 'ssg_news_grid');
 
 
 
-                        <?php if (in_array('category', $ssg_news_show_element)) : ?>
+                        <?php if (in_array('category', $wep_news_show_element)) : ?>
 
-                            <p class="ssg_home_news_image__category"><?php echo implode(", ", $categories); ?></p>
-
-                        <?php endif ?>
-
-
-
-                        <?php if (in_array('date', $ssg_news_show_element)) : ?>
-
-                            <p class="ssg_news_grid__meta date"><?php echo $date ?></span></p>
+                            <p class="wep_home_news_image__category"><?php echo implode(", ", $categories); ?></p>
 
                         <?php endif ?>
 
 
 
-                        <div class="ssg_news_grid__content">
+                        <?php if (in_array('date', $wep_news_show_element)) : ?>
 
-                            <?php if (in_array('title', $ssg_news_show_element)) : ?>
+                            <p class="wep_news_grid__meta date"><?php echo $date ?></span></p>
 
-                                <h5 class="ssg_news_grid__title">
+                        <?php endif ?>
+
+
+
+                        <div class="wep_news_grid__content">
+
+                            <?php if (in_array('title', $wep_news_show_element)) : ?>
+
+                                <h5 class="wep_news_grid__title">
 
                                     <a href="<?php echo $permalink ?>"><?php echo $title ?></a>
 
@@ -125,17 +125,17 @@ WEP_Section_View::render_section_tag($option, 'ssg_news_grid');
 
 
 
-                            <?php if (in_array('summary', $ssg_news_show_element)) : ?>
+                            <?php if (in_array('summary', $wep_news_show_element)) : ?>
                                 <?php if ($title) : ?>
-                                    <p class="ssg_news_grid__text"><?php echo $title ?></p>
+                                    <p class="wep_news_grid__text"><?php echo $title ?></p>
                                 <?php endif; ?>
                             <?php endif ?>
 
 
 
-                            <?php if (in_array('readmore', $ssg_news_show_element)) : ?>
+                            <?php if (in_array('readmore', $wep_news_show_element)) : ?>
                                 <?php if ($permalink) : ?>
-                                    <p><a class="ssg_more_link" href="<?php echo $permalink ?>">Xem thêm</a></p>
+                                    <p><a class="wep_more_link" href="<?php echo $permalink ?>">Xem thêm</a></p>
                                 <?php endif; ?>
                             <?php endif ?>
 
@@ -153,24 +153,24 @@ WEP_Section_View::render_section_tag($option, 'ssg_news_grid');
         <div class="col">
             <?php
 
-            if ($ssg_news_page_navigation == 'loadmore') :
+            if ($wep_news_page_navigation == 'loadmore') :
             ?>
-                <button type="button" class="ssg_button ssg_button--primary ssg_search" id="load-more">Xem thêm</button>
+                <button type="button" class="wep_button wep_button--primary wep_search" id="load-more">Xem thêm</button>
             <?php endif ?>
 
-            <?php if ($ssg_news_page_navigation == 'pagenav') : ?>
+            <?php if ($wep_news_page_navigation == 'pagenav') : ?>
                 <nav aria-label="Page navigation">
-                    <ul class="pagination ssg_page_nav">
+                    <ul class="pagination wep_page_nav">
                         <li class="page-item current_page"><span aria-current="page" class="page-link current">1</span></li>
-                        <li class="page-item "><a class="page-link" href="https://ssg.vn/category/tin-tuc/page/2/">2</a></li>
-                        <li class="page-item "><a class="page-link" href="https://ssg.vn/category/tin-tuc/page/3/">3</a></li>
-                        <li class="page-item "><a class="next page-link" href="https://ssg.vn/category/tin-tuc/page/2/">Tiếp »</a></li>
+                        <li class="page-item "><a class="page-link" href="https://wep.vn/category/tin-tuc/page/2/">2</a></li>
+                        <li class="page-item "><a class="page-link" href="https://wep.vn/category/tin-tuc/page/3/">3</a></li>
+                        <li class="page-item "><a class="next page-link" href="https://wep.vn/category/tin-tuc/page/2/">Tiếp »</a></li>
                     </ul>
                 </nav>
             <?php endif; ?>
 
-            <?php if ($ssg_news_page_navigation == 'infinity') : ?>
-                <?php echo $ssg_news_page_navigation;?>
+            <?php if ($wep_news_page_navigation == 'infinity') : ?>
+                <?php echo $wep_news_page_navigation;?>
             <?php endif ?>
         </div>
     </div>

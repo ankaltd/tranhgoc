@@ -10,9 +10,9 @@
 
         <div class="row">
 
-            <h2 class="ssg_heading justify-content-start"><?php echo $heading; ?></h2>
+            <h2 class="wep_heading justify-content-start"><?php echo $heading; ?></h2>
 
-            <div class="<?php echo $class; ?>__photo"><img src="<?php echo $image ?>" alt="<?php echo $heading ?>" class="img-fluid ssg_margin--b3"></div>
+            <div class="<?php echo $class; ?>__photo"><img src="<?php echo $image ?>" alt="<?php echo $heading ?>" class="img-fluid wep_margin--b3"></div>
 
             <div class="<?php echo $class ?>__content">
 

@@ -4,7 +4,7 @@ jQuery(document).ready(function ($) {
   // Tạo một hàm để gọi các hàm cần thiết => SLIDER Solution
   var giaTri_solution = $("#totalSliderSolution").val() - 1;
 
-  $(".ssg_home_solution__slick")
+  $(".wep_home_solution__slick")
     .slick({
       centerMode: false,
       centerPadding: "0",
@@ -39,7 +39,7 @@ jQuery(document).ready(function ($) {
   // Tạo một hàm để gọi các hàm cần thiết => SLIDER BOD
   var giaTri_bod = $("#totalSliderBOD").val();
 
-  $(".ssg_bod_slick")
+  $(".wep_bod_slick")
     .slick({
       centerMode: false,
       centerPadding: "0",
@@ -74,7 +74,7 @@ jQuery(document).ready(function ($) {
   // Tạo một hàm để gọi các hàm cần thiết => SLIDER HISTORY
   var giaTri_history = $("#totalSliderHistory").val();
 
-  $(".ssg_history_slick")
+  $(".wep_history_slick")
     .slick({
       centerMode: false,
       centerPadding: "0",

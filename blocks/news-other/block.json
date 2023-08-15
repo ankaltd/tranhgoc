@@ -1,10 +1,10 @@
 {
-    "name": "ssg/news-other",
-    "title": "SSG News Other",
+    "name": "wep/news-other",
+    "title": "WEP  News Other",
     "description": "",
     "style": "file:./style.css",
     "script": "block-news-other",
-    "category": "ssg-tin-tuc",
+    "category": "wep-tin-tuc",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

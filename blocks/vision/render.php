@@ -8,15 +8,15 @@ $fields = [
 
     // Content
 
-    'ssg_content_image_responsive'      => true,
+    'wep_content_image_responsive'      => true,
 
-    'ssg_content_list'                  => array(),
+    'wep_content_list'                  => array(),
 
-    'ssg_content_image_align'           => 0,
+    'wep_content_image_align'           => 0,
 
-    'ssg_content_text_align'            => 0,
+    'wep_content_text_align'            => 0,
 
-    'ssg_content_show_element'          => array(),
+    'wep_content_show_element'          => array(),
 
 ];
 
@@ -46,7 +46,7 @@ extract($option);
 
 // Get data content
 
-$data = $ssg_content_list;
+$data = $wep_content_list;
 
 
 
@@ -54,11 +54,11 @@ $data = $ssg_content_list;
 
 ?>
 
-<!-- ssg_vision -->
+<!-- wep_vision -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_concept--section');
+WEP_Section_View::render_section_tag($option, 'wep_concept--section');
 
 ?>
 
@@ -82,33 +82,33 @@ WEP_Section_View::render_section_tag($option, 'ssg_concept--section');
 
             <div class="col" <?php WEP_Section_View::render_item_aos($option, 3, $stt) ?> >
 
-                <div class="ssg_vision__item">
+                <div class="wep_vision__item">
 
                     <div class="content">
 
-                        <?php if (in_array('thumbnail', $ssg_content_show_element)) : ?>
+                        <?php if (in_array('thumbnail', $wep_content_show_element)) : ?>
 
-                            <div class="ssg_vision__image">
+                            <div class="wep_vision__image">
 
-                                <img src="<?php echo $ssg_content_image ?>" alt="<?php echo $ssg_content_title ?>" class="<?php echo $ssg_content_image_responsive ? 'img-fluid' : '' ?>">
+                                <img src="<?php echo $wep_content_image ?>" alt="<?php echo $wep_content_title ?>" class="<?php echo $wep_content_image_responsive ? 'img-fluid' : '' ?>">
 
                             </div>
 
                         <?php endif; ?>
 
-                        <div class="ssg_vision__description">
+                        <div class="wep_vision__description">
 
-                            <?php if (in_array('title', $ssg_content_show_element)) : ?>
+                            <?php if (in_array('title', $wep_content_show_element)) : ?>
 
-                                <h4 class="ssg_vision__title"><?php echo $ssg_content_title ?></h4>
+                                <h4 class="wep_vision__title"><?php echo $wep_content_title ?></h4>
 
                             <?php endif ?>
 
 
 
-                            <?php if (in_array('summary', $ssg_content_show_element)) : ?>
+                            <?php if (in_array('summary', $wep_content_show_element)) : ?>
 
-                                <p class="ssg_vision__text"><?php echo $ssg_content_summary ?></p>
+                                <p class="wep_vision__text"><?php echo $wep_content_summary ?></p>
 
                             <?php endif; ?>
 

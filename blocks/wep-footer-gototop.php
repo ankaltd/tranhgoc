@@ -1,6 +1,6 @@
-<div class="ssg_gotop">
+<div class="wep_gotop">
 
-    <a href="" class="ssg_gotop__icon" id="btnScrollTop">
+    <a href="" class="wep_gotop__icon" id="btnScrollTop">
 
         <svg style="width:28px;height:28px;" aria-hidden="true" focusable="false" data-prefix="far" data-icon="chevron-up" role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-chevron-up fa-w-14 fa-2x" data-v-fded4fc2="">
 

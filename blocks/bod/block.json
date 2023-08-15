@@ -1,10 +1,10 @@
 {
-    "name": "ssg/bod",
-    "title": "SSG BOD",
+    "name": "wep/bod",
+    "title": "WEP  BOD",
     "description": "",
     "style": "file:./style.css",
     "script": "block-bod",
-    "category": "ssg-about",
+    "category": "wep-about",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

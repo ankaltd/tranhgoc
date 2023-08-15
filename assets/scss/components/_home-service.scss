@@ -1,4 +1,4 @@
-.ssg_home_service {
+.wep_home_service {
     position: relative;
     padding-bottom: 110px;
 
@@ -14,7 +14,7 @@
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            border: solid 1px $ssg_color_primary;
+            border: solid 1px $wep_color_primary;
             background-color: transparent;
             background-image: url('./images/arrow-left.png');
             background-repeat: no-repeat;
@@ -44,8 +44,8 @@
 
     // centr show
     .slick-center {
-        .ssg_home_service__slider {            
-            .ssg_home_service__content {
+        .wep_home_service__slider {            
+            .wep_home_service__content {
                 display: inherit;
                 opacity: 0;
             }
@@ -54,7 +54,7 @@
 
     // hover show
     &__slider {
-        padding: $ssg_space;
+        padding: $wep_space;
         transition: background-color 0.4s, border-color 0.4s ease-out;
      
     }
@@ -76,7 +76,7 @@
         display: none;
 
         h4 {
-            color: $ssg_color_primary;
+            color: $wep_color_primary;
             font-size: 18px;
         }
     }

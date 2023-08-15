@@ -4,9 +4,9 @@
 
 /**
 
- * Title: SSG Single Entry
+ * Title: WEP  Single Entry
 
- * Slug: ssg/ssg-single-entry
+ * Slug: wep/wep-single-entry
 
  * Categories: featured
 
@@ -22,31 +22,31 @@
 
 
 
-<!-- ssg_entry_single -->
+<!-- wep_entry_single -->
 
-<article id="ssg_entry_single" class="ssg_entry_single">
+<article id="wep_entry_single" class="wep_entry_single">
 
-    <header class="ssg_entry_single__header">
+    <header class="wep_entry_single__header">
 
-        <h1 class="ssg_heading text-start">Công bố nghiệm thu thành công hệ thống ERP cho Công ty Tài chính Ngân hàng TMCP Sài Gòn - Hà Nội (SHB Finance) - Ngày 20/08/2021</h1>
+        <h1 class="wep_heading text-start">Công bố nghiệm thu thành công hệ thống ERP cho Công ty Tài chính Ngân hàng TMCP Sài Gòn - Hà Nội (SHB Finance) - Ngày 20/08/2021</h1>
 
         <div class="row">
 
             <div class="col-6">
 
-                <div class="ssg_entry_single__date">13 Tháng 3, 2023</div>
+                <div class="wep_entry_single__date">13 Tháng 3, 2023</div>
 
             </div>
 
             <div class="col-6 d-flex justify-content-end">
 
-                <div class="ssg_entry_single__share">
+                <div class="wep_entry_single__share">
 
                     <span>Chia sẻ</span>
 
-                    <a href="#" class="ssg_entry_single__icon ssg_entry_single__icon--facebook"></a>
+                    <a href="#" class="wep_entry_single__icon wep_entry_single__icon--facebook"></a>
 
-                    <a href="#" class="ssg_entry_single__icon ssg_entry_single__icon--twitter"></a>
+                    <a href="#" class="wep_entry_single__icon wep_entry_single__icon--twitter"></a>
 
                 </div>
 
@@ -54,13 +54,13 @@
 
         </div>
 
-        <div class="ssg_entry_single__summary">Công bố nghiệm thu thành công hệ thống ERP cho Công ty Tài chính Ngân hàng TMCP Sài Gòn - Hà Nội (SHB Finance)</div>
+        <div class="wep_entry_single__summary">Công bố nghiệm thu thành công hệ thống ERP cho Công ty Tài chính Ngân hàng TMCP Sài Gòn - Hà Nội (SHB Finance)</div>
 
-        <div class="ssg_entry_single__thumbnail"><img src="https://demo.ssg.vn/wp-content/themes/ssg/assets/images/detail/detail.png" alt="Công bố nghiệm thu thành công hệ thống ERP cho Công ty Tài chính Ngân hàng TMCP Sài Gòn - Hà Nội (SHB Finance) - Ngày 20/08/2021"></div>
+        <div class="wep_entry_single__thumbnail"><img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/detail/detail.png" alt="Công bố nghiệm thu thành công hệ thống ERP cho Công ty Tài chính Ngân hàng TMCP Sài Gòn - Hà Nội (SHB Finance) - Ngày 20/08/2021"></div>
 
     </header>
 
-    <div class="ssg_entry_single__content">
+    <div class="wep_entry_single__content">
 
         <p>
 
@@ -70,7 +70,7 @@
 
                     </p><p>
 
-                    Dự án triển khai Oracle Financials với giải pháp Best Practice của SSG cho mảng Tài chính Ngân hàng. Triển khai trong vòng 05 tháng, đã đưa vào vận hành thành công với các phân hệ: Kế toán Tổng hợp; Kế toán Tài sản; Kế toán Phải thu; Kế toán Phải trả; Quản lý Tiền.
+                    Dự án triển khai Oracle Financials với giải pháp Best Practice của WEP  cho mảng Tài chính Ngân hàng. Triển khai trong vòng 05 tháng, đã đưa vào vận hành thành công với các phân hệ: Kế toán Tổng hợp; Kế toán Tài sản; Kế toán Phải thu; Kế toán Phải trả; Quản lý Tiền.
 
                     </p><p>
 
@@ -82,19 +82,19 @@
 
                     </p>    </div>
 
-    <footer class="ssg_entry_single__footer">
+    <footer class="wep_entry_single__footer">
 
         <div class="row">
 
             <div class="col-6 d-flex justify-content-start">
 
-                <div class="ssg_entry_single__share">
+                <div class="wep_entry_single__share">
 
                     <span>Chia sẻ</span>
 
-                    <a href="" class="ssg_entry_single__icon ssg_entry_single__icon--facebook"></a>
+                    <a href="" class="wep_entry_single__icon wep_entry_single__icon--facebook"></a>
 
-                    <a href="" class="ssg_entry_single__icon ssg_entry_single__icon--twitter"></a>
+                    <a href="" class="wep_entry_single__icon wep_entry_single__icon--twitter"></a>
 
                 </div>
 
@@ -102,7 +102,7 @@
 
             <div class="col-6 d-flex justify-content-end">
 
-                <div class="ssg_entry_single__source">(Nguồn: https://www.shbfinance.com.vn)</div>
+                <div class="wep_entry_single__source">(Nguồn: https://www.shbfinance.com.vn)</div>
 
             </div>
 

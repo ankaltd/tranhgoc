@@ -1,10 +1,10 @@
 {
-    "name": "ssg/contact-form",
-    "title": "SSG Contact Form",
+    "name": "wep/contact-form",
+    "title": "WEP  Contact Form",
     "description": "",
     "style": "file:./style.css",
     "script": "block-contact-form",
-    "category": "ssg-contact",
+    "category": "wep-contact",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

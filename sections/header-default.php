@@ -24,7 +24,7 @@
 
 
 
-            $header_logo = get_field('ssg_main_logo', 'option');
+            $header_logo = get_field('wep_main_logo', 'option');
 
             $header_logo = $header_logo ?: THEME_IMG . '/head-logo.png';
 
@@ -32,17 +32,17 @@
 
             $block_data = [
 
-                'id' => 'ssg_logo',
+                'id' => 'wep_logo',
 
-                'class' => 'ssg_logo',
+                'class' => 'wep_logo',
 
-                'text' => 'SSG Logo',
+                'text' => 'WEP  Logo',
 
                 'image' => $header_logo,
 
             ];
 
-            get_template_part('blocks/ssg', 'logo', $block_data);
+            get_template_part('blocks/wep', 'logo', $block_data);
 
             ?>
 
@@ -64,15 +64,15 @@
 
                 $block_data = [
 
-                    'id' => 'ssg_mega_menu',
+                    'id' => 'wep_mega_menu',
 
-                    'class' => 'ssg_mega_menu',
+                    'class' => 'wep_mega_menu',
 
-                    'text' => 'SSG Mega Menu',
+                    'text' => 'WEP  Mega Menu',
 
                 ];
 
-                get_template_part('blocks/ssg', 'mega-menu', $block_data);
+                get_template_part('blocks/wep', 'mega-menu', $block_data);
 
                 ?>
 
@@ -88,9 +88,9 @@
 
                     $block_data = [
 
-                        'id' => 'ssg_quick_search',
+                        'id' => 'wep_quick_search',
 
-                        'class' => 'ssg_quick_search',
+                        'class' => 'wep_quick_search',
 
                         'text' => 'Quick Search',
 
@@ -98,7 +98,7 @@
 
                     ];
 
-                    get_template_part('blocks/ssg', 'search-icon', $block_data);
+                    get_template_part('blocks/wep', 'search-icon', $block_data);
 
                     ?>
 
@@ -110,9 +110,9 @@
 
                     $block_data = [
 
-                        'id' => 'ssg_language',
+                        'id' => 'wep_language',
 
-                        'class' => 'ssg_language',
+                        'class' => 'wep_language',
 
                         'language' => [
 
@@ -140,7 +140,7 @@
 
                     ];
 
-                    get_template_part('blocks/ssg', 'language-poly', $block_data);
+                    get_template_part('blocks/wep', 'language-poly', $block_data);
 
                     ?>
 
@@ -166,14 +166,14 @@
 
 $block_data = [
 
-    'id' => 'ssg_search_modal',
+    'id' => 'wep_search_modal',
 
-    'class' => 'ssg_search_modal',
+    'class' => 'wep_search_modal',
 
     'title' => 'Tìm kiếm',
 
 ];
 
-get_template_part('blocks/ssg', 'search-modal', $block_data);
+get_template_part('blocks/wep', 'search-modal', $block_data);
 
 ?>

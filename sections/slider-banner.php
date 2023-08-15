@@ -68,11 +68,11 @@ $total_slider = count($slider_list);
 
                             <h2><?php echo $slider['heading']; ?></h2>
 
-                            <p class="ssg_margin--b4"><?php echo $slider['description']; ?></p>
+                            <p class="wep_margin--b4"><?php echo $slider['description']; ?></p>
 
                             <?php if (isset($slider['button'])) : ?>
 
-                                <a class="ssg_button <?php echo isset($slider['button']['style']) ? 'ssg_button--' . $slider['button']['style'] : '' ?>" href=""><?php echo $slider['button']['text'] ?></a>
+                                <a class="wep_button <?php echo isset($slider['button']['style']) ? 'wep_button--' . $slider['button']['style'] : '' ?>" href=""><?php echo $slider['button']['text'] ?></a>
 
                             <?php endif; ?>
 

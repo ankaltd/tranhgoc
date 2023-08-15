@@ -8,15 +8,15 @@ $fields = [
 
     // Content
 
-    'ssg_content_image_responsive'      => true,
+    'wep_content_image_responsive'      => true,
 
-    'ssg_content_list'                  => array(),
+    'wep_content_list'                  => array(),
 
-    'ssg_content_image_align'           => 0,
+    'wep_content_image_align'           => 0,
 
-    'ssg_content_text_align'            => 0,
+    'wep_content_text_align'            => 0,
 
-    'ssg_content_show_element'          => array(),
+    'wep_content_show_element'          => array(),
 
 ];
 
@@ -44,17 +44,17 @@ extract($option);
 
 // Get data content
 
-$data = $ssg_content_list;
+$data = $wep_content_list;
 
 
 
 ?>
 
-<!-- ssg_contact_infor -->
+<!-- wep_contact_infor -->
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_contact_infor');
+WEP_Section_View::render_section_tag($option, 'wep_contact_infor');
 
 ?>
 
@@ -84,19 +84,19 @@ WEP_Section_View::render_section_tag($option, 'ssg_contact_infor');
 
             <div class="col-md-4">
 
-                <div class="ssg_contact_infor__icon ssg_contact_infor__icon--<?php echo $stt; ?>">
+                <div class="wep_contact_infor__icon wep_contact_infor__icon--<?php echo $stt; ?>">
 
-                    <img src="<?php echo $ssg_content_image ?>" alt="<?php echo $ssg_content_title ?>">
+                    <img src="<?php echo $wep_content_image ?>" alt="<?php echo $wep_content_title ?>">
 
                 </div>
 
-                <div class="ssg_contact_infor__item">
+                <div class="wep_contact_infor__item">
 
                     <div class="content">
 
-                        <h4 class="ssg_contact_infor__title"><?php echo $ssg_content_title ?></h4>
+                        <h4 class="wep_contact_infor__title"><?php echo $wep_content_title ?></h4>
 
-                        <p class="ssg_contact_infor__text"><?php echo $ssg_content_summary ?></p>
+                        <p class="wep_contact_infor__text"><?php echo $wep_content_summary ?></p>
 
                     </div>
 

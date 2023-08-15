@@ -23,7 +23,7 @@ while (have_posts()) :
     $post_client_detail = get_field('client_service_detail', $post_id);
     $post_client_solutions = get_field('client_solutions', $post_id);
     $post_client_services = get_field('client_services', $post_id);
-    $post_source = get_field('ssg_content_source') ? get_field('ssg_content_source') : '';
+    $post_source = get_field('wep_content_source') ? get_field('wep_content_source') : '';
 
     // Chuyển đổi ngày sang ngôn ngữ địa phương
     $post_date_localized = date_i18n('j F, Y', strtotime($post_date));
@@ -45,8 +45,8 @@ while (have_posts()) :
 
     /* Section Entry Post --------------- */
     $section_data = [
-        'id' => 'ssg_entry_single',
-        'class' => 'ssg_entry_single',
+        'id' => 'wep_entry_single',
+        'class' => 'wep_entry_single',
         'post_classes' => implode(' ', $post_classes),
         'heading' => $post_title,
         'summary' => $post_excerpt,
@@ -127,8 +127,8 @@ else :
 endif;
 
 $section_data = [
-    'id' => 'ssg_client_other',
-    'class' => 'ssg_client_other',
+    'id' => 'wep_client_other',
+    'class' => 'wep_client_other',
     'heading' => 'Có thể bạn quan tâm',
     'news_list' => $list_clients
 ];
@@ -136,12 +136,12 @@ get_template_part('sections/section', 'news-other', $section_data);
 
 /* Section Contact --------------- */
 $section_data = [
-    'id' => 'ssg_home_contact',
-    'class' => 'ssg_home_contact',
+    'id' => 'wep_home_contact',
+    'class' => 'wep_home_contact',
     'heading' => 'Hãy để chúng tôi đồng hành cùng bạn trên hành trình chuyển đổi số.',
     'button' => [
         'text' => 'Liên hệ',
-        'link' => '/lien-he/#ssg_contact_form',
+        'link' => '/lien-he/#wep_contact_form',
     ]
 ];
 get_template_part('sections/section', 'contact', $section_data);

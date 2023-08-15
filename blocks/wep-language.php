@@ -11,7 +11,7 @@
 
 <!-- Create Data Language -->
 <script>
-    var ssg_data = [
+    var wep_data = [
         <?php foreach ($language as $flag) : ?> {
                 id: "<?php echo $flag['value'] ?>",
                 text: "<?php echo $flag['text'] ?>",

@@ -18,56 +18,56 @@
  */
 return apply_filters('wep_images_configuration', [
     [
-        'image_id'  => 'ssg_thumb_service',
+        'image_id'  => 'wep_thumb_service',
         'width'     => 320,
         'height'    => 320,
         'crop'      => true
     ],
     [
-        'image_id'  => 'ssg_thumb_solution',
+        'image_id'  => 'wep_thumb_solution',
         'width'     => 735,
         'height'    => 597,
         'crop'      => true
     ],
     [
-        'image_id'  => 'ssg_thumb_news',
+        'image_id'  => 'wep_thumb_news',
         'width'     => 376,
         'height'    => 276,
         'crop'      => true
     ],
     [
-        'image_id'  => 'ssg_thumb_client',
+        'image_id'  => 'wep_thumb_client',
         'width'     => 100,
         'height'    => 100,
         'crop'      => false
     ],
     [
-        'image_id'  => 'ssg_thumb_featured_large',
+        'image_id'  => 'wep_thumb_featured_large',
         'width'     => 595,
         'height'    => 396,
         'crop'      => true
     ],
     [
-        'image_id'  => 'ssg_thumb_featured_small',
+        'image_id'  => 'wep_thumb_featured_small',
         'width'     => 150,
         'height'    => 100,
         'crop'      => true
     ],
    
     [
-        'image_id'  => 'ssg_thumb_widget',
+        'image_id'  => 'wep_thumb_widget',
         'width'     => 186,
         'height'    => 84,
         'crop'      => true
     ],
     [
-        'image_id'  => 'ssg_thumb_category',
+        'image_id'  => 'wep_thumb_category',
         'width'     => 241,
         'height'    => 161,
         'crop'      => true
     ],
     [
-        'image_id'  => 'ssg_thumb_slide',
+        'image_id'  => 'wep_thumb_slide',
         'width'     => 1920,
         'height'    => 879,
         'crop'      => true

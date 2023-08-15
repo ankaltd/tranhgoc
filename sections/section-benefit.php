@@ -4,13 +4,13 @@
 
 <!-- <?php echo $id; ?> -->
 
-<section id="<?php echo $id; ?>" class="<?php echo $class; ?> <?php echo (isset($class2)) ? $class2 : ''; ?> ssg_concept--section ssg_bg_dark">
+<section id="<?php echo $id; ?>" class="<?php echo $class; ?> <?php echo (isset($class2)) ? $class2 : ''; ?> wep_concept--section wep_bg_dark">
 
     <div class="container">
 
         <div class="row">
 
-            <h2 class="ssg_heading justify-content-start"><?php echo $heading; ?></h2>
+            <h2 class="wep_heading justify-content-start"><?php echo $heading; ?></h2>
 
         </div>
 

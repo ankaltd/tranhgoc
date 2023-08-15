@@ -5,16 +5,16 @@
     <div class="col-12 col-md-3 d-flex align-items-center justify-content-center justify-content-md-start">
         <?php
 
-        $footer_logo = get_field('ssg_footer_logo', 'option');
+        $footer_logo = get_field('wep_footer_logo', 'option');
         $footer_logo = $footer_logo ?: THEME_IMG . '/footer-logo-dark.png';
 
         $block_data = [
-            'id' => 'ssg_logo',
-            'class' => 'ssg_logo',
-            'text' => 'SSG Logo',
+            'id' => 'wep_logo',
+            'class' => 'wep_logo',
+            'text' => 'WEP  Logo',
             'image' => $footer_logo,
         ];
-        get_template_part('blocks/ssg', 'logo', $block_data);
+        get_template_part('blocks/wep', 'logo', $block_data);
         ?>
     </div>
 
@@ -38,11 +38,11 @@
         }
 
         $block_data = [
-            'id' => 'ssg_footer_menu',
-            'class' => 'ssg_footer_menu',
+            'id' => 'wep_footer_menu',
+            'class' => 'wep_footer_menu',
             'menu' => $footer_menu_links
         ];
-        get_template_part('blocks/ssg', 'footer-menu', $block_data);
+        get_template_part('blocks/wep', 'footer-menu', $block_data);
         ?>
 
     </div>
