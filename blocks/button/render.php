@@ -72,12 +72,6 @@ echo "Right: " . $right . "<br>";
     
  */
 
-foreach ($block as $key => $prop) {
-    echo '<hr>';
-    echo $key;
-    echo ' : ';
-    var_dump($prop);
-}
 ?>
 <div class="wep_block">
     <a href="" class="wep_button wep_button--primary">Nút bấm</a>
