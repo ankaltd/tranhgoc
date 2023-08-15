@@ -14,16 +14,29 @@
     },
     "styles": [],
     "supports": {
-        "align": false,
-        "anchor": false,
-        "alignContent": false,
+        "align": true,
+        "anchor": true,
+        "alignContent": true,
         "color": {
-            "text": false,
+            "text": true,
             "background": true,
-            "link": false
+            "gradients": true,
+            "link": true
         },
-        "alignText": false,
-        "fullHeight": false
+        "typography": {            
+            "fontSize": true,            
+            "lineHeight": true
+        },
+        "alignText": true,
+        "fullHeight": true,
+        "dimensions": {
+            "minHeight": true
+        },
+        "spacing": {
+            "margin": true, 
+            "padding": true,
+            "blockGap": true            
+        }
     },
     "attributes": {}
 }

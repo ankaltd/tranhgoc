@@ -14,16 +14,16 @@
     },
     "styles": [],
     "supports": {
-        "align": false,
-        "anchor": false,
-        "alignContent": false,
+        "align": true,
+        "anchor": true,
+        "alignContent": true,
         "color": {
-            "text": false,
+            "text": true,
             "background": true,
-            "link": false
+            "link": true
         },
-        "alignText": false,
-        "fullHeight": false
+        "alignText": true,
+        "fullHeight": true
     },
     "attributes": {}
 }
