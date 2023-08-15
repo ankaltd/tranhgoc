@@ -6,7 +6,7 @@
 
 $fields = [
 
-    'wep_image_src'               => 'https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/about/about-wep-image.png',
+    'wep_image_src'               => 'https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/about/about-wep-image.png',
 
     'wep_image_link'              => '#',
 

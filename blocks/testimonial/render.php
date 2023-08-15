@@ -22,7 +22,7 @@ $fields = [
 
             'wep_testimonial_review'            => 'Sản phẩm rất chi là tuyệt vời',
 
-            'wep_testimonial_image'             => 'https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/home/home-testimonial-avatar.png',
+            'wep_testimonial_image'             => 'https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/home/home-testimonial-avatar.png',
 
             'wep_testimonial_name'              => 'Trần Thanh Tâm',
 

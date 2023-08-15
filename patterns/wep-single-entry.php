@@ -56,7 +56,7 @@
 
         <div class="wep_entry_single__summary">Công bố nghiệm thu thành công hệ thống ERP cho Công ty Tài chính Ngân hàng TMCP Sài Gòn - Hà Nội (SHB Finance)</div>
 
-        <div class="wep_entry_single__thumbnail"><img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/detail/detail.png" alt="Công bố nghiệm thu thành công hệ thống ERP cho Công ty Tài chính Ngân hàng TMCP Sài Gòn - Hà Nội (SHB Finance) - Ngày 20/08/2021"></div>
+        <div class="wep_entry_single__thumbnail"><img src="https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/detail/detail.png" alt="Công bố nghiệm thu thành công hệ thống ERP cho Công ty Tài chính Ngân hàng TMCP Sài Gòn - Hà Nội (SHB Finance) - Ngày 20/08/2021"></div>
 
     </header>
 

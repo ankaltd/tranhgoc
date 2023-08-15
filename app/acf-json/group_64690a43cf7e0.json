@@ -1,10 +1,10 @@
 {
     "key": "group_64690a43cf7e0",
-    "title": "Cấu hình chung Website",
+    "title": "General: Cấu hình chung",
     "fields": [
         {
             "key": "field_64690a4475f2a",
-            "label": "1. Header",
+            "label": "[1] Cài đặt chung",
             "name": "",
             "aria-label": "",
             "type": "tab",
@@ -17,6 +17,24 @@
                 "id": ""
             },
             "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_64db2067400c2",
+            "label": "PHẦN HEADER",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 1,
+            "multi_expand": 0,
             "endpoint": 0
         },
         {
@@ -85,11 +103,11 @@
             "append": ""
         },
         {
-            "key": "field_64690d6f9ad09",
-            "label": "2. Footer",
+            "key": "field_64db207d400c3",
+            "label": "PHẦN FOOTER",
             "name": "",
             "aria-label": "",
-            "type": "tab",
+            "type": "accordion",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -98,7 +116,8 @@
                 "class": "",
                 "id": ""
             },
-            "placement": "top",
+            "open": 0,
+            "multi_expand": 0,
             "endpoint": 0
         },
         {
@@ -125,101 +144,6 @@
             "max_size": "",
             "mime_types": "",
             "preview_size": "medium"
-        },
-        {
-            "key": "field_64690e8b402f5",
-            "label": "Địa chỉ công ty",
-            "name": "wep_company_address",
-            "aria-label": "",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": [
-                [
-                    {
-                        "field": "field_646a0ea6d322d",
-                        "operator": "==",
-                        "value": "contact_info"
-                    }
-                ]
-            ],
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
-        },
-        {
-            "key": "field_64c2a151e3bb6",
-            "label": "Địa chỉ công ty (English)",
-            "name": "wep_company_address_en",
-            "aria-label": "",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": [
-                [
-                    {
-                        "field": "field_64690d3366f50",
-                        "operator": "!=empty"
-                    }
-                ]
-            ],
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
-        },
-        {
-            "key": "field_64bd702a93334",
-            "label": "Thông tin bản quyền",
-            "name": "wep_company_copyright",
-            "aria-label": "",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
-        },
-        {
-            "key": "field_64c2a172a429c",
-            "label": "Thông tin bản quyền (English)",
-            "name": "wep_company_copyright_en",
-            "aria-label": "",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
         },
         {
             "key": "field_646a103fa2263",
@@ -322,11 +246,11 @@
             ]
         },
         {
-            "key": "field_64bfd810bb681",
-            "label": "3. Footer Contact",
-            "name": "",
+            "key": "field_64bd702a93334",
+            "label": "Thông tin bản quyền",
+            "name": "wep_company_copyright",
             "aria-label": "",
-            "type": "tab",
+            "type": "wysiwyg",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -335,8 +259,104 @@
                 "class": "",
                 "id": ""
             },
-            "placement": "top",
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_64c2a172a429c",
+            "label": "Thông tin bản quyền (English)",
+            "name": "wep_company_copyright_en",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_64db2086400c4",
+            "label": "THÔNG TIN LIÊN HỆ",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
             "endpoint": 0
+        },
+        {
+            "key": "field_64690e8b402f5",
+            "label": "Địa chỉ công ty",
+            "name": "wep_company_address",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_646a0ea6d322d",
+                        "operator": "==",
+                        "value": "contact_info"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_64c2a151e3bb6",
+            "label": "Địa chỉ công ty (English)",
+            "name": "wep_company_address_en",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64690d3366f50",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         },
         {
             "key": "field_64bfd871bb683",
@@ -399,8 +419,26 @@
             "append": ""
         },
         {
+            "key": "field_64db230f975be",
+            "label": "END OF CÀI ĐẶT CHUNG",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 1,
+            "multi_expand": 0,
+            "endpoint": 1
+        },
+        {
             "key": "field_64c0b9758618b",
-            "label": "4. Search Page",
+            "label": "[2] Search Page",
             "name": "",
             "aria-label": "",
             "type": "tab",
@@ -555,7 +593,7 @@
         },
         {
             "key": "field_64c0f509c7534",
-            "label": "5. Category Page",
+            "label": "[3] Category Page",
             "name": "",
             "aria-label": "",
             "type": "tab",
@@ -670,7 +708,7 @@
         },
         {
             "key": "field_64c13df3892e1",
-            "label": "6. Related \/ Other News",
+            "label": "[4] Related \/ Other News",
             "name": "",
             "aria-label": "",
             "type": "tab",
@@ -802,6 +840,112 @@
             "toggle": 1,
             "save_custom": 0,
             "custom_choice_button_text": "Add new choice"
+        },
+        {
+            "key": "field_64db2133400c8",
+            "label": "[5] Shop \/ Sản phẩm",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_64690d6f9ad09",
+            "label": "[6] Cài đặt giao diện",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_64db2094400c5",
+            "label": "CẤU HÌNH FONT CHỮ",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64db209e400c6",
+            "label": "CẤU HÌNH MÀU SẮC",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64db20a7400c7",
+            "label": "CẤU HÌNH STYLE",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64db2370c2570",
+            "label": "END OF CÀI ĐẶT GIAO DIỆN",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
         }
     ],
     "location": [
@@ -822,5 +966,5 @@
     "active": true,
     "description": "Cấu hình chung toàn website",
     "show_in_rest": 0,
-    "modified": 1690478927
+    "modified": 1692083298
 }

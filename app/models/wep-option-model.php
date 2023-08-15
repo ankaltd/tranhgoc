@@ -69,7 +69,7 @@ class WEP_Option_Model {
 
     // Image Single default
     private static $image_options = [
-        'wep_image_src'               => 'https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/about/about-value-1.png',
+        'wep_image_src'               => 'https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/about/about-value-1.png',
         'wep_image_link'              => '#',
         'wep_image_target'            => false,
         'wep_image_youtube_video'     => false,

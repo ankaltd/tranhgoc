@@ -62,7 +62,7 @@ if (function_exists('pll_current_language')) {
         <p>Điện thoại: <strong>(84 - 28) 3547 2425</strong></p>
         <p>Fax: <strong>(84 - 28) 3547 2426</strong></p>
         <p>Hotline: <strong>(84) 913 037 466</strong></p>
-        <p>E-mail Us: <strong>contact@wep.vn</strong></p>';
+        <p>E-mail Us: <strong>contact@tranhgoc.test</strong></p>';
 
 
         $block_data = [

@@ -38,7 +38,7 @@ $margin = get_field('wep_margin_bottom');
 
             text: "Tiếng Việt",
 
-            image: "https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon-flat-vn.png"
+            image: "https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/icon-flat-vn.png"
 
         },
 
@@ -48,7 +48,7 @@ $margin = get_field('wep_margin_bottom');
 
             text: "English",
 
-            image: "https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon-flat-en.png"
+            image: "https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/icon-flat-en.png"
 
         },
 

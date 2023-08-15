@@ -162,9 +162,9 @@ WEP_Section_View::render_section_tag($option, 'wep_news_grid');
                 <nav aria-label="Page navigation">
                     <ul class="pagination wep_page_nav">
                         <li class="page-item current_page"><span aria-current="page" class="page-link current">1</span></li>
-                        <li class="page-item "><a class="page-link" href="https://wep.vn/category/tin-tuc/page/2/">2</a></li>
-                        <li class="page-item "><a class="page-link" href="https://wep.vn/category/tin-tuc/page/3/">3</a></li>
-                        <li class="page-item "><a class="next page-link" href="https://wep.vn/category/tin-tuc/page/2/">Tiếp »</a></li>
+                        <li class="page-item "><a class="page-link" href="https://tranhgoc.test/category/tin-tuc/page/2/">2</a></li>
+                        <li class="page-item "><a class="page-link" href="https://tranhgoc.test/category/tin-tuc/page/3/">3</a></li>
+                        <li class="page-item "><a class="next page-link" href="https://tranhgoc.test/category/tin-tuc/page/2/">Tiếp »</a></li>
                     </ul>
                 </nav>
             <?php endif; ?>

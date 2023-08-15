@@ -304,7 +304,7 @@ class WEP_Setup {
 
     // HTTP ORIGINS    
     function add_allowed_origins($origins) {
-        $origins[] = 'https://wep.vn';
+        $origins[] = 'https://tranhgoc.test';
         $origins[] = 'https://digitalbiz.com.vn';
         $origins[] = 'https://wepmedia.b-cdn.net';
         return $origins;

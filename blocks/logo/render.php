@@ -20,7 +20,7 @@ $margin = get_field('wep_margin_bottom');
 
     <a href="<?php echo home_url() ?>">
 
-        <img width="80" height="auto" src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/head-logo.png" alt="WEP  Logo" title="WEP  Logo">
+        <img width="80" height="auto" src="https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/head-logo.png" alt="WEP  Logo" title="WEP  Logo">
 
     </a>
 

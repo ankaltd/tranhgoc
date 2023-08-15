@@ -22,13 +22,13 @@ $fields = [
 
             'wep_is_video'                      => false,
 
-            'wep_image_video'                   => 'https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/video_demo.mp4',
+            'wep_image_video'                   => 'https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/video_demo.mp4',
 
-            'wep_image_src'                     => 'https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/home/home-banner.png',
+            'wep_image_src'                     => 'https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/home/home-banner.png',
 
             'wep_image_mobile_src'              => '',
 
-            'wep_image_logo_src'                => 'https://demo.wep.vn/wp-content/uploads/2023/07/footer-logo-dark.png',
+            'wep_image_logo_src'                => 'https://tranhgoc.test/wp-content/uploads/2023/07/footer-logo-dark.png',
 
             'wep_image_heading'                 => 'Một kỷ nguyên mới của trí tuệ nhân tạo cho tất cả mọi người',
 

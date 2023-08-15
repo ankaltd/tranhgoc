@@ -1,6 +1,6 @@
 {
     "key": "group_6469bf3f942d6",
-    "title": "Cấu hình Header & Footer",
+    "title": "Individual: Header & Footer",
     "fields": [
         {
             "key": "field_647716aad8157",
@@ -109,5 +109,5 @@
     "active": true,
     "description": "Cài đặt cấu hình Header và Footer",
     "show_in_rest": 0,
-    "modified": 1690391259
+    "modified": 1692083482
 }

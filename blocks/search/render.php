@@ -20,7 +20,7 @@ $margin = get_field('wep_margin_bottom');
 
     <a href="#" data-bs-toggle="modal" data-bs-target="#searchModal">
 
-        <img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon_search.png" alt="Quick Search" title="Quick Search">
+        <img src="https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/icon_search.png" alt="Quick Search" title="Quick Search">
 
     </a>
 

@@ -36,7 +36,7 @@
 
         </div>
 
-        <div class="wep_entry_single__thumbnail"><img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/client/client-detail.png" alt="WEP  tài trợ chính hội thảo “E-logistics Việt Nam sẵn sàn cất cánh” - Hiệp Hội Doanh nghiệp Dịch vụ Logistics Việt Nam (VLA) tổ chức"></div>
+        <div class="wep_entry_single__thumbnail"><img src="https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/client/client-detail.png" alt="WEP  tài trợ chính hội thảo “E-logistics Việt Nam sẵn sàn cất cánh” - Hiệp Hội Doanh nghiệp Dịch vụ Logistics Việt Nam (VLA) tổ chức"></div>
 
     </header>
 

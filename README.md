@@ -1,2 +1,2 @@
 # wep-html
-HTML template for wep.vn site
+HTML template for tranhgoc.test site

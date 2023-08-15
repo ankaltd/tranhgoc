@@ -86,7 +86,7 @@ msgid "https://andt.biz.vn"
 msgstr ""
 
 #. URI of the theme
-msgid "https://wep.vn"
+msgid "https://tranhgoc.test"
 msgstr ""
 
 #: 404.php:22
@@ -147,7 +147,7 @@ msgid "WEP  Website"
 msgstr ""
 
 #. Description of the theme
-msgid "This is code theme for website wep.vn"
+msgid "This is code theme for website tranhgoc.test"
 msgstr ""
 
 #. Name of the template

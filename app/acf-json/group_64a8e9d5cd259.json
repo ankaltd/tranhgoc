@@ -1,10 +1,10 @@
 {
     "key": "group_64a8e9d5cd259",
-    "title": "Block: Button",
+    "title": "Block: Button (1 nút)",
     "fields": [
         {
             "key": "field_64c63d3cfe266",
-            "label": "CÀI ĐẶT NÚT",
+            "label": "C. CÀI ĐẶT NÚT ĐƠN",
             "name": "",
             "aria-label": "",
             "type": "accordion",
@@ -69,7 +69,7 @@
             "label": "Liên kết nút",
             "name": "wep_button_link",
             "aria-label": "",
-            "type": "text",
+            "type": "link",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -78,11 +78,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "#",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
+            "return_format": "url"
         },
         {
             "key": "field_64a8f178bedea",
@@ -130,5 +126,5 @@
     "active": true,
     "description": "Tùy chọn cho nút nhấn",
     "show_in_rest": 0,
-    "modified": 1690713435
+    "modified": 1692094329
 }

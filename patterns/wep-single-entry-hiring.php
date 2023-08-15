@@ -54,7 +54,7 @@
 
                     <div class="field">
 
-                        <i class="bi bi-geo-alt-fill"><img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon_hr_location.png" alt=""></i>
+                        <i class="bi bi-geo-alt-fill"><img src="https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/icon_hr_location.png" alt=""></i>
 
                         <span>Địa điểm làm việc</span>
 
@@ -70,7 +70,7 @@
 
 
 
-                        <i class="bi bi-cash"><img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon_hr_salary.png" alt=""></i>
+                        <i class="bi bi-cash"><img src="https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/icon_hr_salary.png" alt=""></i>
 
                         <span>Mức lương</span>
 
@@ -86,7 +86,7 @@
 
 
 
-                        <i class="bi bi-calendar-event-fill"><img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon_hr_date.png" alt=""></i>
+                        <i class="bi bi-calendar-event-fill"><img src="https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/icon_hr_date.png" alt=""></i>
 
                         <span>Hạn nộp hồ sơ</span>
 
@@ -102,7 +102,7 @@
 
 
 
-                        <i class="bi bi-briefcase"><img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon_hr_workform.png" alt=""></i>
+                        <i class="bi bi-briefcase"><img src="https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/icon_hr_workform.png" alt=""></i>
 
                         <span>Hình thức làm việc</span>
 

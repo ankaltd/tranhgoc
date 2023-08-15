@@ -84,7 +84,7 @@ $section_data = [
 
             'title'  => 'Email cho chúng tôi',
 
-            'text'  => '<a href="mail:contact@wep.vn">contact@wep.vn</a>',
+            'text'  => '<a href="mail:contact@tranhgoc.test">contact@tranhgoc.test</a>',
 
         ],
 

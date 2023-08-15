@@ -1,0 +1,885 @@
+{
+    "key": "group_64db272f12fea",
+    "title": "Block: Section Design",
+    "fields": [
+        {
+            "key": "field_64db272f17596",
+            "label": "I. CÀI ĐẶT THIẾT KẾ SECTION",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64db272f1b017",
+            "label": "Tùy chỉnh CSS",
+            "name": "wep_section_custom_style",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Thay đổi khoảng cách, bổ sung style CSS tùy biến cho section",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "Có chỉnh",
+            "ui_off_text": "Không chỉnh",
+            "ui": 1
+        },
+        {
+            "key": "field_64db272f261f5",
+            "label": "CSS Tùy biến (section)",
+            "name": "wep_section_custom_css",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Nhập code tùy biến áp dụng cho thành phần vào đây.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64db272f1b017",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_64db272f1eac1",
+            "label": "Khoảng cách trên",
+            "name": "wep_section_top_space",
+            "aria-label": "",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64db272f1b017",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": 0,
+            "max": 150,
+            "step": "",
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_64db272f22562",
+            "label": "Khoảng cách dưới",
+            "name": "wep_section_bottom_space",
+            "aria-label": "",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64db272f1b017",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": 0,
+            "max": 150,
+            "step": "",
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_64c63b386f72e",
+            "label": "II. CÀI ĐẶT TIÊU ĐỀ SECTION",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64a07b6f9f954",
+            "label": "Màu tiêu đề",
+            "name": "wep_section_heading_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_64db33dec39eb",
+            "label": "Khoảng cách trên (tiêu đề)",
+            "name": "wep_section_heading_margin_top",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Mặc định",
+                "wep_margin": "20px",
+                "wep_margin--b3": "30px",
+                "wep_margin--b4": "40px",
+                "wep_margin--b5": "50px",
+                "wep_margin--b6": "60px",
+                "wep_margin--b7": "70px"
+            },
+            "default_value": "default",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64a45c0f969cd",
+            "label": "Khoảng cách dưới (tiêu đề)",
+            "name": "wep_section_heading_margin_bottom",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Mặc định",
+                "wep_margin": "20px",
+                "wep_margin--b3": "30px",
+                "wep_margin--b4": "40px",
+                "wep_margin--b5": "50px",
+                "wep_margin--b6": "60px",
+                "wep_margin--b7": "70px"
+            },
+            "default_value": "default",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64c63bd46cfb8",
+            "label": "III. CÀI ĐẶT MÔ TẢ SECTION",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64a467f2d0ee1",
+            "label": "Màu chữ mô tả",
+            "name": "wep_section_description_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 1,
+            "return_format": "string"
+        },
+        {
+            "key": "field_64a4684bd0ee2",
+            "label": "Cỡ chữ mô tả",
+            "name": "wep_section_description_font_size",
+            "aria-label": "",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 15,
+            "min": "",
+            "max": "",
+            "step": "",
+            "prepend": "",
+            "append": "px"
+        },
+        {
+            "key": "field_64a4689ad0ee3",
+            "label": "Giãn dòng mô tả",
+            "name": "wep_section_description_line_height",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "1.5",
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": "rem"
+        },
+        {
+            "key": "field_64a45f0794e47",
+            "label": "Khoảng cách dưới mô tả",
+            "name": "wep_section_description_margin_bottom",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Mặc định",
+                "wep_margin": "20px",
+                "wep_margin--b3": "30px",
+                "wep_margin--b4": "40px",
+                "wep_margin--b5": "50px",
+                "wep_margin--b6": "60px",
+                "wep_margin--b7": "70px"
+            },
+            "default_value": "default",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64db297d3b50b",
+            "label": "IV. CÀI ĐẶT HIỆU ỨNG SECTION",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64db272f34f14",
+            "label": "Hiệu ứng xuất hiện (section)",
+            "name": "wep_section_effect",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64db272f2d7a6",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "fade": "Hiển thị dần lên.",
+                "fade-up": "Hiển thị phía dưới lên.",
+                "fade-down": "Hiển thị phía trên xuống.",
+                "fade-left": "Hiển thị sang phía trái.",
+                "fade-right": "Hiển thị sang phía phải.",
+                "fade-up-right": "Hiển thị từ trung tâm ra phía trên bên phải.",
+                "fade-up-left": "Hiển thị từ trung tâm ra phía trên bên trái.",
+                "fade-down-right": "Hiển thị từ trung tâm ra phía dưới bên phải.",
+                "fade-down-left": "Hiển thị từ trung tâm ra phía dưới bên trái.",
+                "flip-up": "Hiển thị lên phía trên xuống và xoay.",
+                "flip-down": "Hiển thị lên phía dưới lên và xoay.",
+                "flip-left": "Hiển thị sang phía trái vào và xoay.",
+                "flip-right": "Hiển thị sang phía phải vào xoay.",
+                "slide-up": "Trượt từ phía dưới lên.",
+                "slide-down": "Trượt từ phía trên xuống.",
+                "slide-left": "Trượt từ phía phải vào.",
+                "slide-right": "Trượt từ phía trái vào.",
+                "zoom-in": "Phóng to từ phía trung tâm.",
+                "zoom-out": "Thu nhỏ vào trung tâm.",
+                "none": "Không có hiệu ứng."
+            },
+            "default_value": "none",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64db272f3884d",
+            "label": "Hiệu ứng xuất hiện (heading - desc)",
+            "name": "wep_section_effect_heading_desc",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64db272f2d7a6",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "fade": "Hiển thị dần lên.",
+                "fade-up": "Hiển thị phía dưới lên.",
+                "fade-down": "Hiển thị phía trên xuống.",
+                "fade-left": "Hiển thị sang phía trái.",
+                "fade-right": "Hiển thị sang phía phải.",
+                "fade-up-right": "Hiển thị từ trung tâm ra phía trên bên phải.",
+                "fade-up-left": "Hiển thị từ trung tâm ra phía trên bên trái.",
+                "fade-down-right": "Hiển thị từ trung tâm ra phía dưới bên phải.",
+                "fade-down-left": "Hiển thị từ trung tâm ra phía dưới bên trái.",
+                "flip-up": "Hiển thị lên phía trên xuống và xoay.",
+                "flip-down": "Hiển thị lên phía dưới lên và xoay.",
+                "flip-left": "Hiển thị sang phía trái vào và xoay.",
+                "flip-right": "Hiển thị sang phía phải vào xoay.",
+                "slide-up": "Trượt từ phía dưới lên.",
+                "slide-down": "Trượt từ phía trên xuống.",
+                "slide-left": "Trượt từ phía phải vào.",
+                "slide-right": "Trượt từ phía trái vào.",
+                "zoom-in": "Phóng to từ phía trung tâm.",
+                "zoom-out": "Thu nhỏ vào trung tâm.",
+                "none": "Không có hiệu ứng."
+            },
+            "default_value": "none",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64db272f3125b",
+            "label": "Hiện lên rồi đứng yên",
+            "name": "wep_section_effect_stay",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Chọn mục này thì khi hiện thành phần, sẽ giữ nguyên không biến mất khi cuộn ra khỏi khung hình",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64db272f2d7a6",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui_on_text": "Giữ nguyên",
+            "ui_off_text": "Ẩn mất",
+            "ui": 1
+        },
+        {
+            "key": "field_64db272f2d7a6",
+            "label": "Hiệu ứng thành phần (item)",
+            "name": "wep_section_item_effect",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Áp các hiệu ứng xuất hiện cho các thành phần như Section, Component, Element,...",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "Có",
+            "ui_off_text": "Không",
+            "ui": 1
+        },
+        {
+            "key": "field_64db272f3c30e",
+            "label": "Hiệu ứng xuất hiện (các mục)",
+            "name": "wep_section_effect_item",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64db272f2d7a6",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "fade": "Hiển thị dần lên.",
+                "fade-up": "Hiển thị phía dưới lên.",
+                "fade-down": "Hiển thị phía trên xuống.",
+                "fade-left": "Hiển thị sang phía trái.",
+                "fade-right": "Hiển thị sang phía phải.",
+                "fade-up-right": "Hiển thị từ trung tâm ra phía trên bên phải.",
+                "fade-up-left": "Hiển thị từ trung tâm ra phía trên bên trái.",
+                "fade-down-right": "Hiển thị từ trung tâm ra phía dưới bên phải.",
+                "fade-down-left": "Hiển thị từ trung tâm ra phía dưới bên trái.",
+                "flip-up": "Hiển thị lên phía trên xuống và xoay.",
+                "flip-down": "Hiển thị lên phía dưới lên và xoay.",
+                "flip-left": "Hiển thị sang phía trái vào và xoay.",
+                "flip-right": "Hiển thị sang phía phải vào xoay.",
+                "slide-up": "Trượt từ phía dưới lên.",
+                "slide-down": "Trượt từ phía trên xuống.",
+                "slide-left": "Trượt từ phía phải vào.",
+                "slide-right": "Trượt từ phía trái vào.",
+                "zoom-in": "Phóng to từ phía trung tâm.",
+                "zoom-out": "Thu nhỏ vào trung tâm.",
+                "none": "Không có hiệu ứng."
+            },
+            "default_value": "none",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64db272f3fc66",
+            "label": "Thời gian hiệu ứng (ms)",
+            "name": "wep_section_effect_duration",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64db272f2d7a6",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1200,
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64db272f437be",
+            "label": "Thời gian trễ thành phần đầu tiên (ms)",
+            "name": "wep_section_effect_delay",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64db272f2d7a6",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 100,
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64db272f473f5",
+            "label": "Thời gian trễ thành phần cách nhau (ms)",
+            "name": "wep_section_effect_delay_interval",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64db272f2d7a6",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 100,
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64c63c3a625d4",
+            "label": "V. CÀI ĐẶT NỀN SECTION",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64a9196d223f1",
+            "label": "Ảnh nền",
+            "name": "wep_background_src",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Chọn hình ảnh và điều chỉnh dành cho ảnh nền",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_64b75f0698f9e",
+            "label": "Nền chế độ tối",
+            "name": "wep_background_dark",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Chọn nền màu tối để nội dung văn bản tự chỉnh màu sáng",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Quy định nền chế độ tối, tự động nội dung bên trong sẽ chọn màu sáng",
+            "default_value": 0,
+            "ui_on_text": "Nền tối",
+            "ui_off_text": "Nền sáng",
+            "ui": 1
+        },
+        {
+            "key": "field_64bf476aabfae",
+            "label": "Nền cố định (hiệu ứng cuộn)",
+            "name": "wep_background_attachment",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "Cố định",
+            "ui_off_text": "Cuộn theo",
+            "ui": 1
+        },
+        {
+            "key": "field_64a9199ba7eeb",
+            "label": "Màu nền",
+            "name": "wep_background_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "inherit",
+            "enable_opacity": 1,
+            "return_format": "string"
+        },
+        {
+            "key": "field_64a919eba7eec",
+            "label": "Căn nền chiều ngang",
+            "name": "wep_background_align_x",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Mặc định",
+                "left": "Trái",
+                "center": "Giữa",
+                "right": "Phải",
+                "unset": "Không đặt"
+            },
+            "default_value": "inherit",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64a91a3ba7eed",
+            "label": "Căn nền chiều dọc",
+            "name": "wep_background_align_y",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "inherit": "Mặc định",
+                "top": "Trên",
+                "center": "Giữa",
+                "bottom": "Dưới",
+                "unset": "Không đặt"
+            },
+            "default_value": "inherit",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64a91aaea7eee",
+            "label": "Lặp hình ảnh",
+            "name": "wep_background_repeat",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "no-repeat": "Không lặp",
+                "repeat": "Lặp 2 chiều",
+                "repeat-x": "Lặp ngang",
+                "repeat-y": "Lặp dọc"
+            },
+            "default_value": "no-repeat",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64b7641444567",
+            "label": "Kích thước nền",
+            "name": "wep_background_size",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "auto": "Tự động",
+                "inherit": "Mặc định",
+                "contain": "Bao hết",
+                "cover": "Che phủ",
+                "unset": "Không đặt"
+            },
+            "default_value": "auto",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 100,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Phần tùy biến phía code",
+    "show_in_rest": 0,
+    "modified": 1692094174
+}

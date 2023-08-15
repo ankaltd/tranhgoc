@@ -1,10 +1,10 @@
 {
     "key": "group_64a917c4303a7",
-    "title": "Block: Hình ảnh",
+    "title": "Block: Media (Hình \/ Video)",
     "fields": [
         {
             "key": "field_64c63c6297e36",
-            "label": "CÀI ĐẶT HÌNH ĐƠN",
+            "label": "B. CÀI ĐẶT MEDIA (IMAGE\/VIDEO)",
             "name": "",
             "aria-label": "",
             "type": "accordion",
@@ -21,9 +21,33 @@
             "endpoint": 0
         },
         {
+            "key": "field_64bf5603d16da",
+            "label": "Loại media",
+            "name": "wep_media_style",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "image": "Hình ảnh",
+                "video": "Video",
+                "youtube": "Youtube"
+            },
+            "default_value": "image",
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
             "key": "field_64a917c43e883",
             "label": "Hình ảnh",
-            "name": "wep_image_src",
+            "name": "wep_media_image_src",
             "aria-label": "",
             "type": "image",
             "instructions": "Chọn hình ảnh đơn cho nội dung section",
@@ -32,8 +56,8 @@
                 [
                     {
                         "field": "field_64bf5603d16da",
-                        "operator": "!=",
-                        "value": "1"
+                        "operator": "==",
+                        "value": "image"
                     }
                 ]
             ],
@@ -54,9 +78,9 @@
             "preview_size": "medium"
         },
         {
-            "key": "field_64bf5669d16db",
-            "label": "Dùng link Youtube thay hình",
-            "name": "wep_image_youtube_link",
+            "key": "field_64a917e63e884",
+            "label": "Liên kết hình ảnh",
+            "name": "wep_media_image_link",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -66,55 +90,7 @@
                     {
                         "field": "field_64bf5603d16da",
                         "operator": "==",
-                        "value": "1"
-                    }
-                ]
-            ],
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "https:\/\/www.youtube.com\/watch?v=2-VJKjxb4pU",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
-        },
-        {
-            "key": "field_64bf5603d16da",
-            "label": "Dùng Video Youtube",
-            "name": "wep_image_youtube_video",
-            "aria-label": "",
-            "type": "true_false",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "message": "",
-            "default_value": 0,
-            "ui_on_text": "",
-            "ui_off_text": "",
-            "ui": 1
-        },
-        {
-            "key": "field_64a917e63e884",
-            "label": "Liên kết hình ảnh",
-            "name": "wep_image_link",
-            "aria-label": "",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": [
-                [
-                    {
-                        "field": "field_64bf5603d16da",
-                        "operator": "!=",
-                        "value": "1"
+                        "value": "image"
                     }
                 ]
             ],
@@ -132,7 +108,7 @@
         {
             "key": "field_64a917fb3e885",
             "label": "Mở trên tab khác",
-            "name": "wep_image_target",
+            "name": "wep_media_image_target",
             "aria-label": "",
             "type": "true_false",
             "instructions": "",
@@ -141,8 +117,8 @@
                 [
                     {
                         "field": "field_64bf5603d16da",
-                        "operator": "!=",
-                        "value": "1"
+                        "operator": "==",
+                        "value": "image"
                     }
                 ]
             ],
@@ -156,6 +132,170 @@
             "ui_on_text": "Mở",
             "ui_off_text": "Không",
             "ui": 1
+        },
+        {
+            "key": "field_64bf5669d16db",
+            "label": "Link Youtube Video",
+            "name": "wep_media_video_youtube_link",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64bf5603d16da",
+                        "operator": "==",
+                        "value": "youtube"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/www.youtube.com\/watch?v=2-VJKjxb4pU",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64db379b381b5",
+            "label": "Video (tải lên)",
+            "name": "wep_media_video_src",
+            "aria-label": "",
+            "type": "file",
+            "instructions": "Chọn hình ảnh đơn cho nội dung section",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64bf5603d16da",
+                        "operator": "!=",
+                        "value": "video"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_64db3874aad0a",
+            "label": "Mở trên Popup",
+            "name": "wep_media_video_on_popup",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64bf5603d16da",
+                        "operator": "==",
+                        "value": "video"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_64bf5603d16da",
+                        "operator": "==",
+                        "value": "youtube"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "Mở",
+            "ui_off_text": "Không",
+            "ui": 1
+        },
+        {
+            "key": "field_64c3660e8dc89",
+            "label": "Căn chỉnh Media",
+            "name": "wep_media_alignment",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "text-start": "Căn trái",
+                "text-center": "Căn giữa",
+                "text-end": "Căn phải"
+            },
+            "default_value": "justify-content-center",
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_64c365ea8dc88",
+            "label": "Kích thước tự giãn",
+            "name": "wep_media_responsive",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
+            "key": "field_64c3665f8dc8a",
+            "label": "Độ rộng Media (Image \/ Video)",
+            "name": "wep_media_width",
+            "aria-label": "",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64c365ea8dc88",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 800,
+            "min": "",
+            "max": 2000,
+            "step": "",
+            "prepend": "",
+            "append": "px"
         }
     ],
     "location": [
@@ -190,5 +330,5 @@
     "active": true,
     "description": "Tùy chọn hình đơn",
     "show_in_rest": 0,
-    "modified": 1690713242
+    "modified": 1692094318
 }

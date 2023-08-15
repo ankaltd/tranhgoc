@@ -47,7 +47,7 @@ class WEP_Option {
         global $wp_admin_bar;
 
         // Đặt URL của trang cấu hình website ở đây
-        $url = 'https://wep.vn/wp-admin/admin.php?page=acf-options-cau-hinh-website';
+        $url = 'https://tranhgoc.test/wp-admin/admin.php?page=acf-options-cau-hinh-website';
 
         // Thêm liên kết vào thanh admin bar
         $args = array(

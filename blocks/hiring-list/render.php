@@ -182,13 +182,13 @@ WEP_Section_View::render_section_tag($option, 'wep_hiring_list wep_concept--sect
 
                     <td><i class="bi bi-geo-alt-fill">
 
-                            <img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon_hr_location.png" alt="">
+                            <img src="https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/icon_hr_location.png" alt="">
 
                         </i> <?php echo $hirring_location ?></td>
 
                     <td><i class="bi bi-calendar-event-fill">
 
-                            <img src="https://demo.wep.vn/wp-content/themes/tranhgoc/assets/images/icon_hr_date.png" alt=""></i>
+                            <img src="https://tranhgoc.test/wp-content/themes/tranhgoc/assets/images/icon_hr_date.png" alt=""></i>
 
                         <span class="date"><?php echo $hiring_deadline ?></span>
 
