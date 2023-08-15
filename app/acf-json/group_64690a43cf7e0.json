@@ -22,7 +22,7 @@
         {
             "key": "field_64690d3366f50",
             "label": "Website Logo",
-            "name": "wep_main_logo",
+            "name": "ssg_main_logo",
             "aria-label": "",
             "type": "image",
             "instructions": "",
@@ -47,7 +47,7 @@
         {
             "key": "field_64c2a601351da",
             "label": "Slogan",
-            "name": "wep_company_slogan",
+            "name": "ssg_company_slogan",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -67,7 +67,7 @@
         {
             "key": "field_64c2a9433a25a",
             "label": "Slogan (English)",
-            "name": "wep_company_slogan_en",
+            "name": "ssg_company_slogan_en",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -104,7 +104,7 @@
         {
             "key": "field_64690d889ad0a",
             "label": "Footer Logo",
-            "name": "wep_footer_logo",
+            "name": "ssg_footer_logo",
             "aria-label": "",
             "type": "image",
             "instructions": "",
@@ -129,7 +129,7 @@
         {
             "key": "field_64690e8b402f5",
             "label": "Địa chỉ công ty",
-            "name": "wep_company_address",
+            "name": "ssg_company_address",
             "aria-label": "",
             "type": "wysiwyg",
             "instructions": "",
@@ -157,7 +157,7 @@
         {
             "key": "field_64c2a151e3bb6",
             "label": "Địa chỉ công ty (English)",
-            "name": "wep_company_address_en",
+            "name": "ssg_company_address_en",
             "aria-label": "",
             "type": "wysiwyg",
             "instructions": "",
@@ -184,7 +184,7 @@
         {
             "key": "field_64bd702a93334",
             "label": "Thông tin bản quyền",
-            "name": "wep_company_copyright",
+            "name": "ssg_company_copyright",
             "aria-label": "",
             "type": "wysiwyg",
             "instructions": "",
@@ -204,7 +204,7 @@
         {
             "key": "field_64c2a172a429c",
             "label": "Thông tin bản quyền (English)",
-            "name": "wep_company_copyright_en",
+            "name": "ssg_company_copyright_en",
             "aria-label": "",
             "type": "wysiwyg",
             "instructions": "",
@@ -224,7 +224,7 @@
         {
             "key": "field_646a103fa2263",
             "label": "Mạng xã hội",
-            "name": "wep_footer_social_icon_list",
+            "name": "ssg_footer_social_icon_list",
             "aria-label": "",
             "type": "repeater",
             "instructions": "",
@@ -341,7 +341,7 @@
         {
             "key": "field_64bfd871bb683",
             "label": "Tiêu đề section",
-            "name": "wep_footer_contact_heading",
+            "name": "ssg_footer_contact_heading",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -361,7 +361,7 @@
         {
             "key": "field_64c2a1abb0158",
             "label": "Tiêu đề section (English)",
-            "name": "wep_footer_contact_heading_en",
+            "name": "ssg_footer_contact_heading_en",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -381,7 +381,7 @@
         {
             "key": "field_64bfd829bb682",
             "label": "Liên kết nút",
-            "name": "wep_footer_contact_button_link",
+            "name": "ssg_footer_contact_button_link",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -418,7 +418,7 @@
         {
             "key": "field_64c0b9838618c",
             "label": "Banner đầu trang",
-            "name": "wep_search_page_banner",
+            "name": "ssg_search_page_banner",
             "aria-label": "",
             "type": "image",
             "instructions": "",
@@ -443,7 +443,7 @@
         {
             "key": "field_64c0b9db8618d",
             "label": "Số lượng kết quả trên trang",
-            "name": "wep_search_page_number_per_page",
+            "name": "ssg_search_page_number_per_page",
             "aria-label": "",
             "type": "number",
             "instructions": "",
@@ -465,7 +465,7 @@
         {
             "key": "field_64c0ba1d8618e",
             "label": "Số lượng cột hiển thị",
-            "name": "wep_search_page_columns",
+            "name": "ssg_search_page_columns",
             "aria-label": "",
             "type": "number",
             "instructions": "",
@@ -487,7 +487,7 @@
         {
             "key": "field_64c0ba3d8618f",
             "label": "Tiêu đề trang tìm kiếm",
-            "name": "wep_search_page_heading",
+            "name": "ssg_search_page_heading",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -507,7 +507,7 @@
         {
             "key": "field_64c2a1f6b015a",
             "label": "Tiêu đề trang tìm kiếm (English)",
-            "name": "wep_search_page_heading_en",
+            "name": "ssg_search_page_heading_en",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -527,7 +527,7 @@
         {
             "key": "field_64c0f4cc56b01",
             "label": "Hiển thị các thành phần",
-            "name": "wep_search_page_show",
+            "name": "ssg_search_page_show",
             "aria-label": "",
             "type": "checkbox",
             "instructions": "Chọn những thành phần sẽ hiển thị một tin",
@@ -573,7 +573,7 @@
         {
             "key": "field_64c0f5f7b5275",
             "label": "Banner đầu trang",
-            "name": "wep_category_page_banner",
+            "name": "ssg_category_page_banner",
             "aria-label": "",
             "type": "image",
             "instructions": "",
@@ -598,7 +598,7 @@
         {
             "key": "field_64c0f59ec7537",
             "label": "Số lượng nội dung trên trang",
-            "name": "wep_category_page_number_per_page",
+            "name": "ssg_category_page_number_per_page",
             "aria-label": "",
             "type": "number",
             "instructions": "",
@@ -620,7 +620,7 @@
         {
             "key": "field_64c0f57cc7536",
             "label": "Số lượng cột hiển thị",
-            "name": "wep_category_page_columns",
+            "name": "ssg_category_page_columns",
             "aria-label": "",
             "type": "number",
             "instructions": "",
@@ -642,7 +642,7 @@
         {
             "key": "field_64c0f55fc7535",
             "label": "Hiển thị các thành phần",
-            "name": "wep_category_page_show",
+            "name": "ssg_category_page_show",
             "aria-label": "",
             "type": "checkbox",
             "instructions": "",
@@ -688,7 +688,7 @@
         {
             "key": "field_64c143acf1761",
             "label": "Tiêu đề widget",
-            "name": "wep_sidebar_related_heading",
+            "name": "ssg_sidebar_related_heading",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -708,7 +708,7 @@
         {
             "key": "field_64c2a1dab0159",
             "label": "Tiêu đề widget (English)",
-            "name": "wep_sidebar_related_heading_en",
+            "name": "ssg_sidebar_related_heading_en",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -728,7 +728,7 @@
         {
             "key": "field_64c13e2f892e2",
             "label": "Tin liên quan theo",
-            "name": "wep_sidebar_related_by",
+            "name": "ssg_sidebar_related_by",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -754,7 +754,7 @@
         {
             "key": "field_64c13ea0892e3",
             "label": "Số lượng lấy",
-            "name": "wep_sidebar_related_number_item",
+            "name": "ssg_sidebar_related_number_item",
             "aria-label": "",
             "type": "number",
             "instructions": "",
@@ -776,7 +776,7 @@
         {
             "key": "field_64c13f08892e4",
             "label": "Hiển thị các thành phần",
-            "name": "wep_sidebar_related_show",
+            "name": "ssg_sidebar_related_show",
             "aria-label": "",
             "type": "checkbox",
             "instructions": "",

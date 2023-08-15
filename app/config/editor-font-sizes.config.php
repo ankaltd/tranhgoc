@@ -7,10 +7,10 @@
  * Datas Structure
  *
  *
- * You can use "wep_editor_font_sizes" filter to change load custom menus endpoint
+ * You can use "ant_editor_font_sizes" filter to change load custom menus endpoint
  *
  */
-return apply_filters('wep_editor_font_sizes', [
+return apply_filters('ant_editor_font_sizes', [
     array(
         'name'      => esc_html__('Extra small', LANG_DOMAIN),
         'shortName' => esc_html_x('XS', 'Font size', LANG_DOMAIN),

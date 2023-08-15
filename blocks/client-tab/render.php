@@ -11,16 +11,16 @@ $fields = [
 ];
 
 // default options merge
-$fields += WEP_Option_Model::get_content_options();
-$fields += WEP_Option_Model::get_news_options();
-$fields += WEP_Option_Model::get_section_options();
-$fields += WEP_Option_Model::get_heading_options();
-$fields += WEP_Option_Model::get_description_options();
-$fields += WEP_Option_Model::get_background_options();
+$fields += ANT_Option_Model::get_content_options();
+$fields += ANT_Option_Model::get_news_options();
+$fields += ANT_Option_Model::get_section_options();
+$fields += ANT_Option_Model::get_heading_options();
+$fields += ANT_Option_Model::get_description_options();
+$fields += ANT_Option_Model::get_background_options();
 
 // Get options
 
-$option = WEP_Option_Model::get_field_values($fields);
+$option = ANT_Option_Model::get_field_values($fields);
 
 extract($option);
 
@@ -28,7 +28,7 @@ extract($option);
 
 // Get data
 
-$data = WEP_Section_Model::get_list_terms();
+$data = ANT_Section_Model::get_list_terms();
 
 ?>
 
@@ -36,7 +36,7 @@ $data = WEP_Section_Model::get_list_terms();
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_home_client');
+ANT_Section_View::render_section_tag($option, 'ssg_home_client');
 
 ?>
 
@@ -48,7 +48,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_client');
 
             <?php
 
-            WEP_Section_View::render_section_heading_desc($option);
+            ANT_Section_View::render_section_heading_desc($option);
 
             ?>
 
@@ -66,7 +66,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_client');
 
                 foreach ($data as $industry) : ?>
 
-                    <li class="nav-item" <?php WEP_Section_View::render_item_aos($option, 3, $stt); ?>>
+                    <li class="nav-item" <?php ANT_Section_View::render_item_aos($option, 3, $stt); ?>>
 
                         <a class="nav-link <?php echo $stt == 0 ? 'active' : '' ?>" id="<?php echo $industry['slug'] ?>" data-bs-toggle="tab" href="#content-<?php echo $industry['slug'] ?>" data-content="<?php echo $industry['title'] ?>"><?php echo $industry['title'] ?></a>
 
@@ -94,7 +94,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_client');
 
                     $industry_slug = $industry['slug'];
 
-                    $data_client = WEP_Section_Model::get_list_client_by_industry(-1, $industry_id, 'asc', 'ssg_thumb_client');
+                    $data_client = ANT_Section_Model::get_list_client_by_industry(-1, $industry_id, 'asc', 'ssg_thumb_client');
 
 
 
@@ -120,7 +120,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_client');
 
                             ?>
 
-                                <div class="col-6 col-md-3 g-3 g-md-5" <?php WEP_Section_View::render_item_aos($option, 4, $stt); ?>>
+                                <div class="col-6 col-md-3 g-3 g-md-5" <?php ANT_Section_View::render_item_aos($option, 4, $stt); ?>>
                                     <?php if ($ssg_tab_hoz_content_popup) : ?>
                                         <a href="<?php print_r($logoLink); ?>" data-content-id="<?php echo $logo['id']; ?>" class="logo-content-link" data-bs-toggle="modal" title="<?php echo $logo['title'] ?>">
                                             <img class="ssg_home_client__logo" src="<?php echo $logo['thumbnail'] ?>" alt="<?php echo $logo['title'] ?>">
@@ -143,7 +143,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_client');
 </div>
 
 <?php
-WEP_Section_View::render_close_tag();
+ANT_Section_View::render_close_tag();
 ?>
 
 <!-- Modal -->

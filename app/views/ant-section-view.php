@@ -4,7 +4,7 @@
  * Class for one Section View
  */
 
-class WEP_Section_View {
+class ANT_Section_View {
 
     // Render với dữ liệu đầu vào
     public function render($template, $option, $data) {
@@ -12,7 +12,7 @@ class WEP_Section_View {
         if (($template) && is_array($option) && is_array($data)) {
 
             // Hiển thị phần template
-            WEP_Part_View::display_view($template, $option, $data);
+            ANT_Part_View::display_view($template, $option, $data);
         }
     }
 
@@ -174,10 +174,10 @@ class WEP_Section_View {
         global $current_page;
 
         if (SHOW_HINT) {
-            $text = '<div class="wep_template_hint"><span class="wep_template_hint__content">';
+            $text = '<div class="ant_template_hint"><span class="ant_template_hint__content">';
             $text .= $current_page;
             $text .= '@';
-            $text .= WEP_Part_View::get_template_dir();
+            $text .= ANT_Part_View::get_template_dir();
             $text .= '/' . $template;
             $text .= '.php</span></div>';
             echo $text;

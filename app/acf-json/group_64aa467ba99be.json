@@ -23,7 +23,7 @@
         {
             "key": "field_64aa467b7ea55",
             "label": "Số mục hiển thị",
-            "name": "wep_content_number",
+            "name": "ssg_content_number",
             "aria-label": "",
             "type": "number",
             "instructions": "Số nội dung cần hiển thị",
@@ -53,7 +53,7 @@
         {
             "key": "field_64b6588fdbb27",
             "label": "Sắp xếp thứ tự",
-            "name": "wep_content_order",
+            "name": "ssg_content_order",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -87,7 +87,7 @@
         {
             "key": "field_64c71cc8653b7",
             "label": "Tùy chọn nội dung",
-            "name": "wep_content_with_select",
+            "name": "ssg_content_with_select",
             "aria-label": "",
             "type": "true_false",
             "instructions": "",
@@ -107,7 +107,7 @@
         {
             "key": "field_64c71c18d1143",
             "label": "Chọn lựa nội dung",
-            "name": "wep_content_selected",
+            "name": "ssg_content_selected",
             "aria-label": "",
             "type": "relationship",
             "instructions": "",

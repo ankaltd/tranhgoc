@@ -10,23 +10,23 @@ $fields = [];
 
 // default options merge
 
-$fields += WEP_Option_Model::get_content_options();
+$fields += ANT_Option_Model::get_content_options();
 
-$fields += WEP_Option_Model::get_news_options();
+$fields += ANT_Option_Model::get_news_options();
 
-$fields += WEP_Option_Model::get_section_options();
+$fields += ANT_Option_Model::get_section_options();
 
-$fields += WEP_Option_Model::get_heading_options();
+$fields += ANT_Option_Model::get_heading_options();
 
-$fields += WEP_Option_Model::get_description_options();
+$fields += ANT_Option_Model::get_description_options();
 
-$fields += WEP_Option_Model::get_background_options();
+$fields += ANT_Option_Model::get_background_options();
 
 
 
 // Get options
 
-$option = WEP_Option_Model::get_field_values($fields);
+$option = ANT_Option_Model::get_field_values($fields);
 
 extract($option);
 
@@ -38,10 +38,10 @@ extract($option);
 
 if ($ssg_news_lastest) {
 
-    $data = WEP_Section_Model::get_latest_posts($ssg_news_total, $ssg_news_categories, 'ssg_thumb_news');
+    $data = ANT_Section_Model::get_latest_posts($ssg_news_total, $ssg_news_categories, 'ssg_thumb_news');
 } else {
 
-    $data = WEP_Section_Model::get_list_posts($ssg_news_featured_select, 'ssg_thumb_news');
+    $data = ANT_Section_Model::get_list_posts($ssg_news_featured_select, 'ssg_thumb_news');
 }
 
 
@@ -58,7 +58,7 @@ $columns_class = sprintf('col-md-%s', (floor(12 / $ssg_news_columns)));
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_home_news_image');
+ANT_Section_View::render_section_tag($option, 'ssg_home_news_image');
 
 ?>
 
@@ -68,7 +68,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_news_image');
 
         <?php
 
-        WEP_Section_View::render_section_heading_desc($option);
+        ANT_Section_View::render_section_heading_desc($option);
 
         ?>
 
@@ -82,7 +82,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_news_image');
 
             <?php extract($news); ?>
 
-            <div class="col-12 <?php echo $columns_class ?>" <?php WEP_Section_View::render_item_aos($option, 2, $stt) ?>>
+            <div class="col-12 <?php echo $columns_class ?>" <?php ANT_Section_View::render_item_aos($option, 2, $stt) ?>>
 
                 <div class="ssg_home_news_image__item">
 
@@ -161,6 +161,6 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_news_image');
 
 <?php
 
-WEP_Section_View::render_close_tag();
+ANT_Section_View::render_close_tag();
 
 ?>

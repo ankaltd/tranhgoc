@@ -64,7 +64,7 @@ jQuery(document).ready(function ($) {
     customPaging: function (slider, i) {
       var slide = slider.$slides[i];
 
-      var customClass = "wep-slick-arrow-class";
+      var customClass = "ssg-slick-arrow-class";
 
       $(slide).addClass(customClass);
 
@@ -83,7 +83,7 @@ jQuery(document).ready(function ($) {
   // Create the custom content element
 
   var customContent = $(
-    '<div class="wep_home_service__center_content"><div class="inner"></div></div>'
+    '<div class="ssg_home_service__center_content"><div class="inner"></div></div>'
   );
 
   // Insert the custom content before the Slick slider

@@ -23,7 +23,7 @@
         {
             "key": "field_64b78dea51507",
             "label": "Danh sách Testimonial",
-            "name": "wep_testimonial_list",
+            "name": "ssg_testimonial_list",
             "aria-label": "",
             "type": "repeater",
             "instructions": "",
@@ -45,7 +45,7 @@
                 {
                     "key": "field_64b78dea54710",
                     "label": "Hình ảnh khách hàng",
-                    "name": "wep_testimonial_image",
+                    "name": "ssg_testimonial_image",
                     "aria-label": "",
                     "type": "image",
                     "instructions": "",
@@ -71,7 +71,7 @@
                 {
                     "key": "field_64b78f4397384",
                     "label": "Tên khách hàng",
-                    "name": "wep_testimonial_name",
+                    "name": "ssg_testimonial_name",
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",
@@ -92,7 +92,7 @@
                 {
                     "key": "field_64b78f6897385",
                     "label": "Chức danh - Nghề nghiệp",
-                    "name": "wep_testimonial_title",
+                    "name": "ssg_testimonial_title",
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",
@@ -113,7 +113,7 @@
                 {
                     "key": "field_64b78dea5474b",
                     "label": "Nội dung nhận xét",
-                    "name": "wep_testimonial_review",
+                    "name": "ssg_testimonial_review",
                     "aria-label": "",
                     "type": "textarea",
                     "instructions": "",

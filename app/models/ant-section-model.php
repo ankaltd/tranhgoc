@@ -4,7 +4,7 @@
  * Class for one Section Model
  */
 
-class WEP_Section_Model {
+class ANT_Section_Model {
     private $section_template;
     private $section_data;
 

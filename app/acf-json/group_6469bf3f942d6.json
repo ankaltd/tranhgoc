@@ -5,7 +5,7 @@
         {
             "key": "field_647716aad8157",
             "label": "Khóa nội dung (không link tới chi tiết)",
-            "name": "wep_content_locked",
+            "name": "ssg_content_locked",
             "aria-label": "",
             "type": "true_false",
             "instructions": "",
@@ -25,7 +25,7 @@
         {
             "key": "field_6469c55ef66f8",
             "label": "Tùy chọn hiển thị",
-            "name": "wep_footer_sections_show",
+            "name": "ssg_footer_sections_show",
             "aria-label": "",
             "type": "checkbox",
             "instructions": "",
@@ -50,7 +50,7 @@
         {
             "key": "field_64c152b8c50fa",
             "label": "Nguồn nội dung",
-            "name": "wep_content_source",
+            "name": "ssg_content_source",
             "aria-label": "",
             "type": "text",
             "instructions": "",

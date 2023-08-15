@@ -7,7 +7,7 @@
  * Datas Structure
  *
  *
- * You can use "wep_editor_color_sets" filter to change load custom menus endpoint
+ * You can use "ant_editor_color_sets" filter to change load custom menus endpoint
  *
  */
 
@@ -23,7 +23,7 @@ $orange    = '#E4DAD1';
 $yellow    = '#EEEADD';
 $white     = '#FFFFFF';
 
-return apply_filters('wep_editor_color_sets', [
+return apply_filters('ant_editor_color_sets', [
     array(
         'name'  => esc_html__('Black', LANG_DOMAIN),
         'slug'  => 'black',

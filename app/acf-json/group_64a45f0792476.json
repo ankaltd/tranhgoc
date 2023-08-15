@@ -23,7 +23,7 @@
         {
             "key": "field_64a45f0794dd6",
             "label": "Văn bản mô tả",
-            "name": "wep_description_text",
+            "name": "ssg_description_text",
             "aria-label": "",
             "type": "textarea",
             "instructions": "",
@@ -43,7 +43,7 @@
         {
             "key": "field_64a45f0794d9d",
             "label": "Thẻ mô tả",
-            "name": "wep_description_tag",
+            "name": "ssg_description_tag",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -69,7 +69,7 @@
         {
             "key": "field_64a45f0794e0f",
             "label": "Căn chỉnh văn bản",
-            "name": "wep_description_align",
+            "name": "ssg_description_align",
             "aria-label": "",
             "type": "button_group",
             "instructions": "",
@@ -93,7 +93,7 @@
         {
             "key": "field_64a45f0794e47",
             "label": "Khoảng cách dưới",
-            "name": "wep_description_margin_bottom",
+            "name": "ssg_description_margin_bottom",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -106,12 +106,12 @@
             },
             "choices": {
                 "default": "Mặc định",
-                "wep_margin": "20px",
-                "wep_margin--b3": "30px",
-                "wep_margin--b4": "40px",
-                "wep_margin--b5": "50px",
-                "wep_margin--b6": "60px",
-                "wep_margin--b7": "70px"
+                "ssg_margin": "20px",
+                "ssg_margin--b3": "30px",
+                "ssg_margin--b4": "40px",
+                "ssg_margin--b5": "50px",
+                "ssg_margin--b6": "60px",
+                "ssg_margin--b7": "70px"
             },
             "default_value": "default",
             "return_format": "value",
@@ -124,7 +124,7 @@
         {
             "key": "field_64a467f2d0ee1",
             "label": "Màu chữ",
-            "name": "wep_description_color",
+            "name": "ssg_description_color",
             "aria-label": "",
             "type": "color_picker",
             "instructions": "",
@@ -142,7 +142,7 @@
         {
             "key": "field_64a4684bd0ee2",
             "label": "Cỡ chữ",
-            "name": "wep_description_font_size",
+            "name": "ssg_description_font_size",
             "aria-label": "",
             "type": "range",
             "instructions": "",
@@ -163,7 +163,7 @@
         {
             "key": "field_64a4689ad0ee3",
             "label": "Giãn dòng",
-            "name": "wep_description_line_height",
+            "name": "ssg_description_line_height",
             "aria-label": "",
             "type": "number",
             "instructions": "",

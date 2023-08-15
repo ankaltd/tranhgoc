@@ -4,7 +4,7 @@
     "description": "",
     "style": "file:./style.css",
     "script": "block-vertical-tab",
-    "category": "wep-dich-vu",
+    "category": "ssg-dich-vu",
     "icon": "carrot",
     "apiVersion": 2,
     "keywords": [],

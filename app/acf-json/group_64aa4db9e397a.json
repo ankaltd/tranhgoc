@@ -23,7 +23,7 @@
         {
             "key": "field_64aa4db9e6416",
             "label": "Cài đặt nội dung",
-            "name": "wep_content_list",
+            "name": "ssg_content_list",
             "aria-label": "",
             "type": "repeater",
             "instructions": "",
@@ -45,7 +45,7 @@
                 {
                     "key": "field_64aa4db9e744f",
                     "label": "Hình ảnh",
-                    "name": "wep_content_image",
+                    "name": "ssg_content_image",
                     "aria-label": "",
                     "type": "image",
                     "instructions": "",
@@ -71,7 +71,7 @@
                 {
                     "key": "field_64aa4db9e7489",
                     "label": "Tiêu đề",
-                    "name": "wep_content_title",
+                    "name": "ssg_content_title",
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",
@@ -92,7 +92,7 @@
                 {
                     "key": "field_64aa4db9e74c9",
                     "label": "Nội dung tóm tắt",
-                    "name": "wep_content_summary",
+                    "name": "ssg_content_summary",
                     "aria-label": "",
                     "type": "wysiwyg",
                     "instructions": "",
@@ -115,7 +115,7 @@
         {
             "key": "field_64aa4fcb8596e",
             "label": "Hình ảnh responsive",
-            "name": "wep_content_image_responsive",
+            "name": "ssg_content_image_responsive",
             "aria-label": "",
             "type": "true_false",
             "instructions": "",
@@ -135,7 +135,7 @@
         {
             "key": "field_64aa4f798596d",
             "label": "Căn chỉnh hình ảnh",
-            "name": "wep_content_image_align",
+            "name": "ssg_content_image_align",
             "aria-label": "",
             "type": "button_group",
             "instructions": "",
@@ -167,7 +167,7 @@
         {
             "key": "field_64aa50c520838",
             "label": "Căn chỉnh nội dung (tiêu đề & mô tả)",
-            "name": "wep_content_text_align",
+            "name": "ssg_content_text_align",
             "aria-label": "",
             "type": "button_group",
             "instructions": "",
@@ -191,7 +191,7 @@
         {
             "key": "field_64aa4e5672854",
             "label": "Chọn hiển thị",
-            "name": "wep_content_show_element",
+            "name": "ssg_content_show_element",
             "aria-label": "",
             "type": "checkbox",
             "instructions": "",

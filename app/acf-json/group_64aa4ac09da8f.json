@@ -23,7 +23,7 @@
         {
             "key": "field_64aa4ac0aeba2",
             "label": "Danh sách BOD",
-            "name": "wep_people_list",
+            "name": "ssg_people_list",
             "aria-label": "",
             "type": "repeater",
             "instructions": "",
@@ -45,7 +45,7 @@
                 {
                     "key": "field_64aa4b37aeba3",
                     "label": "Hình ảnh",
-                    "name": "wep_people_image",
+                    "name": "ssg_people_image",
                     "aria-label": "",
                     "type": "image",
                     "instructions": "",
@@ -71,7 +71,7 @@
                 {
                     "key": "field_64aa4b4faeba4",
                     "label": "Tên",
-                    "name": "wep_people_name",
+                    "name": "ssg_people_name",
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",
@@ -92,7 +92,7 @@
                 {
                     "key": "field_64aa4b7daeba5",
                     "label": "Chức danh",
-                    "name": "wep_people_title",
+                    "name": "ssg_people_title",
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",

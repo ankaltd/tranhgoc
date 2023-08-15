@@ -5,7 +5,7 @@
         {
             "key": "field_64a7c34054913",
             "label": "Màu tiêu đề",
-            "name": "wep_heading_color",
+            "name": "ssg_heading_color",
             "aria-label": "",
             "type": "color_picker",
             "instructions": "",
@@ -23,7 +23,7 @@
         {
             "key": "field_64a7c3405494f",
             "label": "Thẻ tiêu đề",
-            "name": "wep_heading_tag",
+            "name": "ssg_heading_tag",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -53,7 +53,7 @@
         {
             "key": "field_64a7c34054988",
             "label": "Văn bản tiêu đề",
-            "name": "wep_heading_text",
+            "name": "ssg_heading_text",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -73,7 +73,7 @@
         {
             "key": "field_64a7c340549c0",
             "label": "Căn chỉnh",
-            "name": "wep_heading_align",
+            "name": "ssg_heading_align",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -100,7 +100,7 @@
         {
             "key": "field_64a7c340549fa",
             "label": "Khoảng cách dưới",
-            "name": "wep_margin_bottom",
+            "name": "ssg_margin_bottom",
             "aria-label": "",
             "type": "select",
             "instructions": "",
@@ -113,12 +113,12 @@
             },
             "choices": {
                 "default": "Mặc định",
-                "wep_margin": "20px",
-                "wep_margin--b3": "30px",
-                "wep_margin--b4": "40px",
-                "wep_margin--b5": "50px",
-                "wep_margin--b6": "60px",
-                "wep_margin--b7": "70px"
+                "ssg_margin": "20px",
+                "ssg_margin--b3": "30px",
+                "ssg_margin--b4": "40px",
+                "ssg_margin--b5": "50px",
+                "ssg_margin--b6": "60px",
+                "ssg_margin--b7": "70px"
             },
             "default_value": "default",
             "return_format": "value",

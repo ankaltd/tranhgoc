@@ -14,9 +14,9 @@
  *     'media'          => CSS file active on media
  * ];
  *
- * You can use "wep_css_files" filter to add CSS Files on enqueue process
+ * You can use "ant_css_files" filter to add CSS Files on enqueue process
  *
  */
-return apply_filters('wep_css_files', [
+return apply_filters('ant_css_files', [
    
 ]);

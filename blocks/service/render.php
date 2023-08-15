@@ -10,30 +10,30 @@ $fields = [];
 
 // default options merge
 
-$fields += WEP_Option_Model::get_content_options();
+$fields += ANT_Option_Model::get_content_options();
 
-$fields += WEP_Option_Model::get_section_options();
+$fields += ANT_Option_Model::get_section_options();
 
-$fields += WEP_Option_Model::get_heading_options();
+$fields += ANT_Option_Model::get_heading_options();
 
-$fields += WEP_Option_Model::get_description_options();
+$fields += ANT_Option_Model::get_description_options();
 
-$fields += WEP_Option_Model::get_background_options();
+$fields += ANT_Option_Model::get_background_options();
 
 
 
 // Get options
 
-$option = WEP_Option_Model::get_field_values($fields);
+$option = ANT_Option_Model::get_field_values($fields);
 
 extract($option);
 
 // Get data
 
 if ($ssg_content_with_select) {
-    $data = WEP_Section_Model::get_list_posts($ssg_content_selected, 'ssg_thumb_service');
+    $data = ANT_Section_Model::get_list_posts($ssg_content_selected, 'ssg_thumb_service');
 } else {
-    $data = WEP_Section_Model::get_list_service($ssg_content_number + 1, $ssg_content_order, 'ssg_thumb_service');
+    $data = ANT_Section_Model::get_list_service($ssg_content_number + 1, $ssg_content_order, 'ssg_thumb_service');
 }
 
 ?>
@@ -42,7 +42,7 @@ if ($ssg_content_with_select) {
 
 <?php
 
-WEP_Section_View::render_section_tag($option, 'ssg_home_service');
+ANT_Section_View::render_section_tag($option, 'ssg_home_service');
 
 ?>
 
@@ -52,7 +52,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_service');
 
         <?php
 
-        WEP_Section_View::render_section_heading_desc($option);
+        ANT_Section_View::render_section_heading_desc($option);
 
         ?>
 
@@ -79,7 +79,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_service');
 
             <?php extract($slider) ?>
 
-            <div class="<?php echo $col_slider_class ?>" <?php WEP_Section_View::render_item_aos($option, 3, $stt) ?>>
+            <div class="<?php echo $col_slider_class ?>" <?php ANT_Section_View::render_item_aos($option, 3, $stt) ?>>
 
                 <div class="service_wrapper">
 
@@ -120,7 +120,7 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_service');
                             <?php endif ?>
 
                             <?php if (in_array('readmore', $ssg_content_show_elements)) : ?>
-                                <a href="<?php echo $permalink ?>" class="ssg_more_link"><?php _e('Xem thêm', 'wep') ?></a>
+                                <a href="<?php echo $permalink ?>" class="ssg_more_link"><?php _e('Xem thêm', 'ssg') ?></a>
                             <?php endif; ?>
 
                         </div>
@@ -145,6 +145,6 @@ WEP_Section_View::render_section_tag($option, 'ssg_home_service');
 
 <?php
 
-WEP_Section_View::render_close_tag();
+ANT_Section_View::render_close_tag();
 
 ?>

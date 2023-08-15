@@ -8,7 +8,7 @@ if (has_nav_menu('main-menu')) {
 
 $menu_items = wp_get_nav_menu_items($menu_id);
 
-$top_menu = WEP_Menu::get_menu_items_recursive($menu_items);
+$top_menu = ANT_Menu::get_menu_items_recursive($menu_items);
 
 ?>
 
@@ -24,13 +24,9 @@ $top_menu = WEP_Menu::get_menu_items_recursive($menu_items);
 
         extract($item);
 
-
-
         $menu_item_classes = '';
 
         $menu_type = 'item';
-
-
 
         if (!empty($sub_menu)) {
 
@@ -38,8 +34,6 @@ $top_menu = WEP_Menu::get_menu_items_recursive($menu_items);
 
             $menu_type = 'dropdown';
         }
-
-
 
         if ($mega) {
 
@@ -56,8 +50,6 @@ $top_menu = WEP_Menu::get_menu_items_recursive($menu_items);
             }
         }
 
-
-
     ?>
 
         <li class="nav-item <?php echo $menu_item_classes ?>">
@@ -67,8 +59,6 @@ $top_menu = WEP_Menu::get_menu_items_recursive($menu_items);
                 <a class="nav-link" href="<?php echo $url ?>"><?php echo $title ?></a>
 
             <?php endif ?>
-
-
 
             <?php if ($menu_type === 'dropdown') : ?>
 
@@ -240,11 +230,7 @@ $top_menu = WEP_Menu::get_menu_items_recursive($menu_items);
 
             <?php endif ?>
 
-
-
         </li>
-
-
 
     <?php endforeach ?>
 

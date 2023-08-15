@@ -1,7 +1,5 @@
 <?php
 
-
-
 /**
 
  * Custom CSS Files to enqueue
@@ -30,19 +28,17 @@
 
  *
 
- * You can use "wep_css_files" filter to add CSS Files on enqueue process
+ * You can use "ant_css_files" filter to add CSS Files on enqueue process
 
  *
 
  */
 
-return apply_filters('wep_css_files', [
-
-    
+return apply_filters('ant_css_files', [
 
     [
 
-        'handle'        => 'wep-font',
+        'handle'        => 'ssg-font',
 
         'path'          => 'https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap',
 
@@ -51,12 +47,11 @@ return apply_filters('wep_css_files', [
         'version'       => '1.0.0',
 
         'media'         => 'all'
-
     ],
 
     [
 
-        'handle'        => 'wep-select2',
+        'handle'        => 'ssg-select2',
 
         'path'          => THEME_URL . '/node_modules/select2/dist/css/select2.min.css',
 
@@ -65,12 +60,11 @@ return apply_filters('wep_css_files', [
         'version'       => '1.0.0',
 
         'media'         => 'all'
-
     ],
 
     [
 
-        'handle'        => 'wep-slick',
+        'handle'        => 'ssg-slick',
 
         'path'          => THEME_URL . '/node_modules/slick-carousel/slick/slick.css',
 
@@ -79,12 +73,11 @@ return apply_filters('wep_css_files', [
         'version'       => '1.0.0',
 
         'media'         => 'all'
-
     ],
 
     [
 
-        'handle'        => 'wep-aos',
+        'handle'        => 'ssg-aos',
 
         'path'          => THEME_URL . '/assets/aos/dist/aos.css',
 
@@ -93,21 +86,17 @@ return apply_filters('wep_css_files', [
         'version'       => '1.0.0',
 
         'media'         => 'all'
-
     ],
     [
 
-        'handle'        => 'wep-stylesheet',
+        'handle'        => 'ssg-stylesheet',
 
-        'path'          => THEME_URL . '/assets/wep.min.css',
+        'path'          => THEME_URL . '/assets/ssg.min.css',
 
-        'dependencies'  => ['wep-font','wep-aos'],
+        'dependencies'  => ['ssg-font', 'ssg-aos'],
 
         'version'       => '1.0.0',
 
         'media'         => 'all'
-
     ]
-
 ]);
-

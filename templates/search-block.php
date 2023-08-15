@@ -16,7 +16,7 @@ $section_data = [
     'heading' => 'Một kỷ nguyên mới của trí tuệ nhân tạo cho tất cả mọi người',
     'description' => 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical',
     'button' => [
-        'text' => __('Xem thêm', 'wep'),
+        'text' => __('Xem thêm', 'ssg'),
     ]
 ];
 get_template_part('sections/slider', 'banner', $section_data);
@@ -29,7 +29,7 @@ $section_data = [
     'heading' => 'Dịch vụ',
     'description' => 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical',
     'more_link' => [
-        'text' => __('Xem thêm', 'wep'),
+        'text' => __('Xem thêm', 'ssg'),
     ]
 ];
 get_template_part('sections/home', 'service', $section_data);
@@ -41,7 +41,7 @@ $section_data = [
     'heading' => 'Giải pháp',
     'description' => 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical',
     'button' => [
-        'text' => __('Xem thêm', 'wep'),
+        'text' => __('Xem thêm', 'ssg'),
     ]
 ];
 get_template_part('sections/home', 'solution', $section_data);
@@ -62,7 +62,7 @@ $section_data = [
     'class' => 'ssg_home_testimonial',
     'heading' => 'Khách hàng nói',
     'more_link' => [
-        'text' => __('Xem thêm', 'wep'),
+        'text' => __('Xem thêm', 'ssg'),
     ]
 ];
 get_template_part('sections/home', 'testimonial', $section_data);
@@ -73,7 +73,7 @@ $section_data = [
     'class' => 'ssg_home_news',
     'heading' => 'Tin tức',
     'more_link' => [
-        'text' => __('Xem thêm', 'wep'),
+        'text' => __('Xem thêm', 'ssg'),
     ]
 ];
 get_template_part('sections/home', 'news', $section_data);

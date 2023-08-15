@@ -10,10 +10,10 @@
  *     'menu_id' => Menu name
  * ];
  *
- * You can use "wep_menus_list" filter to change load custom menus endpoint
+ * You can use "ant_menus_list" filter to change load custom menus endpoint
  *
  */
-return apply_filters('wep_menus_list', [
+return apply_filters('ant_menus_list', [
     'main-menu'     => __('Main menu', LANG_DOMAIN),
     'footer-menu'   => __('Footer menu', LANG_DOMAIN)
 ]);

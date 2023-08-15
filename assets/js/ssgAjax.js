@@ -68,7 +68,7 @@ jQuery(document).ready(function ($) {
       url: ssgAjax.ajaxUrl,
       dataType: "json", // <-- Change dataType from 'html' to 'json'
       data: {
-        action: "wep_news_load_more",
+        action: "ssg_news_load_more",
         paged: currentPage,
         category_ids: list_categories,
         nonce: ajaxNonce, // Truyền nonce vào yêu cầu AJAX

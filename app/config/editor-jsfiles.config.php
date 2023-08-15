@@ -14,7 +14,7 @@
  *     'in_footer'      => JS file loaded in footer
  * ];
  *
- * You can use "wep_js_files" filter to change Javascript files loaded
+ * You can use "ant_js_files" filter to change Javascript files loaded
  *
  */
-return apply_filters('wep_js_files_editor', []);
+return apply_filters('ant_js_files_editor', []);

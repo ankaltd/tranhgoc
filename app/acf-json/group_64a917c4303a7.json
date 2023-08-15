@@ -23,7 +23,7 @@
         {
             "key": "field_64a917c43e883",
             "label": "Hình ảnh",
-            "name": "wep_image_src",
+            "name": "ssg_image_src",
             "aria-label": "",
             "type": "image",
             "instructions": "Chọn hình ảnh đơn cho nội dung section",
@@ -56,7 +56,7 @@
         {
             "key": "field_64bf5669d16db",
             "label": "Dùng link Youtube thay hình",
-            "name": "wep_image_youtube_link",
+            "name": "ssg_image_youtube_link",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -84,7 +84,7 @@
         {
             "key": "field_64bf5603d16da",
             "label": "Dùng Video Youtube",
-            "name": "wep_image_youtube_video",
+            "name": "ssg_image_youtube_video",
             "aria-label": "",
             "type": "true_false",
             "instructions": "",
@@ -104,7 +104,7 @@
         {
             "key": "field_64a917e63e884",
             "label": "Liên kết hình ảnh",
-            "name": "wep_image_link",
+            "name": "ssg_image_link",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -132,7 +132,7 @@
         {
             "key": "field_64a917fb3e885",
             "label": "Mở trên tab khác",
-            "name": "wep_image_target",
+            "name": "ssg_image_target",
             "aria-label": "",
             "type": "true_false",
             "instructions": "",

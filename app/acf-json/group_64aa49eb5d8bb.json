@@ -23,7 +23,7 @@
         {
             "key": "field_64aa49eb4fabf",
             "label": "Nội dung HTML",
-            "name": "wep_content_html",
+            "name": "ssg_content_html",
             "aria-label": "",
             "type": "wysiwyg",
             "instructions": "",

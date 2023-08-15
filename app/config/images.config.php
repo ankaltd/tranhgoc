@@ -13,10 +13,10 @@
  *    'crop'        => do you want to crop this image ?
  * ];
  *
- * You can use "wep_images_configuration" filter to change custom image sizes
+ * You can use "ant_images_configuration" filter to change custom image sizes
  *
  */
-return apply_filters('wep_images_configuration', [
+return apply_filters('ant_images_configuration', [
     [
         'image_id'  => 'ssg_thumb_service',
         'width'     => 320,

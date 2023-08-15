@@ -34,7 +34,7 @@ $section_data = [
 
     'button' => [
 
-        'text' => __('Xem thêm', 'wep'),
+        'text' => __('Xem thêm', 'ssg'),
 
     ]
 

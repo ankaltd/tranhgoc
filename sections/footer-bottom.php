@@ -5,7 +5,7 @@
     <div class="col-md-6 text-center text-md-start">
         <?php
 
-        $company_copyright = WEP_Option_Model::get_field_lang('ssg_company_copyright');
+        $company_copyright = ANT_Option_Model::get_field_lang('ssg_company_copyright');
 
         $block_data = [
             'id' => 'ssg_copyright',

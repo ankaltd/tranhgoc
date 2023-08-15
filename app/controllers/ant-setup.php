@@ -10,7 +10,7 @@
 
 
 
-class WEP_Setup {
+class ANT_Setup {
 
     public function __construct() {
 
@@ -133,37 +133,37 @@ class WEP_Setup {
 
         // ACF Hooks if ACF Pro is installed for Page Option and CPT
 
-        new WEP_ACF_Controller;
+        new ANT_ACF_Controller;
 
 
 
         // Loading Site Option for General
 
-        new WEP_Option;
+        new ANT_Option;
 
 
 
         // Template Function Hooks auto
 
-        new WEP_Hooks;
+        new ANT_Hooks;
 
 
 
         // Template function for loading view
 
-        WEP_Part_View::init();
+        ANT_Part_View::init();
 
 
 
-        // Init Helper for tools (ex: echo WEP_Helper::path(), ...)
+        // Init Helper for tools (ex: echo ANT_Helper::path(), ...)
 
-        WEP_Helper::init();
+        ANT_Helper::init();
 
 
 
         // Init Template Tag for web (ex: the_title, the_image,...)
 
-        WEP_Tag::init();
+        ANT_Tag::init();
 
 
         // Gọi các hàm xử lý AJAX ở đây
@@ -184,11 +184,11 @@ class WEP_Setup {
 
     // Ajax Scripts
     public function client_enqueue_scripts() {
-        wp_enqueue_script('wep-ajax', get_template_directory_uri() . '/assets/js/wepAjax.js', array('jquery'), null, true);
+        wp_enqueue_script('ssg-ajax', get_template_directory_uri() . '/assets/js/ssgAjax.js', array('jquery'), null, true);
 
         // Tạo nonce và truyền vào script
-        $ajax_nonce = wp_create_nonce('wep-ajax-nonce');
-        wp_localize_script('wep-ajax', 'ssgAjax', array(
+        $ajax_nonce = wp_create_nonce('ssg-ajax-nonce');
+        wp_localize_script('ssg-ajax', 'ssgAjax', array(
             'ajaxUrl' => admin_url('admin-ajax.php'),
             'ajaxNonce' => $ajax_nonce // Truyền nonce vào JavaScript
         ));
@@ -279,10 +279,10 @@ class WEP_Setup {
     // Get Title Client
     public function get_client_post_title() {
         // Kiểm tra nonce trước khi xử lý yêu cầu AJAX
-        if (isset($_POST['contentId']) && isset($_POST['nonce']) && wp_verify_nonce($_POST['nonce'], 'wep-ajax-nonce')) {
+        if (isset($_POST['contentId']) && isset($_POST['nonce']) && wp_verify_nonce($_POST['nonce'], 'ssg-ajax-nonce')) {
             $content_id = $_POST['contentId'];
 
-            // Sử dụng phương thức của WEP_Setup để lấy nội dung tiêu đề bài viết
+            // Sử dụng phương thức của ANT_Setup để lấy nội dung tiêu đề bài viết
             $post_title = $this->get_post_title_by_id($content_id);
 
             echo $post_title;
@@ -612,7 +612,7 @@ class WEP_Setup {
 
     function ssg_resource_hints($urls, $relation_type) {
 
-        if (wp_style_is('wep-google-font', 'queue') && 'preconnect' === $relation_type) {
+        if (wp_style_is('ssg-google-font', 'queue') && 'preconnect' === $relation_type) {
 
             $urls[] = array(
 
@@ -644,7 +644,7 @@ class WEP_Setup {
 
         // Load Custom Post Types
 
-        WEP_Post_Type::registerPostTypes();
+        ANT_Post_Type::registerPostTypes();
 
         // Disable comments
 

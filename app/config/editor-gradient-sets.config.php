@@ -7,7 +7,7 @@
  * Datas Structure
  *
  *
- * You can use "wep_editor_gradient_sets" filter to change load custom menus endpoint
+ * You can use "ant_editor_gradient_sets" filter to change load custom menus endpoint
  *
  */
 // Editor color palette.
@@ -22,7 +22,7 @@ $orange    = '#E4DAD1';
 $yellow    = '#EEEADD';
 $white     = '#FFFFFF';
 
-return apply_filters('wep_editor_gradient_sets', [
+return apply_filters('ant_editor_gradient_sets', [
     array(
         'name'     => esc_html__('Purple to yellow', LANG_DOMAIN),
         'gradient' => 'linear-gradient(160deg, ' . $purple . ' 0%, ' . $yellow . ' 100%)',

@@ -5,19 +5,19 @@
  * 
  */
 
-class WEP_Hooks {
+class ANT_Hooks {
     public function __construct() {
-        add_filter('wp_get_attachment_image_attributes', [$this, 'wep_get_attachment_image_attributes'], 10, 3);
-        add_filter('body_class', [$this, 'wep_body_classes']);
-        add_filter('post_class', [$this, 'wep_post_classes'], 10, 3);
-        add_action('wp_head', [$this, 'wep_pingback_header']);
-        add_action('wp_footer', [$this, 'wep_supports_js']);
-        add_filter('comment_form_defaults', [$this, 'wep_comment_form_defaults']);
-        add_filter('excerpt_more', [$this, 'wep_continue_reading_link_excerpt']); // Filter the excerpt more link.
-        add_filter('the_content_more_link', [$this, 'wep_continue_reading_link']); // Filter the content more link.
-        add_filter('the_title', [$this, 'wep_post_title']);
-        add_filter('get_calendar', [$this, 'wep_change_calendar_nav_arrows']);
-        add_filter('the_password_form', [$this, 'wep_password_form'], 10, 2);
+        add_filter('wp_get_attachment_image_attributes', [$this, 'ant_get_attachment_image_attributes'], 10, 3);
+        add_filter('body_class', [$this, 'ant_body_classes']);
+        add_filter('post_class', [$this, 'ant_post_classes'], 10, 3);
+        add_action('wp_head', [$this, 'ant_pingback_header']);
+        add_action('wp_footer', [$this, 'ant_supports_js']);
+        add_filter('comment_form_defaults', [$this, 'ant_comment_form_defaults']);
+        add_filter('excerpt_more', [$this, 'ant_continue_reading_link_excerpt']); // Filter the excerpt more link.
+        add_filter('the_content_more_link', [$this, 'ant_continue_reading_link']); // Filter the content more link.
+        add_filter('the_title', [$this, 'ant_post_title']);
+        add_filter('get_calendar', [$this, 'ant_change_calendar_nav_arrows']);
+        add_filter('the_password_form', [$this, 'ant_password_form'], 10, 2);
         add_action('wp_head', [$this, 'custom_single_post_meta_description']);
     }
 
@@ -51,18 +51,18 @@ class WEP_Hooks {
      *
      * @package WordPress
      * @subpackage Twenty_Twenty_One
-     * @since WEP 1.0
+     * @since ANT 1.0
      */
 
     /**
      * Adds custom classes to the array of body classes.
      *
-     * @since WEP 1.0
+     * @since ANT 1.0
      *
      * @param array $classes Classes for the body element.
      * @return array
      */
-    function wep_body_classes($classes) {
+    function ant_body_classes($classes) {
 
         // Helps detect if JS is enabled or not.
         $classes[] = 'no-js';
@@ -81,7 +81,7 @@ class WEP_Hooks {
         }
 
         // Add .init-nav-white vào body nếu đang không phải trang chủ
-        if (!is_front_page() && (WEP_Router::wep_page_template() != 'templates/home.php')) {
+        if (!is_front_page() && (ANT_Router::ant_page_template() != 'templates/home.php')) {
             $classes[] = 'init-nav-white';
         }
 
@@ -91,12 +91,12 @@ class WEP_Hooks {
     /**
      * Adds custom class to the array of posts classes.
      *
-     * @since WEP 1.0
+     * @since ANT 1.0
      *
      * @param array $classes An array of CSS classes.
      * @return array
      */
-    function wep_post_classes($classes) {
+    function ant_post_classes($classes) {
         $classes[] = 'entry';
 
         return $classes;
@@ -105,11 +105,11 @@ class WEP_Hooks {
     /**
      * Add a pingback url auto-discovery header for single posts, pages, or attachments.
      *
-     * @since WEP 1.0
+     * @since ANT 1.0
      *
      * @return void
      */
-    function wep_pingback_header() {
+    function ant_pingback_header() {
         if (is_singular() && pings_open()) {
             echo '<link rel="pingback" href="', esc_url(get_bloginfo('pingback_url')), '">';
         }
@@ -118,23 +118,23 @@ class WEP_Hooks {
     /**
      * Remove the `no-js` class from body if JS is supported.
      *
-     * @since WEP 1.0
+     * @since ANT 1.0
      *
      * @return void
      */
-    function wep_supports_js() {
+    function ant_supports_js() {
         echo '<script>document.body.classList.remove("no-js");</script>';
     }
 
     /**
      * Changes comment form default fields.
      *
-     * @since WEP 1.0
+     * @since ANT 1.0
      *
      * @param array $defaults The form defaults.
      * @return array
      */
-    function wep_comment_form_defaults($defaults) {
+    function ant_comment_form_defaults($defaults) {
 
         // Adjust height of comment form.
         $defaults['comment_field'] = preg_replace('/rows="\d+"/', 'rows="5"', $defaults['comment_field']);
@@ -145,20 +145,20 @@ class WEP_Hooks {
     /**
      * Determines if post thumbnail can be displayed.
      *
-     * @since WEP 1.0
+     * @since ANT 1.0
      *
      * @return bool
      */
-    function wep_can_show_post_thumbnail() {
+    function ant_can_show_post_thumbnail() {
         /**
          * Filters whether post thumbnail can be displayed.
          *
-         * @since WEP 1.0
+         * @since ANT 1.0
          *
          * @param bool $show_post_thumbnail Whether to show post thumbnail.
          */
         return apply_filters(
-            'wep_can_show_post_thumbnail',
+            'ant_can_show_post_thumbnail',
             !post_password_required() && !is_attachment() && has_post_thumbnail()
         );
     }
@@ -166,63 +166,63 @@ class WEP_Hooks {
     /**
      * Creates the continue reading link for excerpt.
      *
-     * @since WEP 1.0
+     * @since ANT 1.0
      */
-    function wep_continue_reading_link_excerpt() {
+    function ant_continue_reading_link_excerpt() {
         if (!is_admin()) {
-            return '&hellip; <a class="more-link" href="' . esc_url(get_permalink()) . '">' . WEP_Helper::wep_continue_reading_text() . '</a>';
+            return '&hellip; <a class="more-link" href="' . esc_url(get_permalink()) . '">' . ANT_Helper::ant_continue_reading_text() . '</a>';
         }
     }
 
     /**
      * Creates the continue reading link.
      *
-     * @since WEP 1.0
+     * @since ANT 1.0
      */
-    function wep_continue_reading_link() {
+    function ant_continue_reading_link() {
         if (!is_admin()) {
-            return '<div class="more-link-container"><a class="more-link" href="' . esc_url(get_permalink()) . '#more-' . esc_attr(get_the_ID()) . '">' . WEP_Helper::wep_continue_reading_text() . '</a></div>';
+            return '<div class="more-link-container"><a class="more-link" href="' . esc_url(get_permalink()) . '#more-' . esc_attr(get_the_ID()) . '">' . ANT_Helper::ant_continue_reading_text() . '</a></div>';
         }
     }
 
     /**
      * Adds a title to posts and pages that are missing titles.
      *
-     * @since WEP 1.0
+     * @since ANT 1.0
      *
      * @param string $title The title.
      * @return string
      */
-    function wep_post_title($title) {
+    function ant_post_title($title) {
         return '' === $title ? esc_html_x('Untitled', 'Added to posts and pages that are missing titles', LANG_DOMAIN) : $title;
     }
 
     /**
      * Changes the default navigation arrows to svg icons
      *
-     * @since WEP 1.0
+     * @since ANT 1.0
      *
      * @param string $calendar_output The generated HTML of the calendar.
      * @return string
      */
-    function wep_change_calendar_nav_arrows($calendar_output) {
-        $calendar_output = str_replace('&laquo; ', is_rtl() ? wep_get_icon_svg('ui', 'arrow_right') : wep_get_icon_svg('ui', 'arrow_left'), $calendar_output);
-        $calendar_output = str_replace(' &raquo;', is_rtl() ? wep_get_icon_svg('ui', 'arrow_left') : wep_get_icon_svg('ui', 'arrow_right'), $calendar_output);
+    function ant_change_calendar_nav_arrows($calendar_output) {
+        $calendar_output = str_replace('&laquo; ', is_rtl() ? ant_get_icon_svg('ui', 'arrow_right') : ant_get_icon_svg('ui', 'arrow_left'), $calendar_output);
+        $calendar_output = str_replace(' &raquo;', is_rtl() ? ant_get_icon_svg('ui', 'arrow_left') : ant_get_icon_svg('ui', 'arrow_right'), $calendar_output);
         return $calendar_output;
     }
 
     /**
      * Retrieve protected post password form content.
      *
-     * @since WEP 1.0
-     * @since WEP 1.4 Corrected parameter name for `$output`,
+     * @since ANT 1.0
+     * @since ANT 1.4 Corrected parameter name for `$output`,
      *                              added the `$post` parameter.
      *
      * @param string      $output The password form HTML output.
      * @param int|WP_Post $post   Optional. Post ID or WP_Post object. Default is global $post.
      * @return string HTML content for password form for password protected post.
      */
-    function wep_password_form($output, $post = 0) {
+    function ant_password_form($output, $post = 0) {
         $post   = get_post($post);
         $label  = 'pwbox-' . (empty($post->ID) ? wp_rand() : $post->ID);
         $output = '<p class="post-password-message">' . esc_html__('This content is password protected. Please enter a password to view.', LANG_DOMAIN) . '</p>
@@ -235,7 +235,7 @@ class WEP_Hooks {
     /**
      * Filters the list of attachment image attributes.
      *
-     * @since WEP 1.0
+     * @since ANT 1.0
      *
      * @param string[]     $attr       Array of attribute values for the image markup, keyed by attribute name.
      *                                 See wp_get_attachment_image().
@@ -244,7 +244,7 @@ class WEP_Hooks {
      *                                 an array of width and height values in pixels (in that order).
      * @return string[] The filtered attributes for the image markup.
      */
-    function wep_get_attachment_image_attributes($attr, $attachment, $size) {
+    function ant_get_attachment_image_attributes($attr, $attachment, $size) {
 
         if (is_admin()) {
             return $attr;

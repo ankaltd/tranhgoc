@@ -8,7 +8,7 @@ if (has_nav_menu('main-menu')) {
 
 $menu_items = wp_get_nav_menu_items($menu_id);
 
-$top_menu = WEP_Menu::get_menu_items_recursive($menu_items);
+$top_menu = ANT_Menu::get_menu_items_recursive($menu_items);
 
 
 

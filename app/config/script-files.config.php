@@ -1,7 +1,5 @@
 <?php
 
-
-
 /**
 
  * Custom Javascript Files to enqueue
@@ -14,7 +12,7 @@
 
  *
 
- * [wep_
+ * [
 
  *     'handle'         => JS file Identifier
 
@@ -30,7 +28,7 @@
 
  *
 
- * You can use "wep_js_files" filter to change Javascript files loaded
+ * You can use "ant_js_files" filter to change Javascript files loaded
 
  *
 
@@ -49,7 +47,6 @@ return apply_filters('ant_js_files', [
         'version'       => '1.0.0',
 
         'in_footer'     => true
-
     ],
 
     [
@@ -63,7 +60,6 @@ return apply_filters('ant_js_files', [
         'version'       => '1.0.0',
 
         'in_footer'     => true
-
     ],
 
     [
@@ -77,7 +73,6 @@ return apply_filters('ant_js_files', [
         'version'       => '1.0.0',
 
         'in_footer'     => true
-
     ],
 
     [
@@ -91,7 +86,6 @@ return apply_filters('ant_js_files', [
         'version'       => '1.0.0',
 
         'in_footer'     => true
-
     ],
 
     [
@@ -105,8 +99,5 @@ return apply_filters('ant_js_files', [
         'version'       => '1.0.0',
 
         'in_footer'     => true
-
     ]
-
 ]);
-

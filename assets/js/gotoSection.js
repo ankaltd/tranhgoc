@@ -1,43 +1,60 @@
 // trackThisModule.js
 
 export function trackSections() {
-  const trackThisElements = document.querySelectorAll(".trackThis");
 
-  const newLinkItems = [];
+    const trackThisElements = document.querySelectorAll(".trackThis");
 
-  trackThisElements.forEach((element) => {
-    const id = element.id;
+    const newLinkItems = [];
 
-    const headingElement = element.querySelector(".ssg_heading");
+  
 
-    const text = headingElement ? headingElement.textContent : id;
+    trackThisElements.forEach((element) => {
 
-    const listItem = document.createElement("a");
+      const id = element.id;
 
-    listItem.className = "wep_goto_section__item";
+      const headingElement = element.querySelector(".ssg_heading");
 
-    listItem.href = `#${id}`;
+      const text = headingElement ? headingElement.textContent : id;
 
-    listItem.innerHTML = `${text} <span class="target_${id}"></span>`;
+  
+      const listItem = document.createElement("a");
 
-    newLinkItems.unshift(listItem); // Thêm vào đầu mảng để đảo ngược thứ tự
+      listItem.className = "ssg_goto_section__item";
 
-    // Loại bỏ các thành phần có class .progress-section-note bên trong #progress-section
+      listItem.href = `#${id}`;
 
-    const progressNoteElements = document.querySelectorAll(
-      ".progress-section-note"
-    );
+      listItem.innerHTML = `${text} <span class="target_${id}"></span>`;
 
-    progressNoteElements.forEach((noteElement) => {
-      noteElement.remove();
+  
+      newLinkItems.unshift(listItem); // Thêm vào đầu mảng để đảo ngược thứ tự
+
+  
+      // Loại bỏ các thành phần có class .progress-section-note bên trong #progress-section
+
+      const progressNoteElements = document.querySelectorAll(".progress-section-note");
+
+      progressNoteElements.forEach((noteElement) => {
+
+        noteElement.remove();
+
+      });
+
     });
-  });
 
-  const progressSection = document.getElementById("progress-section");
+  
 
-  if (progressSection) {
-    newLinkItems.forEach((item) => {
-      progressSection.insertAdjacentElement("afterend", item);
-    });
+    const progressSection = document.getElementById("progress-section");
+
+    if (progressSection) {
+
+      newLinkItems.forEach((item) => {
+
+        progressSection.insertAdjacentElement("afterend", item);
+
+      });
+
+    }
+
   }
-}
+
+  

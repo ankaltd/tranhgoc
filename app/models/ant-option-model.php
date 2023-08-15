@@ -4,7 +4,7 @@
  * Class Option Model
  */
 
-class WEP_Option_Model {
+class ANT_Option_Model {
 
     // Content options
     private static $content_options = [
@@ -189,7 +189,7 @@ class WEP_Option_Model {
             // ...
         );
 
-        $option = WEP_Option_Model::get_field_values($fields);
+        $option = ANT_Option_Model::get_field_values($fields);
 
         echo $option['key1']; // In ra giá trị của key1
         echo $option['key2']; // In ra giá trị của key2

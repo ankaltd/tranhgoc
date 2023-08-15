@@ -4,20 +4,20 @@ import {
   toggleScrollTopButton,
 } from "./js/gototop.js";
 
-import { isMobile, isMobileDevice, scrollToSection } from "./js/wep-helper.js";
+import { isMobile, isMobileDevice, scrollToSection } from "./js/ssg-helper.js";
 import { setEqualHeight } from "./js/equalHeight.js";
 import { initializeMegaMenu, setCurrentPageClass } from "./js/megaMenu.js";
 import { handleSolutionClick } from "./js/solutionSlider.js";
 import { getParameterValue } from "./js/readURI.js";
-import { initStickyNavbar } from "./js/wep-sticky-top.js";
+import { initStickyNavbar } from "./js/ssg-sticky-top.js";
 import { trackSections } from "./js/gotoSection.js";
 import { performSearch } from "./js/searchFunction.js";
 import { myTooltipFunction } from "./js/tooltip.js";
 import { setupScrollHandling } from "./js/scrollHandling.js";
-import "./js/wepAjax.js";
+import "./js/ssgAjax.js";
 import "./js/slickSlider.js";
 import "./js/slickGrid.js";
-import "./js/wep-progress-bar.js";
+import "./js/ssg-progress-bar.js";
 
 // Gọi hàm setupScrollHandling để thiết lập xử lý cuộn ngang
 setupScrollHandling();
