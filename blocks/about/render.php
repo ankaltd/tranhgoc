@@ -54,11 +54,12 @@ WEP_Section_View::render_section_tag($option, 'wep_about');
 
     <div class="row">
 
-        <h2 class="wep_heading justify-content-start" <?php WEP_Section_View::render_item_aos($option, 3, 1) ?>  ><?php echo $wep_heading_text ?></h2>
+        <h2 class="wep_heading justify-content-start" <?php WEP_Section_View::render_item_aos($option, 3, 1) ?>>
+            <?php echo $wep_heading_text ?></h2>
 
-        <div class="wep_about__photo" <?php WEP_Section_View::render_item_aos($option, 3, 2) ?> ><img src="<?php echo $wep_image_src ?>" alt="Về WEP " class="img-fluid wep_margin--b3"></div>
+        <div class="wep_about__photo" <?php WEP_Section_View::render_item_aos($option, 3, 2) ?>><img src="<?php echo $wep_image_src ?>" alt="Về WEP " class="img-fluid wep_margin--b3"></div>
 
-        <div class="wep_about__content" <?php WEP_Section_View::render_item_aos($option, 3, 3) ?> >
+        <div class="wep_about__content" <?php WEP_Section_View::render_item_aos($option, 3, 3) ?>>
 
             <?php echo $wep_content_html ?>
 

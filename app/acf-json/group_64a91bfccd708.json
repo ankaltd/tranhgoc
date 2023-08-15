@@ -1,6 +1,6 @@
 {
     "key": "group_64a91bfccd708",
-    "title": "Block: Section Data (Heading - Desc)",
+    "title": "Block: Section Data (Heading - Desc - Item)",
     "fields": [
         {
             "key": "field_64c63905bd152",
@@ -135,6 +135,35 @@
             "ui": 0,
             "ajax": 0,
             "placeholder": ""
+        },
+        {
+            "key": "field_64db5f32335c2",
+            "label": "Thẻ tiêu đề thành phần",
+            "name": "wep_item_tag",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "h2": "H2",
+                "h3": "H3",
+                "h4": "H4",
+                "h5": "H5",
+                "h6": "H6"
+            },
+            "default_value": "h3",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
         }
     ],
     "location": [
@@ -155,5 +184,5 @@
     "active": true,
     "description": "Tùy chọn dữ liệu cho Section",
     "show_in_rest": 0,
-    "modified": 1692094300
+    "modified": 1692098426
 }

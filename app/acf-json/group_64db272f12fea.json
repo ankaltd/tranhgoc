@@ -690,26 +690,6 @@
             "preview_size": "medium"
         },
         {
-            "key": "field_64b75f0698f9e",
-            "label": "Nền chế độ tối",
-            "name": "wep_background_dark",
-            "aria-label": "",
-            "type": "true_false",
-            "instructions": "Chọn nền màu tối để nội dung văn bản tự chỉnh màu sáng",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "message": "Quy định nền chế độ tối, tự động nội dung bên trong sẽ chọn màu sáng",
-            "default_value": 0,
-            "ui_on_text": "Nền tối",
-            "ui_off_text": "Nền sáng",
-            "ui": 1
-        },
-        {
             "key": "field_64bf476aabfae",
             "label": "Nền cố định (hiệu ứng cuộn)",
             "name": "wep_background_attachment",
@@ -731,7 +711,7 @@
         },
         {
             "key": "field_64a9199ba7eeb",
-            "label": "Màu nền",
+            "label": "Màu nền section",
             "name": "wep_background_color",
             "aria-label": "",
             "type": "color_picker",
@@ -861,6 +841,168 @@
             "ui": 0,
             "ajax": 0,
             "placeholder": ""
+        },
+        {
+            "key": "field_64b75f0698f9e",
+            "label": "Nền chế độ tối",
+            "name": "wep_background_dark",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Chọn nền màu tối để nội dung văn bản tự chỉnh màu sáng",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Quy định nền chế độ tối, tự động nội dung bên trong sẽ chọn màu sáng",
+            "default_value": 0,
+            "ui_on_text": "Nền tối",
+            "ui_off_text": "Nền sáng",
+            "ui": 1
+        },
+        {
+            "key": "field_64db5a7a6bc37",
+            "label": "VI. CÀI ĐẶT THÀNH PHẦN",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_64db5a4b6bc36",
+            "label": "Màu chữ các thành phần",
+            "name": "wep_item_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_64db5aa76bc38",
+            "label": "Màu nền thành phần",
+            "name": "wep_item_background_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_64db5dee72379",
+            "label": "Căn gióng thành phần",
+            "name": "wep_item_alighnment",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "start": "Trái",
+                "center": "Giữa",
+                "end": "Phải"
+            },
+            "default_value": "left",
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_64db5b8672377",
+            "label": "Concept thành phần (class)",
+            "name": "wep_item_concept_style",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "Không concept",
+                "minimalist": "Tối giản",
+                "basic": "Cơ bản",
+                "circle": "Tròn",
+                "round": "Bo tròn",
+                "outline": "Bo viền",
+                "shadow": "Bóng đổ"
+            },
+            "default_value": "none",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64db5c8472378",
+            "label": "Hiệu ứng hover (class)",
+            "name": "wep_item_hover_effect",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "Không hiệu ứng",
+                "zoom": "Phóng to hình",
+                "scale": "Nổi lên",
+                "up": "Nhấc lên",
+                "outline": "Hiện viền",
+                "shadow": "Đổ bóng",
+                "underline": "Gạch chân",
+                "color": "Đổi màu",
+                "focus": "Xung quanh mờ"
+            },
+            "default_value": "none",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
         }
     ],
     "location": [
@@ -881,5 +1023,5 @@
     "active": true,
     "description": "Phần tùy biến phía code",
     "show_in_rest": 0,
-    "modified": 1692094174
+    "modified": 1692098319
 }

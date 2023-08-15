@@ -1631,6 +1631,82 @@
             "return_format": "value",
             "allow_null": 0,
             "layout": "horizontal"
+        },
+        {
+            "key": "field_64db5828816b6",
+            "label": "Kiểu phân trang (list)",
+            "name": "wep_content_page_nav",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64aa42ccc9dfe",
+                        "operator": "==",
+                        "value": "list"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "Không phân trang",
+                "pagenav": "Phân trang số",
+                "loadmore": "Nút loadmore",
+                "infinity": "Cuộn chuột tải trang"
+            },
+            "default_value": "none",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64db5921816b7",
+            "label": "Liên kết hiện lên tab khác",
+            "name": "wep_content_link_target",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
+            "key": "field_64db595c816b8",
+            "label": "Chi tiết hiện lên Popup",
+            "name": "wep_content_detail_to_popup",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
         }
     ],
     "location": [
@@ -1658,5 +1734,5 @@
     "active": true,
     "description": "Nội dung HTML đơn",
     "show_in_rest": 0,
-    "modified": 1692094269
+    "modified": 1692096909
 }
