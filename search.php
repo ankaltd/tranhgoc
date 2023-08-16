@@ -1,12 +1,8 @@
 <?php
-
 /**
  * Search Result
  */
-
-// Header
 get_header();
-
 // Get options
 $search_page_options = [
     'wep_search_page_banner'                => '',
@@ -15,11 +11,9 @@ $search_page_options = [
     'wep_search_page_columns'               => 3,
     'wep_search_page_show'                  => 'all',
 ];
-
 // Get options --------------
 $global_options = WEP_Option_Model::get_field_values($search_page_options, true);
 extract($global_options);
-
 /** Get results ----------------
  * @var $totalResults
  * @var $keyword
@@ -27,7 +21,6 @@ extract($global_options);
  */
 $news_result = WEP_Section_Model::searchPosts($wep_search_page_number_per_page);
 extract($news_result);
-
 /* Banner ---------------*/
 if (trim($wep_search_page_banner) != '') {
     $section_data = [
@@ -42,9 +35,7 @@ if (trim($wep_search_page_banner) != '') {
     ];
     get_template_part('sections/banner', 'photo', $section_data);
 }
-
 /* News Grid --------------- */
-
 $post_list = array();
 foreach ($posts as $news) {
     extract($news);
@@ -56,7 +47,6 @@ foreach ($posts as $news) {
         'permalink' => $permalink
     );
 }
-
 $section_data = [
     'id' => 'wep_news',
     'class' => 'wep_news_grid',
@@ -64,8 +54,6 @@ $section_data = [
     'pagination' => $pagination,
     'news_list' => $post_list
 ];
-
 get_template_part('sections/section', 'news-grid', $section_data);
-
 /* Footer */
 get_footer();

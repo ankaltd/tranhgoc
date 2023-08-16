@@ -1,12 +1,12 @@
 <?php
 
 /**
- * Timber starter-theme
+ * WEP starter-theme
  * https://github.com/timber/starter-theme
  *
  * @package  WordPress
- * @subpackage  Timber
- * @since   Timber 0.1
+ * @subpackage  WEP
+ * @since   WEP 0.1
  */
 
 // Include Constants
