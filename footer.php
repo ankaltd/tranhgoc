@@ -1,12 +1,12 @@
 <?php
 
-/* Footer Default --------------- */
+/* Footer Area --------------- */
 $section_data = [
     'id' => 'wep_footer',
     'class' => 'wep_footer',
     'heading' => 'Page Footer'
 ];
-get_template_part('sections/footer', 'default', $section_data);
+get_template_part('sections/footer', 'area', $section_data);
 
 wp_footer();
 

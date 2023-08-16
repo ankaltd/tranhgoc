@@ -19,12 +19,11 @@
 <body <?php body_class(); ?> data-scroll-container>
     <?php
 
-    /* Header Default --------------- */
+    /* Header Area --------------- */
     $section_data = [
         'id' => 'wep_header',
         'class' => 'wep_header',
-        'heading' => 'Page Header'
     ];
-    get_template_part('sections/header', 'default', $section_data);
+    get_template_part('sections/header', 'area', $section_data);
     
     ?>
