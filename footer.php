@@ -4,7 +4,6 @@
 $section_data = [
     'id' => 'wep_footer',
     'class' => 'wep_footer',
-    'heading' => 'Page Footer'
 ];
 get_template_part('sections/footer', 'area', $section_data);
 

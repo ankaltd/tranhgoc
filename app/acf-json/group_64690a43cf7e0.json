@@ -246,6 +246,105 @@
             ]
         },
         {
+            "key": "field_64df743ed96c3",
+            "label": "Các hình thức thanh toán",
+            "name": "wep_footer_payment_icon_list",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64690d3366f50",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Thêm icon",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_64df743ed96c4",
+                    "label": "Biểu tượng",
+                    "name": "social_icon_image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_64df743ed96c3"
+                },
+                {
+                    "key": "field_64df743ed96c5",
+                    "label": "Liên kết",
+                    "name": "social_icon_link",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_64df743ed96c3"
+                },
+                {
+                    "key": "field_64df743ed96c6",
+                    "label": "Tiêu đề",
+                    "name": "social_icon_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_64df743ed96c3"
+                }
+            ]
+        },
+        {
             "key": "field_64bd702a93334",
             "label": "Thông tin bản quyền",
             "name": "wep_company_copyright",
@@ -267,7 +366,7 @@
         },
         {
             "key": "field_64c2a172a429c",
-            "label": "Thông tin bản quyền (English)",
+            "label": "Copyright Text (English)",
             "name": "wep_company_copyright_en",
             "aria-label": "",
             "type": "wysiwyg",
@@ -333,8 +432,62 @@
         },
         {
             "key": "field_64c2a151e3bb6",
-            "label": "Địa chỉ công ty (English)",
+            "label": "Company's Address (English)",
             "name": "wep_company_address_en",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64690d3366f50",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_64df72b646801",
+            "label": "Tầm nhìn",
+            "name": "wep_company_vision",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64690d3366f50",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_64df72cb46802",
+            "label": "Company's Vision (English)",
+            "name": "wep_company_vision_en",
             "aria-label": "",
             "type": "wysiwyg",
             "instructions": "",
@@ -380,7 +533,7 @@
         },
         {
             "key": "field_64c2a1abb0158",
-            "label": "Tiêu đề section (English)",
+            "label": "Section Heading (English)",
             "name": "wep_footer_contact_heading_en",
             "aria-label": "",
             "type": "text",
@@ -544,7 +697,7 @@
         },
         {
             "key": "field_64c2a1f6b015a",
-            "label": "Tiêu đề trang tìm kiếm (English)",
+            "label": "Search Page Heading (English)",
             "name": "wep_search_page_heading_en",
             "aria-label": "",
             "type": "text",
@@ -708,7 +861,7 @@
         },
         {
             "key": "field_64c13df3892e1",
-            "label": "[4] Related \/ Other News",
+            "label": "[4] Related || Other News",
             "name": "",
             "aria-label": "",
             "type": "tab",
@@ -745,7 +898,7 @@
         },
         {
             "key": "field_64c2a1dab0159",
-            "label": "Tiêu đề widget (English)",
+            "label": "Widget Title (English)",
             "name": "wep_sidebar_related_heading_en",
             "aria-label": "",
             "type": "text",
@@ -843,7 +996,7 @@
         },
         {
             "key": "field_64db2133400c8",
-            "label": "[5] Shop \/ Sản phẩm",
+            "label": "[5] Shop || Sản phẩm",
             "name": "",
             "aria-label": "",
             "type": "tab",
@@ -966,5 +1119,5 @@
     "active": true,
     "description": "Cấu hình chung toàn website",
     "show_in_rest": 0,
-    "modified": 1692083298
+    "modified": 1692365926
 }
