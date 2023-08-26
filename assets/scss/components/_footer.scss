@@ -2,4 +2,56 @@
 
 .wep_footer {
     background-color: #eee;
+
+    /* Định dạng menu footer */
+    &_menu ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    &_menu ul li {
+        margin-bottom: 10px;
+    }
+
+    &_menu ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 400;
+    }
+
+    &_menu ul li a:hover {
+        text-decoration: underline;
+    }
+
+    /* Định dạng menu dọc */
+    .vertical-menu {
+        width: 250px;
+        background-color: #f8f9fa;
+        padding-top: 20px;
+
+        & ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        & .nav-item {
+            margin-bottom: 10px;
+        }
+
+        & .nav-item a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        & .nav-item a:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+    }
+
+
+
 }

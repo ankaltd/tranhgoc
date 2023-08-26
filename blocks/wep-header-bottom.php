@@ -6,18 +6,50 @@
 
             <!-- Bottom Left Header -->
             <div class="<?php echo $class; ?>-left col-1">
-                <a href="" class="menu_toggler">
+                <a href="" class="menu_toggler d-md-none">
                     <svg height="20" height="30" aria-hidden="true" focusable="false" role="presentation" class="icon icon-nav" viewBox="0 0 25 25">
                         <path d="M0 4.062h25v2H0zm0 7h25v2H0zm0 7h25v2H0z"></path>
                     </svg>
                 </a>
+
+                <!-- Logo -->
+                <a href="/" class="wep_logo d-none d-md-block">
+                    <img height="30" width="auto" src="<?php echo THEME_URL . '/logo.png' ?>" alt="Logo">
+                </a>
+
             </div>
 
             <!-- Bottom Center Header -->
-            <div class="<?php echo $class; ?>-center col-10">
-                <a href="/" class="wep_logo">
-                    <img height="30" width="auto" src="<?php echo THEME_URL . '/logo.png' ?>" alt="Logo">
-                </a>
+            <div class="<?php echo $class; ?>-center col-10 d-flex">
+
+                <!-- Menu -->
+                <!-- Nút mở menu offcanvas cho điện thoại -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Bootstrap cho máy tính bảng và máy tính -->
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <div class="container">
+                        <!-- Logo -->
+                        <a href="<?php echo esc_url(home_url('/')); ?>" class="wep_logo d-md-none">
+                            <img height="30" width="auto" src="<?php echo THEME_URL . '/logo.png' ?>" alt="Logo">
+                        </a>
+
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <?php
+                            wp_nav_menu(array(
+                                'theme_location' => 'main-menu',
+                                'menu_class' => 'navbar-nav',
+                                'walker' => new WEP_Menu_Walker()
+                            ));
+                            ?>
+                        </div>
+                    </div>
+                </nav>
+
+
+
             </div>
 
             <!-- Bottom Right Header -->

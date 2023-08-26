@@ -23,13 +23,17 @@
             </div>
 
             <!-- Top Right Footer -->
-            <div class="<?php echo $class; ?>-column col-12 col-md-4">
+            <div class="<?php echo $class; ?>-column vertical-menu col-12 col-md-4">
                 <h3 class="wep_widget_heading">GALLERY</h3>
                 <ul class="wep_widget_menu nav flex-column">
-                    <li><a href="">Tranh sơn dầu</a></li>
-                    <li><a href="">Tranh gốc</a></li>
-                    <li><a href="">Thẻ quà tặng</a></li>
-                    <li><a href="">Hãy thử một bức tranh trên tường của bạn!</a></li>
+                    <?php
+                    // Gọi menu có tên là "Gallery"
+                    wp_nav_menu(array(
+                        'menu' => 'Gallery',
+                        'menu_class' => 'nav flex-column',
+                        'menu_id' => 'wepGalleryMenu', // ID của menu (tùy chọn)
+                    ));
+                    ?>
                 </ul>
             </div>
 
