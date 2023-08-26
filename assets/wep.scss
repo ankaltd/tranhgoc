@@ -1,17 +1,45 @@
-/* custom.scss */
-@import "../assets/scss/common/vars-before";
+// wep.scss
 
-/* import the necessary Bootstrap files */
+// Required
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc) 
 @import "../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+// 2. Include any default SCSS variable overrides here
+@import "../assets/scss/common/wep-vars";
+
+// Required
+// 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
 
-/* -------begin customization-------- */
-@import "../assets/scss/common/vars-after";
+// 4. Include any default map overrides here
 
-/* finally, import Bootstrap to set the changes! */
-@import "../node_modules/bootstrap/scss/bootstrap";
+// 5. Include remainder of required parts
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
 
-// Common
+// 6. Overrides root CSS vars here
+@import "../assets/scss/common/responsive-vars";
+
+
+// Optional Bootstrap components here
+// 7. Optionally include any other parts as needed
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+
+// 8. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../node_modules/bootstrap/scss/utilities/api";
+
+// 9. Add additional custom code here
+
+// Common WEP
 @import "../assets/scss/common/global";
 @import "../assets/scss/common/typography";
 @import "../assets/scss/common/unit";
@@ -22,7 +50,7 @@
 @import "../assets/scss/common/concept";
 @import "../assets/scss/common/wp_blocks";
 
-// Components
+// Components WEP
 @import "../assets/scss/components/header";
 @import "../assets/scss/components/footer";
 

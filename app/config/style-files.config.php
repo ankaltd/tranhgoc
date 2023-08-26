@@ -51,49 +51,11 @@ return apply_filters('wep_css_files', [
 
     [
 
-        'handle'        => 'wep-select2',
-
-        'path'          => THEME_URL . '/node_modules/select2/dist/css/select2.min.css',
-
-        'dependencies'  => [],
-
-        'version'       => '1.0.0',
-
-        'media'         => 'all'
-    ],
-
-    [
-
-        'handle'        => 'wep-slick',
-
-        'path'          => THEME_URL . '/node_modules/slick-carousel/slick/slick.css',
-
-        'dependencies'  => [],
-
-        'version'       => '1.0.0',
-
-        'media'         => 'all'
-    ],
-
-    [
-
-        'handle'        => 'wep-aos',
-
-        'path'          => THEME_URL . '/assets/aos/dist/aos.css',
-
-        'dependencies'  => [],
-
-        'version'       => '1.0.0',
-
-        'media'         => 'all'
-    ],
-    [
-
         'handle'        => 'wep-stylesheet',
 
         'path'          => THEME_URL . '/assets/wep.min.css',
 
-        'dependencies'  => ['wep-font', 'wep-aos'],
+        'dependencies'  => ['wep-font'],
 
         'version'       => '1.0.0',
 

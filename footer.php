@@ -14,4 +14,5 @@ wp_footer();
 <!-- Link JS -->
 <script script type="module" src="<?php echo THEME_URL ?>/assets/wep.js"></script>
 </body>
+
 </html>

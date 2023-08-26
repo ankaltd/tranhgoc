@@ -49,55 +49,5 @@ return apply_filters('wep_js_files', [
         'in_footer'     => true
     ],
 
-    [
 
-        'handle'        => 'lazysizes',
-
-        'path'          => THEME_URL . '/assets/js/lazysizes.min.js',
-
-        'dependencies'  => ['bootstrap-js'],
-
-        'version'       => '1.0.0',
-
-        'in_footer'     => true
-    ],
-
-    [
-
-        'handle'        => 'select2',
-
-        'path'          => THEME_URL . '/node_modules/select2/dist/js/select2.min.js',
-
-        'dependencies'  => ['jquery'],
-
-        'version'       => '1.0.0',
-
-        'in_footer'     => true
-    ],
-
-    [
-
-        'handle'        => 'slick',
-
-        'path'          => THEME_URL . '/node_modules/slick-carousel/slick/slick.min.js',
-
-        'dependencies'  => ['jquery'],
-
-        'version'       => '1.0.0',
-
-        'in_footer'     => true
-    ],
-
-    [
-
-        'handle'        => 'aos',
-
-        'path'          => THEME_URL . '/assets/aos/dist/aos.js',
-
-        'dependencies'  => ['jquery'],
-
-        'version'       => '1.0.0',
-
-        'in_footer'     => true
-    ]
 ]);
