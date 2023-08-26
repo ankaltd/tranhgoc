@@ -32,12 +32,12 @@
 @import "../node_modules/bootstrap/scss/images";
 @import "../node_modules/bootstrap/scss/containers";
 @import "../node_modules/bootstrap/scss/grid";
-@import "../node_modules/bootstrap/scss/helpers";
 
-// 8. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
-@import "../node_modules/bootstrap/scss/utilities/api";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
 
-// 9. Add additional custom code here
+
+// 8. Add additional WEP components ...
 
 // Common WEP
 @import "../assets/scss/common/global";
@@ -58,3 +58,8 @@
 @import "../assets/scss/common/wep-tablet";
 @import "../assets/scss/common/wep-laptop";
 @import "../assets/scss/common/wep-pc";
+
+
+// 9. Optionally include helpers and utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/utilities/api";
